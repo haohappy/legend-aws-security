@@ -1,0 +1,17 @@
+--- Services for flashwire ---
+{
+    "serviceArns": [
+        "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/mps-admin-prod-frontend",
+        "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/stellapay-mobile-prod-frontend",
+        "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/flashwire-zingtech",
+        "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/cadvisor-docker-monitoring",
+        "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/stellapay-admin-prod-frontend",
+        "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/stellapay-mini-app-prod-frontend"
+    ]
+}
+--- Services for flashwire-lending ---
+{
+    "serviceArns": [
+        "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire-lending/lending-admin-prod-frontend"
+    ]
+}

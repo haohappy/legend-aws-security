@@ -1,0 +1,85 @@
+源资源,目标资源,关系类型,说明,Region
+# ============================================================
+# us-east-1 流量路径
+# ============================================================
+Route53-legendtrading.com,CloudFront-asset.legendtrading.com,alias,DNS alias,global
+Route53-flashwire.com,CloudFront-static.flashwire.com,alias,DNS alias,global
+Route53-flashwire.com,CloudFront-asset.flashwire.com,alias,DNS alias,global
+Route53-rpzzing.net,ALB/NLB-us-east-1,alias,DNS routing,global
+Route53-flowmind.life,ALB/NLB-us-east-1,alias,DNS routing,global
+CloudFront-static.flashwire.com,S3-origin,origin,静态资源,global
+CloudFront-asset.flashwire.com,S3-origin,origin,静态资源,global
+CloudFront-asset.legendtrading.com,S3-origin,origin,静态资源,global
+CloudFront-asset.treasurebox.com,S3-origin,origin,静态资源,global
+CloudFront-download.stellapay.io,S3-origin,origin,下载资源,global
+CloudFront-nexus.legendpay.com,ALB-origin,origin,动态请求,global
+ALB-legendtrading-com,TG-legendtrading-com,forward,listener 443,us-east-1
+ALB-weblb,TG-weblb,forward,listener 443,us-east-1
+ALB-flashwire-web-lb,TG-flashwire-web-lb,forward,listener 443,us-east-1
+ALB-cuteid,TG-cuteid,forward,listener 443,us-east-1
+ALB-legend-outer-services,TG-legend-outer-services,forward,listener 443,us-east-1
+TG-legendtrading-com,ECS-legendtrading,target,port 8080,us-east-1
+TG-flashwire-web-lb,EC2-flashwire-prod-web1,target,port 443,us-east-1
+TG-flashwire-web-lb,EC2-flashwire-prod-web2,target,port 443,us-east-1
+ECS-legendtrading,RDS-lg-rds-production,egress,SG规则放行 MySQL 3306,us-east-1
+ECS-flashwire,RDS-lg-rds-production,egress,SG规则放行,us-east-1
+EC2-legend-webapi-prod01,RDS-lg-rds-production,egress,MySQL 3306,us-east-1
+EC2-legend-webapi-prod02,RDS-lg-rds-production,egress,MySQL 3306,us-east-1
+EC2-flashwire-prod-web1,RDS-lg-rds-production,egress,MySQL 3306,us-east-1
+EC2-flashwire-prod-web2,RDS-lg-rds-production,egress,MySQL 3306,us-east-1
+RDS-lg-rds-production,RDS-replica-lg-rds-production,replication,read replica,us-east-1
+NLB-lg-rds-mysql,RDS-lg-rds-production,forward,MySQL 3306 公网暴露!,us-east-1
+NLB-flashwire-staging-mysql,RDS-flashwire-staging-env,forward,MySQL 3306 公网暴露!,us-east-1
+NLB-test-mariadb-zingpays,RDS-mariadb-zingpays,forward,MySQL 3306 公网暴露!,us-east-1
+ECS-legendtrading,ElastiCache-legendtrading,egress,Redis 6379,us-east-1
+EC2-legendpay-ai01,OpenSearch-movies,egress,OpenSearch,us-east-1
+EC2-legend-safeheron-mpc01,EC2-legend-safeheron-cosigner-dev01,internal,MPC签名通信,us-east-1
+SQS-bakkt.fifo,ECS-legendtrading,trigger,FIFO队列消费,us-east-1
+SNS-topics,SQS-bakkt.fifo,subscription,消息路由,us-east-1
+# ============================================================
+# eu-west-1 流量路径
+# ============================================================
+ALB-legend-internal,TG-legend-ie,forward,internal ALB,eu-west-1
+TG-legend-ie,EC2-IE-legend-api-prod01,target,port 443,eu-west-1
+TG-legend-ie,EC2-IE-legend-api-prod02,target,port 443,eu-west-1
+EC2-IE-legend-api-prod01,RDS-lg-ie-production,egress,MySQL 3306,eu-west-1
+EC2-IE-legend-api-prod02,RDS-lg-ie-production,egress,MySQL 3306,eu-west-1
+EC2-IE-legend-queue-prod01,RDS-lg-ie-production,egress,MySQL 3306,eu-west-1
+EC2-EU-IE-legend-infrapay-prod-web01,RDS-lg-ie-production,egress,MySQL 3306,eu-west-1
+RDS-lg-ie-production,RDS-replica-lg-ie-production-data-analysis,replication,read replica,eu-west-1
+ElastiCache-legendtrading-ie,EC2-IE-legend-api-prod01,cache,Redis,eu-west-1
+# ============================================================
+# 跨 Region 数据复制
+# ============================================================
+RDS-lg-rds-production(us-east-1),RDS-replica-lg-rds-production-global(eu-west-1),cross-region-replication,MySQL read replica us-east-1→eu-west-1,cross-region
+RDS-lg-ie-production(eu-west-1),RDS-replica-lg-ie-production(eu-west-3),cross-region-replication,MySQL read replica eu-west-1→eu-west-3,cross-region
+# ============================================================
+# 跨 Region VPC Peering
+# ============================================================
+VPC-legendtrading-FR(eu-west-3),VPC-lgvpc(us-east-1),vpc-peering,10.2.0.0/16 <-> 10.0.0.0/16,cross-region
+VPC-legendtrading-FR(eu-west-3),VPC-legendtrading-IE(eu-west-1),vpc-peering,10.2.0.0/16 <-> 10.1.0.0/16,cross-region
+# ============================================================
+# ap-southeast-1 流量路径
+# ============================================================
+ALB-lending,TG-lending,forward,listener 443,ap-southeast-1
+ALB-lending-staging,TG-lending-staging,forward,listener 443,ap-southeast-1
+ALB-camapp,TG-camapp,forward,listener 443 (target stopped),ap-southeast-1
+TG-lending,EC2-lending-web01,target,port 443,ap-southeast-1
+TG-lending-staging,EC2-lending-staging01,target,port 443,ap-southeast-1
+NLB-replica-lg-rds-production,RDS-replication-lg-rds-production,forward,MySQL 3306 公网暴露!,ap-southeast-1
+NLB-lending-apiweb-mysql,RDS-lending-web-production,forward,MySQL 3306 公网暴露!,ap-southeast-1
+NLB-replica-flashwire-staging-mysql,EC2-lending-staging01,forward,MySQL 3307,ap-southeast-1
+EC2-lending-web01,RDS-lending-web-production,egress,MySQL 3306,ap-southeast-1
+EC2-lending-web01,ElastiCache-lending,egress,Redis,ap-southeast-1
+ECS-flashwire-sg,EC2-lending-web01,external,ECS EXTERNAL launch type,ap-southeast-1
+RDS-replication-lg-rds-production,RDS-lg-rds-production(us-east-1),cross-region-replication,MySQL read replica us-east-1→ap-southeast-1,cross-region
+# ============================================================
+# ap-southeast-1 VPC Peering (VPN Hub)
+# ============================================================
+VPC-vpn-sg(ap-southeast-1),VPC-internal-system(ap-southeast-1),vpc-peering,10.101.0.0/24 <-> 10.20.0.0/16,ap-southeast-1
+VPC-vpn-sg(ap-southeast-1),VPC-lending(ap-southeast-1),vpc-peering,10.101.0.0/24 <-> 10.30.0.0/16,ap-southeast-1
+VPC-vpn-sg(ap-southeast-1),VPC-mpc(ap-southeast-1),vpc-peering,10.101.0.0/24 <-> 10.21.0.0/16,ap-southeast-1
+VPC-vpn-sg(ap-southeast-1),VPC-crossborder-payment(ap-southeast-1),vpc-peering,10.101.0.0/24 <-> 10.22.0.0/16,ap-southeast-1
+VPC-vpn-sg(ap-southeast-1),VPC-lgvpc(us-east-1),vpc-peering,跨账号/region peering,cross-region
+VPC-vpn-sg(ap-southeast-1),VPC-flashwire(us-east-1),vpc-peering,跨账号/region peering,cross-region
+VPC-vpn-sg(ap-southeast-1),VPC-zingpays(us-east-1),vpc-peering,跨账号/region peering,cross-region

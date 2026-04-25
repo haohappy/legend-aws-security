@@ -1,0 +1,19 @@
+{
+  "EventBuses": [
+    {
+      "Name": "default",
+      "Arn": "arn:aws:events:ap-southeast-1:647828570435:event-bus/default"
+    }
+  ],
+  "Rules": [
+    {
+      "Name": "ecs-managed-capacity-provider-rule",
+      "Arn": "arn:aws:events:ap-southeast-1:647828570435:rule/ecs-managed-capacity-provider-rule",
+      "EventPattern": "{\"source\":[\"aws.ec2\",\"aws.autoscaling\"],\"detail-type\":[\"EC2 Spot Instance Interruption Warning\",\"EC2 Instance-terminate Lifecycle Action\",\"EC2 Instance Launch Successful\"],\"detail\":{\"LifecycleHookName\":[\"ecs-managed-draining-termination-hook\", {\"exists\": false}]}}",
+      "State": "ENABLED",
+      "Description": "An Amazon ECS managed rule that supports capacity provider",
+      "ManagedBy": "ecs.amazonaws.com",
+      "EventBusName": "default"
+    }
+  ]
+}

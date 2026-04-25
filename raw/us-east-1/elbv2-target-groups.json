@@ -1,0 +1,792 @@
+{
+    "TargetGroups": [
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/cuteid-api/36492c66cffb5ff0",
+            "TargetGroupName": "cuteid-api",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/cuteid/27459450e42422d0"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/cuteidaitop-http/a9819ea9e1f696be",
+            "TargetGroupName": "cuteidaitop-http",
+            "Protocol": "TCP",
+            "Port": 80,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/cutidaitop/ece447964ce8f63b"
+            ],
+            "TargetType": "alb",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/cuteidaitop-https/ec34877d97958ddb",
+            "TargetGroupName": "cuteidaitop-https",
+            "Protocol": "TCP",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/cutidaitop/ece447964ce8f63b"
+            ],
+            "TargetType": "alb",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-asset-frontend-ecsfgt/b76159dc4caf79e8",
+            "TargetGroupName": "flashwire-asset-frontend-ecsfgt",
+            "Protocol": "HTTP",
+            "Port": 80,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/api/healthcheck",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-outer-services/dbf5e06314427d9e"
+            ],
+            "TargetType": "ip",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-asset-manager-ecsfgt/5bd8d2477b6767f9",
+            "TargetGroupName": "flashwire-asset-manager-ecsfgt",
+            "Protocol": "HTTP",
+            "Port": 80,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/api/healthcheck",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-inner-services/6a98d1271db24b24"
+            ],
+            "TargetType": "ip",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-com-alb-http/f292509350384899",
+            "TargetGroupName": "flashwire-com-alb-http",
+            "Protocol": "TCP",
+            "Port": 80,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 6,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/flashwire-web-nlb/287eb23a435817c3"
+            ],
+            "TargetType": "alb",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-com-alb-https/84b173036b8d6609",
+            "TargetGroupName": "flashwire-com-alb-https",
+            "Protocol": "TCP",
+            "Port": 443,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 6,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/flashwire-web-nlb/287eb23a435817c3"
+            ],
+            "TargetType": "alb",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-stag-db-write-haproxy/dcb5b689a3783815",
+            "TargetGroupName": "flashwire-stag-db-write-haproxy",
+            "Protocol": "TCP",
+            "Port": 3306,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "8405",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 5,
+            "HealthCheckTimeoutSeconds": 3,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/metrics",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/flashwire-staging-mysql/18f056c63f9a4c86"
+            ],
+            "TargetType": "instance",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-staging-mysql/c41bd8de0e380bb6",
+            "TargetGroupName": "flashwire-staging-mysql",
+            "Protocol": "TCP",
+            "Port": 3306,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "TCP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "LoadBalancerArns": [],
+            "TargetType": "ip",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-web-lb/621a52c4091525ea",
+            "TargetGroupName": "flashwire-web-lb",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "443",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 10,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/dist/mix-manifest.json",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-web-lb/e74ae844f131ddd9"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/index-service/1534c0fcbd8f6427",
+            "TargetGroupName": "index-service",
+            "Protocol": "TCP",
+            "Port": 443,
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "HealthCheckProtocol": "TCP",
+            "HealthCheckPort": "2346",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 5,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/index-service/4dc9aaa8e0cd31c2"
+            ],
+            "TargetType": "instance",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/index-web-https/4f51153da487b78c",
+            "TargetGroupName": "index-web-https",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/index-web/09f55877e134ab4d"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/internal-legend-api/43fdbe06382691d5",
+            "TargetGroupName": "internal-legend-api",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend/acd12129ec64642c"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/k8s-legendtr-traefik-b5decd45ff/cdb0c85d00153555",
+            "TargetGroupName": "k8s-legendtr-traefik-b5decd45ff",
+            "Protocol": "HTTPS",
+            "Port": 1,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "8080",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 15,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 2,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/ping",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-devops/820a4438ffa9ee6d"
+            ],
+            "TargetType": "ip",
+            "ProtocolVersion": "HTTP2",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/legend-asset-frontend-ecsfargate/063ff3b495c3e4f5",
+            "TargetGroupName": "legend-asset-frontend-ecsfargate",
+            "Protocol": "HTTP",
+            "Port": 80,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/api/healthcheck",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-outer-services/d0cfebe767b0241f"
+            ],
+            "TargetType": "ip",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/legend-asset-manager-ecs-fargate/45d626f57b526a2f",
+            "TargetGroupName": "legend-asset-manager-ecs-fargate",
+            "Protocol": "HTTP",
+            "Port": 80,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/api/healthcheck",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-inner/08f8c916f8ccd129"
+            ],
+            "TargetType": "ip",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/legend-demo-backend-ecsfargate/282376eed153e87c",
+            "TargetGroupName": "legend-demo-backend-ecsfargate",
+            "Protocol": "HTTP",
+            "Port": 80,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/api/v1/health",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-outer-services/d0cfebe767b0241f"
+            ],
+            "TargetType": "ip",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/legend-rd-test-nodejs-inner/8bca7789dc97b2db",
+            "TargetGroupName": "legend-rd-test-nodejs-inner",
+            "Protocol": "HTTP",
+            "Port": 80,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-rd-test/50e43504db57adee"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/legendpay-ai/57054bb36c00a67a",
+            "TargetGroupName": "legendpay-ai",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "8000",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legendpay-ai/139b8ec695874ccd"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/legendweb-lb/5f1f7611c848d7e8",
+            "TargetGroupName": "legendweb-lb",
+            "Protocol": "TCP",
+            "Port": 80,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "443",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 6,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/legendcomtop/3bdd88e2e7d89cf4"
+            ],
+            "TargetType": "alb",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/legendweb-lb-https/f718740f22660b44",
+            "TargetGroupName": "legendweb-lb-https",
+            "Protocol": "TCP",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "443",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 6,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/legendcomtop/3bdd88e2e7d89cf4"
+            ],
+            "TargetType": "alb",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/legendwebapi-tcp/dec97ad58e87277d",
+            "TargetGroupName": "legendwebapi-tcp",
+            "Protocol": "TCP",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 6,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/mlegendwebapi/1eb576bdbcf3c7c4"
+            ],
+            "TargetType": "instance",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/lg-ops-api-tg/a7fb3695959213b9",
+            "TargetGroupName": "lg-ops-api-tg",
+            "Protocol": "HTTP",
+            "Port": 8000,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 2,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/health",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/lg-ops-api-alb/f480a0f945ddfbef"
+            ],
+            "TargetType": "ip",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/lg-rds-mysql/d86cb7e055540a3d",
+            "TargetGroupName": "lg-rds-mysql",
+            "Protocol": "TCP",
+            "Port": 3306,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "TCP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/lg-rds-mysql/06f4d6d2583748bd"
+            ],
+            "TargetType": "ip",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/sandboxapi-otcsb-legend-http1/a60d5d9bcb75e883",
+            "TargetGroupName": "sandboxapi-otcsb-legend-http1",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legendtrading-com/0452a4331dfe1e5a"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/sandboxapi-otcsb-legendtrading/ff55204220945db4",
+            "TargetGroupName": "sandboxapi-otcsb-legendtrading",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP2",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/staging-flashwire-web/98c65ca6268edf25",
+            "TargetGroupName": "staging-flashwire-web",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-web-lb/e74ae844f131ddd9"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/test-flashwire-staging-db-ins/c5984dae0775b2e1",
+            "TargetGroupName": "test-flashwire-staging-db-ins",
+            "Protocol": "TCP",
+            "Port": 3306,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "8405",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 6,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/metrics",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/test-flashwire-staging-db/fedff423b1087611"
+            ],
+            "TargetType": "instance",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/test-flashwire-staging-mysql/cb568bcab6d94aba",
+            "TargetGroupName": "test-flashwire-staging-mysql",
+            "Protocol": "TCP",
+            "Port": 3306,
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "HealthCheckProtocol": "TCP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "LoadBalancerArns": [],
+            "TargetType": "ip",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/test-legendapi-staging/bebb27730572c2ac",
+            "TargetGroupName": "test-legendapi-staging",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/test-legendapi-staging/d2654049a9dd0b58"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/test-mariadb-conn/d46662186b33f73f",
+            "TargetGroupName": "test-mariadb-conn",
+            "Protocol": "TCP",
+            "Port": 3306,
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "HealthCheckProtocol": "TCP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 15,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 2,
+            "UnhealthyThresholdCount": 2,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/test-mariadb-zingpays-conn/b7e44828fb71e6c6"
+            ],
+            "TargetType": "instance",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/test-mariadb-ip/e9a37b8700ba96c0",
+            "TargetGroupName": "test-mariadb-ip",
+            "Protocol": "TCP",
+            "Port": 3306,
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "HealthCheckProtocol": "TCP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "LoadBalancerArns": [],
+            "TargetType": "ip",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/test-traefik-https/48398976f2571fdf",
+            "TargetGroupName": "test-traefik-https",
+            "Protocol": "TCP",
+            "Port": 8443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "TCP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/test-traefik-nlb/737f05ea718544e2"
+            ],
+            "TargetType": "ip",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/web/223a0457cbeffab2",
+            "TargetGroupName": "web",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/weblb/a4f249cf1c3a46c0"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/web-high-performance/8589d24700597899",
+            "TargetGroupName": "web-high-performance",
+            "Protocol": "HTTPS",
+            "Port": 443,
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "HealthCheckProtocol": "HTTPS",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 5,
+            "UnhealthyThresholdCount": 2,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/weblb/a4f249cf1c3a46c0"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        }
+    ]
+}

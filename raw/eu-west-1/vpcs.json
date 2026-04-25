@@ -1,0 +1,56 @@
+{
+    "Vpcs": [
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0acf5fc922abd0ce4",
+                    "CidrBlock": "10.1.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-vpc"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "State": "available",
+            "CidrBlock": "10.1.0.0/16",
+            "DhcpOptionsId": "dopt-51acbf33"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-f049a699",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true,
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-7317ed16",
+            "State": "available",
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-51acbf33"
+        }
+    ]
+}

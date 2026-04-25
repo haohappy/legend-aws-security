@@ -1,0 +1,7 @@
+{
+    "Topics": [
+        {
+            "TopicArn": "arn:aws:sns:ap-southeast-1:647828570435:zingpays_dot_com_mail_issue_feedback"
+        }
+    ]
+}

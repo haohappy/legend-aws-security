@@ -1,0 +1,9 @@
+{
+  "EventBuses": [
+    {
+      "Name": "default",
+      "Arn": "arn:aws:events:eu-west-3:647828570435:event-bus/default"
+    }
+  ],
+  "Rules": []
+}

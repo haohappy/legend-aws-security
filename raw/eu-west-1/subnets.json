@@ -1,0 +1,386 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZoneId": "euw1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-subnet-public2-eu-west-1a"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-059a6373dce9f6ad6",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-059a6373dce9f6ad6",
+            "State": "available",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "CidrBlock": "10.1.17.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "eu-west-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-subnet-public1-eu-west-1a"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-08ff5f561f390164f",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-08ff5f561f390164f",
+            "State": "available",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "CidrBlock": "10.1.8.0/22",
+            "AvailableIpAddressCount": 1017,
+            "AvailabilityZone": "eu-west-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-subnet-private2-eu-west-1a"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-0bff17873cfcc082e",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0bff17873cfcc082e",
+            "State": "available",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "CidrBlock": "10.1.16.0/24",
+            "AvailableIpAddressCount": 246,
+            "AvailabilityZone": "eu-west-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-910da0f4",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-910da0f4",
+            "State": "available",
+            "VpcId": "vpc-7317ed16",
+            "CidrBlock": "172.31.16.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "eu-west-1a",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "euw1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-0c4a817b",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0c4a817b",
+            "State": "available",
+            "VpcId": "vpc-7317ed16",
+            "CidrBlock": "172.31.32.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "eu-west-1b",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "euw1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-subnet-private1-eu-west-1a"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-08e922c84f9946555",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-08e922c84f9946555",
+            "State": "available",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "CidrBlock": "10.1.0.0/22",
+            "AvailableIpAddressCount": 1009,
+            "AvailabilityZone": "eu-west-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-subnet-private1-eu-west-1b"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-0c959a2c818b5c67b",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0c959a2c818b5c67b",
+            "State": "available",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "CidrBlock": "10.1.4.0/22",
+            "AvailableIpAddressCount": 1014,
+            "AvailabilityZone": "eu-west-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-subnet-public2-eu-west-1b"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-068ba48dfae2fc500",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-068ba48dfae2fc500",
+            "State": "available",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "CidrBlock": "10.1.19.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "eu-west-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-subnet-public1-eu-west-1b"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-012c8f2504cf74d90",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-012c8f2504cf74d90",
+            "State": "available",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "CidrBlock": "10.1.12.0/22",
+            "AvailableIpAddressCount": 1018,
+            "AvailabilityZone": "eu-west-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw1-az3",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-6824ca31",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-6824ca31",
+            "State": "available",
+            "VpcId": "vpc-7317ed16",
+            "CidrBlock": "172.31.0.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "eu-west-1c",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "euw1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-subnet-private2-eu-west-1b"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-1:647828570435:subnet/subnet-0c5a49502bffd106a",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0c5a49502bffd106a",
+            "State": "available",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "CidrBlock": "10.1.18.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "eu-west-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "CacheClusters": [
+        {
+            "CacheClusterId": "legendtrading-0001-001",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.m7g.large",
+            "Engine": "redis",
+            "EngineVersion": "6.2.6",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 1,
+            "PreferredAvailabilityZone": "eu-west-1a",
+            "CacheClusterCreateTime": "2025-11-26T15:08:58.619000+00:00",
+            "PreferredMaintenanceWindow": "mon:22:30-mon:23:30",
+            "PendingModifiedValues": {},
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "ie-legend-redis6-cluster-enable-prod",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "ie-legend-redis-prod",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-0954f7141997cd46a",
+                    "Status": "active"
+                }
+            ],
+            "ReplicationGroupId": "legendtrading",
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "03:30-04:30",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:eu-west-1:647828570435:cluster:legendtrading-0001-001",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4"
+        },
+        {
+            "CacheClusterId": "legendtrading-0001-002",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.m7g.large",
+            "Engine": "redis",
+            "EngineVersion": "6.2.6",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 1,
+            "PreferredAvailabilityZone": "eu-west-1b",
+            "CacheClusterCreateTime": "2025-11-26T15:08:58.619000+00:00",
+            "PreferredMaintenanceWindow": "mon:22:30-mon:23:30",
+            "PendingModifiedValues": {},
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "ie-legend-redis6-cluster-enable-prod",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "ie-legend-redis-prod",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-0954f7141997cd46a",
+                    "Status": "active"
+                }
+            ],
+            "ReplicationGroupId": "legendtrading",
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "03:30-04:30",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:eu-west-1:647828570435:cluster:legendtrading-0001-002",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4"
+        }
+    ]
+}

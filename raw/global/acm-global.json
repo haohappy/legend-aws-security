@@ -1,0 +1,452 @@
+[
+  {
+    "DomainName": "vpn.zingpays.com",
+    "SubjectAlternativeNames": [
+      "vpn.zingpays.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/fff2bd4e-3edb-4227-8c00-ee160ed3c63a",
+    "NotAfter": "2023-08-14T03:26:19+05:00"
+  },
+  {
+    "DomainName": "*.flashwire.com",
+    "SubjectAlternativeNames": [
+      "*.flashwire.com",
+      "flashwire.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/56e9d795-4a86-4a8a-af35-a96b1693e039",
+    "NotAfter": "2023-01-21T23:18:27+05:00"
+  },
+  {
+    "DomainName": "*.legendtrading.com",
+    "SubjectAlternativeNames": [
+      "*.legendtrading.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/df73efbf-7630-43a3-9f16-84e2bb227975",
+    "NotAfter": "2022-10-22T06:19:48+05:00"
+  },
+  {
+    "DomainName": "*.legendtrading.com",
+    "SubjectAlternativeNames": [
+      "*.legendtrading.com",
+      "legendtrading.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/c46ee1f9-ebd6-408e-af07-23ef8d25ab61",
+    "NotAfter": "2023-09-07T00:33:48+05:00"
+  },
+  {
+    "DomainName": "*.zingpays.com",
+    "SubjectAlternativeNames": [
+      "*.zingpays.com",
+      "zingpays.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/e96bcdf2-1add-4847-bd45-5cc327156ef3",
+    "NotAfter": "2023-01-18T22:09:47+05:00"
+  },
+  {
+    "DomainName": "*.zingpays.com",
+    "SubjectAlternativeNames": [
+      "*.zingpays.com",
+      "zingpays.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/index-web/09f55877e134ab4d"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/2602e90f-896e-406a-bd7b-4100cc930c3b",
+    "NotAfter": "2024-01-18T19:48:02+05:00"
+  },
+  {
+    "DomainName": "*.flashwire.com",
+    "SubjectAlternativeNames": [
+      "*.flashwire.com",
+      "flashwire.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [
+      "arn:aws:cloudfront::647828570435:distribution/E3CHT0WR300A50"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/786bc83e-a49b-40d3-9b79-57b0ce349ebc",
+    "NotAfter": "2023-12-20T23:18:27+05:00"
+  },
+  {
+    "DomainName": "*.stellapay.io",
+    "SubjectAlternativeNames": [
+      "*.stellapay.io",
+      "stellapay.io"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/566bb7ca-aa64-4227-bee4-4b223bba7b58",
+    "NotAfter": "2024-05-25T08:44:59+05:00"
+  },
+  {
+    "DomainName": "zingcommonvpnserver.com",
+    "SubjectAlternativeNames": [
+      "zingcommonvpnserver.com"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [
+      "aws:clientvpn:us-east-1:prod/cvpn-endpoint-0f62f8317f411e591",
+      "aws:clientvpn:us-east-1:prod/cvpn-endpoint-0fc2126a40134dc89"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/c78eb1df-6ef0-44f0-8d83-ff0bf4a57eb5",
+    "NotAfter": "2028-08-11T12:54:01+05:00"
+  },
+  {
+    "DomainName": "zingcommonvpnclient.com",
+    "SubjectAlternativeNames": [
+      "zingcommonvpnclient.com"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [
+      "aws:clientvpn:us-east-1:prod/cvpn-endpoint-0f62f8317f411e591",
+      "aws:clientvpn:us-east-1:prod/cvpn-endpoint-0fc2126a40134dc89"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/7d7fd9a2-fee0-492d-a592-036f52a8e102",
+    "NotAfter": "2028-08-11T13:08:11+05:00"
+  },
+  {
+    "DomainName": "*.legendtrading.com",
+    "SubjectAlternativeNames": [
+      "*.legendtrading.com",
+      "legendtrading.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/b9508d07-de7a-47d3-a448-bdac1eb1f831",
+    "NotAfter": "2024-09-22T22:12:44+05:00"
+  },
+  {
+    "DomainName": "vpn.zingpays.com",
+    "SubjectAlternativeNames": [
+      "vpn.zingpays.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/90de6dc7-a549-4c02-a102-5bb24e465eef",
+    "NotAfter": "2026-01-02T00:45:12+05:00"
+  },
+  {
+    "DomainName": "*.flashwire.com",
+    "SubjectAlternativeNames": [
+      "*.flashwire.com",
+      "flashwire.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/7c5a4896-e4b5-43c3-81e7-76e973e6da39",
+    "NotAfter": "2024-11-21T17:17:56+05:00"
+  },
+  {
+    "DomainName": "*.zingpays.com",
+    "SubjectAlternativeNames": [
+      "*.zingpays.com",
+      "zingpays.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/6385fff4-e4cc-45e3-be1b-76b6ce7be2c6",
+    "NotAfter": "2025-01-17T23:39:41+05:00"
+  },
+  {
+    "DomainName": "*.cuteid.ai",
+    "SubjectAlternativeNames": [
+      "*.cuteid.ai",
+      "cuteid.ai"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/60277b90-2085-4f89-ab0b-f0e8c0125f6f",
+    "NotAfter": "2025-04-07T10:04:55+05:00"
+  },
+  {
+    "DomainName": "*.stellapay.io",
+    "SubjectAlternativeNames": [
+      "*.stellapay.io",
+      "stellapay.io"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [
+      "arn:aws:cloudfront::647828570435:distribution/E2AKUS315JIBB5"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/de12a3c1-4ab1-4713-ac58-c2036cdd6f75",
+    "NotAfter": "2025-04-24T08:44:59+05:00"
+  },
+  {
+    "DomainName": "*.cuteid.ai",
+    "SubjectAlternativeNames": [
+      "*.cuteid.ai",
+      "cuteid.ai"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/d44440ab-4e60-4097-9747-197d629ee860",
+    "NotAfter": "2025-04-07T10:04:55+05:00"
+  },
+  {
+    "DomainName": "*.legendtrading.com",
+    "SubjectAlternativeNames": [
+      "*.legendtrading.com",
+      "legendtrading.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-inner/08f8c916f8ccd129",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-outer-services/d0cfebe767b0241f"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/81fbfb38-5574-4558-a84c-bdc992112123",
+    "NotAfter": "2025-09-07T00:33:48+05:00"
+  },
+  {
+    "DomainName": "*.treasurebox.com",
+    "SubjectAlternativeNames": [
+      "*.treasurebox.com",
+      "treasurebox.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/41e9317e-71b1-4b67-8228-2ead69d817c2",
+    "NotAfter": "2025-05-17T20:44:12+05:00"
+  },
+  {
+    "DomainName": "*.flashwire.com",
+    "SubjectAlternativeNames": [
+      "*.flashwire.com",
+      "flashwire.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/64218b6b-8f00-40c2-9e8a-2ccce98b4eb6",
+    "NotAfter": "2025-11-22T17:18:25+05:00"
+  },
+  {
+    "DomainName": "*.zingpays.com",
+    "SubjectAlternativeNames": [
+      "*.zingpays.com",
+      "zingpays.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/a941a711-7f77-4a6b-a6f8-99238cd3eaf9",
+    "NotAfter": "2026-02-02T21:53:10+05:00"
+  },
+  {
+    "DomainName": "*.cuteid.ai",
+    "SubjectAlternativeNames": [
+      "*.cuteid.ai",
+      "cuteid.ai"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [
+      "arn:aws:cloudfront::647828570435:distribution-tenant/dt_2xfhlPGCk9K1umNG6YDyimTTTze"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/85d75ab7-926b-408a-81a6-38ee11f51c71",
+    "NotAfter": "2026-03-09T17:39:31+05:00"
+  },
+  {
+    "DomainName": "*.stellapay.io",
+    "SubjectAlternativeNames": [
+      "*.stellapay.io",
+      "stellapay.io"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/813ef2d0-48e1-459c-8328-4d55ccd38998",
+    "NotAfter": "2026-03-26T20:32:39+05:00"
+  },
+  {
+    "DomainName": "*.legendpay.com",
+    "SubjectAlternativeNames": [
+      "*.legendpay.com",
+      "legendpay.com"
+    ],
+    "Status": "EXPIRED",
+    "InUseBy": [
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legendpay-ai/139b8ec695874ccd"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/e39bb35c-f8fa-4702-9449-2db1ddf925e4",
+    "NotAfter": "2026-04-24T07:32:35+05:00"
+  },
+  {
+    "DomainName": "*.treasurebox.com",
+    "SubjectAlternativeNames": [
+      "*.treasurebox.com",
+      "treasurebox.com"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [
+      "arn:aws:cloudfront::647828570435:distribution/E22SV9U3LF5W4Z",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/weblb/a4f249cf1c3a46c0"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/9b5d7cb8-8de3-4cac-83e2-6f83d10a2da1",
+    "NotAfter": "2026-05-18T20:45:40+05:00"
+  },
+  {
+    "DomainName": "*.legendtrading.com",
+    "SubjectAlternativeNames": [
+      "*.legendtrading.com",
+      "legendtrading.com"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [
+      "arn:aws:cloudfront::647828570435:distribution/E25MSH2G7KUK0O",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-devops/820a4438ffa9ee6d",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-inner/08f8c916f8ccd129",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-outer-services/d0cfebe767b0241f",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend/acd12129ec64642c",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legendtrading-com/0452a4331dfe1e5a",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/test-legendapi-staging/d2654049a9dd0b58",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/weblb/a4f249cf1c3a46c0"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/756e2282-1c47-408d-914a-f25fc19905c6",
+    "NotAfter": "2026-09-27T21:08:35+05:00"
+  },
+  {
+    "DomainName": "*.flashwire.com",
+    "SubjectAlternativeNames": [
+      "*.flashwire.com",
+      "flashwire.com"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [
+      "arn:aws:cloudfront::647828570435:distribution/E1ICZM8AQJE9BH",
+      "arn:aws:cloudfront::647828570435:distribution/E1JZCIPZ6XB6TD",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-inner-services/6a98d1271db24b24",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-outer-services/dbf5e06314427d9e",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-web-lb/e74ae844f131ddd9"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/90f86b20-0304-4135-80fe-c9d2770d4cdb",
+    "NotAfter": "2026-11-23T00:01:53+05:00"
+  },
+  {
+    "DomainName": "*.anxin.finance",
+    "SubjectAlternativeNames": [
+      "*.anxin.finance",
+      "anxin.finance"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/ded076ef-7dc4-490b-824f-6025a92e4bc5",
+    "NotAfter": "2026-12-21T23:25:23+05:00"
+  },
+  {
+    "DomainName": "lg.mybrains.app",
+    "SubjectAlternativeNames": [
+      "lg.mybrains.app"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/lg-ops-api-alb/f480a0f945ddfbef"
+    ],
+    "Type": "AMAZON_ISSUED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/943f71bd-8b5b-49b2-ae6a-fb8a9e676b06",
+    "NotAfter": "2027-02-07T04:59:59+05:00"
+  },
+  {
+    "DomainName": "*.zingpays.com",
+    "SubjectAlternativeNames": [
+      "*.zingpays.com",
+      "zingpays.com"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/74391cac-21e7-4884-89ef-3fba8b751c8d",
+    "NotAfter": "2027-01-18T20:52:03+05:00"
+  },
+  {
+    "DomainName": "*.cuteid.ai",
+    "SubjectAlternativeNames": [
+      "*.cuteid.ai",
+      "cuteid.ai"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [
+      "arn:aws:cloudfront::647828570435:distribution/E3RH8WXZSCA0FX",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/cuteid/27459450e42422d0"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/ca33b1c0-0f4b-4d77-94b7-6f146aa70059",
+    "NotAfter": "2027-03-09T23:03:57+05:00"
+  },
+  {
+    "DomainName": "*.stellapay.io",
+    "SubjectAlternativeNames": [
+      "*.stellapay.io",
+      "stellapay.io"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [
+      "arn:aws:cloudfront::647828570435:distribution/E2G40QQY2Q2NKG"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/324d100b-2c31-48b7-a637-968c8e783d4e",
+    "NotAfter": "2027-03-27T20:35:18+05:00"
+  },
+  {
+    "DomainName": "legendbank.com",
+    "SubjectAlternativeNames": [
+      "legendbank.com",
+      "www.legendbank.com"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/f409f58f-fa63-46cb-ba8b-dfe72acd57f8",
+    "NotAfter": "2026-11-01T00:23:33+05:00"
+  },
+  {
+    "DomainName": "*.legendpay.com",
+    "SubjectAlternativeNames": [
+      "*.legendpay.com",
+      "legendpay.com"
+    ],
+    "Status": "ISSUED",
+    "InUseBy": [
+      "arn:aws:cloudfront::647828570435:distribution/E1KRZE3104IXMZ",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legendtrading-com/0452a4331dfe1e5a",
+      "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/weblb/a4f249cf1c3a46c0"
+    ],
+    "Type": "IMPORTED",
+    "CertificateArn": "arn:aws:acm:us-east-1:647828570435:certificate/367168e9-2fab-4bf7-869a-16bbd8461543",
+    "NotAfter": "2026-11-05T10:35:22+05:00"
+  }
+]

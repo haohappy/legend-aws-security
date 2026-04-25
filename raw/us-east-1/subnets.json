@@ -1,0 +1,1494 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZoneId": "use1-az6",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "flashwire-innerservice"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-subnet-private1-us-east-1a"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0769bd09ee00fd810",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0769bd09ee00fd810",
+            "State": "available",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "CidrBlock": "10.100.128.0/20",
+            "AvailableIpAddressCount": 4088,
+            "AvailabilityZone": "us-east-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-private04"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0026d53ad0cfb74a8",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0026d53ad0cfb74a8",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.6.64/26",
+            "AvailableIpAddressCount": 55,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-pub-1"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-08bd14c693b911cae",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-08bd14c693b911cae",
+            "State": "available",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "CidrBlock": "10.10.4.0/24",
+            "AvailableIpAddressCount": 247,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-a4b00eec",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-a4b00eec",
+            "State": "available",
+            "VpcId": "vpc-8bd220f2",
+            "CidrBlock": "172.30.3.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-private01"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0b0c4b27ab4fe52ba",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0b0c4b27ab4fe52ba",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.1.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-public-vpn.zingpays.com"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0d849214f45658405",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0d849214f45658405",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.100.0/24",
+            "AvailableIpAddressCount": 244,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az6",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-subnet-public1-us-east-1a"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire-innerservice"
+                },
+                {
+                    "Key": "kubernetes.io/role/elb",
+                    "Value": "1"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/test-cluster",
+                    "Value": "owned"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-04cd292477181e54f",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-04cd292477181e54f",
+            "State": "available",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "CidrBlock": "10.100.0.0/20",
+            "AvailableIpAddressCount": 4087,
+            "AvailabilityZone": "us-east-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-public02"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0b9fd933484cf93ab",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0b9fd933484cf93ab",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.2.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-secondsubnet-private01"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0f6cc6d2b9e266cac",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0f6cc6d2b9e266cac",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "172.32.0.0/19",
+            "AvailableIpAddressCount": 8184,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-secondsubnet-private01"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-06de1d8afbc8f292c",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-06de1d8afbc8f292c",
+            "State": "available",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "CidrBlock": "172.33.0.0/19",
+            "AvailableIpAddressCount": 8186,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az5",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-secondsubnet-private02"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-09d53a19a9496f825",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-09d53a19a9496f825",
+            "State": "available",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "CidrBlock": "172.33.32.0/19",
+            "AvailableIpAddressCount": 8186,
+            "AvailabilityZone": "us-east-1f",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "svpn.zingpays.com"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-091aaa019efdf7b0f",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-091aaa019efdf7b0f",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.101.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-public04"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0e4b5e325c566aae3",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0e4b5e325c566aae3",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.6.0/26",
+            "AvailableIpAddressCount": 54,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-k8s-public01"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "kubernetes.io/role/elb",
+                    "Value": "1"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-07275d3d618813190",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-07275d3d618813190",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.16.0/23",
+            "AvailableIpAddressCount": 507,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "kubernetes.io/role/internal-elb",
+                    "Value": "1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-k8s-private02"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-090f07ff4591880ad",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-090f07ff4591880ad",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.12.0/22",
+            "AvailableIpAddressCount": 1015,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-2a9cb74f",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-2a9cb74f",
+            "State": "available",
+            "VpcId": "vpc-8bd220f2",
+            "CidrBlock": "172.30.1.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "us-east-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "use1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire-innerservice"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-subnet-private2-us-east-1b"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-010842d9dbd1a930b",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-010842d9dbd1a930b",
+            "State": "available",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "CidrBlock": "10.100.144.0/20",
+            "AvailableIpAddressCount": 4089,
+            "AvailabilityZone": "us-east-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-production-private-1"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0f54feb187d63c194",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0f54feb187d63c194",
+            "State": "available",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "CidrBlock": "10.10.2.0/23",
+            "AvailableIpAddressCount": 503,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az5",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-staging-private02"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0aee37de2a1a0880e",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0aee37de2a1a0880e",
+            "State": "available",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "CidrBlock": "10.10.8.128/25",
+            "AvailableIpAddressCount": 123,
+            "AvailabilityZone": "us-east-1f",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-public03"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-02be88024da5eb7fe",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-02be88024da5eb7fe",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.3.0/24",
+            "AvailableIpAddressCount": 236,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-k8s-public02"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "kubernetes.io/role/elb",
+                    "Value": "1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0ffe6e7f9153abdfa",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0ffe6e7f9153abdfa",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.18.0/23",
+            "AvailableIpAddressCount": 507,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "kubernetes.io/role/elb",
+                    "Value": "1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-subnet-public2-us-east-1b"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire-innerservice"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/test-cluster",
+                    "Value": "owned"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-092a6107f6c8a14e7",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-092a6107f6c8a14e7",
+            "State": "available",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "CidrBlock": "10.100.16.0/20",
+            "AvailableIpAddressCount": 4086,
+            "AvailabilityZone": "us-east-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-1971b335",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-1971b335",
+            "State": "available",
+            "VpcId": "vpc-8bd220f2",
+            "CidrBlock": "172.30.2.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "use1-az5",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-production-private-2"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-04a9d37c3be00caaf",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-04a9d37c3be00caaf",
+            "State": "available",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "CidrBlock": "10.10.6.0/23",
+            "AvailableIpAddressCount": 504,
+            "AvailabilityZone": "us-east-1f",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-staging-private01"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-06bfd61bf9a9e36ca",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-06bfd61bf9a9e36ca",
+            "State": "available",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "CidrBlock": "10.10.8.0/25",
+            "AvailableIpAddressCount": 122,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-private02"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0e2fec9f218215453",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0e2fec9f218215453",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.4.0/24",
+            "AvailableIpAddressCount": 233,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az6",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-4d986317",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-4d986317",
+            "State": "available",
+            "VpcId": "vpc-8bd220f2",
+            "CidrBlock": "172.30.0.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "us-east-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire-innerservice"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "kubernetes.io/role/elb",
+                    "Value": "1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-subnet-public3-us-east-1d"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0172d6b569cca4950",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0172d6b569cca4950",
+            "State": "available",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "CidrBlock": "10.100.32.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "use1-az3",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-baabfb86",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-baabfb86",
+            "State": "available",
+            "VpcId": "vpc-8bd220f2",
+            "CidrBlock": "172.30.4.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "us-east-1e",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-public01"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-047c84d1e0ae8749e",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-047c84d1e0ae8749e",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.0.0/24",
+            "AvailableIpAddressCount": 221,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-private03"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0f6f1945625e5ba1c",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0f6f1945625e5ba1c",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.5.0/24",
+            "AvailableIpAddressCount": 244,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-staging-public01"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "Staging"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0ed88c9d97f658164",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0ed88c9d97f658164",
+            "State": "available",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "CidrBlock": "10.10.1.0/24",
+            "AvailableIpAddressCount": 248,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "kubernetes.io/role/internal-elb",
+                    "Value": "1"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-subnet-k8s-private01"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0440fa07cf72f80f8",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0440fa07cf72f80f8",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "10.0.8.0/22",
+            "AvailableIpAddressCount": 965,
+            "AvailabilityZone": "us-east-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-secondsubnet-private02"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-09ac0f3f2258b300a",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-09ac0f3f2258b300a",
+            "State": "available",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "CidrBlock": "172.32.32.0/19",
+            "AvailableIpAddressCount": 8185,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az5",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-pub-2"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-0103bd5ff3ac5363a",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0103bd5ff3ac5363a",
+            "State": "available",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "CidrBlock": "10.10.5.0/24",
+            "AvailableIpAddressCount": 246,
+            "AvailabilityZone": "us-east-1f",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "use1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire-innerservice"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-subnet-private3-us-east-1d"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:647828570435:subnet/subnet-02d24668f68e7d4e1",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-02d24668f68e7d4e1",
+            "State": "available",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "CidrBlock": "10.100.160.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "us-east-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        }
+    ]
+}

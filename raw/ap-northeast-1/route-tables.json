@@ -1,0 +1,130 @@
+{
+    "RouteTables": [
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-03659966",
+                    "RouteTableId": "rtb-65837100",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-65837100",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "172.31.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-cee90cab",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-a3be4fc6",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-0e16df83e00835d7f",
+                    "RouteTableId": "rtb-0e379dc911e58d503",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0e379dc911e58d503",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "192.168.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-06105f1cfd173e343",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-004bc1fdf90d3b257",
+                    "RouteTableId": "rtb-03af08fafe79cc44a",
+                    "SubnetId": "subnet-0f24fe929aaf456c2",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-03af08fafe79cc44a",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "192.168.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-00f5c8b293285dcdc",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "terraform-test-routetable"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "terraform-test"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VpcId": "vpc-06105f1cfd173e343",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-072547dc3c91fbb62",
+                    "RouteTableId": "rtb-0abbc437a3e7ad385",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0abbc437a3e7ad385",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.200.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-0ed8b0c85bd3d6ee2",
+            "OwnerId": "647828570435"
+        }
+    ]
+}

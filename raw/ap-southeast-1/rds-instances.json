@@ -1,0 +1,382 @@
+{
+    "DBInstances": [
+        {
+            "DBInstanceIdentifier": "lending-web-production",
+            "DBInstanceClass": "db.t4g.small",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "lending_superadm",
+            "Endpoint": {
+                "Address": "lending-web-production.c5ymzmtqqquu.ap-southeast-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z2G0U3KFCY8NZ5"
+            },
+            "AllocatedStorage": 100,
+            "InstanceCreateTime": "2022-11-15T04:44:43.108000+00:00",
+            "PreferredBackupWindow": "05:10-05:40",
+            "BackupRetentionPeriod": 7,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0b137222325e31dff",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "lending-web-production-mysql8",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "ap-southeast-1a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "lending-web-db-subnetgroup",
+                "DBSubnetGroupDescription": "for lend web db",
+                "VpcId": "vpc-0e8a205860906c944",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-07477ea7b12869fb6",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-southeast-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-091ed2b2901c7f43a",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-southeast-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-036664d631157d815",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-southeast-1c"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "tue:07:29-tue:07:59",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "LatestRestorableTime": "2026-04-25T02:30:35+00:00",
+            "MultiAZ": false,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": true,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "Iops": 1000,
+            "StorageThroughput": 0,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": false,
+            "StorageType": "io1",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:ap-southeast-1:647828570435:key/086e02fc-44df-485b-b5d9-cb0d0cd2df80",
+            "DbiResourceId": "db-WKULSXJWOB7TP4FJHGXXE32I5E",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": true,
+            "MonitoringInterval": 60,
+            "EnhancedMonitoringResourceArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:RDSOSMetrics:log-stream:db-WKULSXJWOB7TP4FJHGXXE32I5E",
+            "MonitoringRoleArn": "arn:aws:iam::647828570435:role/rds-monitoring-role",
+            "DBInstanceArn": "arn:aws:rds:ap-southeast-1:647828570435:db:lending-web-production",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": false,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:ap-southeast-1:647828570435:key/086e02fc-44df-485b-b5d9-cb0d0cd2df80",
+            "EnabledCloudwatchLogsExports": [
+                "slowquery"
+            ],
+            "DeletionProtection": true,
+            "AssociatedRoles": [],
+            "MaxAllocatedStorage": 1000,
+            "TagList": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-web-production"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2026-12-30T07:29:03+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": true,
+            "EngineLifecycleSupport": "open-source-rds-extended-support"
+        },
+        {
+            "DBInstanceIdentifier": "replica-flashwire-staging-env",
+            "DBInstanceClass": "db.t3.medium",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "flashw_stagsuper",
+            "Endpoint": {
+                "Address": "replica-flashwire-staging-env.c5ymzmtqqquu.ap-southeast-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z2G0U3KFCY8NZ5"
+            },
+            "AllocatedStorage": 61,
+            "InstanceCreateTime": "2022-11-30T12:22:03.527000+00:00",
+            "PreferredBackupWindow": "05:00-05:30",
+            "BackupRetentionPeriod": 1,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-01d49fc2e45633747",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "replica-flashwire-staging-mysql8",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "ap-southeast-1a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "lending-replica-flashwire-staging-db-subnetgroup",
+                "DBSubnetGroupDescription": "for replica-flashwire-staging-db",
+                "VpcId": "vpc-0e8a205860906c944",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-04050241ac78289a5",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-southeast-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-01b7eee4d0d027070",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-southeast-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "sun:07:00-sun:07:30",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "LatestRestorableTime": "2026-04-25T02:32:02+00:00",
+            "MultiAZ": false,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": true,
+            "ReadReplicaSourceDBInstanceIdentifier": "arn:aws:rds:us-east-1:647828570435:db:flashwire-staging-env",
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "Iops": 3000,
+            "StorageThroughput": 125,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": false,
+            "StatusInfos": [
+                {
+                    "StatusType": "read replication",
+                    "Normal": false,
+                    "Status": "terminated",
+                    "Message": "Replication has been terminated since the replica had been lagged for an excessively large period of time or due to a major version upgrade on the master. It is recommended to delete and create a new replica."
+                }
+            ],
+            "StorageType": "gp3",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:ap-southeast-1:647828570435:key/086e02fc-44df-485b-b5d9-cb0d0cd2df80",
+            "DbiResourceId": "db-2YPISYUHQBCVGX2EMDPZMC3HJE",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": true,
+            "MonitoringInterval": 0,
+            "DBInstanceArn": "arn:aws:rds:ap-southeast-1:647828570435:db:replica-flashwire-staging-env",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:ap-southeast-1:647828570435:key/086e02fc-44df-485b-b5d9-cb0d0cd2df80",
+            "PerformanceInsightsRetentionPeriod": 7,
+            "EnabledCloudwatchLogsExports": [
+                "slowquery"
+            ],
+            "DeletionProtection": true,
+            "AssociatedRoles": [],
+            "TagList": [
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "replica-flashwire-staging-env"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2026-11-30T07:00:03+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": true,
+            "EngineLifecycleSupport": "open-source-rds-extended-support"
+        },
+        {
+            "DBInstanceIdentifier": "replication-lg-rds-production",
+            "DBInstanceClass": "db.m6g.large",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "admin4900s",
+            "Endpoint": {
+                "Address": "replication-lg-rds-production.c5ymzmtqqquu.ap-southeast-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z2G0U3KFCY8NZ5"
+            },
+            "AllocatedStorage": 354,
+            "InstanceCreateTime": "2025-03-25T16:55:44.301000+00:00",
+            "PreferredBackupWindow": "05:54-06:24",
+            "BackupRetentionPeriod": 3,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0b137222325e31dff",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "replica-lg-rds-production-mysql8",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "ap-southeast-1c",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "lending-web-db-subnetgroup",
+                "DBSubnetGroupDescription": "for lend web db",
+                "VpcId": "vpc-0e8a205860906c944",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-07477ea7b12869fb6",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-southeast-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-091ed2b2901c7f43a",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-southeast-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-036664d631157d815",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-southeast-1c"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "tue:07:29-tue:07:59",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "LatestRestorableTime": "2026-04-25T02:27:54+00:00",
+            "MultiAZ": true,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": false,
+            "ReadReplicaSourceDBInstanceIdentifier": "arn:aws:rds:us-east-1:647828570435:db:lg-rds-production",
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "Iops": 3000,
+            "StorageThroughput": 125,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "SecondaryAvailabilityZone": "ap-southeast-1a",
+            "PubliclyAccessible": false,
+            "StatusInfos": [
+                {
+                    "StatusType": "read replication",
+                    "Normal": true,
+                    "Status": "replicating"
+                }
+            ],
+            "StorageType": "gp3",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:ap-southeast-1:647828570435:key/086e02fc-44df-485b-b5d9-cb0d0cd2df80",
+            "DbiResourceId": "db-W5JCNPRAQMLSQJWPDYPH7TKZXE",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": false,
+            "MonitoringInterval": 60,
+            "EnhancedMonitoringResourceArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:RDSOSMetrics:log-stream:db-W5JCNPRAQMLSQJWPDYPH7TKZXE",
+            "MonitoringRoleArn": "arn:aws:iam::647828570435:role/rds-monitoring-role",
+            "DBInstanceArn": "arn:aws:rds:ap-southeast-1:647828570435:db:replication-lg-rds-production",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:ap-southeast-1:647828570435:key/086e02fc-44df-485b-b5d9-cb0d0cd2df80",
+            "PerformanceInsightsRetentionPeriod": 7,
+            "EnabledCloudwatchLogsExports": [
+                "slowquery"
+            ],
+            "DeletionProtection": true,
+            "AssociatedRoles": [],
+            "MaxAllocatedStorage": 1000,
+            "TagList": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2027-03-31T07:29:01+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": false,
+            "EngineLifecycleSupport": "open-source-rds-extended-support"
+        }
+    ]
+}

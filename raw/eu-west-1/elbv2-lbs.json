@@ -1,0 +1,34 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:eu-west-1:647828570435:loadbalancer/app/legend/b219e74fd425893c",
+            "DNSName": "internal-legend-231105697.eu-west-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z32O12XQLNTSW2",
+            "CreatedTime": "2025-11-24T10:15:34.774000+00:00",
+            "LoadBalancerName": "legend",
+            "Scheme": "internal",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "eu-west-1a",
+                    "SubnetId": "subnet-08e922c84f9946555",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "eu-west-1b",
+                    "SubnetId": "subnet-0c959a2c818b5c67b",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-02f312eeed0805782"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        }
+    ]
+}

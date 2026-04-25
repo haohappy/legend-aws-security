@@ -1,0 +1,31 @@
+{
+    "InternetGateways": [
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-02775b0dac0fb2ea5"
+                }
+            ],
+            "InternetGatewayId": "igw-0f7457239b1d05d8d",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-igw"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-e720338e"
+                }
+            ],
+            "InternetGatewayId": "igw-afb2e4c6",
+            "OwnerId": "647828570435",
+            "Tags": []
+        }
+    ]
+}

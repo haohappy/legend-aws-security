@@ -1,0 +1,295 @@
+{
+    "CacheClusters": [
+        {
+            "CacheClusterId": "flowmind-0001-001",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.t4g.micro",
+            "Engine": "valkey",
+            "EngineVersion": "8.2.0",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 1,
+            "PreferredAvailabilityZone": "us-east-1d",
+            "CacheClusterCreateTime": "2026-01-10T06:29:51.980000+00:00",
+            "PreferredMaintenanceWindow": "sun:05:00-sun:06:00",
+            "PendingModifiedValues": {},
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "default.valkey8.cluster.on",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "subnet-elasticache",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-0b6d288d6e9498e55",
+                    "Status": "active"
+                }
+            ],
+            "ReplicationGroupId": "flowmind",
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "09:00-10:00",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": true,
+            "AtRestEncryptionEnabled": true,
+            "ARN": "arn:aws:elasticache:us-east-1:647828570435:cluster:flowmind-0001-001",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4",
+            "TransitEncryptionMode": "required"
+        },
+        {
+            "CacheClusterId": "legend-0001-001",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.r6g.large",
+            "Engine": "redis",
+            "EngineVersion": "6.2.6",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 1,
+            "PreferredAvailabilityZone": "us-east-1c",
+            "CacheClusterCreateTime": "2021-02-10T06:11:16.982000+00:00",
+            "PreferredMaintenanceWindow": "thu:03:30-thu:04:30",
+            "PendingModifiedValues": {},
+            "NotificationConfiguration": {
+                "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email",
+                "TopicStatus": "active"
+            },
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "default.redis6.x.cluster.on",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "subnet-elasticache",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-0f8cc4a9e83a0060b",
+                    "Status": "active"
+                }
+            ],
+            "ReplicationGroupId": "legend",
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "05:00-06:00",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:us-east-1:647828570435:cluster:legend-0001-001",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4"
+        },
+        {
+            "CacheClusterId": "legend-0001-002",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.r6g.large",
+            "Engine": "redis",
+            "EngineVersion": "6.2.6",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 1,
+            "PreferredAvailabilityZone": "us-east-1d",
+            "CacheClusterCreateTime": "2021-02-10T06:11:16.982000+00:00",
+            "PreferredMaintenanceWindow": "thu:03:30-thu:04:30",
+            "PendingModifiedValues": {},
+            "NotificationConfiguration": {
+                "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email",
+                "TopicStatus": "active"
+            },
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "default.redis6.x.cluster.on",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "subnet-elasticache",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-0f8cc4a9e83a0060b",
+                    "Status": "active"
+                }
+            ],
+            "ReplicationGroupId": "legend",
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "05:00-06:00",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:us-east-1:647828570435:cluster:legend-0001-002",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4"
+        },
+        {
+            "CacheClusterId": "legend-0002-001",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.r6g.large",
+            "Engine": "redis",
+            "EngineVersion": "6.2.6",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 1,
+            "PreferredAvailabilityZone": "us-east-1c",
+            "CacheClusterCreateTime": "2021-02-10T06:11:16.982000+00:00",
+            "PreferredMaintenanceWindow": "thu:03:30-thu:04:30",
+            "PendingModifiedValues": {},
+            "NotificationConfiguration": {
+                "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email",
+                "TopicStatus": "active"
+            },
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "default.redis6.x.cluster.on",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "subnet-elasticache",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-0f8cc4a9e83a0060b",
+                    "Status": "active"
+                }
+            ],
+            "ReplicationGroupId": "legend",
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "05:00-06:00",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:us-east-1:647828570435:cluster:legend-0002-001",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4"
+        },
+        {
+            "CacheClusterId": "legend-0002-002",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.r6g.large",
+            "Engine": "redis",
+            "EngineVersion": "6.2.6",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 1,
+            "PreferredAvailabilityZone": "us-east-1d",
+            "CacheClusterCreateTime": "2021-02-10T06:11:16.982000+00:00",
+            "PreferredMaintenanceWindow": "thu:03:30-thu:04:30",
+            "PendingModifiedValues": {},
+            "NotificationConfiguration": {
+                "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email",
+                "TopicStatus": "active"
+            },
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "default.redis6.x.cluster.on",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "subnet-elasticache",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-0f8cc4a9e83a0060b",
+                    "Status": "active"
+                }
+            ],
+            "ReplicationGroupId": "legend",
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "05:00-06:00",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:us-east-1:647828570435:cluster:legend-0002-002",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4"
+        },
+        {
+            "CacheClusterId": "legend-0003-002",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.r6g.large",
+            "Engine": "redis",
+            "EngineVersion": "6.2.6",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 1,
+            "PreferredAvailabilityZone": "us-east-1d",
+            "CacheClusterCreateTime": "2021-02-10T06:11:16.982000+00:00",
+            "PreferredMaintenanceWindow": "thu:03:30-thu:04:30",
+            "PendingModifiedValues": {},
+            "NotificationConfiguration": {
+                "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email",
+                "TopicStatus": "active"
+            },
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "default.redis6.x.cluster.on",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "subnet-elasticache",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-0f8cc4a9e83a0060b",
+                    "Status": "active"
+                }
+            ],
+            "ReplicationGroupId": "legend",
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "05:00-06:00",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:us-east-1:647828570435:cluster:legend-0003-002",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4"
+        },
+        {
+            "CacheClusterId": "legend-0003-003",
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.r6g.large",
+            "Engine": "redis",
+            "EngineVersion": "6.2.6",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 1,
+            "PreferredAvailabilityZone": "us-east-1c",
+            "CacheClusterCreateTime": "2021-02-10T06:11:16.982000+00:00",
+            "PreferredMaintenanceWindow": "thu:03:30-thu:04:30",
+            "PendingModifiedValues": {},
+            "NotificationConfiguration": {
+                "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email",
+                "TopicStatus": "active"
+            },
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "default.redis6.x.cluster.on",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "subnet-elasticache",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-0f8cc4a9e83a0060b",
+                    "Status": "active"
+                }
+            ],
+            "ReplicationGroupId": "legend",
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "05:00-06:00",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:us-east-1:647828570435:cluster:legend-0003-003",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4"
+        }
+    ]
+}

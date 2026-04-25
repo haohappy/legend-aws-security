@@ -1,0 +1,136 @@
+{
+  "Queues": [
+    {
+      "Attributes": {
+        "QueueArn": "arn:aws:sqs:us-east-1:647828570435:bakkt-dev.fifo",
+        "ApproximateNumberOfMessages": "0",
+        "ApproximateNumberOfMessagesNotVisible": "0",
+        "ApproximateNumberOfMessagesDelayed": "0",
+        "CreatedTimestamp": "1703146216",
+        "LastModifiedTimestamp": "1703146216",
+        "VisibilityTimeout": "30",
+        "MaximumMessageSize": "262144",
+        "MessageRetentionPeriod": "345600",
+        "DelaySeconds": "0",
+        "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"__default_policy_ID\",\"Statement\":[{\"Sid\":\"__owner_statement\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::647828570435:root\"},\"Action\":\"SQS:*\",\"Resource\":\"arn:aws:sqs:us-east-1:647828570435:bakkt-dev.fifo\"}]}",
+        "ReceiveMessageWaitTimeSeconds": "0",
+        "SqsManagedSseEnabled": "true",
+        "FifoQueue": "true",
+        "DeduplicationScope": "messageGroup",
+        "FifoThroughputLimit": "perMessageGroupId",
+        "ContentBasedDeduplication": "false"
+      },
+      "QueueUrl": "https://sqs.us-east-1.amazonaws.com/647828570435/bakkt-dev.fifo"
+    },
+    {
+      "Attributes": {
+        "QueueArn": "arn:aws:sqs:us-east-1:647828570435:bakkt-dev6.fifo",
+        "ApproximateNumberOfMessages": "0",
+        "ApproximateNumberOfMessagesNotVisible": "0",
+        "ApproximateNumberOfMessagesDelayed": "0",
+        "CreatedTimestamp": "1716257207",
+        "LastModifiedTimestamp": "1716257207",
+        "VisibilityTimeout": "30",
+        "MaximumMessageSize": "262144",
+        "MessageRetentionPeriod": "345600",
+        "DelaySeconds": "0",
+        "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"__default_policy_ID\",\"Statement\":[{\"Sid\":\"__owner_statement\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::647828570435:root\"},\"Action\":\"SQS:*\",\"Resource\":\"arn:aws:sqs:us-east-1:647828570435:bakkt-dev6.fifo\"}]}",
+        "ReceiveMessageWaitTimeSeconds": "0",
+        "SqsManagedSseEnabled": "true",
+        "FifoQueue": "true",
+        "DeduplicationScope": "queue",
+        "FifoThroughputLimit": "perQueue",
+        "ContentBasedDeduplication": "false"
+      },
+      "QueueUrl": "https://sqs.us-east-1.amazonaws.com/647828570435/bakkt-dev6.fifo"
+    },
+    {
+      "Attributes": {
+        "QueueArn": "arn:aws:sqs:us-east-1:647828570435:bakkt-dev7.fifo",
+        "ApproximateNumberOfMessages": "0",
+        "ApproximateNumberOfMessagesNotVisible": "0",
+        "ApproximateNumberOfMessagesDelayed": "0",
+        "CreatedTimestamp": "1716431015",
+        "LastModifiedTimestamp": "1716431015",
+        "VisibilityTimeout": "30",
+        "MaximumMessageSize": "262144",
+        "MessageRetentionPeriod": "345600",
+        "DelaySeconds": "0",
+        "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"__default_policy_ID\",\"Statement\":[{\"Sid\":\"__owner_statement\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::647828570435:root\"},\"Action\":\"SQS:*\",\"Resource\":\"arn:aws:sqs:us-east-1:647828570435:bakkt-dev7.fifo\"}]}",
+        "ReceiveMessageWaitTimeSeconds": "0",
+        "SqsManagedSseEnabled": "true",
+        "FifoQueue": "true",
+        "DeduplicationScope": "queue",
+        "FifoThroughputLimit": "perQueue",
+        "ContentBasedDeduplication": "false"
+      },
+      "QueueUrl": "https://sqs.us-east-1.amazonaws.com/647828570435/bakkt-dev7.fifo"
+    },
+    {
+      "Attributes": {
+        "QueueArn": "arn:aws:sqs:us-east-1:647828570435:bakkt-qa4.fifo",
+        "ApproximateNumberOfMessages": "0",
+        "ApproximateNumberOfMessagesNotVisible": "0",
+        "ApproximateNumberOfMessagesDelayed": "0",
+        "CreatedTimestamp": "1716430867",
+        "LastModifiedTimestamp": "1716430867",
+        "VisibilityTimeout": "30",
+        "MaximumMessageSize": "262144",
+        "MessageRetentionPeriod": "345600",
+        "DelaySeconds": "0",
+        "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"__default_policy_ID\",\"Statement\":[{\"Sid\":\"__owner_statement\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::647828570435:root\"},\"Action\":\"SQS:*\",\"Resource\":\"arn:aws:sqs:us-east-1:647828570435:bakkt-qa4.fifo\"}]}",
+        "ReceiveMessageWaitTimeSeconds": "0",
+        "SqsManagedSseEnabled": "true",
+        "FifoQueue": "true",
+        "DeduplicationScope": "queue",
+        "FifoThroughputLimit": "perQueue",
+        "ContentBasedDeduplication": "false"
+      },
+      "QueueUrl": "https://sqs.us-east-1.amazonaws.com/647828570435/bakkt-qa4.fifo"
+    },
+    {
+      "Attributes": {
+        "QueueArn": "arn:aws:sqs:us-east-1:647828570435:bakkt-sandbox.fifo",
+        "ApproximateNumberOfMessages": "0",
+        "ApproximateNumberOfMessagesNotVisible": "0",
+        "ApproximateNumberOfMessagesDelayed": "0",
+        "CreatedTimestamp": "1716257331",
+        "LastModifiedTimestamp": "1716257331",
+        "VisibilityTimeout": "30",
+        "MaximumMessageSize": "262144",
+        "MessageRetentionPeriod": "345600",
+        "DelaySeconds": "0",
+        "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"__default_policy_ID\",\"Statement\":[{\"Sid\":\"__owner_statement\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::647828570435:root\"},\"Action\":\"SQS:*\",\"Resource\":\"arn:aws:sqs:us-east-1:647828570435:bakkt-sandbox.fifo\"}]}",
+        "ReceiveMessageWaitTimeSeconds": "0",
+        "SqsManagedSseEnabled": "true",
+        "FifoQueue": "true",
+        "DeduplicationScope": "queue",
+        "FifoThroughputLimit": "perQueue",
+        "ContentBasedDeduplication": "false"
+      },
+      "QueueUrl": "https://sqs.us-east-1.amazonaws.com/647828570435/bakkt-sandbox.fifo"
+    },
+    {
+      "Attributes": {
+        "QueueArn": "arn:aws:sqs:us-east-1:647828570435:bakkt.fifo",
+        "ApproximateNumberOfMessages": "0",
+        "ApproximateNumberOfMessagesNotVisible": "0",
+        "ApproximateNumberOfMessagesDelayed": "0",
+        "CreatedTimestamp": "1703123747",
+        "LastModifiedTimestamp": "1703123747",
+        "VisibilityTimeout": "30",
+        "MaximumMessageSize": "262144",
+        "MessageRetentionPeriod": "345600",
+        "DelaySeconds": "0",
+        "Policy": "{\"Version\":\"2012-10-17\",\"Id\":\"__default_policy_ID\",\"Statement\":[{\"Sid\":\"__owner_statement\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::647828570435:root\"},\"Action\":\"SQS:*\",\"Resource\":\"arn:aws:sqs:us-east-1:647828570435:bakkt.fifo\"}]}",
+        "ReceiveMessageWaitTimeSeconds": "0",
+        "SqsManagedSseEnabled": "true",
+        "FifoQueue": "true",
+        "DeduplicationScope": "messageGroup",
+        "FifoThroughputLimit": "perMessageGroupId",
+        "ContentBasedDeduplication": "false"
+      },
+      "QueueUrl": "https://sqs.us-east-1.amazonaws.com/647828570435/bakkt.fifo"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "Domains": [
+    {
+      "DomainId": "647828570435/movies",
+      "DomainName": "movies",
+      "ARN": "arn:aws:es:us-east-1:647828570435:domain/movies",
+      "Created": true,
+      "Deleted": false,
+      "Endpoint": "search-movies-s53te6ddgfx3kvi5he2d24mlie.us-east-1.es.amazonaws.com",
+      "Processing": false,
+      "UpgradeProcessing": false,
+      "EngineVersion": "OpenSearch_2.17",
+      "ClusterConfig": {
+        "InstanceType": "m6g.large.search",
+        "InstanceCount": 1,
+        "DedicatedMasterEnabled": false,
+        "ZoneAwarenessEnabled": false,
+        "WarmEnabled": false,
+        "ColdStorageOptions": {
+          "Enabled": false
+        },
+        "MultiAZWithStandbyEnabled": false
+      },
+      "EBSOptions": {
+        "EBSEnabled": true,
+        "VolumeType": "gp3",
+        "VolumeSize": 400,
+        "Iops": 3000,
+        "Throughput": 250
+      },
+      "AccessPolicies": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"*\"},\"Action\":\"es:ESHttp*\",\"Resource\":\"arn:aws:es:us-east-1:647828570435:domain/movies/*\"}]}",
+      "IPAddressType": "ipv4",
+      "SnapshotOptions": {},
+      "CognitoOptions": {
+        "Enabled": true,
+        "UserPoolId": "us-east-1_uK4AHKpCi",
+        "IdentityPoolId": "us-east-1:ae956016-306b-426a-958a-3eaaab6f522d",
+        "RoleArn": "arn:aws:iam::647828570435:role/service-role/CognitoAccessForAmazonOpenSearch"
+      },
+      "EncryptionAtRestOptions": {
+        "Enabled": true,
+        "KmsKeyId": "arn:aws:kms:us-east-1:647828570435:key/8e226970-5e11-4f9d-ac09-cd547a30b95f"
+      },
+      "NodeToNodeEncryptionOptions": {
+        "Enabled": true
+      },
+      "AdvancedOptions": {
+        "indices.fielddata.cache.size": "20",
+        "override_main_response_version": "true",
+        "indices.query.bool.max_clause_count": "1024",
+        "rest.action.multi.allow_explicit_index": "true"
+      },
+      "LogPublishingOptions": {
+        "SEARCH_SLOW_LOGS": {
+          "CloudWatchLogsLogGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/OpenSearchService/domains/movies/search-logs",
+          "Enabled": true
+        },
+        "ES_APPLICATION_LOGS": {
+          "CloudWatchLogsLogGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/OpenSearchService/domains/movies/application-logs",
+          "Enabled": true
+        },
+        "INDEX_SLOW_LOGS": {
+          "CloudWatchLogsLogGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/OpenSearchService/domains/movies/index-logs",
+          "Enabled": true
+        }
+      },
+      "ServiceSoftwareOptions": {
+        "CurrentVersion": "OpenSearch_2_17_R20250625",
+        "NewVersion": "OpenSearch_2_17_R20260218-P1",
+        "UpdateAvailable": true,
+        "Cancellable": false,
+        "UpdateStatus": "ELIGIBLE",
+        "Description": "A newer release OpenSearch_2_17_R20260218-P1 is available.",
+        "AutomatedUpdateDate": "1970-01-01T05:00:00+05:00",
+        "OptionalDeployment": true
+      },
+      "DomainEndpointOptions": {
+        "EnforceHTTPS": true,
+        "TLSSecurityPolicy": "Policy-Min-TLS-1-0-2019-07",
+        "CustomEndpointEnabled": false
+      },
+      "AdvancedSecurityOptions": {
+        "Enabled": true,
+        "InternalUserDatabaseEnabled": false,
+        "AnonymousAuthEnabled": false
+      },
+      "IdentityCenterOptions": {},
+      "AutoTuneOptions": {
+        "State": "DISABLED",
+        "UseOffPeakWindow": false
+      },
+      "ChangeProgressDetails": {
+        "ChangeId": "bcdbadf5-32d9-4716-94aa-1c639d2eec49",
+        "ConfigChangeStatus": "Completed",
+        "InitiatedBy": "CUSTOMER",
+        "StartTime": "2026-01-11T15:28:54.938000+05:00",
+        "LastUpdatedTime": "2026-01-11T15:32:12.677000+05:00"
+      },
+      "OffPeakWindowOptions": {
+        "Enabled": true,
+        "OffPeakWindow": {
+          "WindowStartTime": {
+            "Hours": 0,
+            "Minutes": 0
+          }
+        }
+      },
+      "SoftwareUpdateOptions": {
+        "AutoSoftwareUpdateEnabled": false
+      },
+      "DomainProcessingStatus": "Active",
+      "ModifyingProperties": [],
+      "AIMLOptions": {
+        "NaturalLanguageQueryGenerationOptions": {
+          "DesiredState": "ENABLED",
+          "CurrentState": "ENABLE_COMPLETE"
+        },
+        "S3VectorsEngine": {
+          "Enabled": false
+        },
+        "ServerlessVectorAcceleration": {
+          "Enabled": false
+        }
+      }
+    },
+    {
+      "DomainId": "647828570435/ses-monitor",
+      "DomainName": "ses-monitor",
+      "ARN": "arn:aws:es:us-east-1:647828570435:domain/ses-monitor",
+      "Created": true,
+      "Deleted": false,
+      "Endpoints": {
+        "vpc": "vpc-ses-monitor-e5gq4hg3lzfjdyn7artahcmfxe.us-east-1.es.amazonaws.com"
+      },
+      "Processing": false,
+      "UpgradeProcessing": false,
+      "EngineVersion": "OpenSearch_2.19",
+      "ClusterConfig": {
+        "InstanceType": "t3.small.search",
+        "InstanceCount": 1,
+        "DedicatedMasterEnabled": false,
+        "ZoneAwarenessEnabled": false,
+        "WarmEnabled": false,
+        "ColdStorageOptions": {
+          "Enabled": false
+        }
+      },
+      "EBSOptions": {
+        "EBSEnabled": true,
+        "VolumeType": "gp2",
+        "VolumeSize": 10
+      },
+      "AccessPolicies": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"*\"},\"Action\":\"es:*\",\"Resource\":\"arn:aws:es:us-east-1:647828570435:domain/ses-monitor/*\"}]}",
+      "IPAddressType": "ipv4",
+      "SnapshotOptions": {},
+      "VPCOptions": {
+        "VPCId": "vpc-0cc2aa7ac68fbaf61",
+        "SubnetIds": [
+          "subnet-047c84d1e0ae8749e"
+        ],
+        "AvailabilityZones": [
+          "us-east-1d"
+        ],
+        "SecurityGroupIds": [
+          "sg-039f8fcdb41a49a9a",
+          "sg-03b2cfd2147e77470"
+        ]
+      },
+      "CognitoOptions": {
+        "Enabled": false
+      },
+      "EncryptionAtRestOptions": {
+        "Enabled": true,
+        "KmsKeyId": "arn:aws:kms:us-east-1:647828570435:key/8e226970-5e11-4f9d-ac09-cd547a30b95f"
+      },
+      "NodeToNodeEncryptionOptions": {
+        "Enabled": true
+      },
+      "AdvancedOptions": {
+        "rest.action.multi.allow_explicit_index": "true",
+        "override_main_response_version": "true"
+      },
+      "ServiceSoftwareOptions": {
+        "CurrentVersion": "OpenSearch_2_19_R20260218",
+        "NewVersion": "",
+        "UpdateAvailable": false,
+        "Cancellable": false,
+        "UpdateStatus": "COMPLETED",
+        "Description": "There is no software update available for this domain.",
+        "AutomatedUpdateDate": "1970-01-01T05:00:00+05:00",
+        "OptionalDeployment": true
+      },
+      "DomainEndpointOptions": {
+        "EnforceHTTPS": true,
+        "TLSSecurityPolicy": "Policy-Min-TLS-1-0-2019-07",
+        "CustomEndpointEnabled": false
+      },
+      "AdvancedSecurityOptions": {
+        "Enabled": false,
+        "InternalUserDatabaseEnabled": false
+      },
+      "IdentityCenterOptions": {},
+      "AutoTuneOptions": {
+        "State": "ENABLE_IN_PROGRESS",
+        "UseOffPeakWindow": false
+      },
+      "ChangeProgressDetails": {
+        "ChangeId": "40bbc755-61be-4c25-91fd-1aa04100bf4e",
+        "ConfigChangeStatus": "Completed",
+        "StartTime": "2026-04-15T14:30:46.692000+05:00",
+        "LastUpdatedTime": "2026-04-15T15:06:03.624000+05:00"
+      },
+      "OffPeakWindowOptions": {
+        "Enabled": false,
+        "OffPeakWindow": {
+          "WindowStartTime": {
+            "Hours": 0,
+            "Minutes": 0
+          }
+        }
+      },
+      "SoftwareUpdateOptions": {
+        "AutoSoftwareUpdateEnabled": false
+      },
+      "DomainProcessingStatus": "Active",
+      "ModifyingProperties": [],
+      "AIMLOptions": {
+        "NaturalLanguageQueryGenerationOptions": {
+          "DesiredState": "DISABLED",
+          "CurrentState": "NOT_ENABLED"
+        },
+        "S3VectorsEngine": {
+          "Enabled": false
+        },
+        "ServerlessVectorAcceleration": {
+          "Enabled": false
+        }
+      }
+    }
+  ]
+}

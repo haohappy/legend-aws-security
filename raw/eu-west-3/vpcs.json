@@ -1,0 +1,52 @@
+{
+    "Vpcs": [
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-a4fd38cc",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true,
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-e720338e",
+            "State": "available",
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-0eccd467"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-03c8e0bf1a5374dc5",
+                    "CidrBlock": "10.2.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-vpc"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "State": "available",
+            "CidrBlock": "10.2.0.0/16",
+            "DhcpOptionsId": "dopt-0eccd467"
+        }
+    ]
+}

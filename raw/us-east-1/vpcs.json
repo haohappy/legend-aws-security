@@ -1,0 +1,153 @@
+{
+    "Vpcs": [
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0e1a5d56fcc59e112",
+                    "CidrBlock": "10.0.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "AssociationId": "vpc-cidr-assoc-0e3fd3b3093c37771",
+                    "CidrBlock": "172.32.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lgvpc"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": "available",
+            "CidrBlock": "10.0.0.0/16",
+            "DhcpOptionsId": "dopt-2b15d84d"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-010384fbddda34437",
+                    "CidrBlock": "10.100.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "zingpays"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-vpc"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "State": "available",
+            "CidrBlock": "10.100.0.0/16",
+            "DhcpOptionsId": "dopt-2b15d84d"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-04e710ad9b9d3ed12",
+                    "CidrBlock": "10.10.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "AssociationId": "vpc-cidr-assoc-080219ef84aac14a1",
+                    "CidrBlock": "172.33.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "State": "available",
+            "CidrBlock": "10.10.0.0/16",
+            "DhcpOptionsId": "dopt-2b15d84d"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "Ipv6CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0586bb349b3fced32",
+                    "Ipv6CidrBlock": "2600:1f18:52b9:3600::/56",
+                    "Ipv6CidrBlockState": {
+                        "State": "associated"
+                    },
+                    "NetworkBorderGroup": "us-east-1",
+                    "Ipv6Pool": "Amazon",
+                    "Ipv6AddressAttribute": "public",
+                    "IpSource": "amazon"
+                }
+            ],
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-711af81a",
+                    "CidrBlock": "172.30.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-8bd220f2",
+            "State": "available",
+            "CidrBlock": "172.30.0.0/16",
+            "DhcpOptionsId": "dopt-2b15d84d"
+        }
+    ]
+}

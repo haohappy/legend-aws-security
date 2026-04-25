@@ -1,0 +1,101 @@
+{
+    "NatGateways": [
+        {
+            "CreateTime": "2025-10-28T09:16:05+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-0f8fe6185d89e76f5",
+                    "NetworkInterfaceId": "eni-046b33fc53e4dbc27",
+                    "PrivateIp": "10.1.17.217",
+                    "PublicIp": "52.30.86.215",
+                    "AssociationId": "eipassoc-01c87c8b5f8c0c594",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-0adf50e6d0ab1b7ed",
+            "State": "available",
+            "SubnetId": "subnet-059a6373dce9f6ad6",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "Tags": [
+                {
+                    "Key": "env ",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-nat-public2-eu-west-1a"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2025-10-22T09:36:34+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-01aa63c774ee62394",
+                    "NetworkInterfaceId": "eni-05a7be1640f6ebc5b",
+                    "PrivateIp": "10.1.10.124",
+                    "PublicIp": "63.33.225.14",
+                    "AssociationId": "eipassoc-0e851829dd98f7841",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-048f79485efff9692",
+            "State": "available",
+            "SubnetId": "subnet-08ff5f561f390164f",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-nat-public1-eu-west-1a"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2025-10-22T09:36:34+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-050aded33e04a790b",
+                    "NetworkInterfaceId": "eni-06de3b1b41b312766",
+                    "PrivateIp": "10.1.14.65",
+                    "PublicIp": "54.246.168.77",
+                    "AssociationId": "eipassoc-057f3f36f2c608460",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-0a2a5b4024fbd14e2",
+            "State": "available",
+            "SubnetId": "subnet-012c8f2504cf74d90",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-nat-public1-eu-west-1b"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        }
+    ]
+}

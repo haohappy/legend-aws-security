@@ -1,0 +1,28 @@
+{
+    "trailList": [
+        {
+            "Name": "data-events",
+            "S3BucketName": "aws-cloudtrail-logs-647828570435-data-events",
+            "IncludeGlobalServiceEvents": true,
+            "IsMultiRegionTrail": true,
+            "HomeRegion": "us-east-1",
+            "TrailARN": "arn:aws:cloudtrail:us-east-1:647828570435:trail/data-events",
+            "LogFileValidationEnabled": true,
+            "HasCustomEventSelectors": true,
+            "HasInsightSelectors": false,
+            "IsOrganizationTrail": false
+        },
+        {
+            "Name": "management-events",
+            "S3BucketName": "aws-cloudtrail-logs-647828570435-5ca50934",
+            "IncludeGlobalServiceEvents": true,
+            "IsMultiRegionTrail": true,
+            "HomeRegion": "us-east-1",
+            "TrailARN": "arn:aws:cloudtrail:us-east-1:647828570435:trail/management-events",
+            "LogFileValidationEnabled": false,
+            "HasCustomEventSelectors": false,
+            "HasInsightSelectors": false,
+            "IsOrganizationTrail": false
+        }
+    ]
+}

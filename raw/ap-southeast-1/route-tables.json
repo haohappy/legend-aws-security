@@ -1,0 +1,1245 @@
+{
+    "RouteTables": [
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-00a78c4695249a0d2",
+                    "RouteTableId": "rtb-0ee9db524baf47f25",
+                    "SubnetId": "subnet-0a4af85572ab9dae8",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0ee9db524baf47f25",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.71/32",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-04640090e63bd966e"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.82/32",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-04640090e63bd966e"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.108/32",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-04640090e63bd966e"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-04640090e63bd966e"
+                },
+                {
+                    "DestinationCidrBlock": "10.20.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-09c42c74dcd7aef96",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "internal-system-private-rt"
+                }
+            ],
+            "VpcId": "vpc-0b7fe214033d48811",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-02886987be8e6f130",
+                    "RouteTableId": "rtb-04152b890922c1e1f",
+                    "SubnetId": "subnet-0d7624be6efc59a76",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-04152b890922c1e1f",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-08f1b3a720fff8270"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-02d32af0f61c4bacc"
+                },
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-0bf73feb543551162",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "cobo-private-rt02-ap-southeast-1a"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                }
+            ],
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0bfab3f22934cb7dc",
+                    "RouteTableId": "rtb-089f6862980fe18bd",
+                    "SubnetId": "subnet-00f96e1a707da6572",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-089f6862980fe18bd",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0e835f2d28420e542",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-public-rt02-ap-southeast-1a"
+                }
+            ],
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-07595a2b30d407064",
+                    "RouteTableId": "rtb-0d33bf1ab49198d65",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0d33bf1ab49198d65",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-00aa7b6a88b233b44",
+                    "RouteTableId": "rtb-0385e773f168a94af",
+                    "SubnetId": "subnet-040ab994269f9455c",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0385e773f168a94af",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-08f1b3a720fff8270"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-02d32af0f61c4bacc"
+                },
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-00a053f629d052364",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-private-rt01-ap-southeast-1b"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                }
+            ],
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-06e59b8e11b2a69e6",
+                    "RouteTableId": "rtb-0d1b9ad68ff86e264",
+                    "SubnetId": "subnet-036664d631157d815",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0d1b9ad68ff86e264",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-private-rt01-ap-southeast-1c"
+                }
+            ],
+            "VpcId": "vpc-0e8a205860906c944",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-098492c61a1a2eff2",
+                    "RouteTableId": "rtb-07972f7cce1c9b0ad",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-07972f7cce1c9b0ad",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                }
+            ],
+            "VpcId": "vpc-0e8a205860906c944",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-090103f54ce81d9dd",
+                    "RouteTableId": "rtb-08d7098d756336136",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-08d7098d756336136",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.20.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-0b7fe214033d48811",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-02206645e7a2558fa",
+                    "RouteTableId": "rtb-03b04f205a93c96ea",
+                    "SubnetId": "subnet-01b7eee4d0d027070",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-04fdfdbaa85d32175",
+                    "RouteTableId": "rtb-03b04f205a93c96ea",
+                    "SubnetId": "subnet-04050241ac78289a5",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-03b04f205a93c96ea",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0e9d7d7987ebbe624"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0d2e09e5aed6bacab"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-017454d0f0419f842"
+                },
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-07fc3286c9abc3372",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-private-rt02-ap-southeast-1a"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                }
+            ],
+            "VpcId": "vpc-0e8a205860906c944",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0eae32680822e06f6",
+                    "RouteTableId": "rtb-01bd42c655bfcaf88",
+                    "SubnetId": "subnet-040b60a620049e3c2",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-01bd42c655bfcaf88",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.20.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-032f61f557c0be53b",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "::/0",
+                    "GatewayId": "igw-032f61f557c0be53b",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "internal-system-public-rt1"
+                }
+            ],
+            "VpcId": "vpc-0b7fe214033d48811",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-05fc82125b830d1cd",
+                    "RouteTableId": "rtb-0daf293323d87b61e",
+                    "SubnetId": "subnet-034c86355f72becfa",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0daf293323d87b61e",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0e835f2d28420e542",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "cobo-public-rt01-ap-southeast-1a"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "bussinessLine",
+                    "Value": "mpc"
+                }
+            ],
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-09099db42d064d068",
+                    "RouteTableId": "rtb-0671576d1be3944de",
+                    "SubnetId": "subnet-092f3e919aa76b5ca",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0671576d1be3944de",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-08f1b3a720fff8270"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-02d32af0f61c4bacc"
+                },
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-00a053f629d052364",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-private-rt01-ap-southeast-1a"
+                },
+                {
+                    "Key": "bussinessLine",
+                    "Value": "mpc"
+                }
+            ],
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0a53434476ec683dc",
+                    "RouteTableId": "rtb-07532601d225b435c",
+                    "SubnetId": "subnet-0024bf80fdc9d2915",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-07532601d225b435c",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-09161a19440d25e4e",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "::/0",
+                    "GatewayId": "igw-09161a19440d25e4e",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending-public-rt01-ap-southeast-1b"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                }
+            ],
+            "VpcId": "vpc-0e8a205860906c944",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0f6bdf69db5b01546",
+                    "RouteTableId": "rtb-08bdddac857d9c0be",
+                    "SubnetId": "subnet-0713a50458e3e45b5",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-08bdddac857d9c0be",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-09161a19440d25e4e",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "::/0",
+                    "GatewayId": "igw-09161a19440d25e4e",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-public-rt01-ap-southeast-1a"
+                }
+            ],
+            "VpcId": "vpc-0e8a205860906c944",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-00fdd9ed06bf59a85",
+                    "RouteTableId": "rtb-0d2021071915e6c82",
+                    "SubnetId": "subnet-09c7486b7623d6103",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0d2021071915e6c82",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-016497f91cefb3a5f"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0bf46f91fe5006586"
+                },
+                {
+                    "DestinationCidrBlock": "10.20.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-007f9e8a4090e1f22"
+                },
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-08f1b3a720fff8270"
+                },
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0e9d7d7987ebbe624"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-031cf6ceac2bd9fc7"
+                },
+                {
+                    "DestinationPrefixListId": "pl-6fa54006",
+                    "GatewayId": "vpce-06d0d6d4218d77a83",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpn-sg-rtb-private1-ap-southeast-1a"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "vpn-sg"
+                }
+            ],
+            "VpcId": "vpc-0c3712644ef5a4efb",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-0656a763",
+                    "RouteTableId": "rtb-9ca151f9",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-9ca151f9",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "172.31.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-02e80d67",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-84f318e1",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0a86b18022cd063d9",
+                    "RouteTableId": "rtb-07e9fc75b6a9f3582",
+                    "SubnetId": "subnet-0093c2513cc266bdd",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-07e9fc75b6a9f3582",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-016497f91cefb3a5f"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0bf46f91fe5006586"
+                },
+                {
+                    "DestinationCidrBlock": "10.20.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-007f9e8a4090e1f22"
+                },
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-08f1b3a720fff8270"
+                },
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0e9d7d7987ebbe624"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-031cf6ceac2bd9fc7"
+                },
+                {
+                    "DestinationPrefixListId": "pl-6fa54006",
+                    "GatewayId": "vpce-06d0d6d4218d77a83",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpn-sg-rtb-private2-ap-southeast-1b"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "vpn-sg"
+                }
+            ],
+            "VpcId": "vpc-0c3712644ef5a4efb",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0a8a56233f935832f",
+                    "RouteTableId": "rtb-0fb60534b8365e32d",
+                    "SubnetId": "subnet-0c6fe9e3296aa3137",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0fb60534b8365e32d",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0e835f2d28420e542",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "bussinessLine",
+                    "Value": "mpc"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-public-rt01-ap-southeast-1b"
+                }
+            ],
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-00a2fdef488af5f38",
+                    "RouteTableId": "rtb-02da1c99378acdc92",
+                    "SubnetId": "subnet-091ed2b2901c7f43a",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-02da1c99378acdc92",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0e9d7d7987ebbe624"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0d2e09e5aed6bacab"
+                },
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-01260f9dff6cc7ff6",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": " lending-private-rt01-ap-southeast-1b"
+                }
+            ],
+            "VpcId": "vpc-0e8a205860906c944",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0e8dc2543793bb736",
+                    "RouteTableId": "rtb-05feea16f46d72793",
+                    "SubnetId": "subnet-0cf69588a54422a46",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-05feea16f46d72793",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.22.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-02237d37bb430cde4",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "crossborder-payment"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "payment-public-rt01-ap-southeast-1a"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                }
+            ],
+            "VpcId": "vpc-0a772f108977d9208",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-0c2e4a5dc2a14cb64",
+                    "RouteTableId": "rtb-02b7c21229bee7e7c",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-02b7c21229bee7e7c",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-0c3712644ef5a4efb",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-09a6e459226b9d0ce",
+                    "RouteTableId": "rtb-0f03bf8fc0f34227c",
+                    "SubnetId": "subnet-0884068afc106966d",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0f03bf8fc0f34227c",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-09161a19440d25e4e",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "::/0",
+                    "GatewayId": "igw-09161a19440d25e4e",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-public-rt01-ap-southeast-1c"
+                }
+            ],
+            "VpcId": "vpc-0e8a205860906c944",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-00938d34c24790d0f",
+                    "RouteTableId": "rtb-028ea08e3562cb7b5",
+                    "SubnetId": "subnet-07477ea7b12869fb6",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-028ea08e3562cb7b5",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0e9d7d7987ebbe624"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0d2e09e5aed6bacab"
+                },
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-07fc3286c9abc3372",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-private-rt01-ap-southeast-1a"
+                }
+            ],
+            "VpcId": "vpc-0e8a205860906c944",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0c7b035b6573252e3",
+                    "RouteTableId": "rtb-07ac734630eade71e",
+                    "SubnetId": "subnet-0c7c75a4cb933c3fa",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0b098b86c5526a160",
+                    "RouteTableId": "rtb-07ac734630eade71e",
+                    "SubnetId": "subnet-0903144020de49654",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-07ac734630eade71e",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-09161a19440d25e4e",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending-public-rt02-ap-southeast-1a"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                }
+            ],
+            "VpcId": "vpc-0e8a205860906c944",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0f4d8b5b842f45377",
+                    "RouteTableId": "rtb-07960ff2d7d209c68",
+                    "SubnetId": "subnet-05c267973f4d91486",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-07960ff2d7d209c68",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.20.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-032f61f557c0be53b",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "::/0",
+                    "GatewayId": "igw-032f61f557c0be53b",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "1token"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "internal-system-public-rt2"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cam"
+                }
+            ],
+            "VpcId": "vpc-0b7fe214033d48811",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-09cea45738cd1a9b2",
+                    "RouteTableId": "rtb-0579b935c3c87797b",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0579b935c3c87797b",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.22.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-0a772f108977d9208",
+            "OwnerId": "647828570435"
+        }
+    ]
+}

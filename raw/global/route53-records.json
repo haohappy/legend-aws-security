@@ -1,0 +1,824 @@
+{
+  "flowmind.life.": [
+    {
+      "Name": "flowmind.life.",
+      "Type": "A",
+      "AliasTarget": {
+        "HostedZoneId": "Z2FDTNDATAQYW2",
+        "DNSName": "d37ul7qt9d1g4g.cloudfront.net.",
+        "EvaluateTargetHealth": false
+      }
+    },
+    {
+      "Name": "flowmind.life.",
+      "Type": "MX",
+      "TTL": 600,
+      "ResourceRecords": [
+        {
+          "Value": "10 inbound-smtp.us-east-1.amazonaws.com."
+        }
+      ]
+    },
+    {
+      "Name": "flowmind.life.",
+      "Type": "NS",
+      "TTL": 172800,
+      "ResourceRecords": [
+        {
+          "Value": "ns-753.awsdns-30.net."
+        },
+        {
+          "Value": "ns-465.awsdns-58.com."
+        },
+        {
+          "Value": "ns-1917.awsdns-47.co.uk."
+        },
+        {
+          "Value": "ns-1252.awsdns-28.org."
+        }
+      ]
+    },
+    {
+      "Name": "flowmind.life.",
+      "Type": "SOA",
+      "TTL": 900,
+      "ResourceRecords": [
+        {
+          "Value": "ns-753.awsdns-30.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        }
+      ]
+    },
+    {
+      "Name": "flowmind.life.",
+      "Type": "TXT",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "\"v=spf1 include:amazonses.com ~all\""
+        }
+      ]
+    },
+    {
+      "Name": "_2720709fbac27f90dd336075ccb764f3.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 500,
+      "ResourceRecords": [
+        {
+          "Value": "_8bac6601ede616dbed361e4f8b0f55fc.jkddzztszm.acm-validations.aws."
+        }
+      ]
+    },
+    {
+      "Name": "_amazonses.flowmind.life.",
+      "Type": "TXT",
+      "TTL": 600,
+      "ResourceRecords": [
+        {
+          "Value": "\"YWLdHaBecvmpwYRnGBgV0X0fYNnXuTeTLe7pPThqIkw=\""
+        }
+      ]
+    },
+    {
+      "Name": "_dmarc.flowmind.life.",
+      "Type": "TXT",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "\"v=DMARC1; p=none;\""
+        }
+      ]
+    },
+    {
+      "Name": "fcumuqyyrglqwcna2pjnuibylvvjwdsd._domainkey.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 1800,
+      "ResourceRecords": [
+        {
+          "Value": "fcumuqyyrglqwcna2pjnuibylvvjwdsd.dkim.amazonses.com"
+        }
+      ]
+    },
+    {
+      "Name": "fzbr6m3f2ers4bqonj57y4wepjx4pdbg._domainkey.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 1800,
+      "ResourceRecords": [
+        {
+          "Value": "fzbr6m3f2ers4bqonj57y4wepjx4pdbg.dkim.amazonses.com"
+        }
+      ]
+    },
+    {
+      "Name": "qbnwyp6tgj7lqhyqdyyb2hmexkb2eovb._domainkey.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 1800,
+      "ResourceRecords": [
+        {
+          "Value": "qbnwyp6tgj7lqhyqdyyb2hmexkb2eovb.dkim.amazonses.com"
+        }
+      ]
+    },
+    {
+      "Name": "resend._domainkey.flowmind.life.",
+      "Type": "TXT",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "\"p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMJBJiYMNw/rWWqkmm3i76N+nchSztYNUznczQnCLFmlH9j+OM3pXFAdoyc/iKtKDCsfNUiwAjb+HUojv/uzKe02IIp2OeBGCQ02qYWbnoUeUzeMfktaQilAEtpG9D/rTRMBPJ+ITf8+jlMKJXX7EmaCoPtZG+EXpZae5P+Ue/oQIDAQAB\""
+        }
+      ]
+    },
+    {
+      "Name": "auth.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 60,
+      "ResourceRecords": [
+        {
+          "Value": "bypwrwqxifmpjrvzuynx.supabase.co"
+        }
+      ]
+    },
+    {
+      "Name": "_acme-challenge.auth.flowmind.life.",
+      "Type": "TXT",
+      "TTL": 60,
+      "ResourceRecords": [
+        {
+          "Value": "\"x0zLycjlHF-z7Ox3eQximSnvbivMdH2mGITJIdUYk7I\""
+        }
+      ]
+    },
+    {
+      "Name": "autodiscover.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 600,
+      "ResourceRecords": [
+        {
+          "Value": "autodiscover.mail.us-east-1.awsapps.com."
+        }
+      ]
+    },
+    {
+      "Name": "docs.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "flowmind-f0c79578.readmessl.com"
+        }
+      ]
+    },
+    {
+      "Name": "flowmind.life.flowmind.life.",
+      "Type": "TXT",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "\"v=spf1 include:amazonses.com ~all\""
+        }
+      ]
+    },
+    {
+      "Name": "_amazonses.flowmind.life.flowmind.life.",
+      "Type": "TXT",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "\"YWLdHaBecvmpwYRnGBgV0X0fYNnXuTeTLe7pPThqIkw=\""
+        }
+      ]
+    },
+    {
+      "Name": "_dmarc.flowmind.life.flowmind.life.",
+      "Type": "TXT",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "\"v=DMARC1;p=quarantine;pct=100;fo=1\""
+        }
+      ]
+    },
+    {
+      "Name": "fcumuqyyrglqwcna2pjnuibylvvjwdsd._domainkey.flowmind.life.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "fcumuqyyrglqwcna2pjnuibylvvjwdsd.dkim.amazonses.com."
+        }
+      ]
+    },
+    {
+      "Name": "fzbr6m3f2ers4bqonj57y4wepjx4pdbg._domainkey.flowmind.life.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "fzbr6m3f2ers4bqonj57y4wepjx4pdbg.dkim.amazonses.com."
+        }
+      ]
+    },
+    {
+      "Name": "qbnwyp6tgj7lqhyqdyyb2hmexkb2eovb._domainkey.flowmind.life.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "qbnwyp6tgj7lqhyqdyyb2hmexkb2eovb.dkim.amazonses.com."
+        }
+      ]
+    },
+    {
+      "Name": "send.flowmind.life.",
+      "Type": "MX",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "10 feedback-smtp.us-east-1.amazonses.com"
+        }
+      ]
+    },
+    {
+      "Name": "send.flowmind.life.",
+      "Type": "TXT",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "\"v=spf1 include:amazonses.com ~all\""
+        }
+      ]
+    },
+    {
+      "Name": "www.flowmind.life.",
+      "Type": "CNAME",
+      "TTL": 500,
+      "ResourceRecords": [
+        {
+          "Value": "d37ul7qt9d1g4g.cloudfront.net"
+        }
+      ]
+    }
+  ],
+  "mybrains.app.": [
+    {
+      "Name": "mybrains.app.",
+      "Type": "A",
+      "AliasTarget": {
+        "HostedZoneId": "Z2FDTNDATAQYW2",
+        "DNSName": "d3ea15qzexgnkd.cloudfront.net.",
+        "EvaluateTargetHealth": false
+      }
+    },
+    {
+      "Name": "mybrains.app.",
+      "Type": "NS",
+      "TTL": 172800,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1093.awsdns-08.org."
+        },
+        {
+          "Value": "ns-107.awsdns-13.com."
+        },
+        {
+          "Value": "ns-1899.awsdns-45.co.uk."
+        },
+        {
+          "Value": "ns-744.awsdns-29.net."
+        }
+      ]
+    },
+    {
+      "Name": "mybrains.app.",
+      "Type": "SOA",
+      "TTL": 900,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1093.awsdns-08.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        }
+      ]
+    },
+    {
+      "Name": "_51ecf6016fe2e52b257fb0f61c272ef5.mybrains.app.",
+      "Type": "CNAME",
+      "TTL": 500,
+      "ResourceRecords": [
+        {
+          "Value": "_8de7dd22f6c63b1e8945e6338def0874.jkddzztszm.acm-validations.aws."
+        }
+      ]
+    },
+    {
+      "Name": "flowtrace.mybrains.app.",
+      "Type": "CNAME",
+      "TTL": 500,
+      "ResourceRecords": [
+        {
+          "Value": "d2107nembgcsyc.cloudfront.net"
+        }
+      ]
+    },
+    {
+      "Name": "legend.mybrains.app.",
+      "Type": "CNAME",
+      "TTL": 500,
+      "ResourceRecords": [
+        {
+          "Value": "d3ea15qzexgnkd.cloudfront.net"
+        }
+      ]
+    },
+    {
+      "Name": "lg.mybrains.app.",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "lg-ops-api-alb-230699295.us-east-1.elb.amazonaws.com"
+        }
+      ]
+    },
+    {
+      "Name": "_3d8aded2e8b6ac88d6b24f58dac01fed.lg.mybrains.app.",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "_cc64d40f4a0bfc4cf60256129dfd73a4.jkddzztszm.acm-validations.aws."
+        }
+      ]
+    },
+    {
+      "Name": "pandy.mybrains.app.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "13.56.207.50"
+        }
+      ]
+    }
+  ],
+  "hot.bot.": [
+    {
+      "Name": "hot.bot.",
+      "Type": "NS",
+      "TTL": 172800,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1272.awsdns-31.org."
+        },
+        {
+          "Value": "ns-299.awsdns-37.com."
+        },
+        {
+          "Value": "ns-1974.awsdns-54.co.uk."
+        },
+        {
+          "Value": "ns-956.awsdns-55.net."
+        }
+      ]
+    },
+    {
+      "Name": "hot.bot.",
+      "Type": "SOA",
+      "TTL": 900,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1272.awsdns-31.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        }
+      ]
+    },
+    {
+      "Name": "token.hot.bot.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "54.174.189.178"
+        }
+      ]
+    }
+  ],
+  "rpzzing.net.": [
+    {
+      "Name": "rpzzing.net.",
+      "Type": "NS",
+      "TTL": 172800,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1050.awsdns-03.org."
+        },
+        {
+          "Value": "ns-572.awsdns-07.net."
+        },
+        {
+          "Value": "ns-432.awsdns-54.com."
+        },
+        {
+          "Value": "ns-2009.awsdns-59.co.uk."
+        }
+      ]
+    },
+    {
+      "Name": "rpzzing.net.",
+      "Type": "SOA",
+      "TTL": 900,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1050.awsdns-03.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        }
+      ]
+    },
+    {
+      "Name": "aliyun-qatestserver-sgp01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "8.222.189.174"
+        }
+      ]
+    },
+    {
+      "Name": "api.rpzzing.net.",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "split.rpzzing.net"
+        }
+      ]
+    },
+    {
+      "Name": "aws-netopsserver-us01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "34.228.27.204"
+        }
+      ]
+    },
+    {
+      "Name": "devserver-backend-ie01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "10.1.16.138"
+        }
+      ]
+    },
+    {
+      "Name": "devserver-backend-ie02.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "10.1.16.6"
+        }
+      ]
+    },
+    {
+      "Name": "devserver-backend-us01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "10.0.6.7"
+        }
+      ]
+    },
+    {
+      "Name": "devserver-backend-us02.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "10.0.6.8"
+        }
+      ]
+    },
+    {
+      "Name": "devserver-common-sgp01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "47.245.107.74"
+        }
+      ]
+    },
+    {
+      "Name": "devserver-frontend-usouter01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "44.214.57.129"
+        }
+      ]
+    },
+    {
+      "Name": "devserver-innerfrontend-us01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "10.0.6.51"
+        }
+      ]
+    },
+    {
+      "Name": "hkdev.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "47.76.61.87"
+        }
+      ]
+    },
+    {
+      "Name": "netops-innerserver-us01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "10.0.0.82"
+        }
+      ]
+    },
+    {
+      "Name": "ns1.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "8.222.189.174"
+        }
+      ]
+    },
+    {
+      "Name": "sandbox-innerserver-us01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "10.0.1.235"
+        }
+      ]
+    },
+    {
+      "Name": "split.rpzzing.net.",
+      "Type": "CNAME",
+      "ResourceRecords": [
+        {
+          "Value": "Traffic policy record"
+        }
+      ],
+      "TrafficPolicyInstanceId": "18f4cda9-7a3e-40c5-bcdc-24a1da9e12f3"
+    },
+    {
+      "Name": "staging-backend-us01.rpzzing.net.",
+      "Type": "A",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "10.0.6.91"
+        }
+      ]
+    }
+  ],
+  "legendpay.com.": [
+    {
+      "Name": "legendpay.com.",
+      "Type": "NS",
+      "TTL": 172800,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1840.awsdns-38.co.uk."
+        },
+        {
+          "Value": "ns-460.awsdns-57.com."
+        },
+        {
+          "Value": "ns-1349.awsdns-40.org."
+        },
+        {
+          "Value": "ns-584.awsdns-09.net."
+        }
+      ]
+    },
+    {
+      "Name": "legendpay.com.",
+      "Type": "SOA",
+      "TTL": 900,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1840.awsdns-38.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        }
+      ]
+    },
+    {
+      "Name": "_cd94616a6bdcbe3de148e6be9880284b.legendpay.com.",
+      "Type": "CNAME",
+      "TTL": 500,
+      "ResourceRecords": [
+        {
+          "Value": "_949022d692e0eec0c798e0f70cc0c022.jkddzztszm.acm-validations.aws."
+        }
+      ]
+    }
+  ],
+  "legendtrading.com.": [
+    {
+      "Name": "legendtrading.com.",
+      "Type": "NS",
+      "TTL": 172800,
+      "ResourceRecords": [
+        {
+          "Value": "ns-778.awsdns-33.net."
+        },
+        {
+          "Value": "ns-1901.awsdns-45.co.uk."
+        },
+        {
+          "Value": "ns-281.awsdns-35.com."
+        },
+        {
+          "Value": "ns-1395.awsdns-46.org."
+        }
+      ]
+    },
+    {
+      "Name": "legendtrading.com.",
+      "Type": "SOA",
+      "TTL": 900,
+      "ResourceRecords": [
+        {
+          "Value": "ns-778.awsdns-33.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        }
+      ]
+    },
+    {
+      "Name": "_31e9b42c9d68cd86af45b88bb8238642.legendtrading.com.",
+      "Type": "CNAME",
+      "TTL": 500,
+      "ResourceRecords": [
+        {
+          "Value": "_9ffd5cd8cf7a119946ac1d0dc3923bea.jkddzztszm.acm-validations.aws."
+        }
+      ]
+    },
+    {
+      "Name": "feuy6omvgfadk4agqb3eot43wu7vmlqb._domainkey.legendtrading.com.",
+      "Type": "CNAME",
+      "TTL": 1800,
+      "ResourceRecords": [
+        {
+          "Value": "feuy6omvgfadk4agqb3eot43wu7vmlqb.dkim.amazonses.com"
+        }
+      ]
+    },
+    {
+      "Name": "jymbkg62nuziqqw65jt2inw345bjelz4._domainkey.legendtrading.com.",
+      "Type": "CNAME",
+      "TTL": 1800,
+      "ResourceRecords": [
+        {
+          "Value": "jymbkg62nuziqqw65jt2inw345bjelz4.dkim.amazonses.com"
+        }
+      ]
+    },
+    {
+      "Name": "ypwt2goeqvsalktcn4l2dap2ei2q2fl6._domainkey.legendtrading.com.",
+      "Type": "CNAME",
+      "TTL": 1800,
+      "ResourceRecords": [
+        {
+          "Value": "ypwt2goeqvsalktcn4l2dap2ei2q2fl6.dkim.amazonses.com"
+        }
+      ]
+    },
+    {
+      "Name": "api.legendtrading.com.",
+      "Type": "A",
+      "AliasTarget": {
+        "HostedZoneId": "Z35SXDOTRQ7X7K",
+        "DNSName": "dualstack.weblb-1939533980.us-east-1.elb.amazonaws.com.",
+        "EvaluateTargetHealth": true
+      }
+    },
+    {
+      "Name": "help.legendtrading.com.",
+      "Type": "A",
+      "AliasTarget": {
+        "HostedZoneId": "Z2FDTNDATAQYW2",
+        "DNSName": "d2elth6vhsl4rw.cloudfront.net.",
+        "EvaluateTargetHealth": false
+      }
+    },
+    {
+      "Name": "_fc95bb99410cdb9424fab6c32da42590.help.legendtrading.com.",
+      "Type": "CNAME",
+      "TTL": 500,
+      "ResourceRecords": [
+        {
+          "Value": "_42769ba4b90f1384499a5b4fc43fae22.jkddzztszm.acm-validations.aws."
+        }
+      ]
+    },
+    {
+      "Name": "sandboxapi.legendtrading.com.",
+      "Type": "A",
+      "AliasTarget": {
+        "HostedZoneId": "Z35SXDOTRQ7X7K",
+        "DNSName": "dualstack.weblb-1939533980.us-east-1.elb.amazonaws.com.",
+        "EvaluateTargetHealth": true
+      }
+    },
+    {
+      "Name": "www.legendtrading.com.",
+      "Type": "A",
+      "AliasTarget": {
+        "HostedZoneId": "Z35SXDOTRQ7X7K",
+        "DNSName": "dualstack.weblb-1939533980.us-east-1.elb.amazonaws.com.",
+        "EvaluateTargetHealth": true
+      }
+    }
+  ],
+  "legendtrading.co.za.": [
+    {
+      "Name": "legendtrading.co.za.",
+      "Type": "NS",
+      "TTL": 172800,
+      "ResourceRecords": [
+        {
+          "Value": "ns-679.awsdns-20.net."
+        },
+        {
+          "Value": "ns-1857.awsdns-40.co.uk."
+        },
+        {
+          "Value": "ns-374.awsdns-46.com."
+        },
+        {
+          "Value": "ns-1357.awsdns-41.org."
+        }
+      ]
+    },
+    {
+      "Name": "legendtrading.co.za.",
+      "Type": "SOA",
+      "TTL": 900,
+      "ResourceRecords": [
+        {
+          "Value": "ns-679.awsdns-20.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        }
+      ]
+    }
+  ],
+  "us-east-1.aoss.amazonaws.com.": [
+    {
+      "Name": "us-east-1.aoss.amazonaws.com.",
+      "Type": "NS",
+      "TTL": 172800,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1536.awsdns-00.co.uk."
+        },
+        {
+          "Value": "ns-0.awsdns-00.com."
+        },
+        {
+          "Value": "ns-1024.awsdns-00.org."
+        },
+        {
+          "Value": "ns-512.awsdns-00.net."
+        }
+      ]
+    },
+    {
+      "Name": "us-east-1.aoss.amazonaws.com.",
+      "Type": "SOA",
+      "TTL": 900,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1536.awsdns-00.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        }
+      ]
+    },
+    {
+      "Name": "\\052.us-east-1.aoss.amazonaws.com.",
+      "Type": "CNAME",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "privatelink.c01.sgw.iad.prod.aoss.searchservices.aws.dev"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+    "Vpcs": [
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-080c0bac9d092d489",
+                    "CidrBlock": "10.20.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "1token"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cam"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "internal-system"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-0b7fe214033d48811",
+            "State": "available",
+            "CidrBlock": "10.20.0.0/16",
+            "DhcpOptionsId": "dopt-6b514309"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-028f0778f7635d758",
+                    "CidrBlock": "10.30.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-0e8a205860906c944",
+            "State": "available",
+            "CidrBlock": "10.30.0.0/16",
+            "DhcpOptionsId": "dopt-6b514309"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-3f896056",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true,
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-84f318e1",
+            "State": "available",
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-6b514309"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0faf70897ed681340",
+                    "CidrBlock": "10.21.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "mpc"
+                },
+                {
+                    "Key": "bussinessLine",
+                    "Value": "mpc"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "State": "available",
+            "CidrBlock": "10.21.0.0/16",
+            "DhcpOptionsId": "dopt-6b514309"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0fa17963d28a3e2d2",
+                    "CidrBlock": "10.101.0.0/24",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpn-sg-vpc"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "vpn-sg"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-0c3712644ef5a4efb",
+            "State": "available",
+            "CidrBlock": "10.101.0.0/24",
+            "DhcpOptionsId": "dopt-6b514309"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-05961352b93558795",
+                    "CidrBlock": "10.22.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "crossborder-payment"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "crossborder-payment"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-0a772f108977d9208",
+            "State": "available",
+            "CidrBlock": "10.22.0.0/16",
+            "DhcpOptionsId": "dopt-6b514309"
+        }
+    ]
+}

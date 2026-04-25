@@ -1,0 +1,217 @@
+{
+    "logGroups": [
+        {
+            "logGroupName": "/aws/ecs/containerinsights/flashwire-lending/performance",
+            "creationTime": 1713426580748,
+            "retentionInDays": 1,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/ecs/containerinsights/flashwire-lending/performance:*",
+            "storedBytes": 2088982,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/ecs/containerinsights/flashwire-lending/performance",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/ecs/containerinsights/flashwire/performance",
+            "creationTime": 1690181907768,
+            "retentionInDays": 1,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/ecs/containerinsights/flashwire/performance:*",
+            "storedBytes": 13370898,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/ecs/containerinsights/flashwire/performance",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/SESLog",
+            "creationTime": 1725351764562,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/SESLog:*",
+            "storedBytes": 523731,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/SESLog",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/accountlog-debitcardapi",
+            "creationTime": 1697897365206,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/accountlog-debitcardapi:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/accountlog-debitcardapi",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/amllog-debitcardapi",
+            "creationTime": 1698064687052,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/amllog-debitcardapi:*",
+            "storedBytes": 1196,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/amllog-debitcardapi",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/cobolog-debitcardapi",
+            "creationTime": 1698049719969,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/cobolog-debitcardapi:*",
+            "storedBytes": 459765,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/cobolog-debitcardapi",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/commonbusinesslogs-debitcardapi",
+            "creationTime": 1698642724468,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/commonbusinesslogs-debitcardapi:*",
+            "storedBytes": 703121,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/commonbusinesslogs-debitcardapi",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/cuteidapi-commonbusinesslogs",
+            "creationTime": 1721216368611,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/cuteidapi-commonbusinesslogs:*",
+            "storedBytes": 336,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/cuteidapi-commonbusinesslogs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/debitcardapi-laravellog",
+            "creationTime": 1695786774677,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/debitcardapi-laravellog:*",
+            "storedBytes": 837615,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/debitcardapi-laravellog",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/flashwire-asset-frontend",
+            "creationTime": 1703587991003,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/flashwire-asset-frontend:*",
+            "storedBytes": 3116,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/flashwire-asset-frontend",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/flashwire-commonbusinesslogs",
+            "creationTime": 1703064118236,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/flashwire-commonbusinesslogs:*",
+            "storedBytes": 4225,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/flashwire-commonbusinesslogs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/flashwire-stellapay-mobile-h5",
+            "creationTime": 1714039000630,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/flashwire-stellapay-mobile-h5:*",
+            "storedBytes": 2068,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/flashwire-stellapay-mobile-h5",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/mps-commonbusinesslogs",
+            "creationTime": 1710925896250,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/mps-commonbusinesslogs:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/mps-commonbusinesslogs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/reaplogs-debitcard",
+            "creationTime": 1697100247543,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/reaplogs-debitcard:*",
+            "storedBytes": 1338356,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/reaplogs-debitcard",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/staging-flashwire-commonbusinesslogs",
+            "creationTime": 1703576742490,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/staging-flashwire-commonbusinesslogs:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/staging-flashwire-commonbusinesslogs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/staging-mps-commonbusinesslogs",
+            "creationTime": 1711075870839,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/staging-mps-commonbusinesslogs:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/kinesisfirehose/staging-mps-commonbusinesslogs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/rds/instance/lending-web-production/slowquery",
+            "creationTime": 1669385130339,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/rds/instance/lending-web-production/slowquery:*",
+            "storedBytes": 12178130,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/rds/instance/lending-web-production/slowquery",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/rds/instance/replica-lg-rds-production/slowquery",
+            "creationTime": 1725411005225,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/rds/instance/replica-lg-rds-production/slowquery:*",
+            "storedBytes": 2019,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/rds/instance/replica-lg-rds-production/slowquery",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/rds/instance/replication-lg-rds-production/slowquery",
+            "creationTime": 1743038705167,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/rds/instance/replication-lg-rds-production/slowquery:*",
+            "storedBytes": 1766,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/aws/rds/instance/replication-lg-rds-production/slowquery",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/ecs/flashwire-zingtech",
+            "creationTime": 1706331512109,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/ecs/flashwire-zingtech:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:/ecs/flashwire-zingtech",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "RDSOSMetrics",
+            "creationTime": 1668483070336,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:RDSOSMetrics:*",
+            "storedBytes": 174930769,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:ap-southeast-1:647828570435:log-group:RDSOSMetrics",
+            "deletionProtectionEnabled": false
+        }
+    ]
+}

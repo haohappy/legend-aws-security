@@ -1,0 +1,747 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/lg-rds-mysql/06f4d6d2583748bd",
+            "DNSName": "lg-rds-mysql-06f4d6d2583748bd.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2022-11-20T11:56:14.514000+00:00",
+            "LoadBalancerName": "lg-rds-mysql",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/flashwire-staging-mysql/18f056c63f9a4c86",
+            "DNSName": "flashwire-staging-mysql-18f056c63f9a4c86.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2023-05-09T02:48:50.634000+00:00",
+            "LoadBalancerName": "flashwire-staging-mysql",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1f",
+                    "SubnetId": "subnet-0103bd5ff3ac5363a",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0ed88c9d97f658164",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/mlegendwebapi/1eb576bdbcf3c7c4",
+            "DNSName": "mlegendwebapi-1eb576bdbcf3c7c4.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2023-08-06T03:13:15.505000+00:00",
+            "LoadBalancerName": "mlegendwebapi",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/flashwire-web-nlb/287eb23a435817c3",
+            "DNSName": "flashwire-web-nlb-287eb23a435817c3.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2024-02-06T09:12:35.108000+00:00",
+            "LoadBalancerName": "flashwire-web-nlb",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-08bd14c693b911cae",
+                    "LoadBalancerAddresses": [
+                        {
+                            "IpAddress": "44.210.178.23",
+                            "AllocationId": "eipalloc-0e4ed4285f7b1ca03"
+                        }
+                    ]
+                }
+            ],
+            "SecurityGroups": [
+                "sg-03d83141e9e1682a5"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/legendcomtop/3bdd88e2e7d89cf4",
+            "DNSName": "legendcomtop-3bdd88e2e7d89cf4.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2023-07-26T04:18:34.882000+00:00",
+            "LoadBalancerName": "legendcomtop",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": [
+                        {
+                            "IpAddress": "34.200.48.249",
+                            "AllocationId": "eipalloc-04c45c01e0dcea2fc"
+                        }
+                    ]
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/index-service/4dc9aaa8e0cd31c2",
+            "DNSName": "index-service-4dc9aaa8e0cd31c2.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2022-10-25T13:25:59.826000+00:00",
+            "LoadBalancerName": "index-service",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-092a6107f6c8a14e7",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-04cd292477181e54f",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/test-traefik-nlb/737f05ea718544e2",
+            "DNSName": "test-traefik-nlb-737f05ea718544e2.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2025-06-25T09:09:38.569000+00:00",
+            "LoadBalancerName": "test-traefik-nlb",
+            "Scheme": "internal",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0440fa07cf72f80f8",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-039f8fcdb41a49a9a",
+                "sg-0598f747e51c388be",
+                "sg-09e7944b91dafbfca"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/test-mariadb-zingpays-conn/b7e44828fb71e6c6",
+            "DNSName": "test-mariadb-zingpays-conn-b7e44828fb71e6c6.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2024-09-20T09:15:35.821000+00:00",
+            "LoadBalancerName": "test-mariadb-zingpays-conn",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-0172d6b569cca4950",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-04cd292477181e54f",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-092a6107f6c8a14e7",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0b85669512a012b10"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/cutidaitop/ece447964ce8f63b",
+            "DNSName": "cutidaitop-ece447964ce8f63b.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2024-07-16T08:07:09.159000+00:00",
+            "LoadBalancerName": "cutidaitop",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": [
+                        {
+                            "IpAddress": "54.144.255.95",
+                            "AllocationId": "eipalloc-0c9ced65c2ed4f39f"
+                        }
+                    ]
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0b486c7e51abc0a61"
+            ],
+            "IpAddressType": "ipv4",
+            "EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic": "on",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/net/test-flashwire-staging-db/fedff423b1087611",
+            "DNSName": "test-flashwire-staging-db-fedff423b1087611.elb.us-east-1.amazonaws.com",
+            "CanonicalHostedZoneId": "Z26RNL4JYFTOTI",
+            "CreatedTime": "2024-10-14T04:33:39.345000+00:00",
+            "LoadBalancerName": "test-flashwire-staging-db",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1f",
+                    "SubnetId": "subnet-0103bd5ff3ac5363a",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0ed88c9d97f658164",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0bdc33665f8f4db07"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/weblb/a4f249cf1c3a46c0",
+            "DNSName": "weblb-1939533980.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2020-04-22T23:54:12.140000+00:00",
+            "LoadBalancerName": "weblb",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0b486c7e51abc0a61"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-web-lb/e74ae844f131ddd9",
+            "DNSName": "flashwire-web-lb-784464431.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2021-12-29T18:35:39.210000+00:00",
+            "LoadBalancerName": "flashwire-web-lb",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1f",
+                    "SubnetId": "subnet-0103bd5ff3ac5363a",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-08bd14c693b911cae",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-03d83141e9e1682a5"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legendtrading-com/0452a4331dfe1e5a",
+            "DNSName": "legendtrading-com-1098951339.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2022-08-29T17:11:15+00:00",
+            "LoadBalancerName": "legendtrading-com",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-06130215f1b85f32b"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/index-web/09f55877e134ab4d",
+            "DNSName": "index-web-1768426650.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2022-11-17T03:36:28.810000+00:00",
+            "LoadBalancerName": "index-web",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1a",
+                    "SubnetId": "subnet-04cd292477181e54f",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1b",
+                    "SubnetId": "subnet-092a6107f6c8a14e7",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0d8b66f1565564aa9"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-inner/08f8c916f8ccd129",
+            "DNSName": "internal-legend-inner-1617993340.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2023-11-22T15:53:19.240000+00:00",
+            "LoadBalancerName": "legend-inner",
+            "Scheme": "internal",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-0e2fec9f218215453",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0f6f1945625e5ba1c",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-039f8fcdb41a49a9a",
+                "sg-0c81de6c699b89c77",
+                "sg-09e7944b91dafbfca"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-outer-services/d0cfebe767b0241f",
+            "DNSName": "legend-outer-services-1701012105.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2023-11-23T13:32:17.210000+00:00",
+            "LoadBalancerName": "legend-outer-services",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-002e748237edbec79"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-inner-services/6a98d1271db24b24",
+            "DNSName": "internal-flashwire-inner-services-2033831243.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2023-12-23T05:41:13.510000+00:00",
+            "LoadBalancerName": "flashwire-inner-services",
+            "Scheme": "internal",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1f",
+                    "SubnetId": "subnet-04a9d37c3be00caaf",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0f54feb187d63c194",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-03d83141e9e1682a5"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/flashwire-outer-services/dbf5e06314427d9e",
+            "DNSName": "flashwire-outer-services-749430618.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2023-12-25T09:23:22.280000+00:00",
+            "LoadBalancerName": "flashwire-outer-services",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1f",
+                    "SubnetId": "subnet-0103bd5ff3ac5363a",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-08bd14c693b911cae",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-03d83141e9e1682a5"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/cuteid/27459450e42422d0",
+            "DNSName": "cuteid-1410322223.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2024-05-30T09:19:34.780000+00:00",
+            "LoadBalancerName": "cuteid",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0b486c7e51abc0a61"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-rd-test/50e43504db57adee",
+            "DNSName": "internal-legend-rd-test-1981270981.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2024-08-02T07:44:53.750000+00:00",
+            "LoadBalancerName": "legend-rd-test",
+            "Scheme": "internal",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-0e2fec9f218215453",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0f6f1945625e5ba1c",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-002e748237edbec79"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend-devops/820a4438ffa9ee6d",
+            "DNSName": "internal-legend-devops-689929002.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2025-10-16T13:46:45.627000+00:00",
+            "LoadBalancerName": "legend-devops",
+            "Scheme": "internal",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0440fa07cf72f80f8",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-090f07ff4591880ad",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-02d11f55b9eb686da",
+                "sg-05f26a45d03daa249"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/test-legendapi-staging/d2654049a9dd0b58",
+            "DNSName": "test-legendapi-staging-1116483459.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2025-11-25T12:20:42.619000+00:00",
+            "LoadBalancerName": "test-legendapi-staging",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0598f747e51c388be",
+                "sg-039f8fcdb41a49a9a",
+                "sg-0b486c7e51abc0a61"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legend/acd12129ec64642c",
+            "DNSName": "internal-legend-1097995834.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2025-11-27T12:59:29.263000+00:00",
+            "LoadBalancerName": "legend",
+            "Scheme": "internal",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-0e2fec9f218215453",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0f6f1945625e5ba1c",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0b486c7e51abc0a61"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/lg-ops-api-alb/f480a0f945ddfbef",
+            "DNSName": "lg-ops-api-alb-230699295.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2026-01-08T07:08:08.800000+00:00",
+            "LoadBalancerName": "lg-ops-api-alb",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0b6d288d6e9498e55"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:loadbalancer/app/legendpay-ai/139b8ec695874ccd",
+            "DNSName": "legendpay-ai-1967903326.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2026-03-19T07:00:25.463000+00:00",
+            "LoadBalancerName": "legendpay-ai",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1d",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0b486c7e51abc0a61"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        }
+    ]
+}

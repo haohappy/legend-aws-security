@@ -1,0 +1,74 @@
+{
+    "InternetGateways": [
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-0cc2aa7ac68fbaf61"
+                }
+            ],
+            "InternetGatewayId": "igw-0581e9cb7332cbc15",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "gateway_public1"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-0ef64137b97e9eb00"
+                }
+            ],
+            "InternetGatewayId": "igw-0918f6ca0912aae70",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-gw"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-0a8e8be43ee21c493"
+                }
+            ],
+            "InternetGatewayId": "igw-0afdda2bb8f9f2fd0",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-igw"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-8bd220f2"
+                }
+            ],
+            "InternetGatewayId": "igw-0cf35b6a",
+            "OwnerId": "647828570435",
+            "Tags": []
+        },
+        {
+            "Attachments": [],
+            "InternetGatewayId": "igw-0f304384b3ada1ddb",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "test"
+                }
+            ]
+        }
+    ]
+}

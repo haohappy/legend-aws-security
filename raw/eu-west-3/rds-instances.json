@@ -1,0 +1,111 @@
+{
+    "DBInstances": [
+        {
+            "DBInstanceIdentifier": "replica-lg-ie-production",
+            "DBInstanceClass": "db.t4g.micro",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "admin4900s",
+            "Endpoint": {
+                "Address": "replica-lg-ie-production.cebzmho6zune.eu-west-3.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "ZMESEXB7ZGGQ3"
+            },
+            "AllocatedStorage": 500,
+            "InstanceCreateTime": "2025-12-09T12:55:50.094000+00:00",
+            "PreferredBackupWindow": "23:29-23:59",
+            "BackupRetentionPeriod": 0,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0a7d5054cd8c3c30a",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "default.mysql8.0",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "eu-west-3a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "replica-lg-ie-production",
+                "DBSubnetGroupDescription": "for replica-lg-ie-production",
+                "VpcId": "vpc-02775b0dac0fb2ea5",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-02aaf9e37b2369f70",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-3a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-0993eeda30d37844d",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-3b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "tue:07:29-tue:07:59",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "MultiAZ": false,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": false,
+            "ReadReplicaSourceDBInstanceIdentifier": "arn:aws:rds:eu-west-1:647828570435:db:lg-ie-production",
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "Iops": 12000,
+            "StorageThroughput": 500,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": false,
+            "StatusInfos": [
+                {
+                    "StatusType": "read replication",
+                    "Normal": true,
+                    "Status": "replicating"
+                }
+            ],
+            "StorageType": "gp3",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:eu-west-3:647828570435:key/7d599f7d-a3a8-4656-9be2-84ed2e81924f",
+            "DbiResourceId": "db-BQ5CUUQ57QIOI2JC5R4BA6KJ5A",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": false,
+            "MonitoringInterval": 0,
+            "DBInstanceArn": "arn:aws:rds:eu-west-3:647828570435:db:replica-lg-ie-production",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": false,
+            "DeletionProtection": true,
+            "AssociatedRoles": [],
+            "MaxAllocatedStorage": 1000,
+            "TagList": [],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2026-12-09T12:50:16+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": false,
+            "EngineLifecycleSupport": "open-source-rds-extended-support"
+        }
+    ]
+}

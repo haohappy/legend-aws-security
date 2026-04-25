@@ -1,0 +1,327 @@
+{
+  "Keys": [
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "0b573ff0-6149-499c-9090-9d9382ebe633",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/0b573ff0-6149-499c-9090-9d9382ebe633",
+      "CreationDate": "2020-01-04T10:53:11.146000+05:00",
+      "Enabled": true,
+      "Description": "Default master key that protects my SNS data when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "2ab402bf2010f17eef3cb080d1f96e9c646d7dfab5d9a7736f2f5c5bfae44d92"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "0e493438-2f3f-4aa6-9de2-6e7e357d84be",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/0e493438-2f3f-4aa6-9de2-6e7e357d84be",
+      "CreationDate": "2023-05-23T12:47:41.421000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my Secrets Manager data when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "bd884f2e7cc09d5a9901462041bf36f473f9703c11554943dcd8ded827218856"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "39776be0-3301-49f0-b8aa-8501ce8ceb01",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/39776be0-3301-49f0-b8aa-8501ce8ceb01",
+      "CreationDate": "2021-05-06T22:40:54.847000+05:00",
+      "Enabled": true,
+      "Description": "Default master key that protects my ACM private keys when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "6e08a993fdda107e2e2141215a2c22e8c0ea877437ebd80cbc56e28da5545d35"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "3ee9fbf0-3c82-46c6-8cc6-724ad060a98a",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/3ee9fbf0-3c82-46c6-8cc6-724ad060a98a",
+      "CreationDate": "2024-09-26T07:58:29.402000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my CodeArtifact data when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "995f30843ca8351c22469e89bdc0dedf541401036844ca9fc8f9cffa00ace10f"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "44ea1d63-dc2b-4720-b24a-743c093acd5c",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/44ea1d63-dc2b-4720-b24a-743c093acd5c",
+      "CreationDate": "2024-11-12T12:03:47.337000+05:00",
+      "Enabled": true,
+      "Description": "for dev env safeheron",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "CUSTOMER",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "b310f9e111ab3bc11b083921d42ec0484d7f2055da522a90d6143f3f251fd415"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "66139283-14fe-4bfc-b4fd-21416db79fa9",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/66139283-14fe-4bfc-b4fd-21416db79fa9",
+      "CreationDate": "2023-11-14T11:33:01.396000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my Backup data when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "9f7983c26d5fe434288a844c8fc7daae03e3b487ed7240ea9f3a716f1dd4dd35"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "67f534e2-653e-4d79-af9a-5ff5cb1187fa",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/67f534e2-653e-4d79-af9a-5ff5cb1187fa",
+      "CreationDate": "2023-10-13T20:13:59.908000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my EFS filesystems when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "dc5f3ffe4688523ce3b9e8d7ba35295a2c777ed23bfe2c4708f26b90c24802bf"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "7f565180-ad1a-4892-8ddd-290fe44499ea",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/7f565180-ad1a-4892-8ddd-290fe44499ea",
+      "CreationDate": "2023-07-15T15:08:39.987000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my SSM parameters when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "b48dd486b07d0a63a3cc8b2fa1151bddaf142a007f6a4fd30fb344be304b1114"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "8e226970-5e11-4f9d-ac09-cd547a30b95f",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/8e226970-5e11-4f9d-ac09-cd547a30b95f",
+      "CreationDate": "2020-06-06T06:17:04.990000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my Amazon OpenSearch Service (successor to Amazon Elasticsearch Service) data when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "7e6c0b16d4fb1877e992ca2929d55f500c50fdbf191d08007c01e2436cd990ec"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "9bad10d9-2b40-4af0-a338-255b3a13c8ca",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/9bad10d9-2b40-4af0-a338-255b3a13c8ca",
+      "CreationDate": "2026-04-01T11:56:26.185000+05:00",
+      "Enabled": true,
+      "Description": "",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "CUSTOMER",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "c6c7e43a111bb31eda43e1915749fbd566f05a1caab66cfc3fc17f4ea4671621"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "9d21f3d7-351d-437a-88e0-10d68311e98e",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/9d21f3d7-351d-437a-88e0-10d68311e98e",
+      "CreationDate": "2017-05-16T04:43:59.778000+05:00",
+      "Enabled": true,
+      "Description": "Default master key that protects my EBS volumes when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "44b19b0d92948599e09eee2055a9542c8153a51e10d76301b38eadcc28bbe8c3"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "ac352e36-dafe-413a-a642-b653a2d7eb62",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/ac352e36-dafe-413a-a642-b653a2d7eb62",
+      "CreationDate": "2023-10-12T13:37:29.359000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my S3 objects when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "abd64b17ce723cd215e575c31d30de7c219943db2d84c42ed7182cb3a8672621"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "bb270883-4509-4b29-8465-a4917df55735",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/bb270883-4509-4b29-8465-a4917df55735",
+      "CreationDate": "2025-12-22T11:45:11.200000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my WorkMail mailboxes when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "6ffd71359cbb7aa158bf870c7f901ac4e6243d86441ec2f46120ef8c338a8eb7"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "c300c692-dddd-4678-bd1f-5f20858086fd",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/c300c692-dddd-4678-bd1f-5f20858086fd",
+      "CreationDate": "2023-11-22T12:06:04.868000+05:00",
+      "Enabled": true,
+      "Description": "",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "CUSTOMER",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "aba6ea5ccff44719de6f1c7e91c6c8543d690ebe6b95dd15fe12df7500fabb11"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "d6b3932a-a6a7-4147-b271-54d64b1f189a",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/d6b3932a-a6a7-4147-b271-54d64b1f189a",
+      "CreationDate": "2020-04-25T06:18:27.113000+05:00",
+      "Enabled": true,
+      "Description": "Default master key that protects my RDS database volumes when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "7d8c745c3ac8c03e51f20b0f48bb1e9b9284b051b743483fa0fa0b7fc2eacf7f"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "f33c41e9-f20e-40a5-96c1-ae49f7bb8e39",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/f33c41e9-f20e-40a5-96c1-ae49f7bb8e39",
+      "CreationDate": "2024-11-04T07:11:53.771000+05:00",
+      "Enabled": true,
+      "Description": "for legendtrading  safeheron using",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "CUSTOMER",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "c9e0bca840d2f282741992accc7654e355e58563a5caf1132cb843292167c6fb"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "f7a388ed-24a5-4cab-8f7f-c37c31d5d736",
+      "Arn": "arn:aws:kms:us-east-1:647828570435:key/f7a388ed-24a5-4cab-8f7f-c37c31d5d736",
+      "CreationDate": "2023-06-13T08:23:43.503000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my ECR data when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "09a67e5df27277ccde0234263fec624c0b325716d134e80805a609bff6a7ffd4"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+    "InternetGateways": [
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-03cc70f7b5668f3c7"
+                }
+            ],
+            "InternetGatewayId": "igw-00aec0a2f52a5b3af",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-igw"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-7317ed16"
+                }
+            ],
+            "InternetGatewayId": "igw-8c13fce9",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "default"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZoneId": "euw3-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:eu-west-3:647828570435:subnet/subnet-30c3924b",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-30c3924b",
+            "State": "available",
+            "VpcId": "vpc-e720338e",
+            "CidrBlock": "172.31.16.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "eu-west-3b",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "euw3-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:eu-west-3:647828570435:subnet/subnet-b4dde3dd",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-b4dde3dd",
+            "State": "available",
+            "VpcId": "vpc-e720338e",
+            "CidrBlock": "172.31.0.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "eu-west-3a",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "euw3-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-subnet-public1-eu-west-3b"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-3:647828570435:subnet/subnet-0d750108c66777bb3",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0d750108c66777bb3",
+            "State": "available",
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "CidrBlock": "10.2.12.0/22",
+            "AvailableIpAddressCount": 1019,
+            "AvailabilityZone": "eu-west-3b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw3-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-subnet-private1-eu-west-3a"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-3:647828570435:subnet/subnet-02aaf9e37b2369f70",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-02aaf9e37b2369f70",
+            "State": "available",
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "CidrBlock": "10.2.0.0/22",
+            "AvailableIpAddressCount": 1018,
+            "AvailabilityZone": "eu-west-3a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw3-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-subnet-private1-eu-west-3b"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-3:647828570435:subnet/subnet-0993eeda30d37844d",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0993eeda30d37844d",
+            "State": "available",
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "CidrBlock": "10.2.4.0/22",
+            "AvailableIpAddressCount": 1019,
+            "AvailabilityZone": "eu-west-3b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw3-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-subnet-public1-eu-west-3a"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:eu-west-3:647828570435:subnet/subnet-0b2208ec1f92cf7c2",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0b2208ec1f92cf7c2",
+            "State": "available",
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "CidrBlock": "10.2.8.0/22",
+            "AvailableIpAddressCount": 1019,
+            "AvailabilityZone": "eu-west-3a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "euw3-az3",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:eu-west-3:647828570435:subnet/subnet-9474eed9",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-9474eed9",
+            "State": "available",
+            "VpcId": "vpc-e720338e",
+            "CidrBlock": "172.31.32.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "eu-west-3c",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        }
+    ]
+}

@@ -1,0 +1,1018 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZoneId": "apse1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-bee105c9",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-bee105c9",
+            "State": "available",
+            "VpcId": "vpc-84f318e1",
+            "CidrBlock": "172.31.16.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "ap-southeast-1b",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-staging-public01"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0903144020de49654",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0903144020de49654",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.6.128/26",
+            "AvailableIpAddressCount": 56,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-subnet-private01"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "env",
+                    "Value": "testing"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-092f3e919aa76b5ca",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-092f3e919aa76b5ca",
+            "State": "available",
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "CidrBlock": "10.21.2.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-subnet-private03"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0d7624be6efc59a76",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0d7624be6efc59a76",
+            "State": "available",
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "CidrBlock": "10.21.5.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-subnet-public01"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0713a50458e3e45b5",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0713a50458e3e45b5",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.0.0/24",
+            "AvailableIpAddressCount": 245,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-subnet-private01"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-07477ea7b12869fb6",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-07477ea7b12869fb6",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.3.0/24",
+            "AvailableIpAddressCount": 248,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-c5da1ba0",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-c5da1ba0",
+            "State": "available",
+            "VpcId": "vpc-84f318e1",
+            "CidrBlock": "172.31.0.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "apse1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "cobo-subnet-public02"
+                },
+                {
+                    "Key": "env",
+                    "Value": "testing"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0c6fe9e3296aa3137",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0c6fe9e3296aa3137",
+            "State": "available",
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "CidrBlock": "10.21.1.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "ap-southeast-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-subnet-public03"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-00f96e1a707da6572",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-00f96e1a707da6572",
+            "State": "available",
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "CidrBlock": "10.21.4.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending-staging-public02"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0c7c75a4cb933c3fa",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0c7c75a4cb933c3fa",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.6.192/26",
+            "AvailableIpAddressCount": 56,
+            "AvailabilityZone": "ap-southeast-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-subnet-public02"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0024bf80fdc9d2915",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0024bf80fdc9d2915",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.1.0/24",
+            "AvailableIpAddressCount": 247,
+            "AvailabilityZone": "ap-southeast-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "crossborder-payment"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "payment-subnet-public01"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0cf69588a54422a46",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "resource-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0cf69588a54422a46",
+            "State": "available",
+            "VpcId": "vpc-0a772f108977d9208",
+            "CidrBlock": "10.22.1.0/26",
+            "AvailableIpAddressCount": 57,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "apse1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending-staging-private02"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-04050241ac78289a5",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-04050241ac78289a5",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.7.0/25",
+            "AvailableIpAddressCount": 123,
+            "AvailabilityZone": "ap-southeast-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "cam"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "internal-system-public-2"
+                },
+                {
+                    "Key": "company",
+                    "Value": "1token"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-05c267973f4d91486",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-05c267973f4d91486",
+            "State": "available",
+            "VpcId": "vpc-0b7fe214033d48811",
+            "CidrBlock": "10.20.2.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "ap-southeast-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "cam"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "company",
+                    "Value": "1token"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "internal-system-private-1"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0a4af85572ab9dae8",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0a4af85572ab9dae8",
+            "State": "available",
+            "VpcId": "vpc-0b7fe214033d48811",
+            "CidrBlock": "10.20.1.0/24",
+            "AvailableIpAddressCount": 249,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "testing"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-subnet-public01"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-034c86355f72becfa",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-034c86355f72becfa",
+            "State": "available",
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "CidrBlock": "10.21.0.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpn-sg-subnet-private2-ap-southeast-1b"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "vpn-sg"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0093c2513cc266bdd",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0093c2513cc266bdd",
+            "State": "available",
+            "VpcId": "vpc-0c3712644ef5a4efb",
+            "CidrBlock": "10.101.0.128/25",
+            "AvailableIpAddressCount": 123,
+            "AvailabilityZone": "ap-southeast-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending-staging-private01"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "company",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-01b7eee4d0d027070",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-01b7eee4d0d027070",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.6.0/25",
+            "AvailableIpAddressCount": 121,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az3",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-d37e5e95",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-d37e5e95",
+            "State": "available",
+            "VpcId": "vpc-84f318e1",
+            "CidrBlock": "172.31.32.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "ap-southeast-1c",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpn-sg-subnet-private1-ap-southeast-1a"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "vpn-sg"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-09c7486b7623d6103",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-09c7486b7623d6103",
+            "State": "available",
+            "VpcId": "vpc-0c3712644ef5a4efb",
+            "CidrBlock": "10.101.0.0/25",
+            "AvailableIpAddressCount": 119,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "internal-system-public-1"
+                },
+                {
+                    "Key": "company",
+                    "Value": "1token"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "cam"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-040b60a620049e3c2",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-040b60a620049e3c2",
+            "State": "available",
+            "VpcId": "vpc-0b7fe214033d48811",
+            "CidrBlock": "10.20.0.0/24",
+            "AvailableIpAddressCount": 248,
+            "AvailabilityZone": "ap-southeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az3",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending-subnet-public03"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-0884068afc106966d",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0884068afc106966d",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.2.0/24",
+            "AvailableIpAddressCount": 249,
+            "AvailabilityZone": "ap-southeast-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "apse1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "env",
+                    "Value": "testing"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-subnet-private02"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-040ab994269f9455c",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-040ab994269f9455c",
+            "State": "available",
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "CidrBlock": "10.21.3.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "ap-southeast-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending-subnet-private02"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-091ed2b2901c7f43a",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-091ed2b2901c7f43a",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.4.0/24",
+            "AvailableIpAddressCount": 249,
+            "AvailabilityZone": "ap-southeast-1b",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apse1-az3",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending-subnet-private03"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-southeast-1:647828570435:subnet/subnet-036664d631157d815",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-036664d631157d815",
+            "State": "available",
+            "VpcId": "vpc-0e8a205860906c944",
+            "CidrBlock": "10.30.5.0/24",
+            "AvailableIpAddressCount": 250,
+            "AvailabilityZone": "ap-southeast-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        }
+    ]
+}

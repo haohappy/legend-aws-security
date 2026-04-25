@@ -1,0 +1,48 @@
+{
+    "Keys": [
+        {
+            "KeyId": "06f21152-196f-4b72-a0eb-96ab85e95f0e",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/06f21152-196f-4b72-a0eb-96ab85e95f0e"
+        },
+        {
+            "KeyId": "086e02fc-44df-485b-b5d9-cb0d0cd2df80",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/086e02fc-44df-485b-b5d9-cb0d0cd2df80"
+        },
+        {
+            "KeyId": "2944ae0e-c9a3-41b7-9b8a-d09b3b204b2b",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/2944ae0e-c9a3-41b7-9b8a-d09b3b204b2b"
+        },
+        {
+            "KeyId": "5d611006-11f6-447f-a2fb-c9b6f8d4cbfe",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/5d611006-11f6-447f-a2fb-c9b6f8d4cbfe"
+        },
+        {
+            "KeyId": "a93dc2ea-72a5-4af9-9395-e520cde8beba",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/a93dc2ea-72a5-4af9-9395-e520cde8beba"
+        },
+        {
+            "KeyId": "b5c4d60d-9d0a-4d37-9d12-fe573626f01c",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/b5c4d60d-9d0a-4d37-9d12-fe573626f01c"
+        },
+        {
+            "KeyId": "be45c37c-abd9-468e-ae18-f1c33bc94321",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/be45c37c-abd9-468e-ae18-f1c33bc94321"
+        },
+        {
+            "KeyId": "d23f4e3f-16d9-4bc7-bba0-8217bd0f27b3",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/d23f4e3f-16d9-4bc7-bba0-8217bd0f27b3"
+        },
+        {
+            "KeyId": "d531df73-4488-4ff3-a6ef-db71e388868e",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/d531df73-4488-4ff3-a6ef-db71e388868e"
+        },
+        {
+            "KeyId": "ee293170-d6f2-4116-bcbd-8329b5c5b747",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/ee293170-d6f2-4116-bcbd-8329b5c5b747"
+        },
+        {
+            "KeyId": "f7f7ae29-a6fd-4537-ba80-ecee1b699efe",
+            "KeyArn": "arn:aws:kms:ap-southeast-1:647828570435:key/f7f7ae29-a6fd-4537-ba80-ecee1b699efe"
+        }
+    ]
+}

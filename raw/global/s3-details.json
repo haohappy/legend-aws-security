@@ -1,0 +1,1352 @@
+[
+  {
+    "BucketName": "amzcards-lb-access-log",
+    "CreationDate": "2014-06-11T20:42:25+00:00",
+    "Region": "us-west-2",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "aws-cloudtrail-lake-query-results-647828570435-us-east-1",
+    "CreationDate": "2023-10-04T13:27:06+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "aws-cloudtrail-logs-647828570435-5ca50934",
+    "CreationDate": "2020-09-12T17:06:40+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "aws-cloudtrail-logs-647828570435-data-events",
+    "CreationDate": "2023-10-01T03:15:19+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "bankdev-zingpays",
+    "CreationDate": "2021-09-16T16:53:07+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "btc-redcherry",
+    "CreationDate": "2017-07-03T18:25:40+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "bucket-pc-backups101",
+    "CreationDate": "2014-03-06T05:02:57+00:00",
+    "Region": "us-west-2",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": [
+      {
+        "ID": "movetoglacier",
+        "Prefix": "",
+        "Status": "Enabled",
+        "Transitions": [
+          {
+            "Days": 1,
+            "StorageClass": "GLACIER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "BucketName": "bucket-taobao",
+    "CreationDate": "2014-05-13T21:14:45+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": [
+      {
+        "ID": "new-rule-2bb02ce0",
+        "Prefix": "",
+        "Status": "Enabled",
+        "Transitions": [
+          {
+            "Days": 1,
+            "StorageClass": "GLACIER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "BucketName": "bucketpictures1028",
+    "CreationDate": "2014-03-06T04:58:22+00:00",
+    "Region": "us-west-2",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": [
+      {
+        "ID": "movetoglacier",
+        "Prefix": "",
+        "Status": "Enabled",
+        "Transitions": [
+          {
+            "Days": 1,
+            "StorageClass": "GLACIER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "BucketName": "bucketpwe101",
+    "CreationDate": "2014-03-06T04:47:54+00:00",
+    "Region": "us-west-2",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": [
+      {
+        "ID": "Rule for the Entire Bucket",
+        "Prefix": "",
+        "Status": "Enabled",
+        "Transitions": [
+          {
+            "Days": 1,
+            "StorageClass": "GLACIER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "BucketName": "cobo-mpc-backup",
+    "CreationDate": "2024-05-28T06:35:03+00:00",
+    "Region": "ap-southeast-1",
+    "PublicAccessBlock": "AccessDenied",
+    "Encryption": "AccessDenied",
+    "Lifecycle": "AccessDenied"
+  },
+  {
+    "BucketName": "dbox-sync-hao101",
+    "CreationDate": "2016-06-08T19:29:01+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "dpx101backup",
+    "CreationDate": "2016-07-24T18:48:17+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "elasticbeanstalk-us-west-2-647828570435",
+    "CreationDate": "2014-03-05T22:11:23+00:00",
+    "Region": "us-west-2",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": [
+      {
+        "Expiration": {
+          "Days": 1
+        },
+        "ID": "Rule for the Entire Bucket",
+        "Prefix": "",
+        "Status": "Enabled"
+      }
+    ]
+  },
+  {
+    "BucketName": "flashwire-dev-public",
+    "CreationDate": "2022-10-26T08:49:29+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "flashwire-phone-pkg",
+    "CreationDate": "2023-05-05T03:31:04+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "flashwire-prod",
+    "CreationDate": "2022-01-10T22:00:24+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": false,
+      "IgnorePublicAcls": false,
+      "BlockPublicPolicy": false,
+      "RestrictPublicBuckets": false
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "flashwire-stag",
+    "CreationDate": "2022-02-05T21:11:58+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "flashwire-zingamazing-backup",
+    "CreationDate": "2024-08-23T06:49:22+00:00",
+    "Region": "ap-southeast-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "SSE-C"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "flashwirelogs-backup",
+    "CreationDate": "2023-10-17T08:34:32+00:00",
+    "Region": "ap-southeast-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "SSE-C"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": [
+      {
+        "Expiration": {
+          "Days": 3650
+        },
+        "ID": "transition_and_expire",
+        "Filter": {},
+        "Status": "Enabled",
+        "Transitions": [
+          {
+            "Days": 60,
+            "StorageClass": "STANDARD_IA"
+          },
+          {
+            "Days": 90,
+            "StorageClass": "INTELLIGENT_TIERING"
+          },
+          {
+            "Days": 180,
+            "StorageClass": "ONEZONE_IA"
+          },
+          {
+            "Days": 365,
+            "StorageClass": "GLACIER"
+          },
+          {
+            "Days": 720,
+            "StorageClass": "DEEP_ARCHIVE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "BucketName": "greatshwpimages",
+    "CreationDate": "2013-11-09T01:21:40+00:00",
+    "Region": "us-west-2",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "SSE-C"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "hao-music",
+    "CreationDate": "2014-03-18T02:15:08+00:00",
+    "Region": "us-west-2",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": [
+      {
+        "ID": "new-rule-a41e7794",
+        "Prefix": "",
+        "Status": "Enabled",
+        "Transitions": [
+          {
+            "Days": 1,
+            "StorageClass": "GLACIER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "BucketName": "hao-s3accesslogging",
+    "CreationDate": "2015-10-20T01:29:15+00:00",
+    "Region": "us-west-2",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "hao-tech",
+    "CreationDate": "2015-11-03T19:07:56+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "hkdev-legendtrading",
+    "CreationDate": "2021-08-28T17:15:07+00:00",
+    "Region": "us-west-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "SSE-C"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "legend-elb-logs-us-east-1",
+    "CreationDate": "2025-09-05T01:48:20+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": [
+      {
+        "Expiration": {
+          "Days": 15
+        },
+        "ID": "expire_us_weblb_request_logs",
+        "Filter": {
+          "Prefix": "weblb/AWSLogs/647828570435/elasticloadbalancing/us-east-1/"
+        },
+        "Status": "Enabled"
+      }
+    ]
+  },
+  {
+    "BucketName": "legendlogs",
+    "CreationDate": "2020-04-12T21:30:17+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "legendspecial2024dev",
+    "CreationDate": "2024-12-20T07:46:03+00:00",
+    "Region": "AccessDenied",
+    "PublicAccessBlock": "AccessDenied",
+    "Encryption": "AccessDenied",
+    "Lifecycle": "AccessDenied"
+  },
+  {
+    "BucketName": "legendspecial2024prod",
+    "CreationDate": "2024-12-25T04:15:02+00:00",
+    "Region": "AccessDenied",
+    "PublicAccessBlock": "AccessDenied",
+    "Encryption": "AccessDenied",
+    "Lifecycle": "AccessDenied"
+  },
+  {
+    "BucketName": "legendspecial2024sandbox",
+    "CreationDate": "2024-12-25T04:13:38+00:00",
+    "Region": "AccessDenied",
+    "PublicAccessBlock": "AccessDenied",
+    "Encryption": "AccessDenied",
+    "Lifecycle": "AccessDenied"
+  },
+  {
+    "BucketName": "lendingprod",
+    "CreationDate": "2022-11-16T15:50:39+00:00",
+    "Region": "ap-southeast-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "SSE-C"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lg-rds-production-backup",
+    "CreationDate": "2022-05-07T01:22:22+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lg0988dev",
+    "CreationDate": "2020-04-12T18:49:50+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lg0988dev-ie",
+    "CreationDate": "2025-11-13T13:39:25+00:00",
+    "Region": "eu-west-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lg0988pro",
+    "CreationDate": "2020-04-12T18:50:34+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lg0988pro-backup-va",
+    "CreationDate": "2025-12-17T06:22:13+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lg0988pro-ie",
+    "CreationDate": "2025-11-27T10:35:31+00:00",
+    "Region": "eu-west-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lg0988sandbox",
+    "CreationDate": "2020-04-12T18:50:15+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lg0988sandbox-ie",
+    "CreationDate": "2025-12-07T05:01:32+00:00",
+    "Region": "eu-west-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lgstaging-test-deletion-ie",
+    "CreationDate": "2025-11-15T04:30:56+00:00",
+    "Region": "eu-west-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "lgstaging-test-deletion-va",
+    "CreationDate": "2025-12-17T12:30:48+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "netops-lg",
+    "CreationDate": "2022-10-17T03:39:22+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "only-temp-test",
+    "CreationDate": "2023-04-03T09:31:31+00:00",
+    "Region": "AccessDenied",
+    "PublicAccessBlock": "AccessDenied",
+    "Encryption": "AccessDenied",
+    "Lifecycle": "AccessDenied"
+  },
+  {
+    "BucketName": "opensearch-backup-snapshots-flashwire",
+    "CreationDate": "2025-06-03T04:12:35+00:00",
+    "Region": "ap-southeast-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "SSE-C"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "opensearch-backup-snapshots-legendtrading",
+    "CreationDate": "2024-03-27T07:36:11+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "project-gamelovers",
+    "CreationDate": "2015-06-28T21:13:30+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "raymond-fun",
+    "CreationDate": "2014-11-23T17:44:58+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "secdata101",
+    "CreationDate": "2014-03-04T23:54:34+00:00",
+    "Region": "us-west-2",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "SSE-C"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "seslog-dest",
+    "CreationDate": "2021-05-24T23:12:02+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": null,
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "test-bucket-tmp-01",
+    "CreationDate": "2023-10-04T20:54:29+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": true,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "zing5282dev",
+    "CreationDate": "2021-02-17T06:22:36+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": false,
+      "IgnorePublicAcls": false,
+      "BlockPublicPolicy": false,
+      "RestrictPublicBuckets": false
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  },
+  {
+    "BucketName": "zing5282prod",
+    "CreationDate": "2021-02-17T06:24:07+00:00",
+    "Region": "us-east-1",
+    "PublicAccessBlock": {
+      "BlockPublicAcls": true,
+      "IgnorePublicAcls": true,
+      "BlockPublicPolicy": true,
+      "RestrictPublicBuckets": true
+    },
+    "Encryption": {
+      "Rules": [
+        {
+          "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "AES256"
+          },
+          "BucketKeyEnabled": false,
+          "BlockedEncryptionTypes": {
+            "EncryptionType": [
+              "NONE"
+            ]
+          }
+        }
+      ]
+    },
+    "Lifecycle": null
+  }
+]

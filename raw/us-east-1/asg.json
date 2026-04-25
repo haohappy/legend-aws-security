@@ -1,0 +1,1009 @@
+{
+    "AutoScalingGroups": [
+        {
+            "AutoScalingGroupName": " flashwire-staging-db-write-haproxy-autoscaling-group",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-1:647828570435:autoScalingGroup:19b692bf-e476-41fb-9807-c2e0c1487c13:autoScalingGroupName/ flashwire-staging-db-write-haproxy-autoscaling-group",
+            "MixedInstancesPolicy": {
+                "LaunchTemplate": {
+                    "LaunchTemplateSpecification": {
+                        "LaunchTemplateId": "lt-02af8b827e4eb661f",
+                        "LaunchTemplateName": "flashwire-staging-db-writing-haproxy-for-autoscaling",
+                        "Version": "9"
+                    },
+                    "Overrides": [
+                        {
+                            "InstanceType": "t3.micro"
+                        },
+                        {
+                            "InstanceType": "t2.micro"
+                        },
+                        {
+                            "InstanceType": "t3a.micro"
+                        },
+                        {
+                            "InstanceType": "t3.small"
+                        },
+                        {
+                            "InstanceType": "t3a.small"
+                        },
+                        {
+                            "InstanceType": "t3.medium"
+                        },
+                        {
+                            "InstanceType": "t3a.medium"
+                        }
+                    ]
+                },
+                "InstancesDistribution": {
+                    "OnDemandAllocationStrategy": "prioritized",
+                    "OnDemandBaseCapacity": 1,
+                    "OnDemandPercentageAboveBaseCapacity": 100,
+                    "SpotAllocationStrategy": "price-capacity-optimized"
+                }
+            },
+            "MinSize": 0,
+            "MaxSize": 2,
+            "DesiredCapacity": 0,
+            "DefaultCooldown": 10,
+            "AvailabilityZones": [
+                "us-east-1c",
+                "us-east-1f"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-stag-db-write-haproxy/dcb5b689a3783815"
+            ],
+            "HealthCheckType": "EBS",
+            "HealthCheckGracePeriod": 300,
+            "Instances": [],
+            "CreatedTime": "2024-10-18T10:00:07.818000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-0aee37de2a1a0880e,subnet-06bfd61bf9a9e36ca",
+            "EnabledMetrics": [
+                {
+                    "Metric": "GroupMinSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolMinSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupStandbyCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolPendingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupInServiceInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolTerminatingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTerminatingInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupInServiceCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTotalInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupPendingInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTerminatingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolWarmedCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupMaxSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupStandbyInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupAndWarmPoolTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupPendingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupAndWarmPoolDesiredCapacity",
+                    "Granularity": "1Minute"
+                }
+            ],
+            "Tags": [
+                {
+                    "ResourceId": " flashwire-staging-db-write-haproxy-autoscaling-group",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "flashwire-staging-db-write-haproxy",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": " flashwire-staging-db-write-haproxy-autoscaling-group",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "company",
+                    "Value": "flashwire",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": " flashwire-staging-db-write-haproxy-autoscaling-group",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "env",
+                    "Value": "staging",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::647828570435:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "CapacityRebalance": false,
+            "DefaultInstanceWarmup": 10,
+            "TrafficSources": [
+                {
+                    "Identifier": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-stag-db-write-haproxy/dcb5b689a3783815",
+                    "Type": "elbv2"
+                }
+            ],
+            "InstanceMaintenancePolicy": {
+                "MinHealthyPercentage": 100,
+                "MaxHealthyPercentage": 110
+            },
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        },
+        {
+            "AutoScalingGroupName": "Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-1:647828570435:autoScalingGroup:28845a99-9f7a-49c9-b683-619f72ce4a4a:autoScalingGroupName/Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL",
+            "LaunchTemplate": {
+                "LaunchTemplateId": "lt-0b47fc14dd4798bee",
+                "LaunchTemplateName": "ECSLaunchTemplate_CkyVljvnz0eG",
+                "Version": "2"
+            },
+            "MinSize": 0,
+            "MaxSize": 5,
+            "DesiredCapacity": 0,
+            "DefaultCooldown": 300,
+            "AvailabilityZones": [
+                "us-east-1c",
+                "us-east-1d"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 0,
+            "Instances": [],
+            "CreatedTime": "2023-07-18T05:00:40.870000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-0e2fec9f218215453,subnet-0f6f1945625e5ba1c",
+            "EnabledMetrics": [],
+            "Tags": [
+                {
+                    "ResourceId": "Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "AmazonECSManaged",
+                    "Value": "",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "ECS Instance - legendtrading",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ECSAutoScalingGroup",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:647828570435:stack/Infra-ECS-Cluster-legendtrading-3d4eb685/fffbd330-2527-11ee-a5aa-0e29988366ff",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "Infra-ECS-Cluster-legendtrading-3d4eb685",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::647828570435:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "TrafficSources": [],
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        },
+        {
+            "AutoScalingGroupName": "Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-1:647828570435:autoScalingGroup:601618e8-0382-4a63-8bff-928764c41784:autoScalingGroupName/Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK",
+            "LaunchTemplate": {
+                "LaunchTemplateId": "lt-00c0089d635437c63",
+                "LaunchTemplateName": "ECSLaunchTemplate_0Jb7C5FAzsuE",
+                "Version": "2"
+            },
+            "MinSize": 0,
+            "MaxSize": 5,
+            "DesiredCapacity": 0,
+            "DefaultCooldown": 300,
+            "AvailabilityZones": [
+                "us-east-1c",
+                "us-east-1d"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/test-lg-81d1434c-ECSAutoScaling/2ebe58abc9e5eaf0"
+            ],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 0,
+            "Instances": [],
+            "CreatedTime": "2023-07-17T09:32:48.796000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-0e2fec9f218215453,subnet-047c84d1e0ae8749e,subnet-0f6f1945625e5ba1c",
+            "EnabledMetrics": [],
+            "Tags": [
+                {
+                    "ResourceId": "Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "AmazonECSManaged",
+                    "Value": "",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "ECS Instance - test-lg",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ECSAutoScalingGroup",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:647828570435:stack/Infra-ECS-Cluster-test-lg-81d1434c/c45609c0-2484-11ee-836f-1209b53fb815",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "Infra-ECS-Cluster-test-lg-81d1434c",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::647828570435:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "TrafficSources": [
+                {
+                    "Identifier": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/test-lg-81d1434c-ECSAutoScaling/2ebe58abc9e5eaf0",
+                    "Type": "elbv2"
+                }
+            ],
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        },
+        {
+            "AutoScalingGroupName": "awseb-e-zagwta2jsj-stack-AWSEBAutoScalingGroup-1LTYL9N449XB1",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-1:647828570435:autoScalingGroup:e5571022-17a7-4f79-a74f-ada027e409cc:autoScalingGroupName/awseb-e-zagwta2jsj-stack-AWSEBAutoScalingGroup-1LTYL9N449XB1",
+            "LaunchConfigurationName": "awseb-e-zagwta2jsj-stack-AWSEBAutoScalingLaunchConfiguration-1VRW16M0PS0DC",
+            "MinSize": 1,
+            "MaxSize": 4,
+            "DesiredCapacity": 1,
+            "DefaultCooldown": 360,
+            "AvailabilityZones": [
+                "us-east-1a",
+                "us-east-1c",
+                "us-east-1d"
+            ],
+            "LoadBalancerNames": [
+                "awseb-e-z-AWSEBLoa-TG4BYYD9DPIB"
+            ],
+            "TargetGroupARNs": [],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 0,
+            "Instances": [],
+            "CreatedTime": "2013-10-17T18:45:21.700000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "",
+            "EnabledMetrics": [],
+            "Tags": [
+                {
+                    "ResourceId": "awseb-e-zagwta2jsj-stack-AWSEBAutoScalingGroup-1LTYL9N449XB1",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "Default-Environment",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-zagwta2jsj-stack-AWSEBAutoScalingGroup-1LTYL9N449XB1",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AWSEBAutoScalingGroup",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-zagwta2jsj-stack-AWSEBAutoScalingGroup-1LTYL9N449XB1",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-1:647828570435:stack/awseb-e-zagwta2jsj-stack/2f75b910-375c-11e3-a863-500150b34c7c",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-zagwta2jsj-stack-AWSEBAutoScalingGroup-1LTYL9N449XB1",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "awseb-e-zagwta2jsj-stack",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-zagwta2jsj-stack-AWSEBAutoScalingGroup-1LTYL9N449XB1",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-zagwta2jsj",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-zagwta2jsj-stack-AWSEBAutoScalingGroup-1LTYL9N449XB1",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "Default-Environment",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::647828570435:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "TrafficSources": [
+                {
+                    "Identifier": "awseb-e-z-AWSEBLoa-TG4BYYD9DPIB",
+                    "Type": "elb"
+                }
+            ],
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        },
+        {
+            "AutoScalingGroupName": "eks-flashwire-jenkins-agent-cccb426f-640e-a2d8-7cdb-b4eb28bc5b60",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-1:647828570435:autoScalingGroup:babc78b0-57b8-43a9-b123-38890df43b0f:autoScalingGroupName/eks-flashwire-jenkins-agent-cccb426f-640e-a2d8-7cdb-b4eb28bc5b60",
+            "MixedInstancesPolicy": {
+                "LaunchTemplate": {
+                    "LaunchTemplateSpecification": {
+                        "LaunchTemplateId": "lt-0a97448a015c65f98",
+                        "LaunchTemplateName": "eks-cccb426f-640e-a2d8-7cdb-b4eb28bc5b60",
+                        "Version": "20"
+                    },
+                    "Overrides": [
+                        {
+                            "InstanceType": "m5a.large"
+                        },
+                        {
+                            "InstanceType": "m5.large"
+                        }
+                    ]
+                },
+                "InstancesDistribution": {
+                    "OnDemandAllocationStrategy": "prioritized",
+                    "OnDemandBaseCapacity": 0,
+                    "OnDemandPercentageAboveBaseCapacity": 100,
+                    "SpotAllocationStrategy": "lowest-price",
+                    "SpotInstancePools": 2
+                }
+            },
+            "MinSize": 0,
+            "MaxSize": 2,
+            "DesiredCapacity": 1,
+            "DefaultCooldown": 300,
+            "AvailabilityZones": [
+                "us-east-1c",
+                "us-east-1d"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 15,
+            "Instances": [
+                {
+                    "InstanceId": "i-095a1cde56a61fc37",
+                    "InstanceType": "m5a.large",
+                    "AvailabilityZone": "us-east-1c",
+                    "LifecycleState": "InService",
+                    "HealthStatus": "Healthy",
+                    "LaunchTemplate": {
+                        "LaunchTemplateId": "lt-0a97448a015c65f98",
+                        "LaunchTemplateName": "eks-cccb426f-640e-a2d8-7cdb-b4eb28bc5b60",
+                        "Version": "20"
+                    },
+                    "ProtectedFromScaleIn": true
+                }
+            ],
+            "CreatedTime": "2025-04-30T04:05:53.131000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-090f07ff4591880ad,subnet-0440fa07cf72f80f8",
+            "EnabledMetrics": [
+                {
+                    "Metric": "GroupMinSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolTerminatingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolMinSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupAndWarmPoolDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupInServiceCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolWarmedCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupPendingInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTotalInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupMaxSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupPendingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTerminatingInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupAndWarmPoolTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupInServiceInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupStandbyCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupStandbyInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTerminatingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolPendingCapacity",
+                    "Granularity": "1Minute"
+                }
+            ],
+            "Tags": [
+                {
+                    "ResourceId": "eks-flashwire-jenkins-agent-cccb426f-640e-a2d8-7cdb-b4eb28bc5b60",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "eks:cluster-name",
+                    "Value": "legend-dev",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "eks-flashwire-jenkins-agent-cccb426f-640e-a2d8-7cdb-b4eb28bc5b60",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "eks:nodegroup-name",
+                    "Value": "flashwire-jenkins-agent",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "eks-flashwire-jenkins-agent-cccb426f-640e-a2d8-7cdb-b4eb28bc5b60",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "k8s.io/cluster-autoscaler/enabled",
+                    "Value": "true",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "eks-flashwire-jenkins-agent-cccb426f-640e-a2d8-7cdb-b4eb28bc5b60",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "k8s.io/cluster-autoscaler/legend-dev",
+                    "Value": "owned",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "eks-flashwire-jenkins-agent-cccb426f-640e-a2d8-7cdb-b4eb28bc5b60",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "kubernetes.io/cluster/legend-dev",
+                    "Value": "owned",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "AllocationStrategy",
+                "OldestLaunchTemplate",
+                "OldestInstance"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::647828570435:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "CapacityRebalance": true,
+            "TrafficSources": [],
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        },
+        {
+            "AutoScalingGroupName": "eks-legend-dev-servers-70cb3dde-556c-74d7-4adf-cea9dac3add7",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-1:647828570435:autoScalingGroup:d64275b8-8773-4650-87f5-3ed9181dd92a:autoScalingGroupName/eks-legend-dev-servers-70cb3dde-556c-74d7-4adf-cea9dac3add7",
+            "MixedInstancesPolicy": {
+                "LaunchTemplate": {
+                    "LaunchTemplateSpecification": {
+                        "LaunchTemplateId": "lt-02b7c5db36ba18f7d",
+                        "LaunchTemplateName": "eks-70cb3dde-556c-74d7-4adf-cea9dac3add7",
+                        "Version": "5"
+                    },
+                    "Overrides": [
+                        {
+                            "InstanceType": "m5a.large"
+                        },
+                        {
+                            "InstanceType": "m5.large"
+                        }
+                    ]
+                },
+                "InstancesDistribution": {
+                    "OnDemandAllocationStrategy": "prioritized",
+                    "OnDemandBaseCapacity": 0,
+                    "OnDemandPercentageAboveBaseCapacity": 100,
+                    "SpotAllocationStrategy": "lowest-price",
+                    "SpotInstancePools": 2
+                }
+            },
+            "MinSize": 0,
+            "MaxSize": 2,
+            "DesiredCapacity": 0,
+            "DefaultCooldown": 300,
+            "AvailabilityZones": [
+                "us-east-1c",
+                "us-east-1d"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 15,
+            "Instances": [],
+            "CreatedTime": "2025-04-28T09:32:03.775000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-090f07ff4591880ad,subnet-0440fa07cf72f80f8",
+            "EnabledMetrics": [
+                {
+                    "Metric": "GroupInServiceInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolPendingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupPendingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTerminatingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupMinSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupInServiceCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTerminatingInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolTerminatingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupMaxSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTotalInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupStandbyCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolMinSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupPendingInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolWarmedCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupAndWarmPoolDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupAndWarmPoolTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupStandbyInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupDesiredCapacity",
+                    "Granularity": "1Minute"
+                }
+            ],
+            "Tags": [
+                {
+                    "ResourceId": "eks-legend-dev-servers-70cb3dde-556c-74d7-4adf-cea9dac3add7",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "eks:cluster-name",
+                    "Value": "legend-dev",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "eks-legend-dev-servers-70cb3dde-556c-74d7-4adf-cea9dac3add7",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "eks:nodegroup-name",
+                    "Value": "legend-dev-servers",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "eks-legend-dev-servers-70cb3dde-556c-74d7-4adf-cea9dac3add7",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "k8s.io/cluster-autoscaler/enabled",
+                    "Value": "true",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "eks-legend-dev-servers-70cb3dde-556c-74d7-4adf-cea9dac3add7",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "k8s.io/cluster-autoscaler/legend-dev",
+                    "Value": "owned",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "eks-legend-dev-servers-70cb3dde-556c-74d7-4adf-cea9dac3add7",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "kubernetes.io/cluster/legend-dev",
+                    "Value": "owned",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "AllocationStrategy",
+                "OldestLaunchTemplate",
+                "OldestInstance"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::647828570435:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "CapacityRebalance": true,
+            "TrafficSources": [],
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        },
+        {
+            "AutoScalingGroupName": "flashwire-staging-db-write-haproxy",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-1:647828570435:autoScalingGroup:27df374b-57c5-419d-a336-761ad1b421b4:autoScalingGroupName/flashwire-staging-db-write-haproxy",
+            "LaunchTemplate": {
+                "LaunchTemplateId": "lt-0d0fecd0285fbe111",
+                "LaunchTemplateName": "flashwire-staging-db-writing-haproxy-1f",
+                "Version": "$Default"
+            },
+            "MinSize": 0,
+            "MaxSize": 2,
+            "DesiredCapacity": 0,
+            "DefaultCooldown": 300,
+            "AvailabilityZones": [
+                "us-east-1c",
+                "us-east-1f"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [
+                "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-stag-db-write-haproxy/dcb5b689a3783815"
+            ],
+            "HealthCheckType": "EBS,ELB",
+            "HealthCheckGracePeriod": 300,
+            "Instances": [],
+            "CreatedTime": "2024-10-15T15:44:04.592000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-0aee37de2a1a0880e,subnet-06bfd61bf9a9e36ca",
+            "EnabledMetrics": [
+                {
+                    "Metric": "GroupInServiceCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupPendingInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolWarmedCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupPendingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupAndWarmPoolDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupAndWarmPoolTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolMinSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolDesiredCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupMaxSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupMinSize",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolTerminatingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolPendingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupStandbyInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupInServiceInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTerminatingCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupStandbyCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTotalInstances",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "WarmPoolTotalCapacity",
+                    "Granularity": "1Minute"
+                },
+                {
+                    "Metric": "GroupTerminatingInstances",
+                    "Granularity": "1Minute"
+                }
+            ],
+            "Tags": [
+                {
+                    "ResourceId": "flashwire-staging-db-write-haproxy",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "flashwire-staging-db-write-haproxy",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "flashwire-staging-db-write-haproxy",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "company",
+                    "Value": "flashwire",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "flashwire-staging-db-write-haproxy",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "env",
+                    "Value": "staging",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::647828570435:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "TrafficSources": [
+                {
+                    "Identifier": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/flashwire-stag-db-write-haproxy/dcb5b689a3783815",
+                    "Type": "elbv2"
+                }
+            ],
+            "InstanceMaintenancePolicy": {
+                "MinHealthyPercentage": 100,
+                "MaxHealthyPercentage": 110
+            },
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        }
+    ]
+}

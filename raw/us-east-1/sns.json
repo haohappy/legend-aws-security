@@ -1,0 +1,214 @@
+{
+  "Topics": [
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:AWS-Alert-CPU-Usage-Too-High"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:AWS_CHARGE_TOO_HIGH"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Default_CloudWatch_Alarms_Topic"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Legend_RESET_PWD"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Legend_SES_Alarm"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-frontend-monitor-alerting"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:MEMORY_TOO_HIGH"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:NotifyMe"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:RedCherry"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Redcherry2"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:ResetPassword"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:SESLOG"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Server-Status"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:flashwire_dot_com_mail_issue_feedback"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:prometheus-monitoring"
+    },
+    {
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:smsCheck"
+    }
+  ],
+  "Subscriptions": [
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:RedCherry:61037406-64f5-40d1-98c2-8165fece9c4e",
+      "Owner": "647828570435",
+      "Protocol": "https",
+      "Endpoint": "https://otcdev.legendtrading.com/aws/webhook",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:RedCherry"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email:807c7520-e920-4b21-8664-05415fedae72",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "kaiqiang.qiao@flashwire.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting:87ab6900-f1ea-453e-974f-090391d23c5e",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "sn.lin@legendtrading.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:smsCheck:a6873d01-442c-4e3f-966d-fabfb67c9c46",
+      "Owner": "647828570435",
+      "Protocol": "https",
+      "Endpoint": "https://sandboxapi.legendtrading.com/webhook/aws/sns-webhook",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:smsCheck"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:RedCherry:acfd20cf-f1a0-4260-a31f-10fefe39b79e",
+      "Owner": "647828570435",
+      "Protocol": "https",
+      "Endpoint": "https://otc.legendtrading.com/aws/webhook",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:RedCherry"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email:e8a5012f-6a76-4252-88c6-19167637c7eb",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "kaiqiang.qiao@flashwire.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:NotifyMe:eb8e6d87-bdf8-4cb5-9a73-5d7b83390443",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "haohappy@gmail.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:NotifyMe"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting:35d6cf6a-c148-4a55-afa0-0382ac602591",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "kaiqiang.qiao@flashwire.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:Server-Status:e8bad6d3-c2ec-498a-b4a0-107a00fcba08",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "haohappy@gmail.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Server-Status"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:prometheus-monitoring:fd8fc685-0313-4bba-8286-ffd0ce6fc8c5",
+      "Owner": "647828570435",
+      "Protocol": "https",
+      "Endpoint": "https://global.sns-api.chatbot.amazonaws.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:prometheus-monitoring"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:flashwire_dot_com_mail_issue_feedback:ffa93132-cd4b-4715-865f-311653bac37a",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "deploy-lending@flashwire.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:flashwire_dot_com_mail_issue_feedback"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:SESLOG:8fd951c4-ff40-4e80-94ee-2e79c7a3a5f7",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "netxeye@hotmail.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:SESLOG"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:Default_CloudWatch_Alarms_Topic:9ceeb087-e5e6-4dc6-a49c-58ea0341de17",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "otc@legendtrading.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Default_CloudWatch_Alarms_Topic"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:AWS-Alert-CPU-Usage-Too-High:8c0ccb2b-b577-4e9d-942c-8d4844788801",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "haohappy@gmail.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:AWS-Alert-CPU-Usage-Too-High"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:SESLOG:a38b5ad2-1874-454e-9e04-488347987284",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "deploy-lending@flashwire.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:SESLOG"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting:a8f236ba-e7c5-4e8b-aa91-a3ce2256bc6e",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "yao.ji@legendtrading.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email:fefa77be-7499-4cb2-97ad-7d229e6f36a1",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "lily@legendtrading.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:AWS_CHARGE_TOO_HIGH:1890b60a-54a8-45ab-9d54-29cf78fe40e5",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "otc@legendtrading.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:AWS_CHARGE_TOO_HIGH"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:RedCherry:2c569c1d-2c45-4280-8bc2-51475acb0b19",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "otc@legendtrading.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:RedCherry"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting:2f1cf3d5-f81b-4e24-8652-a9bd774ed3d2",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "lily@legendtrading.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:MEMORY_TOO_HIGH:2ff742e7-11dd-4f26-9f9f-d57aaafef50b",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "otc@legendtrading.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:MEMORY_TOO_HIGH"
+    },
+    {
+      "SubscriptionArn": "arn:aws:sns:us-east-1:647828570435:NotifyMe:b9fef46a-f436-4414-8ba4-8209516db567",
+      "Owner": "647828570435",
+      "Protocol": "email",
+      "Endpoint": "haohappy@gmail.com",
+      "TopicArn": "arn:aws:sns:us-east-1:647828570435:NotifyMe"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "ReplicationGroups": [
+        {
+            "ReplicationGroupId": "lending",
+            "Description": "for lending product",
+            "GlobalReplicationGroupInfo": {},
+            "Status": "available",
+            "PendingModifiedValues": {},
+            "MemberClusters": [
+                "lending-0001-002"
+            ],
+            "NodeGroups": [
+                {
+                    "NodeGroupId": "0001",
+                    "Status": "available",
+                    "Slots": "0-16383",
+                    "NodeGroupMembers": [
+                        {
+                            "CacheClusterId": "lending-0001-002",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "ap-southeast-1b"
+                        }
+                    ]
+                }
+            ],
+            "AutomaticFailover": "enabled",
+            "MultiAZ": "disabled",
+            "ConfigurationEndpoint": {
+                "Address": "lending.qbfbcp.clustercfg.apse1.cache.amazonaws.com",
+                "Port": 6379
+            },
+            "SnapshotRetentionLimit": 1,
+            "SnapshotWindow": "05:00-06:00",
+            "ClusterEnabled": true,
+            "CacheNodeType": "cache.t3.micro",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:ap-southeast-1:647828570435:replicationgroup:lending",
+            "LogDeliveryConfigurations": [],
+            "ReplicationGroupCreateTime": "2022-11-15T09:41:20.446000+00:00",
+            "DataTiering": "disabled",
+            "AutoMinorVersionUpgrade": true,
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4",
+            "ClusterMode": "enabled",
+            "Engine": "redis"
+        }
+    ]
+}

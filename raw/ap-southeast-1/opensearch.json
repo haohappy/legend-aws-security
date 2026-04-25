@@ -1,0 +1,105 @@
+{
+    "DomainStatus": {
+        "DomainId": "647828570435/flashwire-logs",
+        "DomainName": "flashwire-logs",
+        "ARN": "arn:aws:es:ap-southeast-1:647828570435:domain/flashwire-logs",
+        "Created": true,
+        "Deleted": false,
+        "Endpoint": "search-flashwire-logs-3w74s6wfgzmccbf643xonlrvu4.ap-southeast-1.es.amazonaws.com",
+        "Processing": false,
+        "UpgradeProcessing": false,
+        "EngineVersion": "OpenSearch_2.9",
+        "ClusterConfig": {
+            "InstanceType": "m6g.large.search",
+            "InstanceCount": 1,
+            "DedicatedMasterEnabled": false,
+            "ZoneAwarenessEnabled": false,
+            "WarmEnabled": false,
+            "ColdStorageOptions": {
+                "Enabled": false
+            },
+            "MultiAZWithStandbyEnabled": false
+        },
+        "EBSOptions": {
+            "EBSEnabled": true,
+            "VolumeType": "gp3",
+            "VolumeSize": 50,
+            "Iops": 3000,
+            "Throughput": 125
+        },
+        "AccessPolicies": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"*\"},\"Action\":\"es:*\",\"Resource\":\"arn:aws:es:ap-southeast-1:647828570435:domain/flashwire-logs/*\"}]}",
+        "IPAddressType": "ipv4",
+        "SnapshotOptions": {},
+        "CognitoOptions": {
+            "Enabled": true,
+            "UserPoolId": "ap-southeast-1_SwVIuMbzv",
+            "IdentityPoolId": "ap-southeast-1:0151fec8-5e8a-4993-8dc4-62257d169fc7",
+            "RoleArn": "arn:aws:iam::647828570435:role/service-role/CognitoAccessForAmazonOpenSearch"
+        },
+        "EncryptionAtRestOptions": {
+            "Enabled": true,
+            "KmsKeyId": "arn:aws:kms:ap-southeast-1:647828570435:key/a93dc2ea-72a5-4af9-9395-e520cde8beba"
+        },
+        "NodeToNodeEncryptionOptions": {
+            "Enabled": true
+        },
+        "AdvancedOptions": {
+            "indices.fielddata.cache.size": "20",
+            "override_main_response_version": "true",
+            "indices.query.bool.max_clause_count": "1024",
+            "rest.action.multi.allow_explicit_index": "true"
+        },
+        "ServiceSoftwareOptions": {
+            "CurrentVersion": "OpenSearch_2_9_R20250403",
+            "NewVersion": "OpenSearch_2_9_R20260218",
+            "UpdateAvailable": true,
+            "Cancellable": false,
+            "UpdateStatus": "ELIGIBLE",
+            "Description": "A newer release OpenSearch_2_9_R20260218 is available.",
+            "AutomatedUpdateDate": "1970-01-01T05:00:00+05:00",
+            "OptionalDeployment": true
+        },
+        "DomainEndpointOptions": {
+            "EnforceHTTPS": true,
+            "TLSSecurityPolicy": "Policy-Min-TLS-1-0-2019-07",
+            "CustomEndpointEnabled": false
+        },
+        "AdvancedSecurityOptions": {
+            "Enabled": true,
+            "InternalUserDatabaseEnabled": false,
+            "AnonymousAuthEnabled": false
+        },
+        "IdentityCenterOptions": {},
+        "AutoTuneOptions": {
+            "State": "DISABLED",
+            "UseOffPeakWindow": false
+        },
+        "ChangeProgressDetails": {
+            "ChangeId": "cc0f81d4-0db6-4a79-bc50-ad4f8b5f42f7",
+            "ConfigChangeStatus": "Completed",
+            "InitiatedBy": "SERVICE",
+            "StartTime": "2025-05-02T10:01:26.149000+05:00",
+            "LastUpdatedTime": "2025-05-02T10:25:45.333000+05:00"
+        },
+        "OffPeakWindowOptions": {
+            "Enabled": true,
+            "OffPeakWindow": {
+                "WindowStartTime": {
+                    "Hours": 0,
+                    "Minutes": 0
+                }
+            }
+        },
+        "SoftwareUpdateOptions": {
+            "AutoSoftwareUpdateEnabled": false
+        },
+        "DomainProcessingStatus": "Active",
+        "ModifyingProperties": [],
+        "AIMLOptions": {
+            "NaturalLanguageQueryGenerationOptions": {
+                "DesiredState": "DISABLED",
+                "CurrentState": "NOT_ENABLED"
+            }
+        }
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "NatGateways": [
+        {
+            "CreateTime": "2022-11-24T16:08:00+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-0e29dfa40d16363a1",
+                    "NetworkInterfaceId": "eni-0479aa20a2f89b7a2",
+                    "PrivateIp": "10.21.0.106",
+                    "PublicIp": "13.215.230.225",
+                    "AssociationId": "eipassoc-0fc5a100eb2722f6f",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-00a053f629d052364",
+            "State": "available",
+            "SubnetId": "subnet-034c86355f72becfa",
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-nat-public01-ap-southeast-1a"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2023-03-29T04:02:36+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-0479b68a66416fcea",
+                    "NetworkInterfaceId": "eni-001740a5da7e0ac83",
+                    "PrivateIp": "10.21.4.111",
+                    "PublicIp": "3.1.116.217",
+                    "AssociationId": "eipassoc-0f16794f60c61d768",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-0bf73feb543551162",
+            "State": "available",
+            "SubnetId": "subnet-00f96e1a707da6572",
+            "VpcId": "vpc-021391a2d0eadb6b1",
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "cobo"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "cobo-nat-public03-ap-southeast-1a"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2022-11-11T03:58:51+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-021245367d450bab3",
+                    "NetworkInterfaceId": "eni-0aee1635394afe698",
+                    "PrivateIp": "10.30.0.222",
+                    "PublicIp": "18.141.253.131",
+                    "AssociationId": "eipassoc-0eadd5b7e44136182",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-07fc3286c9abc3372",
+            "State": "available",
+            "SubnetId": "subnet-0713a50458e3e45b5",
+            "VpcId": "vpc-0e8a205860906c944",
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-nat-public01-ap-southeast-1a"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2022-11-11T04:01:28+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-0773f2421e8991c64",
+                    "NetworkInterfaceId": "eni-09c79723269c3cd1d",
+                    "PrivateIp": "10.30.1.213",
+                    "PublicIp": "18.140.146.2",
+                    "AssociationId": "eipassoc-0ed1548aaeb493f7e",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-01260f9dff6cc7ff6",
+            "State": "available",
+            "SubnetId": "subnet-0024bf80fdc9d2915",
+            "VpcId": "vpc-0e8a205860906c944",
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "lending-nat-public01-ap-southeast-1b"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2022-01-16T01:21:48+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-04b0274f8c15139af",
+                    "NetworkInterfaceId": "eni-078a56aee250aacf7",
+                    "PrivateIp": "10.20.0.55",
+                    "PublicIp": "54.151.214.112",
+                    "AssociationId": "eipassoc-04224f272303de984",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-09c42c74dcd7aef96",
+            "State": "available",
+            "SubnetId": "subnet-040b60a620049e3c2",
+            "VpcId": "vpc-0b7fe214033d48811",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "internal-system-nat-gateway-1"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        }
+    ]
+}

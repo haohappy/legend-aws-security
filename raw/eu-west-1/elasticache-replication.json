@@ -1,0 +1,56 @@
+{
+    "ReplicationGroups": [
+        {
+            "ReplicationGroupId": "legendtrading",
+            "Description": "for IE legendtrading production using",
+            "GlobalReplicationGroupInfo": {},
+            "Status": "available",
+            "PendingModifiedValues": {},
+            "MemberClusters": [
+                "legendtrading-0001-001",
+                "legendtrading-0001-002"
+            ],
+            "NodeGroups": [
+                {
+                    "NodeGroupId": "0001",
+                    "Status": "available",
+                    "Slots": "0-16383",
+                    "NodeGroupMembers": [
+                        {
+                            "CacheClusterId": "legendtrading-0001-001",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "eu-west-1a"
+                        },
+                        {
+                            "CacheClusterId": "legendtrading-0001-002",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "eu-west-1b"
+                        }
+                    ]
+                }
+            ],
+            "AutomaticFailover": "enabled",
+            "MultiAZ": "enabled",
+            "ConfigurationEndpoint": {
+                "Address": "legendtrading.ehnl2p.clustercfg.euw1.cache.amazonaws.com",
+                "Port": 6379
+            },
+            "SnapshotRetentionLimit": 1,
+            "SnapshotWindow": "03:30-04:30",
+            "ClusterEnabled": true,
+            "CacheNodeType": "cache.m7g.large",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:eu-west-1:647828570435:replicationgroup:legendtrading",
+            "LogDeliveryConfigurations": [],
+            "ReplicationGroupCreateTime": "2025-11-26T15:01:14.152000+00:00",
+            "DataTiering": "disabled",
+            "AutoMinorVersionUpgrade": true,
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4",
+            "ClusterMode": "enabled",
+            "Engine": "redis"
+        }
+    ]
+}

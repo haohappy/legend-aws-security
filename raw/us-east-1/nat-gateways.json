@@ -1,0 +1,265 @@
+{
+    "NatGateways": [
+        {
+            "CreateTime": "2021-12-28T19:43:05+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-0b27c4c49186aefa9",
+                    "NetworkInterfaceId": "eni-08efdc505d805219e",
+                    "PrivateIp": "10.10.4.74",
+                    "PublicIp": "34.195.248.67",
+                    "AssociationId": "eipassoc-0d02c553ebe865484",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-02509907a6fa47e11",
+            "State": "available",
+            "SubnetId": "subnet-08bd14c693b911cae",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "production"
+                },
+                {
+                    "Key": "Porject",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-pub-1-nat-gateway"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2023-04-10T11:07:54+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-0ce5b1065e165e074",
+                    "NetworkInterfaceId": "eni-0496c7583af5a38f0",
+                    "PrivateIp": "10.0.3.90",
+                    "PublicIp": "34.195.245.216",
+                    "AssociationId": "eipassoc-06fb92c581197b1c2",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-093c53111bf44a2a1",
+            "State": "available",
+            "SubnetId": "subnet-02be88024da5eb7fe",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-nat-public01-us-east-1c"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2022-08-19T20:39:48+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-06bc89f1c762051fb",
+                    "NetworkInterfaceId": "eni-0a6846e9e3d79ccda",
+                    "PrivateIp": "10.0.0.213",
+                    "PublicIp": "44.198.65.130",
+                    "AssociationId": "eipassoc-0dc2003f546911b3d",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-0cc43395cb1a2bc1a",
+            "State": "available",
+            "SubnetId": "subnet-047c84d1e0ae8749e",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-nat-public01-us-east-1d"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2021-12-29T18:56:45+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-0a1ac39001b735ff2",
+                    "NetworkInterfaceId": "eni-0f16305ec8abfbfd4",
+                    "PrivateIp": "10.10.5.32",
+                    "PublicIp": "18.209.73.109",
+                    "AssociationId": "eipassoc-0181877c42a7a2f5c",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-0ffe5b2f73eb7a7d3",
+            "State": "available",
+            "SubnetId": "subnet-0103bd5ff3ac5363a",
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "production"
+                },
+                {
+                    "Key": "Porject",
+                    "Value": "flashwire"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-pub-2-nat-gateway"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2022-07-26T00:31:04+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-08d5006672ce01983",
+                    "NetworkInterfaceId": "eni-004f99c8924a9c030",
+                    "PrivateIp": "10.100.6.112",
+                    "PublicIp": "3.227.223.72",
+                    "AssociationId": "eipassoc-0b3294a460c8b883c",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-05ab2fd45a74f27b5",
+            "State": "available",
+            "SubnetId": "subnet-04cd292477181e54f",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-nat-public1-us-east-1a"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2022-07-26T00:31:05+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-0a806f29f7361ebb2",
+                    "NetworkInterfaceId": "eni-0007d5fb71023556e",
+                    "PrivateIp": "10.100.30.17",
+                    "PublicIp": "3.209.192.2",
+                    "AssociationId": "eipassoc-04aa7b5c5bf3383e7",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-02bdb7ad742afc203",
+            "State": "available",
+            "SubnetId": "subnet-092a6107f6c8a14e7",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-nat-public2-us-east-1b"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2023-04-10T11:21:23+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-0ae4e26c9ceb845a6",
+                    "NetworkInterfaceId": "eni-0efd0125581037984",
+                    "PrivateIp": "10.0.0.64",
+                    "PublicIp": "52.73.84.127",
+                    "AssociationId": "eipassoc-0ab8687509dc0da3e",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-0c16b4a728582827a",
+            "State": "available",
+            "SubnetId": "subnet-047c84d1e0ae8749e",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-nat-public02-us-east-1d"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        }
+    ]
+}

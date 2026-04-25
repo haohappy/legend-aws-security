@@ -1,0 +1,907 @@
+{
+    "SecurityGroups": [
+        {
+            "GroupId": "sg-043a61e20208dfc9c",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-043a61e20208dfc9c",
+            "OwnerId": "647828570435",
+            "GroupName": "outer-https-http",
+            "Description": "allow outer http or https traffic",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "allow all ",
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "allow all",
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0b0e4f203f71aefe0",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "RDS-lg-ie-production"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-0b0e4f203f71aefe0",
+            "OwnerId": "647828570435",
+            "GroupName": "RDS-lg-ie-production",
+            "Description": "for rds lg-ie-production",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "part of  legend us prod intranets",
+                            "CidrIp": "10.0.0.0/22"
+                        },
+                        {
+                            "Description": "part of  legend us prod intranets",
+                            "CidrIp": "10.0.4.0/23"
+                        },
+                        {
+                            "Description": "legendtrading IE prod subnet",
+                            "CidrIp": "10.1.0.0/20"
+                        },
+                        {
+                            "Description": "hao analysis",
+                            "CidrIp": "73.252.149.237/32"
+                        },
+                        {
+                            "CidrIp": "3.88.51.8/32"
+                        },
+                        {
+                            "CidrIp": "18.234.125.133/32"
+                        },
+                        {
+                            "CidrIp": "54.86.28.234/32"
+                        },
+                        {
+                            "CidrIp": "13.218.47.140/32"
+                        },
+                        {
+                            "CidrIp": "54.221.14.35/32"
+                        },
+                        {
+                            "CidrIp": "54.226.95.144/32"
+                        },
+                        {
+                            "CidrIp": "34.195.245.216/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-07943a109d7d74fe1",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-07943a109d7d74fe1",
+            "OwnerId": "647828570435",
+            "GroupName": "IE-prod-internal-access-allowed",
+            "Description": "for production env internal access",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "VA VPN subnet",
+                            "CidrIp": "10.0.100.0/24"
+                        },
+                        {
+                            "Description": "all IE  production intranets",
+                            "CidrIp": "10.1.0.0/20"
+                        },
+                        {
+                            "Description": "part of VA production intranets",
+                            "CidrIp": "10.0.0.0/22"
+                        },
+                        {
+                            "Description": "part of VA production intranets",
+                            "CidrIp": "10.0.4.0/23"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 9009,
+                    "ToPort": 9009,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "allow netops server to access supervisor inet port",
+                            "CidrIp": "10.0.0.82/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "VA VPN subnet",
+                            "CidrIp": "10.0.100.0/24"
+                        },
+                        {
+                            "Description": "all IE  production intranets",
+                            "CidrIp": "10.1.0.0/20"
+                        },
+                        {
+                            "Description": "ops server",
+                            "CidrIp": "10.0.0.82/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "icmpv6",
+                    "FromPort": -1,
+                    "ToPort": -1,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "VA VPN subnet",
+                            "CidrIp": "10.0.100.0/24"
+                        },
+                        {
+                            "Description": "all IE  production intranets",
+                            "CidrIp": "10.1.0.0/20"
+                        },
+                        {
+                            "Description": "part of VA production intranets",
+                            "CidrIp": "10.0.0.0/22"
+                        },
+                        {
+                            "Description": "part of VA production intranets",
+                            "CidrIp": "10.0.4.0/23"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "icmp",
+                    "FromPort": -1,
+                    "ToPort": -1,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0a789c7db188f0b69",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-0a789c7db188f0b69",
+            "OwnerId": "647828570435",
+            "GroupName": "RDS-replica-lg-rds-production-global",
+            "Description": "for rds replica-lg-rds-production global database",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "legendtrading IE prod subnet",
+                            "CidrIp": "10.1.0.0/20"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0954f7141997cd46a",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-0954f7141997cd46a",
+            "OwnerId": "647828570435",
+            "GroupName": "legend-redis-prod",
+            "Description": "for legend redis to use",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 6379,
+                    "ToPort": 6379,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "legend monitoring server ip in us",
+                            "CidrIp": "10.0.0.82/32"
+                        },
+                        {
+                            "Description": "IE legend production intranets",
+                            "CidrIp": "10.1.0.0/20"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0711b047b64ff9895",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-0711b047b64ff9895",
+            "OwnerId": "647828570435",
+            "GroupName": "launch-wizard-1",
+            "Description": "launch-wizard-1 created 2026-04-21T05:10:18.763Z",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-644ff801",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-7317ed16",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-644ff801",
+            "OwnerId": "647828570435",
+            "GroupName": "default",
+            "Description": "default VPC security group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "647828570435",
+                            "GroupId": "sg-644ff801"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0417ab4c09f3b40a8",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all ie dev intranet ",
+                            "CidrIp": "10.1.16.0/22"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env ",
+                    "Value": "dev"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-0417ab4c09f3b40a8",
+            "OwnerId": "647828570435",
+            "GroupName": "RDS-lg-ie-development",
+            "Description": "for development rds",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "lg dev outer ip",
+                            "CidrIp": "54.81.240.195/32"
+                        },
+                        {
+                            "Description": "all  legend ie dev intranet",
+                            "CidrIp": "10.1.16.0/22"
+                        },
+                        {
+                            "Description": "all  legend us dev intranet",
+                            "CidrIp": "10.0.6.0/24"
+                        },
+                        {
+                            "Description": "legend us sandbox ",
+                            "CidrIp": "10.0.1.235/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-04c2bd074af1dd6a2",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-04c2bd074af1dd6a2",
+            "OwnerId": "647828570435",
+            "GroupName": "default",
+            "Description": "default VPC security group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "647828570435",
+                            "GroupId": "sg-04c2bd074af1dd6a2"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-02f312eeed0805782",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-02f312eeed0805782",
+            "OwnerId": "647828570435",
+            "GroupName": "internal-http-https",
+            "Description": "for internal http or https traffic",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "VA legend intranets",
+                            "CidrIp": "10.0.0.0/16"
+                        },
+                        {
+                            "Description": "IE  legend intranets",
+                            "CidrIp": "10.1.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "icmpv6",
+                    "FromPort": -1,
+                    "ToPort": -1,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "icmp",
+                    "FromPort": -1,
+                    "ToPort": -1,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "VA legend intranets",
+                            "CidrIp": "10.0.0.0/16"
+                        },
+                        {
+                            "Description": "IE  legend intranets",
+                            "CidrIp": "10.1.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-043f0cd266e9c5846",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-043f0cd266e9c5846",
+            "OwnerId": "647828570435",
+            "GroupName": "legendtrading-monitoring",
+            "Description": "for IE legendtrading monitoring",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 2021,
+                    "ToPort": 2021,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "fluent-bit metrics port",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 9253,
+                    "ToPort": 9253,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "php-fpm_exporter port",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 8083,
+                    "ToPort": 8083,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "cadvisor",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 9090,
+                    "ToPort": 9090,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "prometheus port",
+                            "CidrIp": "10.0.0.0/8"
+                        },
+                        {
+                            "Description": "aliyun 10.82 prometheus port",
+                            "CidrIp": "8.222.189.174/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3000,
+                    "ToPort": 3000,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "grafana port",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 9100,
+                    "ToPort": 9100,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "prometheus node exporter port",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 9121,
+                    "ToPort": 9121,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "redis exporter port",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-01acab37fb66ebdc4",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-1:647828570435:security-group/sg-01acab37fb66ebdc4",
+            "OwnerId": "647828570435",
+            "GroupName": "IE-dev-internal-access",
+            "Description": "for ireland internal access",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets http allowed",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets ssh allowed",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "icmpv6",
+                    "FromPort": -1,
+                    "ToPort": -1,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets ipv6 ping",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 6379,
+                    "ToPort": 6379,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets redis allowed",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets mysql db allowed",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "icmp",
+                    "FromPort": -1,
+                    "ToPort": -1,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets ipv4 ping",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "all intranets https allowed",
+                            "CidrIp": "10.0.0.0/8"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        }
+    ]
+}

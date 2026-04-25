@@ -1,0 +1,730 @@
+{
+  "clusters": [
+    {
+      "clusterArn": "arn:aws:ecs:us-east-1:647828570435:cluster/flashwire",
+      "clusterName": "flashwire",
+      "status": "ACTIVE",
+      "registeredContainerInstancesCount": 4,
+      "runningTasksCount": 6,
+      "pendingTasksCount": 0,
+      "activeServicesCount": 3,
+      "statistics": [],
+      "tags": [],
+      "settings": [],
+      "capacityProviders": [
+        "FARGATE",
+        "FARGATE_SPOT"
+      ],
+      "defaultCapacityProviderStrategy": [],
+      "serviceConnectDefaults": {
+        "namespace": "arn:aws:servicediscovery:us-east-1:647828570435:namespace/ns-3onmhos3hxqtf6ky"
+      }
+    },
+    {
+      "clusterArn": "arn:aws:ecs:us-east-1:647828570435:cluster/test-lg",
+      "clusterName": "test-lg",
+      "status": "ACTIVE",
+      "registeredContainerInstancesCount": 0,
+      "runningTasksCount": 0,
+      "pendingTasksCount": 0,
+      "activeServicesCount": 4,
+      "statistics": [],
+      "tags": [],
+      "settings": [],
+      "capacityProviders": [
+        "FARGATE",
+        "FARGATE_SPOT",
+        "Infra-ECS-Cluster-test-lg-81d1434c-EC2CapacityProvider-oVE7Y4avnU0h"
+      ],
+      "defaultCapacityProviderStrategy": [
+        {
+          "capacityProvider": "Infra-ECS-Cluster-test-lg-81d1434c-EC2CapacityProvider-oVE7Y4avnU0h",
+          "weight": 1,
+          "base": 0
+        }
+      ],
+      "serviceConnectDefaults": {
+        "namespace": "arn:aws:servicediscovery:us-east-1:647828570435:namespace/ns-suzchunyyp24ti6y"
+      }
+    },
+    {
+      "clusterArn": "arn:aws:ecs:us-east-1:647828570435:cluster/lg-ops-cluster",
+      "clusterName": "lg-ops-cluster",
+      "status": "ACTIVE",
+      "registeredContainerInstancesCount": 0,
+      "runningTasksCount": 1,
+      "pendingTasksCount": 0,
+      "activeServicesCount": 1,
+      "statistics": [],
+      "tags": [],
+      "settings": [],
+      "capacityProviders": [
+        "FARGATE",
+        "FARGATE_SPOT"
+      ],
+      "defaultCapacityProviderStrategy": []
+    },
+    {
+      "clusterArn": "arn:aws:ecs:us-east-1:647828570435:cluster/test-cluster",
+      "clusterName": "test-cluster",
+      "status": "ACTIVE",
+      "registeredContainerInstancesCount": 0,
+      "runningTasksCount": 0,
+      "pendingTasksCount": 0,
+      "activeServicesCount": 2,
+      "statistics": [],
+      "tags": [],
+      "settings": [],
+      "capacityProviders": [
+        "FARGATE",
+        "FARGATE_SPOT"
+      ],
+      "defaultCapacityProviderStrategy": [],
+      "serviceConnectDefaults": {
+        "namespace": "arn:aws:servicediscovery:us-east-1:647828570435:namespace/ns-rjibjlgsrjmtlzdt"
+      }
+    },
+    {
+      "clusterArn": "arn:aws:ecs:us-east-1:647828570435:cluster/legendtrading",
+      "clusterName": "legendtrading",
+      "status": "ACTIVE",
+      "registeredContainerInstancesCount": 3,
+      "runningTasksCount": 36,
+      "pendingTasksCount": 0,
+      "activeServicesCount": 15,
+      "statistics": [],
+      "tags": [],
+      "settings": [],
+      "capacityProviders": [
+        "FARGATE",
+        "FARGATE_SPOT",
+        "Infra-ECS-Cluster-legendtrading-3d4eb685-EC2CapacityProvider-OigWA6bDPhXs"
+      ],
+      "defaultCapacityProviderStrategy": [
+        {
+          "capacityProvider": "Infra-ECS-Cluster-legendtrading-3d4eb685-EC2CapacityProvider-OigWA6bDPhXs",
+          "weight": 1,
+          "base": 0
+        }
+      ],
+      "serviceConnectDefaults": {
+        "namespace": "arn:aws:servicediscovery:us-east-1:647828570435:namespace/ns-wcll5dwvnor45m3l"
+      }
+    }
+  ],
+  "failures": [],
+  "allServices": [
+    {
+      "serviceArn": "arn:aws:ecs:us-east-1:647828570435:service/lg-ops-cluster/lg-ops-api-task-service-uu4kd3e3",
+      "serviceName": "lg-ops-api-task-service-uu4kd3e3",
+      "clusterArn": "arn:aws:ecs:us-east-1:647828570435:cluster/lg-ops-cluster",
+      "loadBalancers": [
+        {
+          "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/lg-ops-api-tg/a7fb3695959213b9",
+          "containerName": "lg-ops-api",
+          "containerPort": 8000
+        }
+      ],
+      "serviceRegistries": [],
+      "status": "ACTIVE",
+      "desiredCount": 1,
+      "runningCount": 1,
+      "pendingCount": 0,
+      "capacityProviderStrategy": [
+        {
+          "capacityProvider": "FARGATE",
+          "weight": 1,
+          "base": 0
+        }
+      ],
+      "platformVersion": "1.4.0",
+      "platformFamily": "Linux",
+      "taskDefinition": "arn:aws:ecs:us-east-1:647828570435:task-definition/lg-ops-api-task:8",
+      "deploymentConfiguration": {
+        "deploymentCircuitBreaker": {
+          "enable": true,
+          "rollback": true
+        },
+        "maximumPercent": 200,
+        "minimumHealthyPercent": 100,
+        "strategy": "ROLLING",
+        "bakeTimeInMinutes": 0
+      },
+      "deployments": [
+        {
+          "id": "ecs-svc/8748805627894508992",
+          "status": "PRIMARY",
+          "taskDefinition": "arn:aws:ecs:us-east-1:647828570435:task-definition/lg-ops-api-task:8",
+          "desiredCount": 1,
+          "pendingCount": 0,
+          "runningCount": 1,
+          "failedTasks": 0,
+          "createdAt": "2026-01-10T00:48:11.898000+05:00",
+          "updatedAt": "2026-04-20T07:09:55.842000+05:00",
+          "capacityProviderStrategy": [
+            {
+              "capacityProvider": "FARGATE",
+              "weight": 1,
+              "base": 0
+            }
+          ],
+          "platformVersion": "1.4.0",
+          "platformFamily": "Linux",
+          "networkConfiguration": {
+            "awsvpcConfiguration": {
+              "subnets": [
+                "subnet-0f6f1945625e5ba1c",
+                "subnet-0440fa07cf72f80f8",
+                "subnet-0f6cc6d2b9e266cac"
+              ],
+              "securityGroups": [
+                "sg-0b6d288d6e9498e55"
+              ],
+              "assignPublicIp": "DISABLED"
+            }
+          },
+          "rolloutState": "COMPLETED",
+          "rolloutStateReason": "ECS deployment ecs-svc/8748805627894508992 completed."
+        }
+      ],
+      "roleArn": "arn:aws:iam::647828570435:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+      "events": [
+        {
+          "id": "2798e8f1-59a8-4c67-9d33-8f191d8ab276",
+          "createdAt": "2026-04-25T05:09:52.404000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "bf93dfaf-b79f-431a-9a74-32aab2bced78",
+          "createdAt": "2026-04-24T23:09:17.974000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "0d2dcd45-e36c-4566-bf3b-f02e85bc565c",
+          "createdAt": "2026-04-24T17:09:13.108000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "3659e7c0-54ed-4be5-8dde-bd048531cc71",
+          "createdAt": "2026-04-24T11:09:10.770000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "32810311-290c-486f-9005-a4d12d10ae05",
+          "createdAt": "2026-04-24T05:08:26.421000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "863c17a3-94ae-4da5-bc61-d75bed633b7c",
+          "createdAt": "2026-04-23T23:07:39.115000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "b57186c9-9a6c-4906-b246-19c344c12332",
+          "createdAt": "2026-04-23T17:06:58.134000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "4c858335-cb59-48fc-9bb7-41f3975b0fba",
+          "createdAt": "2026-04-23T11:06:44.203000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "d98dca7e-e88e-4157-80e1-c43f6be67f34",
+          "createdAt": "2026-04-23T05:06:42.606000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "bc9f8a53-12eb-484a-9c6a-d555681cdaf6",
+          "createdAt": "2026-04-22T23:06:24.209000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "c0e1cf39-425e-404a-9bcf-b18dec472c64",
+          "createdAt": "2026-04-22T17:05:40.151000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "7db250aa-d06c-48ba-8426-4ed86ae36733",
+          "createdAt": "2026-04-22T11:05:12.239000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "9e4474c4-6c72-41de-9875-f69fa03b52cd",
+          "createdAt": "2026-04-22T05:04:58.494000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "d2d7bc43-a96e-4cbd-8a24-e1a159c75fb4",
+          "createdAt": "2026-04-21T23:04:51.928000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "b68507c8-0cf7-4347-804b-0d41dfcf1a32",
+          "createdAt": "2026-04-21T19:20:11.848000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "e10496ee-58e6-4e07-8c97-a69b122a084f",
+          "createdAt": "2026-04-21T13:19:48.959000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "37e5bdfd-e5b0-4bad-8d92-6eb9394f5584",
+          "createdAt": "2026-04-21T07:19:23.786000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "5e5af42d-adc3-4bf8-8fe6-927cbda44c66",
+          "createdAt": "2026-04-21T01:18:45.367000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "f15d064c-d1d3-4a4c-9ec5-7786765bd411",
+          "createdAt": "2026-04-21T01:10:36.509000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "d33904ed-472c-4c07-abb1-3178505e36dd",
+          "createdAt": "2026-04-20T19:10:36.056000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "d8b38f8a-495f-4206-9e3f-98e0ae30a4d2",
+          "createdAt": "2026-04-20T13:10:06.613000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "33803bb5-da81-464e-ac06-d3f45116075f",
+          "createdAt": "2026-04-20T07:09:55.848000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "b32115e6-4665-4a28-a35d-16c02bd23ca8",
+          "createdAt": "2026-04-20T07:09:55.837000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3, taskSet ecs-svc/8748805627894508992) has begun draining connections on 1 tasks."
+        },
+        {
+          "id": "fd1fd0d9-d619-462c-9875-33212b4dd971",
+          "createdAt": "2026-04-20T07:09:55.831000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) deregistered 1 targets in (target-group arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/lg-ops-api-tg/a7fb3695959213b9)"
+        },
+        {
+          "id": "3c6482c6-8735-4ca6-92bc-9084d11063a0",
+          "createdAt": "2026-04-20T07:09:46.706000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has stopped 1 running tasks: (task 08cde19ef8ba4228be4a78c34076407c)."
+        },
+        {
+          "id": "b4f33451-e4be-4696-b881-252dec5ef6b0",
+          "createdAt": "2026-04-20T07:08:56.996000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) registered 1 targets in (target-group arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/lg-ops-api-tg/a7fb3695959213b9)"
+        },
+        {
+          "id": "09ab9a5a-cdd1-45ee-accb-75d6609e670b",
+          "createdAt": "2026-04-20T07:08:18.613000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has started 1 tasks: (task 8d03cacb12424875ab902be1f32230ed)."
+        },
+        {
+          "id": "f75a482b-7a51-4931-a8f4-0e60d686a635",
+          "createdAt": "2026-04-20T02:26:39.273000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "85622444-ad9d-4529-a32e-b2991632ba4c",
+          "createdAt": "2026-04-19T20:26:29.414000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "062b4866-caeb-4262-8ee4-2a56f3b6d696",
+          "createdAt": "2026-04-19T14:26:06.089000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "adc9c457-f6fd-4a79-9130-3cb2dab7efc1",
+          "createdAt": "2026-04-19T08:25:59.041000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "c54c7a2a-e251-4777-b3b1-a385f311b589",
+          "createdAt": "2026-04-19T02:25:48.003000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "388a6507-f0a0-47bb-a78e-530fc057c038",
+          "createdAt": "2026-04-19T00:34:48.503000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "6d383d67-d1d0-40dd-8cd4-aab4d8c9c3fb",
+          "createdAt": "2026-04-18T18:34:38.638000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "51192b61-cb31-49ec-9137-d2bc5f129882",
+          "createdAt": "2026-04-18T12:34:24.522000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "89e663ab-aa4c-453f-8e43-e1e3d45492ea",
+          "createdAt": "2026-04-18T06:34:00.439000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "1e0b43bb-7e19-40c7-a2fc-7f3e8b270fea",
+          "createdAt": "2026-04-18T00:33:47.644000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "df22827e-1f2a-411a-bedd-26cdfe9ff272",
+          "createdAt": "2026-04-17T19:06:29.217000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "5420b6c3-6108-4a3c-8d27-f45ef952c90d",
+          "createdAt": "2026-04-17T13:06:00.395000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "092f38ae-0fc3-4f17-8ce3-cfa4737c516a",
+          "createdAt": "2026-04-17T07:05:35.959000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "1f8cebec-b669-453b-850a-efa77e37c01a",
+          "createdAt": "2026-04-17T01:05:06.152000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "fefd9e1f-0c64-4907-8b78-21d6b83c2020",
+          "createdAt": "2026-04-16T19:04:30.362000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "e340eb2f-572d-443a-80f8-b5846a1f0d28",
+          "createdAt": "2026-04-16T13:04:11.955000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "ab2d1e8c-1cd5-4329-a647-b51187939185",
+          "createdAt": "2026-04-16T07:04:10.111000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "29ad56a0-0aa9-4675-8357-a7a35dd8589f",
+          "createdAt": "2026-04-16T01:03:44.036000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "fa403d00-6b6e-42a9-9661-2dc5c8ae4d8e",
+          "createdAt": "2026-04-15T19:03:05.834000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "9e62cf9e-7b8c-4b9c-ad40-ae065c02f4d3",
+          "createdAt": "2026-04-15T13:02:57.719000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "c8f3c0ce-d00a-480b-9540-e3c58baf655c",
+          "createdAt": "2026-04-15T07:02:12.542000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "801ac6a8-465c-481b-8700-1a53afbfeca4",
+          "createdAt": "2026-04-15T01:01:50.552000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "f49bf9e9-3caa-4b82-8a28-744c12fe5154",
+          "createdAt": "2026-04-14T19:01:33.647000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "c9e1c795-8a1f-45d6-81bc-53e1c53fb312",
+          "createdAt": "2026-04-14T13:00:52.322000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "72ee3535-fd04-47da-8859-d685e6998150",
+          "createdAt": "2026-04-14T07:00:13.424000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "856ee0c3-f081-4429-a353-1940d52d221f",
+          "createdAt": "2026-04-14T01:00:08.894000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "b02b572d-f202-499e-9a14-f64f47dd96a1",
+          "createdAt": "2026-04-13T18:59:57.410000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "b4f9542a-ca19-4b05-9319-fe789b60c58d",
+          "createdAt": "2026-04-13T12:59:17.012000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "7a8f0364-9e40-463b-82ed-e18bfebe8128",
+          "createdAt": "2026-04-13T06:58:59.889000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "30d69b76-12ba-4e59-887a-704e4c26a4e5",
+          "createdAt": "2026-04-13T00:58:36.491000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "9979ebb3-507a-4d2d-92f3-3a60d4321f96",
+          "createdAt": "2026-04-12T18:58:14.360000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "904621b3-d6ff-402a-aad3-8de320183352",
+          "createdAt": "2026-04-12T12:57:47.163000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "261a3789-5444-4486-8198-eb4a023452b9",
+          "createdAt": "2026-04-12T06:57:16.794000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "0004d605-2f1a-4c6d-b462-537cd5d2a22c",
+          "createdAt": "2026-04-12T00:56:36.168000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "886d0210-e671-493c-8dcf-8de82cc14a9e",
+          "createdAt": "2026-04-11T18:56:23.254000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "4da3ffb4-fdeb-4bc7-afcf-59f118ad2790",
+          "createdAt": "2026-04-11T12:56:21.528000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "d5e12817-e829-4167-a072-f7b3a937d0c7",
+          "createdAt": "2026-04-11T06:56:15.680000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "468e626f-cc6f-44b9-9645-f1e5f1a18a07",
+          "createdAt": "2026-04-11T00:56:12.562000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "85923686-fce5-445f-8a22-7dbe0d6420ce",
+          "createdAt": "2026-04-10T18:56:05.582000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "8f11c258-9a20-49be-8126-36917a202090",
+          "createdAt": "2026-04-10T12:55:49.568000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "101f3129-61e5-4b6a-bd3d-73b1df56bb9f",
+          "createdAt": "2026-04-10T06:55:40.135000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "5b887ee6-e703-45e2-96ff-ff7f80a8f0ed",
+          "createdAt": "2026-04-10T00:55:18.509000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "df0142d7-b188-43b8-a030-7377d0e4a753",
+          "createdAt": "2026-04-09T19:59:01.761000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "92fa11e3-1ad1-4352-aff9-5ed580316b6f",
+          "createdAt": "2026-04-09T13:58:21.454000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "eb5a4769-625f-486b-a6c9-ac077bef91a9",
+          "createdAt": "2026-04-09T07:58:07.163000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "a919eef0-a84c-47d6-bc1d-7d1de365ae33",
+          "createdAt": "2026-04-09T01:57:31.240000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "04ecf7a5-f5ec-4fdb-ae2b-cf4506ceb54c",
+          "createdAt": "2026-04-08T19:56:49.891000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "681f41c7-1897-4635-9868-f27329e99077",
+          "createdAt": "2026-04-08T13:56:34.579000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "57b8a2f8-9994-475f-941f-de6bf46032dc",
+          "createdAt": "2026-04-08T07:56:00.196000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "497f7fc7-e4c4-46f0-a1de-01fde599fbcb",
+          "createdAt": "2026-04-08T01:55:44.540000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "d1bac9ce-e790-4505-8c40-bebf0bd29e96",
+          "createdAt": "2026-04-08T01:55:44.525000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3, taskSet ecs-svc/8748805627894508992) has begun draining connections on 1 tasks."
+        },
+        {
+          "id": "f155048d-f45a-4b51-9fd5-b85e7aff685d",
+          "createdAt": "2026-04-08T01:55:44.520000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) deregistered 1 targets in (target-group arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/lg-ops-api-tg/a7fb3695959213b9)"
+        },
+        {
+          "id": "4cc11083-7c2a-4713-903a-d8ea13c7b083",
+          "createdAt": "2026-04-08T01:55:34.565000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has stopped 1 running tasks: (task 968deebb1eff48d2b3193bb1f42080c9)."
+        },
+        {
+          "id": "a735d4de-e7b7-40bb-889f-45fa7efda548",
+          "createdAt": "2026-04-08T01:54:46.875000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) registered 1 targets in (target-group arn:aws:elasticloadbalancing:us-east-1:647828570435:targetgroup/lg-ops-api-tg/a7fb3695959213b9)"
+        },
+        {
+          "id": "e7582f74-ee0c-4a15-a7be-68ecc9e7e53e",
+          "createdAt": "2026-04-08T01:53:58.426000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has started 1 tasks: (task 08cde19ef8ba4228be4a78c34076407c)."
+        },
+        {
+          "id": "f1f9a231-2330-4e24-9a4d-bc37a06fc788",
+          "createdAt": "2026-04-08T01:17:13.624000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "33a7160b-6f52-4c53-a3a6-6dc01822d968",
+          "createdAt": "2026-04-08T00:20:32.074000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "4636e88d-b2bd-4790-8483-c2ff2bdb1711",
+          "createdAt": "2026-04-07T18:20:21.577000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "14afc5c5-e620-4f34-88a5-db4fe4b09454",
+          "createdAt": "2026-04-07T13:34:01.638000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "2ac2a7e6-5c61-4fa9-b83d-12999789ff61",
+          "createdAt": "2026-04-07T07:33:52.399000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "dc5d37d9-9499-4a89-abff-525e79b41401",
+          "createdAt": "2026-04-07T01:33:13.876000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "79d5623e-2211-47e5-bcdc-f48280fd5280",
+          "createdAt": "2026-04-06T19:32:31.116000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "f8762a02-38cd-411a-8cd5-3ad47d5013f3",
+          "createdAt": "2026-04-06T15:37:28.512000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "524f2cf1-7f44-440d-bc7d-083f34d56c4a",
+          "createdAt": "2026-04-06T09:36:43.532000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "213f2519-c4c2-4568-9cf9-86e715ee761a",
+          "createdAt": "2026-04-06T03:36:09.912000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "4ce2b0a7-782b-4225-92f2-78c8d25e9808",
+          "createdAt": "2026-04-05T21:35:31.039000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "5849ccaa-a1ff-4622-a741-1091370560df",
+          "createdAt": "2026-04-05T15:35:00.743000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "28578e99-df9b-41da-9c54-6586845abcb8",
+          "createdAt": "2026-04-05T09:34:35.594000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "3237d971-a174-4fa6-8b22-f00c0fb3e98c",
+          "createdAt": "2026-04-05T03:34:25.245000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "828feab4-d28c-47e1-9186-def1d0768a34",
+          "createdAt": "2026-04-04T21:33:55.235000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "ff5bd41c-a150-49cd-9701-81816045c051",
+          "createdAt": "2026-04-04T15:33:53.663000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "0c5f7b36-26e6-4115-9393-fd7b8b8d5b82",
+          "createdAt": "2026-04-04T09:33:38.262000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        },
+        {
+          "id": "4e0ae5e3-6b50-49aa-85cc-476484449d9f",
+          "createdAt": "2026-04-04T03:32:53.902000+05:00",
+          "message": "(service lg-ops-api-task-service-uu4kd3e3) has reached a steady state."
+        }
+      ],
+      "createdAt": "2026-01-08T11:31:04.964000+05:00",
+      "currentServiceRevisions": [
+        {
+          "arn": "arn:aws:ecs:us-east-1:647828570435:service-revision/lg-ops-cluster/lg-ops-api-task-service-uu4kd3e3/8748805627894508992",
+          "requestedTaskCount": 1,
+          "runningTaskCount": 1,
+          "pendingTaskCount": 0
+        }
+      ],
+      "placementConstraints": [],
+      "placementStrategy": [],
+      "networkConfiguration": {
+        "awsvpcConfiguration": {
+          "subnets": [
+            "subnet-0f6f1945625e5ba1c",
+            "subnet-0440fa07cf72f80f8",
+            "subnet-0f6cc6d2b9e266cac"
+          ],
+          "securityGroups": [
+            "sg-0b6d288d6e9498e55"
+          ],
+          "assignPublicIp": "DISABLED"
+        }
+      },
+      "healthCheckGracePeriodSeconds": 120,
+      "schedulingStrategy": "REPLICA",
+      "deploymentController": {
+        "type": "ECS"
+      },
+      "createdBy": "arn:aws:iam::647828570435:root",
+      "enableECSManagedTags": true,
+      "propagateTags": "NONE",
+      "enableExecuteCommand": false,
+      "availabilityZoneRebalancing": "ENABLED",
+      "resourceManagementType": "CUSTOMER"
+    }
+  ]
+}

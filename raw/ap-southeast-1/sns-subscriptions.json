@@ -1,0 +1,11 @@
+{
+    "Subscriptions": [
+        {
+            "SubscriptionArn": "arn:aws:sns:ap-southeast-1:647828570435:zingpays_dot_com_mail_issue_feedback:9c63fb97-bf5f-4ba6-a5d3-a93813267654",
+            "Owner": "647828570435",
+            "Protocol": "email",
+            "Endpoint": "deploy-lending@flashwire.com",
+            "TopicArn": "arn:aws:sns:ap-southeast-1:647828570435:zingpays_dot_com_mail_issue_feedback"
+        }
+    ]
+}

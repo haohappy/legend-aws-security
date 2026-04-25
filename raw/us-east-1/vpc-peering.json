@@ -1,0 +1,584 @@
+{
+    "VpcPeeringConnections": [
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.0.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.0.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.32.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0cc2aa7ac68fbaf61",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.21.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.21.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-021391a2d0eadb6b1",
+                "Region": "ap-southeast-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "virginia-lgvpc-to-singpore-mpc"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-02d32af0f61c4bacc"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.0.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.0.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.32.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0cc2aa7ac68fbaf61",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.20.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.20.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0b7fe214033d48811",
+                "Region": "ap-southeast-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Singapore-to-US-east1"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-04640090e63bd966e"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.10.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.10.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.33.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0ef64137b97e9eb00",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.1.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.1.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-03cc70f7b5668f3c7",
+                "Region": "eu-west-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "IE-lgvpc-to-flashwire"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-0c179d3e3f4b5ac9a"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.0.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.0.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.32.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0cc2aa7ac68fbaf61",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.30.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.30.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0e8a205860906c944",
+                "Region": "ap-southeast-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lendingvpc-to-lgvpc"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-0d2e09e5aed6bacab"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.0.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.0.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.32.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0cc2aa7ac68fbaf61",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.1.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.1.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-03cc70f7b5668f3c7",
+                "Region": "eu-west-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-to-legendtrading-VA"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.10.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.10.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.33.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0ef64137b97e9eb00",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.30.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.30.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0e8a205860906c944",
+                "Region": "ap-southeast-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lendingvpc-to-flashwirevpc"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-017454d0f0419f842"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.0.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.0.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.32.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0cc2aa7ac68fbaf61",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.2.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.2.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-02775b0dac0fb2ea5",
+                "Region": "eu-west-3"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-to-legendtrading-VA"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-007e2a174023e5fcb"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.0.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.0.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.32.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0cc2aa7ac68fbaf61",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.101.0.0/24",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.101.0.0/24"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0c3712644ef5a4efb",
+                "Region": "ap-southeast-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpn-sg to lgvpc"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-016497f91cefb3a5f"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.10.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.10.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.33.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0ef64137b97e9eb00",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.101.0.0/24",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.101.0.0/24"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0c3712644ef5a4efb",
+                "Region": "ap-southeast-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpn-sg to flashwire"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-0bf46f91fe5006586"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.100.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.100.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0a8e8be43ee21c493",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.101.0.0/24",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.101.0.0/24"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0c3712644ef5a4efb",
+                "Region": "ap-southeast-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpn-sg to zingpays-vpc"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-031cf6ceac2bd9fc7"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.0.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.0.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.32.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0cc2aa7ac68fbaf61",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.10.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.10.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.33.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0ef64137b97e9eb00",
+                "Region": "us-east-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "vpn.zingpays.com"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+        },
+        {
+            "AccepterVpcInfo": {
+                "CidrBlock": "10.0.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.0.0.0/16"
+                    },
+                    {
+                        "CidrBlock": "172.32.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0cc2aa7ac68fbaf61",
+                "Region": "us-east-1"
+            },
+            "RequesterVpcInfo": {
+                "CidrBlock": "10.100.0.0/16",
+                "CidrBlockSet": [
+                    {
+                        "CidrBlock": "10.100.0.0/16"
+                    }
+                ],
+                "OwnerId": "647828570435",
+                "PeeringOptions": {
+                    "AllowDnsResolutionFromRemoteVpc": false,
+                    "AllowEgressFromLocalClassicLinkToRemoteVpc": false,
+                    "AllowEgressFromLocalVpcToRemoteClassicLink": false
+                },
+                "VpcId": "vpc-0a8e8be43ee21c493",
+                "Region": "us-east-1"
+            },
+            "Status": {
+                "Code": "active",
+                "Message": "Active"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "zingpay-vpcs-peerubg"
+                }
+            ],
+            "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+        }
+    ]
+}

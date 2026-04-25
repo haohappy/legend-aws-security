@@ -1,0 +1,216 @@
+{
+    "RouteTables": [
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-073e172ea92a9efa1",
+                    "RouteTableId": "rtb-0c17a060775a4ec81",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0c17a060775a4ec81",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0f722332618509e60",
+                    "RouteTableId": "rtb-03d7097aef90cb012",
+                    "SubnetId": "subnet-0993eeda30d37844d",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-03d7097aef90cb012",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-007e2a174023e5fcb"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0923184ddbc3e4ef9"
+                },
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-23ad484a",
+                    "GatewayId": "vpce-078f31e3fac9db5be",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-rtb-private1-eu-west-3b"
+                }
+            ],
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0ba75626383bae3c4",
+                    "RouteTableId": "rtb-0e066dbc03b139332",
+                    "SubnetId": "subnet-02aaf9e37b2369f70",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0e066dbc03b139332",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-007e2a174023e5fcb"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0923184ddbc3e4ef9"
+                },
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-23ad484a",
+                    "GatewayId": "vpce-078f31e3fac9db5be",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-rtb-private1-eu-west-3a"
+                }
+            ],
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-04d4d55dc2745821a",
+                    "RouteTableId": "rtb-04fecc1f8eaf2b365",
+                    "SubnetId": "subnet-0b2208ec1f92cf7c2",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0cdd37b85f07e56e4",
+                    "RouteTableId": "rtb-04fecc1f8eaf2b365",
+                    "SubnetId": "subnet-0d750108c66777bb3",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-04fecc1f8eaf2b365",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-007e2a174023e5fcb"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0923184ddbc3e4ef9"
+                },
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0f7457239b1d05d8d",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-FR-rtb-public"
+                }
+            ],
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-5127fa39",
+                    "RouteTableId": "rtb-725ebe1a",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-725ebe1a",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "172.31.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-afb2e4c6",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-e720338e",
+            "OwnerId": "647828570435"
+        }
+    ]
+}

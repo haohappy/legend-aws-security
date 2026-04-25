@@ -1,0 +1,695 @@
+{
+    "DBInstances": [
+        {
+            "DBInstanceIdentifier": "lg-ie-development",
+            "DBInstanceClass": "db.t4g.medium",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "admin",
+            "Endpoint": {
+                "Address": "lg-ie-development.cfjwqoybkxje.eu-west-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z29XKXDKYMONMX"
+            },
+            "AllocatedStorage": 50,
+            "InstanceCreateTime": "2025-11-03T09:13:51.271000+00:00",
+            "PreferredBackupWindow": "04:05-04:35",
+            "BackupRetentionPeriod": 7,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0417ab4c09f3b40a8",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "lg-ie-development8",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "eu-west-1a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "lg-ie-development-subnets-group",
+                "DBSubnetGroupDescription": "for legend ie datacenter dev env",
+                "VpcId": "vpc-03cc70f7b5668f3c7",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-0bff17873cfcc082e",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-0c5a49502bffd106a",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "tue:02:11-tue:02:41",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "LatestRestorableTime": "2026-04-25T02:33:21+00:00",
+            "MultiAZ": false,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": true,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "Iops": 3000,
+            "StorageThroughput": 125,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": false,
+            "StorageType": "gp3",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "DbiResourceId": "db-VRSX4ELCWV5Y3EP65MAC6WZDJA",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": true,
+            "MonitoringInterval": 0,
+            "DBInstanceArn": "arn:aws:rds:eu-west-1:647828570435:db:lg-ie-development",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": false,
+            "DeletionProtection": true,
+            "AssociatedRoles": [],
+            "MaxAllocatedStorage": 1000,
+            "TagList": [
+                {
+                    "Key": "env ",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2026-11-03T09:11:55+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": false,
+            "EngineLifecycleSupport": "open-source-rds-extended-support-disabled"
+        },
+        {
+            "DBInstanceIdentifier": "lg-ie-development-global-read",
+            "DBInstanceClass": "db.t4g.small",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "flashw_stagsuper",
+            "Endpoint": {
+                "Address": "lg-ie-development-global-read.cfjwqoybkxje.eu-west-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z29XKXDKYMONMX"
+            },
+            "AllocatedStorage": 350,
+            "InstanceCreateTime": "2026-01-05T08:33:42.056000+00:00",
+            "PreferredBackupWindow": "05:00-05:30",
+            "BackupRetentionPeriod": 0,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0417ab4c09f3b40a8",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "lg-ie-development-global-read-env8",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "eu-west-1a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "lg-ie-development-subnets-group",
+                "DBSubnetGroupDescription": "for legend ie datacenter dev env",
+                "VpcId": "vpc-03cc70f7b5668f3c7",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-0bff17873cfcc082e",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-0c5a49502bffd106a",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "sun:07:00-sun:07:30",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "MultiAZ": false,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": false,
+            "ReadReplicaSourceDBInstanceIdentifier": "arn:aws:rds:us-east-1:647828570435:db:flashwire-staging-env",
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "Iops": 3000,
+            "StorageThroughput": 125,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": false,
+            "StatusInfos": [
+                {
+                    "StatusType": "read replication",
+                    "Normal": true,
+                    "Status": "replicating"
+                }
+            ],
+            "StorageType": "gp3",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "DbiResourceId": "db-6UTFISOQMP77FTY3QPJEDHHGB4",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": false,
+            "MonitoringInterval": 0,
+            "DBInstanceArn": "arn:aws:rds:eu-west-1:647828570435:db:lg-ie-development-global-read",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": false,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "DeletionProtection": true,
+            "AssociatedRoles": [],
+            "MaxAllocatedStorage": 1000,
+            "TagList": [
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2027-01-05T08:22:18+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": false,
+            "EngineLifecycleSupport": "open-source-rds-extended-support"
+        },
+        {
+            "DBInstanceIdentifier": "lg-ie-production",
+            "DBInstanceClass": "db.m6g.large",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "admin4900s",
+            "Endpoint": {
+                "Address": "lg-ie-production.cfjwqoybkxje.eu-west-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z29XKXDKYMONMX"
+            },
+            "AllocatedStorage": 500,
+            "InstanceCreateTime": "2025-11-29T06:53:06.301000+00:00",
+            "PreferredBackupWindow": "23:29-23:59",
+            "BackupRetentionPeriod": 1,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0b0e4f203f71aefe0",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "lg-ie-production8",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "eu-west-1b",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "lg-ie-production-subnets-group",
+                "DBSubnetGroupDescription": "for lg-ie-production to place in ",
+                "VpcId": "vpc-03cc70f7b5668f3c7",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-08e922c84f9946555",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-0c959a2c818b5c67b",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "tue:07:29-tue:07:59",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "LatestRestorableTime": "2026-04-25T02:29:09+00:00",
+            "MultiAZ": true,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": false,
+            "ReadReplicaDBInstanceIdentifiers": [
+                "replica-lg-ie-production-data-analysis",
+                "arn:aws:rds:eu-west-3:647828570435:db:replica-lg-ie-production"
+            ],
+            "LicenseModel": "general-public-license",
+            "Iops": 12000,
+            "StorageThroughput": 500,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "SecondaryAvailabilityZone": "eu-west-1a",
+            "PubliclyAccessible": false,
+            "StorageType": "gp3",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "DbiResourceId": "db-JPRMYRYXBSSRN5D7VTORHXAH5U",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": false,
+            "MonitoringInterval": 60,
+            "EnhancedMonitoringResourceArn": "arn:aws:logs:eu-west-1:647828570435:log-group:RDSOSMetrics:log-stream:db-JPRMYRYXBSSRN5D7VTORHXAH5U",
+            "MonitoringRoleArn": "arn:aws:iam::647828570435:role/rds-monitoring-role",
+            "DBInstanceArn": "arn:aws:rds:eu-west-1:647828570435:db:lg-ie-production",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "PerformanceInsightsRetentionPeriod": 7,
+            "DeletionProtection": true,
+            "AssociatedRoles": [],
+            "MaxAllocatedStorage": 1000,
+            "TagList": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2026-11-29T06:47:42+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": false,
+            "EngineLifecycleSupport": "open-source-rds-extended-support"
+        },
+        {
+            "DBInstanceIdentifier": "lg-ie-test-deletion-20251216-172724",
+            "DBInstanceClass": "db.t4g.medium",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "admin4900s",
+            "Endpoint": {
+                "Address": "lg-ie-test-deletion-20251216-172724.cfjwqoybkxje.eu-west-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z29XKXDKYMONMX"
+            },
+            "AllocatedStorage": 500,
+            "InstanceCreateTime": "2025-12-16T10:05:26.256000+00:00",
+            "PreferredBackupWindow": "23:29-23:59",
+            "BackupRetentionPeriod": 1,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0b0e4f203f71aefe0",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "lg-ie-production8",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "eu-west-1a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "lg-ie-production-subnets-group",
+                "DBSubnetGroupDescription": "for lg-ie-production to place in ",
+                "VpcId": "vpc-03cc70f7b5668f3c7",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-08e922c84f9946555",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-0c959a2c818b5c67b",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "tue:07:29-tue:07:59",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "LatestRestorableTime": "2026-04-25T02:28:45+00:00",
+            "MultiAZ": false,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": false,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "Iops": 12000,
+            "StorageThroughput": 500,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": false,
+            "StorageType": "gp3",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "DbiResourceId": "db-S5JP43RP7IG63HJ65XYEFQTWUY",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": false,
+            "MonitoringInterval": 0,
+            "DBInstanceArn": "arn:aws:rds:eu-west-1:647828570435:db:lg-ie-test-deletion-20251216-172724",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": false,
+            "DeletionProtection": true,
+            "AssociatedRoles": [],
+            "TagList": [
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2026-12-16T10:03:29+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": false,
+            "EngineLifecycleSupport": "open-source-rds-extended-support"
+        },
+        {
+            "DBInstanceIdentifier": "replica-lg-ie-production-data-analysis",
+            "DBInstanceClass": "db.t4g.medium",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "admin4900s",
+            "Endpoint": {
+                "Address": "replica-lg-ie-production-data-analysis.cfjwqoybkxje.eu-west-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z29XKXDKYMONMX"
+            },
+            "AllocatedStorage": 500,
+            "InstanceCreateTime": "2026-01-07T10:03:49.069000+00:00",
+            "PreferredBackupWindow": "23:29-23:59",
+            "BackupRetentionPeriod": 0,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0b0e4f203f71aefe0",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "lg-ie-production8",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "eu-west-1a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "lg-ie-production-subnets-group-public",
+                "DBSubnetGroupDescription": "public subnet",
+                "VpcId": "vpc-03cc70f7b5668f3c7",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-08ff5f561f390164f",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-012c8f2504cf74d90",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "tue:07:29-tue:07:59",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "MultiAZ": false,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": false,
+            "ReadReplicaSourceDBInstanceIdentifier": "lg-ie-production",
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": true,
+            "StatusInfos": [
+                {
+                    "StatusType": "read replication",
+                    "Normal": true,
+                    "Status": "replicating"
+                }
+            ],
+            "StorageType": "gp2",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "DbiResourceId": "db-RKIE2QCGCODHFQLMIVFR2FOWGQ",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": false,
+            "MonitoringInterval": 0,
+            "DBInstanceArn": "arn:aws:rds:eu-west-1:647828570435:db:replica-lg-ie-production-data-analysis",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "PerformanceInsightsRetentionPeriod": 7,
+            "DeletionProtection": false,
+            "AssociatedRoles": [],
+            "MaxAllocatedStorage": 1000,
+            "TagList": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2027-01-07T10:00:31+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": false,
+            "EngineLifecycleSupport": "open-source-rds-extended-support"
+        },
+        {
+            "DBInstanceIdentifier": "replica-lg-rds-production-global",
+            "DBInstanceClass": "db.m6g.large",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "admin4900s",
+            "Endpoint": {
+                "Address": "replica-lg-rds-production-global.cfjwqoybkxje.eu-west-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z29XKXDKYMONMX"
+            },
+            "AllocatedStorage": 500,
+            "InstanceCreateTime": "2025-11-29T08:26:03.184000+00:00",
+            "PreferredBackupWindow": "06:54-07:24",
+            "BackupRetentionPeriod": 0,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0a789c7db188f0b69",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "replica-lg-rds-production-mysql8-global",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "eu-west-1a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "replica-lg-rds-production-subnets-group",
+                "DBSubnetGroupDescription": "for replica of lg-rds-production to place in",
+                "VpcId": "vpc-03cc70f7b5668f3c7",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-08e922c84f9946555",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-0c959a2c818b5c67b",
+                        "SubnetAvailabilityZone": {
+                            "Name": "eu-west-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "tue:07:29-tue:07:59",
+            "UpgradeRolloutOrder": "second",
+            "PendingModifiedValues": {},
+            "MultiAZ": true,
+            "EngineVersion": "8.0.45",
+            "AutoMinorVersionUpgrade": false,
+            "ReadReplicaSourceDBInstanceIdentifier": "arn:aws:rds:us-east-1:647828570435:db:lg-rds-production",
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "Iops": 12000,
+            "StorageThroughput": 500,
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "SecondaryAvailabilityZone": "eu-west-1b",
+            "PubliclyAccessible": true,
+            "StatusInfos": [
+                {
+                    "StatusType": "read replication",
+                    "Normal": true,
+                    "Status": "replicating"
+                }
+            ],
+            "StorageType": "gp3",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "DbiResourceId": "db-ZTUOGRIYI2QCQBLSS3YPWWFLEU",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": true,
+            "MonitoringInterval": 60,
+            "EnhancedMonitoringResourceArn": "arn:aws:logs:eu-west-1:647828570435:log-group:RDSOSMetrics:log-stream:db-ZTUOGRIYI2QCQBLSS3YPWWFLEU",
+            "MonitoringRoleArn": "arn:aws:iam::647828570435:role/rds-monitoring-role",
+            "DBInstanceArn": "arn:aws:rds:eu-west-1:647828570435:db:replica-lg-rds-production-global",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "DatabaseInsightsMode": "standard",
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+            "PerformanceInsightsRetentionPeriod": 7,
+            "EnabledCloudwatchLogsExports": [
+                "slowquery"
+            ],
+            "DeletionProtection": true,
+            "AssociatedRoles": [],
+            "MaxAllocatedStorage": 1000,
+            "TagList": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "NetworkType": "IPV4",
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "CertificateDetails": {
+                "CAIdentifier": "rds-ca-rsa2048-g1",
+                "ValidTill": "2026-11-29T08:20:04+00:00"
+            },
+            "DedicatedLogVolume": false,
+            "IsStorageConfigUpgradeAvailable": false,
+            "EngineLifecycleSupport": "open-source-rds-extended-support"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "Parameters": [
+        {
+            "Name": "/Flashwire/Production/mStellapay/NUXT_PUBLIC_BASE_URL",
+            "ARN": "arn:aws:ssm:ap-southeast-1:647828570435:parameter/Flashwire/Production/mStellapay/NUXT_PUBLIC_BASE_URL",
+            "Type": "SecureString",
+            "KeyId": "alias/aws/ssm",
+            "LastModifiedDate": "2023-09-11T08:04:53.324000+05:00",
+            "LastModifiedUser": "arn:aws:iam::647828570435:user/kaiqiang.qiao",
+            "Description": "for stellapay debitcard mobile",
+            "Version": 1,
+            "Tier": "Standard",
+            "Policies": [],
+            "DataType": "text"
+        },
+        {
+            "Name": "/Flashwire/Production/mStellapay/NUXT_PUBLIC_RE_CAPTCHA_SITE_KEY",
+            "ARN": "arn:aws:ssm:ap-southeast-1:647828570435:parameter/Flashwire/Production/mStellapay/NUXT_PUBLIC_RE_CAPTCHA_SITE_KEY",
+            "Type": "SecureString",
+            "KeyId": "alias/aws/ssm",
+            "LastModifiedDate": "2024-10-31T06:56:45.301000+05:00",
+            "LastModifiedUser": "arn:aws:iam::647828570435:user/kaiqiang.qiao",
+            "Description": "for google recaptcha",
+            "Version": 1,
+            "Tier": "Standard",
+            "Policies": [],
+            "DataType": "text"
+        }
+    ]
+}

@@ -1,0 +1,4292 @@
+{
+  "clusters": [
+    {
+      "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire",
+      "clusterName": "flashwire",
+      "status": "ACTIVE",
+      "registeredContainerInstancesCount": 5,
+      "runningTasksCount": 16,
+      "pendingTasksCount": 0,
+      "activeServicesCount": 6,
+      "statistics": [
+        {
+          "name": "runningEC2TasksCount",
+          "value": "0"
+        },
+        {
+          "name": "runningFargateTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "pendingEC2TasksCount",
+          "value": "0"
+        },
+        {
+          "name": "pendingFargateTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "runningExternalTasksCount",
+          "value": "16"
+        },
+        {
+          "name": "pendingExternalTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "runningManagedInstancesTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "pendingManagedInstancesTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "activeEC2ServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "activeFargateServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingEC2ServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingFargateServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "activeExternalServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingExternalServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "activeManagedInstancesServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingManagedInstancesServiceCount",
+          "value": "0"
+        }
+      ],
+      "tags": [],
+      "settings": [],
+      "capacityProviders": [
+        "FARGATE",
+        "FARGATE_SPOT",
+        "Infra-ECS-Cluster-flashwire-93d06274-EC2CapacityProvider-MPMrJY9M6pa8"
+      ],
+      "defaultCapacityProviderStrategy": [
+        {
+          "capacityProvider": "Infra-ECS-Cluster-flashwire-93d06274-EC2CapacityProvider-MPMrJY9M6pa8",
+          "weight": 1,
+          "base": 0
+        }
+      ],
+      "attachments": [
+        {
+          "id": "48b05668-9ca6-4ca5-8a5f-6946e7f5029f",
+          "type": "sc",
+          "status": "ATTACHED",
+          "details": []
+        },
+        {
+          "id": "5d785bfb-7b2b-4cd2-873b-066a4b643074",
+          "type": "as_policy",
+          "status": "CREATED",
+          "details": [
+            {
+              "name": "capacityProviderName",
+              "value": "Infra-ECS-Cluster-flashwire-93d06274-EC2CapacityProvider-MPMrJY9M6pa8"
+            },
+            {
+              "name": "scalingPolicyName",
+              "value": "ECSManagedAutoScalingPolicy-c8bf955c-843a-4634-aee7-37cf06a1d6e0"
+            }
+          ]
+        }
+      ],
+      "attachmentsStatus": "UPDATE_COMPLETE",
+      "serviceConnectDefaults": {
+        "namespace": "arn:aws:servicediscovery:ap-southeast-1:647828570435:namespace/ns-3onmhos3hxqtf6ky"
+      }
+    },
+    {
+      "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire-lending",
+      "clusterName": "flashwire-lending",
+      "status": "ACTIVE",
+      "registeredContainerInstancesCount": 1,
+      "runningTasksCount": 1,
+      "pendingTasksCount": 0,
+      "activeServicesCount": 1,
+      "statistics": [
+        {
+          "name": "runningEC2TasksCount",
+          "value": "0"
+        },
+        {
+          "name": "runningFargateTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "pendingEC2TasksCount",
+          "value": "0"
+        },
+        {
+          "name": "pendingFargateTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "runningExternalTasksCount",
+          "value": "1"
+        },
+        {
+          "name": "pendingExternalTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "runningManagedInstancesTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "pendingManagedInstancesTasksCount",
+          "value": "0"
+        },
+        {
+          "name": "activeEC2ServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "activeFargateServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingEC2ServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingFargateServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "activeExternalServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingExternalServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "activeManagedInstancesServiceCount",
+          "value": "0"
+        },
+        {
+          "name": "drainingManagedInstancesServiceCount",
+          "value": "0"
+        }
+      ],
+      "tags": [],
+      "settings": [],
+      "capacityProviders": [
+        "FARGATE",
+        "FARGATE_SPOT",
+        "Infra-ECS-Cluster-flashwire-lending-215ea4f0-EC2CapacityProvider-qv0OYtlGr7Au"
+      ],
+      "defaultCapacityProviderStrategy": [
+        {
+          "capacityProvider": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-EC2CapacityProvider-qv0OYtlGr7Au",
+          "weight": 1,
+          "base": 0
+        }
+      ],
+      "attachments": [
+        {
+          "id": "42b24a8d-7e18-4fe7-996a-6988a202e49c",
+          "type": "managed_draining",
+          "status": "CREATED",
+          "details": [
+            {
+              "name": "capacityProviderName",
+              "value": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-EC2CapacityProvider-qv0OYtlGr7Au"
+            },
+            {
+              "name": "autoScalingLifecycleHookName",
+              "value": "ecs-managed-draining-termination-hook"
+            }
+          ]
+        },
+        {
+          "id": "4edcd7b2-542a-4b57-a733-5a2974669cbb",
+          "type": "sc",
+          "status": "ATTACHED",
+          "details": []
+        },
+        {
+          "id": "9b589e70-c387-42c0-b184-9c505b05702b",
+          "type": "as_policy",
+          "status": "CREATED",
+          "details": [
+            {
+              "name": "capacityProviderName",
+              "value": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-EC2CapacityProvider-qv0OYtlGr7Au"
+            },
+            {
+              "name": "scalingPolicyName",
+              "value": "ECSManagedAutoScalingPolicy-eedc8070-eab3-470f-b75b-89a203904900"
+            }
+          ]
+        }
+      ],
+      "attachmentsStatus": "UPDATE_COMPLETE",
+      "serviceConnectDefaults": {
+        "namespace": "arn:aws:servicediscovery:ap-southeast-1:647828570435:namespace/ns-7u2us4ldo2z57ruq"
+      }
+    }
+  ],
+  "services": [
+    {
+      "serviceArn": "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/mps-admin-prod-frontend",
+      "serviceName": "mps-admin-prod-frontend",
+      "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire",
+      "loadBalancers": [],
+      "serviceRegistries": [],
+      "status": "ACTIVE",
+      "desiredCount": 2,
+      "runningCount": 2,
+      "pendingCount": 0,
+      "launchType": "EXTERNAL",
+      "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/mps-admin-prod-frontend:11",
+      "deploymentConfiguration": {
+        "deploymentCircuitBreaker": {
+          "enable": true,
+          "rollback": true
+        },
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 50,
+        "alarms": {
+          "alarmNames": [],
+          "rollback": false,
+          "enable": false
+        },
+        "strategy": "ROLLING",
+        "bakeTimeInMinutes": 0
+      },
+      "deployments": [
+        {
+          "id": "ecs-svc/1521582640457677402",
+          "status": "PRIMARY",
+          "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/mps-admin-prod-frontend:11",
+          "desiredCount": 2,
+          "pendingCount": 0,
+          "runningCount": 2,
+          "failedTasks": 0,
+          "createdAt": "2025-09-02T09:02:50.003000+05:00",
+          "updatedAt": "2025-09-02T09:06:44.467000+05:00",
+          "launchType": "EXTERNAL",
+          "rolloutState": "COMPLETED",
+          "rolloutStateReason": "ECS deployment ecs-svc/1521582640457677402 completed."
+        }
+      ],
+      "events": [
+        {
+          "id": "89a29e3e-e2c8-429b-b400-9ca90169c3b1",
+          "createdAt": "2026-04-25T07:14:01.679000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0419140a-9742-44a7-8f2c-3b8ec428a3bf",
+          "createdAt": "2026-04-25T01:14:01.156000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "46888a58-116a-41ad-a8fd-11e4dca7c614",
+          "createdAt": "2026-04-24T19:13:33.865000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0d90709e-bbc6-4a3b-9492-d522aac846fc",
+          "createdAt": "2026-04-24T13:13:24.149000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d2a5375a-60c2-481a-bd29-9a3361a2de5a",
+          "createdAt": "2026-04-24T07:13:15.231000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0a0425d5-1478-40db-a30c-ff4772fbb66e",
+          "createdAt": "2026-04-24T01:13:10.020000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5eea5b07-8c43-4549-9a9e-86f35aef54ae",
+          "createdAt": "2026-04-23T19:12:46.291000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "691749ef-6baf-4cf5-b4d3-5b64ac208eda",
+          "createdAt": "2026-04-23T13:12:20.618000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7f4b826c-b4c1-4400-8319-7a27f292cf1d",
+          "createdAt": "2026-04-23T07:12:02.888000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3cfeeaa9-b4e1-4029-a028-9d9f03e9e5ac",
+          "createdAt": "2026-04-23T01:11:41.605000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5b536737-e240-44d3-87e7-35defa19d548",
+          "createdAt": "2026-04-22T19:11:36.961000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8c6a6bd1-f596-406b-afef-102ffb2794c3",
+          "createdAt": "2026-04-22T13:11:23.022000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "61207b22-ee98-4909-96e7-211750a7cce3",
+          "createdAt": "2026-04-22T07:11:01.985000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ae031136-ef6e-4875-aef6-1c0284fe6ea9",
+          "createdAt": "2026-04-22T01:10:46.172000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3bab4ebc-62c2-4c9d-a660-4dcc82ea8a61",
+          "createdAt": "2026-04-21T19:10:37.561000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "76b9acb1-5acf-4755-ba11-9878ae38f64e",
+          "createdAt": "2026-04-21T13:10:22.120000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1680b1fb-5086-4695-a170-8111cba10526",
+          "createdAt": "2026-04-21T07:10:18.297000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6c6700a0-0373-4224-94ee-b44992fb80fb",
+          "createdAt": "2026-04-21T01:09:52.207000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a3976795-9581-4348-b97f-13c50137c01f",
+          "createdAt": "2026-04-20T19:09:26.525000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "399d42a8-af85-4436-9088-2140912c2f7e",
+          "createdAt": "2026-04-20T13:09:25.899000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "40e99a90-bff7-4f9c-a1f4-9a0a4c123500",
+          "createdAt": "2026-04-20T07:09:14.895000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e372da93-5274-47d1-bdf1-d317f51b8bd0",
+          "createdAt": "2026-04-20T01:08:48.791000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6d898ca0-4eaa-4d80-9ae3-068a57251802",
+          "createdAt": "2026-04-19T19:08:20.597000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "15e1a381-076e-421c-8946-f541dcd94f32",
+          "createdAt": "2026-04-19T13:08:01.695000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "dd5a4205-cfed-4bd6-bfd9-52b1d702f16a",
+          "createdAt": "2026-04-19T07:07:34.771000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e9e84ceb-8417-47a5-a3d4-179637fb52e0",
+          "createdAt": "2026-04-19T01:07:29.301000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "849e87cf-2db5-4ed4-821a-96ff0ff4cca8",
+          "createdAt": "2026-04-18T19:07:09.188000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b3478c31-ebf2-4e26-a863-4af26161f5e2",
+          "createdAt": "2026-04-18T13:07:04.883000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "37755f3a-96ee-4e21-879e-e31b9b989a36",
+          "createdAt": "2026-04-18T07:06:41.391000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4381147c-6720-4af7-9bf8-e79ba3d2c658",
+          "createdAt": "2026-04-18T01:06:32.743000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "10753c3a-2ebb-4300-aa8f-912a06ec14da",
+          "createdAt": "2026-04-17T19:06:25.055000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fa23b4ce-f15e-4801-b7ed-97e137a31295",
+          "createdAt": "2026-04-17T13:06:09.816000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "643780b7-7487-41fc-b773-806aa1184e54",
+          "createdAt": "2026-04-17T07:05:53.995000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b224929f-d0e7-48a8-9b95-f085c31fbd25",
+          "createdAt": "2026-04-17T01:05:49.142000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "dfe7cd60-4939-4b02-982b-0b590556acf0",
+          "createdAt": "2026-04-16T19:05:42.413000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "578df489-a677-4b62-8ee9-46b6efc5f44e",
+          "createdAt": "2026-04-16T13:05:20.513000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e307d818-80c0-453f-8edf-5b5aebb08685",
+          "createdAt": "2026-04-16T07:04:56.882000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "97d0f995-e4e1-43ca-acb8-6b3b737ad5a5",
+          "createdAt": "2026-04-16T01:04:53.964000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3c9e9bf9-e051-4f69-b843-9daf8be6da1d",
+          "createdAt": "2026-04-15T19:04:30.618000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8fb71ac1-225f-4403-b844-e345f4548c27",
+          "createdAt": "2026-04-15T13:04:14.826000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a407851b-a1be-429a-ba20-cabbf098a844",
+          "createdAt": "2026-04-15T07:04:04.023000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a64c5bac-02e1-40f7-ae17-8f88d86f4552",
+          "createdAt": "2026-04-15T01:03:43.262000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "494416d1-65d7-4154-8184-dbec9b8e6524",
+          "createdAt": "2026-04-14T19:03:37.119000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4d4da42e-ef97-4d70-8944-f0b29b172635",
+          "createdAt": "2026-04-14T13:03:11.693000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "478409dc-5bc1-4ddb-83f1-ab9654b2e78b",
+          "createdAt": "2026-04-14T07:03:10.134000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "860c2996-78a1-4453-a2d8-c8a07b226637",
+          "createdAt": "2026-04-14T01:02:56.653000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "95861bba-6d70-461a-b45b-ccdaa5a60b3e",
+          "createdAt": "2026-04-13T19:02:44.984000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "19caf55e-3fd1-414d-961c-f283aa630f32",
+          "createdAt": "2026-04-13T13:02:26.199000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "09e5bfd6-869b-4b55-8f08-e9ce34768ad6",
+          "createdAt": "2026-04-13T07:02:11.411000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d6e1a5ed-220f-4e06-9388-531643ae270c",
+          "createdAt": "2026-04-13T01:01:58.590000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "521c4c9c-3172-41cd-aac3-53c6f1a2b553",
+          "createdAt": "2026-04-12T19:01:40.718000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "282d1ccb-3c63-42b3-9da4-9019f643100b",
+          "createdAt": "2026-04-12T13:01:39.507000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "31630bfc-5640-49ff-9ab8-3ecea7eeaf68",
+          "createdAt": "2026-04-12T07:01:39.219000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "54469059-d1c5-4124-974c-145440a08b14",
+          "createdAt": "2026-04-12T01:01:32.798000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a5e5a99b-5118-42da-9111-a89aa20f3341",
+          "createdAt": "2026-04-11T19:01:25.783000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "eaf10d1b-d77c-460c-bb6b-4785cf11661a",
+          "createdAt": "2026-04-11T13:01:22.484000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5df57a81-56d7-45d7-8e95-04f7f4bde1b6",
+          "createdAt": "2026-04-11T07:00:59.841000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "973ec260-5853-416d-a186-ceab80f64be0",
+          "createdAt": "2026-04-11T01:00:31.199000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "55815e81-8378-4480-94ba-9e1890bc2fd3",
+          "createdAt": "2026-04-10T19:00:12.132000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9cffc0a8-1f5e-48d4-a9bf-755aa3982bc8",
+          "createdAt": "2026-04-10T13:00:07.198000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "af6312d3-db0f-4f3f-af98-c416c935f3a4",
+          "createdAt": "2026-04-10T07:00:06.371000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f9d4f89a-3046-4cdc-88ce-7dce8768e10f",
+          "createdAt": "2026-04-10T01:00:00.119000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "003492c4-5d56-4fa2-99e4-ffcd8f0cce00",
+          "createdAt": "2026-04-09T18:59:35.737000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "bd9447dd-90c4-43fa-929a-938088b26eb7",
+          "createdAt": "2026-04-09T12:59:13.119000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fb541590-de76-46d4-a8bb-d41ea867af67",
+          "createdAt": "2026-04-09T06:59:06.848000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c09ad1d8-0ce6-48ed-8320-384842d2d85d",
+          "createdAt": "2026-04-09T00:58:38.876000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f20110c7-5dfe-46d2-b708-34708dec567a",
+          "createdAt": "2026-04-08T18:58:18.519000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "169a4ee3-0526-4b34-afcd-fc740cb09737",
+          "createdAt": "2026-04-08T12:57:57.566000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "dc55a39e-b91c-4f35-a9f7-7c177cf6d0e4",
+          "createdAt": "2026-04-08T06:57:31.028000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ff223304-9c43-4487-a2cf-4bfc35aa07b0",
+          "createdAt": "2026-04-08T00:57:24.252000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "275fa55d-0df9-47bc-a57c-c1205bd06de0",
+          "createdAt": "2026-04-07T18:56:55.026000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f455a1c7-f18f-431a-bc68-c9cf27e68327",
+          "createdAt": "2026-04-07T12:56:36.003000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5a378f4b-4a11-4aee-a492-8459393eccaf",
+          "createdAt": "2026-04-07T06:56:28.818000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d69181e5-06f6-4024-9d1a-414c0aa7c08e",
+          "createdAt": "2026-04-07T00:56:27.671000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1dd14e98-b04f-4fc6-8228-4838d4b7725e",
+          "createdAt": "2026-04-06T18:56:21.090000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ead92899-9146-47cb-a58b-b781efc2ebac",
+          "createdAt": "2026-04-06T12:55:55.573000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b08716ff-3af6-478e-a79d-633ae7322a6f",
+          "createdAt": "2026-04-06T06:55:48.060000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8af67de1-ecf5-445f-8693-24afa4f9fb36",
+          "createdAt": "2026-04-06T00:55:20.187000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "114c3ef2-05f9-498b-94be-176069bfec72",
+          "createdAt": "2026-04-05T18:54:59.324000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9db0b219-34e0-4d4c-bd5c-ae68afb71b92",
+          "createdAt": "2026-04-05T12:54:50.521000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1eea1ae8-e12d-4cfe-9359-a73eadf19f8e",
+          "createdAt": "2026-04-05T06:54:48.945000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "04da836c-f84b-4971-8dbf-e59e087f59ba",
+          "createdAt": "2026-04-05T00:54:42.307000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7e584817-8cc6-4707-82aa-f6c89a1236eb",
+          "createdAt": "2026-04-04T18:54:31.611000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "79e71b50-3356-4b98-9382-06bb1e9707ec",
+          "createdAt": "2026-04-04T12:54:02.478000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d38af8b6-f17f-47d2-9b48-a1e3180c487f",
+          "createdAt": "2026-04-04T06:53:55.682000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b23cb031-b4db-4bb3-a050-12e2dee32579",
+          "createdAt": "2026-04-04T00:53:32.865000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "204190fe-4822-40be-8b9d-debdd1bba17b",
+          "createdAt": "2026-04-03T18:53:01.793000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3c1b5c62-c812-4cfa-8bbb-0ab5e43a99f0",
+          "createdAt": "2026-04-03T12:52:39.556000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0c3955b7-cd0a-404b-9082-c94200f3b1ea",
+          "createdAt": "2026-04-03T06:52:34.746000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "de369fa1-ed82-4dc3-a662-bad37f07fb38",
+          "createdAt": "2026-04-03T00:52:19.651000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e818e671-2c20-470b-ba6e-40c34a02bb5c",
+          "createdAt": "2026-04-02T18:52:05.769000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5cfbb203-0fd1-4a71-b219-4f82799096df",
+          "createdAt": "2026-04-02T12:52:00.368000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c44fa8f0-eb81-4221-a992-3dc6da34bb1b",
+          "createdAt": "2026-04-02T06:51:36.366000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "2a690ca3-5a4e-4ce1-984a-2e783b111cd6",
+          "createdAt": "2026-04-02T00:51:13.313000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "091620c1-39e7-4dab-93ff-fcc1cd48b5cf",
+          "createdAt": "2026-04-01T18:51:00.356000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5ee47b74-c533-4a2a-ba2e-c805eac1bd3c",
+          "createdAt": "2026-04-01T12:50:58.025000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "2149548d-e96f-45bd-96c5-845e68524ad5",
+          "createdAt": "2026-04-01T06:50:41.579000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8759c05e-a706-42aa-b0e0-5462adcd71d3",
+          "createdAt": "2026-04-01T00:50:30.115000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9a3fbb56-d226-4fa7-a9de-f8aa60aa5909",
+          "createdAt": "2026-03-31T18:50:22.821000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a6057351-1f53-4c3b-8b78-a06342ed68e9",
+          "createdAt": "2026-03-31T12:50:13.087000+05:00",
+          "message": "(service mps-admin-prod-frontend) has reached a steady state."
+        }
+      ],
+      "createdAt": "2024-04-18T07:16:49.464000+05:00",
+      "currentServiceRevisions": [
+        {
+          "arn": "arn:aws:ecs:ap-southeast-1:647828570435:service-revision/flashwire/mps-admin-prod-frontend/1521582640457677402",
+          "requestedTaskCount": 2,
+          "runningTaskCount": 2,
+          "pendingTaskCount": 0
+        }
+      ],
+      "placementConstraints": [
+        {
+          "type": "memberOf",
+          "expression": "attribute:env == prod and attribute:productLine == flashwire and attribute:service == mps"
+        }
+      ],
+      "placementStrategy": [
+        {
+          "type": "spread",
+          "field": "instanceId"
+        },
+        {
+          "type": "spread",
+          "field": "attribute:ecs.availability-zone"
+        }
+      ],
+      "healthCheckGracePeriodSeconds": 0,
+      "schedulingStrategy": "REPLICA",
+      "deploymentController": {
+        "type": "ECS"
+      },
+      "createdBy": "arn:aws:iam::647828570435:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_netops-period-using_cb01c795fceee091",
+      "enableECSManagedTags": true,
+      "propagateTags": "NONE",
+      "enableExecuteCommand": false,
+      "availabilityZoneRebalancing": "DISABLED",
+      "resourceManagementType": "CUSTOMER"
+    },
+    {
+      "serviceArn": "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/stellapay-mobile-prod-frontend",
+      "serviceName": "stellapay-mobile-prod-frontend",
+      "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire",
+      "loadBalancers": [],
+      "serviceRegistries": [],
+      "status": "ACTIVE",
+      "desiredCount": 3,
+      "runningCount": 3,
+      "pendingCount": 0,
+      "launchType": "EXTERNAL",
+      "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/stellapay-mobile-prod-frontend:159",
+      "deploymentConfiguration": {
+        "deploymentCircuitBreaker": {
+          "enable": true,
+          "rollback": true
+        },
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 50,
+        "strategy": "ROLLING",
+        "bakeTimeInMinutes": 0
+      },
+      "deployments": [
+        {
+          "id": "ecs-svc/1542462682962163395",
+          "status": "PRIMARY",
+          "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/stellapay-mobile-prod-frontend:159",
+          "desiredCount": 3,
+          "pendingCount": 0,
+          "runningCount": 3,
+          "failedTasks": 0,
+          "createdAt": "2026-03-23T12:53:59.480000+05:00",
+          "updatedAt": "2026-04-16T00:00:05.902000+05:00",
+          "launchType": "EXTERNAL",
+          "rolloutState": "COMPLETED",
+          "rolloutStateReason": "ECS deployment ecs-svc/1542462682962163395 completed."
+        }
+      ],
+      "events": [
+        {
+          "id": "f988cafa-18fc-46ed-aede-2aa46496ad6b",
+          "createdAt": "2026-04-25T06:09:33.284000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5bccda9b-9df0-44bd-9dc2-0bf420c5b5be",
+          "createdAt": "2026-04-25T00:09:30.466000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b90fd0dd-c52d-47e4-ba87-54c1de87686b",
+          "createdAt": "2026-04-24T18:09:13.650000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3efbcda4-ea5e-4e5d-bd64-bc0845b167f3",
+          "createdAt": "2026-04-24T12:08:58.283000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7c26421a-f65e-4081-9dbc-2bfe32568498",
+          "createdAt": "2026-04-24T06:08:33.413000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "efe06f61-5fa5-4603-af68-6d14bbbbe6f8",
+          "createdAt": "2026-04-24T00:08:22.890000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "95c34708-3ac2-4cfa-b8f8-bf316133d756",
+          "createdAt": "2026-04-23T18:08:11.611000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "239b0db7-ae6e-4804-bf84-c313ef57db99",
+          "createdAt": "2026-04-23T12:08:05.267000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7af06c2b-127a-4faa-9d6d-4f5b465d3a3f",
+          "createdAt": "2026-04-23T06:07:42.367000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e3fbcb32-a89a-41ba-8678-7a5a77e2533e",
+          "createdAt": "2026-04-23T00:07:41.269000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "55dcac3f-6ca4-4afb-931d-6cfe0ca1da6d",
+          "createdAt": "2026-04-22T18:07:30.533000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5f56d3fe-e736-4657-a8f1-7009d152202f",
+          "createdAt": "2026-04-22T12:07:07.557000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b7b4e3a0-cc99-43f8-96ee-675b3a8ba2c0",
+          "createdAt": "2026-04-22T06:06:56.963000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c2a9463e-ba74-4a22-967c-1d6c51ab445c",
+          "createdAt": "2026-04-22T00:06:31.206000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c9590007-385e-4dca-968a-309b1846ab4d",
+          "createdAt": "2026-04-21T18:06:14.976000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3689fea0-770c-433e-9224-140dd5bcd052",
+          "createdAt": "2026-04-21T12:05:57.342000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7a2230ad-b4e6-42ce-82b1-a03aa5f52300",
+          "createdAt": "2026-04-21T06:05:32.668000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "072739ca-7c25-4096-9241-31d812b9c020",
+          "createdAt": "2026-04-21T00:05:19.203000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "423824cf-1276-47ca-935c-bd4957709202",
+          "createdAt": "2026-04-20T18:04:58.857000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8583eb61-f000-4adc-b524-1b66b8153575",
+          "createdAt": "2026-04-20T12:04:52.728000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d347ae0e-26b3-4503-bc34-defa168820b3",
+          "createdAt": "2026-04-20T06:04:43.842000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "662c1219-5a6d-47a1-b833-e6b06d2e11cc",
+          "createdAt": "2026-04-20T00:04:33.334000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d47edc2a-b291-4331-ab61-48e391470696",
+          "createdAt": "2026-04-19T18:04:12.779000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5d99a7a6-e1d8-4e91-b07f-32243ab19b9f",
+          "createdAt": "2026-04-19T12:04:09.358000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a3dd9e38-6e5d-4282-80e4-3c6a454b28ec",
+          "createdAt": "2026-04-19T06:03:58.963000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fd9c9ba2-a9fc-4cc2-b50e-71d81acaa1d5",
+          "createdAt": "2026-04-19T00:03:49.135000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "07474b34-8f22-43f2-b5e8-52d33ad769a4",
+          "createdAt": "2026-04-18T18:03:22.690000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "bd9a54f3-e4d5-4238-8b3c-772a38d8baac",
+          "createdAt": "2026-04-18T12:03:05.575000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3f576aaf-c728-4f64-ae60-5eefdbd4f072",
+          "createdAt": "2026-04-18T06:02:53.048000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d54f184f-dd11-4e65-954a-ca9690b348c2",
+          "createdAt": "2026-04-18T00:02:32.545000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "01564ad1-7693-472b-9005-77d526034f8a",
+          "createdAt": "2026-04-17T18:02:03.124000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "16b3ba47-01d6-456c-9fcd-261392128b54",
+          "createdAt": "2026-04-17T12:02:01.385000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "cec7c34c-b6f9-46a7-9aa0-9c4dce32dc6d",
+          "createdAt": "2026-04-17T06:01:48.359000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d953379d-1c6a-49f6-a131-d388a152710b",
+          "createdAt": "2026-04-17T00:01:23.815000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "43d14f16-f9b6-4e81-a378-0e6bc04edff3",
+          "createdAt": "2026-04-16T18:01:08.253000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6170b1df-2179-4fd8-9e86-08d86079fa18",
+          "createdAt": "2026-04-16T12:00:42.544000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "03f8c2ae-34a1-460c-b515-7448a0274546",
+          "createdAt": "2026-04-16T06:00:12.211000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "63a23af6-db01-47cf-942a-30ccb444a665",
+          "createdAt": "2026-04-16T00:00:05.910000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1a16f116-84ee-4133-9eef-05c3b66013c0",
+          "createdAt": "2026-04-15T23:58:57.467000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 3 tasks: (task df4b8624a2c3434195af6a6dfb11f00e) (task 284334358f7b43d3bbaa8d1aa8f6d0ec) (task 959cbd82071d43329152c031f6d96a74)."
+        },
+        {
+          "id": "16a9c8ba-a424-4ece-a7c5-bd0fc0a3744e",
+          "createdAt": "2026-04-15T23:28:20.671000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9714b0f0-4ac5-4f4b-905e-786e3ca1e34a",
+          "createdAt": "2026-04-15T23:27:40.388000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task 31342e1e05814698a42989112ade859b)."
+        },
+        {
+          "id": "210ab562-aafa-4865-aa88-120d7ce2a09e",
+          "createdAt": "2026-04-15T21:25:52.672000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a8bc40fb-3d88-4997-826a-de494c87905f",
+          "createdAt": "2026-04-15T21:24:42.128000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 3 tasks: (task 8dc2481a8fc84b0bbffd162155bc615c) (task 8ae18579ee354a8fbc026fc6268c5e49) (task 6780e24f02044317a96061994c6effc0)."
+        },
+        {
+          "id": "4530b33f-3180-432b-87bc-7a75e9ffa0dd",
+          "createdAt": "2026-04-15T21:24:00.539000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 2 tasks: (task 3487edef23e741f198c71a63b81d4c60) (task 6618434cbb1143c39a5066b9da4bcbd0)."
+        },
+        {
+          "id": "14866258-a418-48ea-a771-11f08548a502",
+          "createdAt": "2026-04-15T21:23:50.558000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task 8abb9bf18f6f47e78246e816b8066838)."
+        },
+        {
+          "id": "cfec75b2-2a5c-4b1a-9faa-a91276cfe0d5",
+          "createdAt": "2026-04-15T21:06:14.262000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8a165831-4e4b-4af2-9252-f338da5a8f00",
+          "createdAt": "2026-04-15T15:06:00.470000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6c03da2e-8a25-41d8-8b58-1e87effcad27",
+          "createdAt": "2026-04-15T09:05:40.185000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "293389ee-aed3-4702-a63c-9d5a70416577",
+          "createdAt": "2026-04-15T03:05:34.263000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "05009a8f-a152-4627-bd79-c6d31ee67fb6",
+          "createdAt": "2026-04-14T21:05:23.528000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fb2fbc1a-7325-4166-95a8-f8a7da177b54",
+          "createdAt": "2026-04-14T15:05:12.655000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e35676c8-35a6-4bcd-8214-4161425dd947",
+          "createdAt": "2026-04-14T09:04:46.679000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "597bec6e-e210-4f0e-ac69-d8add53c70ff",
+          "createdAt": "2026-04-14T09:03:36.670000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task b1743450db0249d1b986c1ecbf44f4b0)."
+        },
+        {
+          "id": "f98237f7-ba88-4675-bcf2-3c7e9888469c",
+          "createdAt": "2026-04-14T09:03:26.263000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has stopped 1 running tasks: (task dc1f3f2bf56449599fc031738c6f878b)."
+        },
+        {
+          "id": "e07b266a-c3c9-448c-ad08-ae57a2e10a7c",
+          "createdAt": "2026-04-14T09:03:26.262000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) (task dc1f3f2bf56449599fc031738c6f878b) failed container health checks."
+        },
+        {
+          "id": "62e421ea-5645-41b0-8682-dc517ad120ed",
+          "createdAt": "2026-04-14T09:02:55.512000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a69920c7-d15e-4568-ad85-02ea89142fb3",
+          "createdAt": "2026-04-14T09:02:14.443000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task ae86119ab99c4970ae66980d544b5b53)."
+        },
+        {
+          "id": "84647dd0-1227-41ba-a752-1a793bbec4f5",
+          "createdAt": "2026-04-14T09:01:22.775000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 2 tasks: (task dc1f3f2bf56449599fc031738c6f878b) (task aec14e10601a464b8e227a50b57325df)."
+        },
+        {
+          "id": "179c9c67-7cc2-445b-8abd-c733d8078e67",
+          "createdAt": "2026-04-14T09:01:12.926000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task 22f3249bd14a4a71a1dfac868a09087a)."
+        },
+        {
+          "id": "f301fcde-300b-489e-aefd-3d704356b6ea",
+          "createdAt": "2026-04-14T05:09:45.836000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ea113b78-8ad2-45cd-8fc9-80d6abf17ad4",
+          "createdAt": "2026-04-13T23:09:30.109000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "24e6cf64-a803-4a05-ab14-b10d4d9bbb29",
+          "createdAt": "2026-04-13T17:09:08.051000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a46de70b-c424-4d38-af64-14c21c27f994",
+          "createdAt": "2026-04-13T11:09:07.981000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c82870a6-a912-410f-bb60-3d36afe305b1",
+          "createdAt": "2026-04-13T05:09:02.268000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ee6703f3-d88a-4155-92dd-519d3c2603ea",
+          "createdAt": "2026-04-12T23:08:44.636000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e06e93dd-f7bf-49ca-b7f1-261073d245ae",
+          "createdAt": "2026-04-12T17:08:27.537000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "45ad5ed9-e2a3-47b6-9bc7-1d456bcd4719",
+          "createdAt": "2026-04-12T11:08:12.308000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "947dac7b-b393-43ea-b1e6-8d0445b92f84",
+          "createdAt": "2026-04-12T05:08:12.084000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5ef6d388-77a0-451e-adc8-125a006edf07",
+          "createdAt": "2026-04-11T23:08:07.972000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "88a0fd91-5f36-4db1-8eb1-809195f62452",
+          "createdAt": "2026-04-11T23:06:57.188000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task 79d5442b24c1429d9ebd2ee2c31c2adb)."
+        },
+        {
+          "id": "cb020079-432f-42d9-a758-b7824457510b",
+          "createdAt": "2026-04-11T23:06:47.010000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has stopped 1 running tasks: (task 7133df2b3c314c66b32566eabfb02c21)."
+        },
+        {
+          "id": "b602aaa4-896d-4c38-8bc4-cbacd0c15c7b",
+          "createdAt": "2026-04-11T23:06:47.009000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) (task 7133df2b3c314c66b32566eabfb02c21) failed container health checks."
+        },
+        {
+          "id": "46b33c45-1794-46b4-8820-ada4db0cf6b3",
+          "createdAt": "2026-04-11T23:06:15.105000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "005d6ad8-1c8b-4e80-92a1-095053e13763",
+          "createdAt": "2026-04-11T23:05:04.807000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task 4af89f657dcc436a8a9d9227d003c690)."
+        },
+        {
+          "id": "7e008be0-5b41-441f-9854-4de386e25d3b",
+          "createdAt": "2026-04-11T23:04:13.781000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 3 tasks: (task 7133df2b3c314c66b32566eabfb02c21) (task 10dd4156c00841c18533f34e542cf082) (task 463577f204be49b9806c09a449243b82)."
+        },
+        {
+          "id": "4b1fd39f-4952-4c3c-8fbc-d8ea568b8cc9",
+          "createdAt": "2026-04-11T17:18:07.838000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e58b24f6-8441-442d-a487-73be3378e10b",
+          "createdAt": "2026-04-11T11:17:38.765000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c0da6693-3afe-45e4-9ae0-98f828a3b2a7",
+          "createdAt": "2026-04-11T05:17:14.252000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ef3651b0-2a29-48c0-9bad-30ab97e3e9d0",
+          "createdAt": "2026-04-10T23:17:05.683000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9d67d921-3419-419d-9146-591fe53638c7",
+          "createdAt": "2026-04-10T23:16:24.349000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task 6fd35b0486eb4c8796955b1cefd706ee)."
+        },
+        {
+          "id": "abd4d295-b254-4696-bde7-4533a40e343c",
+          "createdAt": "2026-04-10T23:16:14.401000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has stopped 1 running tasks: (task 87ec251945cb409cb00c7410252d4022)."
+        },
+        {
+          "id": "274ad88d-4c16-4288-9c40-9f0fc3296e86",
+          "createdAt": "2026-04-10T23:16:14.400000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) (task 87ec251945cb409cb00c7410252d4022) failed container health checks."
+        },
+        {
+          "id": "d6692abd-a817-43a1-a001-cf536f77f9c8",
+          "createdAt": "2026-04-10T23:15:37.710000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task 1f16e2a7dc874e228d44f1538d951edc). Amazon ECS replaced 1 tasks due to an unhealthy status."
+        },
+        {
+          "id": "8c7d37ff-13c1-4751-abfe-8bd5491cf6ed",
+          "createdAt": "2026-04-10T23:15:27.299000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has stopped 1 running tasks: (task 70089aa8232e40538fef4422724e1c9d)."
+        },
+        {
+          "id": "65202fbb-0832-44a3-9a1e-ad3417fc4d27",
+          "createdAt": "2026-04-10T23:15:27.298000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) (task 70089aa8232e40538fef4422724e1c9d) failed container health checks."
+        },
+        {
+          "id": "041e041b-97ef-413c-8124-9c916507873a",
+          "createdAt": "2026-04-10T23:14:40.173000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task bd0226b78a82477c959e31a0bc55bae1). Amazon ECS replaced 1 tasks due to an unhealthy status."
+        },
+        {
+          "id": "5701608a-9b2c-4074-afc5-cca6cc3f9997",
+          "createdAt": "2026-04-10T23:14:30.465000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has stopped 1 running tasks: (task d7aa5346775c4b3ca6ea5e183df35d61)."
+        },
+        {
+          "id": "7421dba5-ee98-48e3-8f4a-35386d7c9204",
+          "createdAt": "2026-04-10T23:14:30.464000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) (task d7aa5346775c4b3ca6ea5e183df35d61) failed container health checks."
+        },
+        {
+          "id": "4ac30949-381d-43eb-ba4c-8db7efafbec6",
+          "createdAt": "2026-04-10T23:04:15.329000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c7e9c43d-c8f4-4077-b5cb-dcea3e823eb3",
+          "createdAt": "2026-04-10T23:03:34.624000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task 70089aa8232e40538fef4422724e1c9d)."
+        },
+        {
+          "id": "ef43afb9-5f39-42b3-b9e9-e79f69ec4e06",
+          "createdAt": "2026-04-10T23:03:24.569000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has stopped 1 running tasks: (task c1cf04273f4a4307a58c881cff398b6e)."
+        },
+        {
+          "id": "9a01f41d-c260-4ad8-88a7-5a7a47974767",
+          "createdAt": "2026-04-10T23:03:24.568000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) (task c1cf04273f4a4307a58c881cff398b6e) failed container health checks."
+        },
+        {
+          "id": "fc13d811-bb57-4957-8929-55559552c34c",
+          "createdAt": "2026-04-10T23:02:45.813000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task d7aa5346775c4b3ca6ea5e183df35d61). Amazon ECS replaced 1 tasks due to an unhealthy status."
+        },
+        {
+          "id": "04fa8008-f13a-4305-a83a-fc506476ae0d",
+          "createdAt": "2026-04-10T23:02:06.335000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 1 tasks: (task 87ec251945cb409cb00c7410252d4022). Amazon ECS replaced 1 tasks due to an unhealthy status."
+        },
+        {
+          "id": "df9b5445-af7f-4a8e-af33-333e7192a447",
+          "createdAt": "2026-04-10T23:01:56.096000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has stopped 1 running tasks: (task 0859a79d54b34be6b8113e1b5e10be23)."
+        },
+        {
+          "id": "12c1e8bf-627b-43dc-b3f2-b6b6bcfd75b0",
+          "createdAt": "2026-04-10T23:01:56.095000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) (task 0859a79d54b34be6b8113e1b5e10be23) failed container health checks."
+        },
+        {
+          "id": "ac3f7167-98ea-4337-8db7-eb75ae1812d3",
+          "createdAt": "2026-04-10T22:35:25.786000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fe8a8f9a-48ea-44ba-b5a2-f91bcbe4af3b",
+          "createdAt": "2026-04-10T22:34:44.377000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has started 2 tasks: (task 0859a79d54b34be6b8113e1b5e10be23) (task 6357c0b4c78e4d4d84db2a326fe3326a)."
+        },
+        {
+          "id": "a1d41e9d-08db-47d5-8c04-dbdff4f7c81b",
+          "createdAt": "2026-04-10T22:34:34.686000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) has stopped 1 running tasks: (task e16a1f228a4b4b028497b095aedd18ae)."
+        },
+        {
+          "id": "a282effd-b4f9-48bb-9b96-c6ed3d55033d",
+          "createdAt": "2026-04-10T22:34:34.685000+05:00",
+          "message": "(service stellapay-mobile-prod-frontend) (task e16a1f228a4b4b028497b095aedd18ae) failed container health checks."
+        }
+      ],
+      "createdAt": "2023-07-24T11:57:12.759000+05:00",
+      "currentServiceRevisions": [
+        {
+          "arn": "arn:aws:ecs:ap-southeast-1:647828570435:service-revision/flashwire/stellapay-mobile-prod-frontend/1542462682962163395",
+          "requestedTaskCount": 3,
+          "runningTaskCount": 3,
+          "pendingTaskCount": 0
+        }
+      ],
+      "placementConstraints": [
+        {
+          "type": "memberOf",
+          "expression": "attribute:env == prod and attribute:productLine == flashwire"
+        }
+      ],
+      "placementStrategy": [
+        {
+          "type": "spread",
+          "field": "attribute:ecs.availability-zone"
+        },
+        {
+          "type": "spread",
+          "field": "instanceId"
+        }
+      ],
+      "healthCheckGracePeriodSeconds": 0,
+      "schedulingStrategy": "REPLICA",
+      "deploymentController": {
+        "type": "ECS"
+      },
+      "createdBy": "arn:aws:iam::647828570435:user/kaiqiang.qiao",
+      "enableECSManagedTags": true,
+      "propagateTags": "NONE",
+      "enableExecuteCommand": false,
+      "availabilityZoneRebalancing": "DISABLED",
+      "resourceManagementType": "CUSTOMER"
+    },
+    {
+      "serviceArn": "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/flashwire-zingtech",
+      "serviceName": "flashwire-zingtech",
+      "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire",
+      "loadBalancers": [],
+      "serviceRegistries": [],
+      "status": "ACTIVE",
+      "desiredCount": 2,
+      "runningCount": 2,
+      "pendingCount": 0,
+      "launchType": "EXTERNAL",
+      "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/flashwire-zingtech:6",
+      "deploymentConfiguration": {
+        "deploymentCircuitBreaker": {
+          "enable": true,
+          "rollback": true
+        },
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 50,
+        "bakeTimeInMinutes": 0
+      },
+      "deployments": [
+        {
+          "id": "ecs-svc/2550053556894450000",
+          "status": "PRIMARY",
+          "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/flashwire-zingtech:6",
+          "desiredCount": 2,
+          "pendingCount": 0,
+          "runningCount": 2,
+          "failedTasks": 0,
+          "createdAt": "2024-04-09T14:07:40.860000+05:00",
+          "updatedAt": "2024-06-25T09:17:38.101000+05:00",
+          "launchType": "EXTERNAL",
+          "rolloutState": "COMPLETED",
+          "rolloutStateReason": "ECS deployment ecs-svc/2550053556894450000 completed."
+        }
+      ],
+      "events": [
+        {
+          "id": "43220e79-76aa-4071-a3bb-440ee285b7e2",
+          "createdAt": "2026-04-25T03:03:25.331000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "f3d60d84-b0b8-4b8a-9c3c-f94b57c7a410",
+          "createdAt": "2026-04-24T21:03:00.323000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "89176198-54b4-4c48-907d-cecca50ab39d",
+          "createdAt": "2026-04-24T15:02:34.821000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "b08fa9a8-b674-4871-9af8-e0b0b202d4f1",
+          "createdAt": "2026-04-24T09:02:28.329000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "2cb0d02e-2656-4ba7-9d31-fa67c239bdf4",
+          "createdAt": "2026-04-24T03:02:24.471000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "29e2c95c-b7cf-420f-810b-bf5034c6bfa6",
+          "createdAt": "2026-04-23T21:02:22.778000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "ed751d03-9c28-4dc4-b6e6-11f02c344cb2",
+          "createdAt": "2026-04-23T15:01:55.562000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "f78e1aa8-a40b-4fd6-b7c3-c64bbe000d9e",
+          "createdAt": "2026-04-23T09:01:54.647000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "9a39be4c-c81e-453b-9ad5-1c34643e754f",
+          "createdAt": "2026-04-23T03:01:46.300000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "cdec9323-37e4-4b63-9e8c-f19f7fc7ad3c",
+          "createdAt": "2026-04-22T21:01:30.931000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "9b163874-e39e-4999-8c4c-7bf4bdc27e6c",
+          "createdAt": "2026-04-22T15:01:13.196000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "14d2d176-33e7-4f23-ad0e-bb7cc6981d3f",
+          "createdAt": "2026-04-22T09:00:49.719000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "8a647b1f-852f-4148-8825-4db360674dfa",
+          "createdAt": "2026-04-22T03:00:38.886000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "b8b6e686-a21c-471c-9a4c-bb246d7aa1d4",
+          "createdAt": "2026-04-21T21:00:32.771000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "089d9433-621b-4a3a-8d12-ff516d58e9ec",
+          "createdAt": "2026-04-21T15:00:32.112000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "9a73c5fa-1e15-4648-b7b1-96d1cf935b3c",
+          "createdAt": "2026-04-21T09:00:21.338000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "32d17efc-aa93-4e51-bbd3-7ab26d94bf2e",
+          "createdAt": "2026-04-21T03:00:09.014000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "5392491e-e353-498c-8dde-df6aea334022",
+          "createdAt": "2026-04-20T20:59:43.186000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "9702997b-5b4d-444c-86af-54efb49c3981",
+          "createdAt": "2026-04-20T14:59:42.301000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "b8101a03-0bf3-41c6-ae48-9ca68550f523",
+          "createdAt": "2026-04-20T08:59:39.533000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "886b9771-240e-41ee-8402-1d267a87e199",
+          "createdAt": "2026-04-20T02:59:10.549000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "8922c93d-bf3f-492a-8b30-02ed4a3a4258",
+          "createdAt": "2026-04-19T20:58:48.505000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "cc19eaa6-9bbe-4166-9351-0d7d80aa0c7f",
+          "createdAt": "2026-04-19T14:58:22.042000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "d8de0763-c4e6-4b0a-afbd-2881c4577316",
+          "createdAt": "2026-04-19T08:57:52.879000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "262e947b-7f04-4067-b05b-c1a1bf54c237",
+          "createdAt": "2026-04-19T02:57:33.106000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "1c69dd79-5cc0-48c6-9c7b-3da34c10bf0c",
+          "createdAt": "2026-04-18T20:57:08.980000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "694e793d-c0c8-4da5-95c9-30e8255cac8c",
+          "createdAt": "2026-04-18T14:56:48.915000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "fd7c8ebf-2821-40da-96b7-bda15fa0867b",
+          "createdAt": "2026-04-18T08:56:34.719000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "8e67f2da-6bfc-466f-ae90-4d0be1321b4a",
+          "createdAt": "2026-04-18T02:56:11.852000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "b05ab96e-8f1b-496a-8c67-5057ba570742",
+          "createdAt": "2026-04-17T20:55:55.937000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "15af15a0-1c3b-433a-bd86-0d73ef5769ba",
+          "createdAt": "2026-04-17T14:55:30.891000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "30d74c8e-7f6c-40eb-89b3-eb55b94ba7e5",
+          "createdAt": "2026-04-17T08:55:30.301000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "5d4e9ad1-8d5f-46b4-ad5e-a640e8de6dd3",
+          "createdAt": "2026-04-17T02:55:08.286000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "2ba6b9a8-e0f4-4c67-954e-65a7c378c8de",
+          "createdAt": "2026-04-16T20:54:39.533000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "0707f0ab-13ad-4741-ac6a-a57b1a459845",
+          "createdAt": "2026-04-16T14:54:32.267000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "7a2d818a-a84e-48d6-8ed7-a4d717d816f0",
+          "createdAt": "2026-04-16T08:54:30.753000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "1fcb5ff9-6003-407b-842a-105211b938cc",
+          "createdAt": "2026-04-16T02:54:11.035000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "1a150918-be43-465c-b956-2704e591638b",
+          "createdAt": "2026-04-15T20:53:41.209000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "29c81d23-1c4b-4cae-9707-7c3fa39862f3",
+          "createdAt": "2026-04-15T14:53:40.335000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "26baea40-642e-4d93-80c8-2c3f32a1b43a",
+          "createdAt": "2026-04-15T08:53:23.261000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "863fa6fd-62c4-48f3-b7ae-20e3e94ffc3e",
+          "createdAt": "2026-04-15T02:52:53.956000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "3dd59012-d663-43aa-a769-b421969f275c",
+          "createdAt": "2026-04-14T20:52:49.571000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "bbab96c0-5eac-4581-bf6f-e342f5b5935c",
+          "createdAt": "2026-04-14T14:52:27.074000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "67481358-dc0a-4e7d-8850-b140f1f1fe10",
+          "createdAt": "2026-04-14T08:52:06.418000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "50e5a7f1-fe0d-4664-852e-c03c8ed94c71",
+          "createdAt": "2026-04-14T02:52:05.771000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "53bd3f89-10a0-4cdc-9a0b-85dcfb98dbc0",
+          "createdAt": "2026-04-13T20:52:01.699000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "24259dcf-1e32-4ac6-8866-1884e0fd141a",
+          "createdAt": "2026-04-13T14:51:51.866000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "a13587af-e4ce-4bcf-bee6-382ddc799c53",
+          "createdAt": "2026-04-13T08:51:43.462000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "936695a0-c1b1-419a-8b84-b6207801184a",
+          "createdAt": "2026-04-13T02:51:29.358000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "64770e11-235b-423c-82f6-9bd4a00ef6c4",
+          "createdAt": "2026-04-12T20:51:21.108000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "5af4ec8f-9ee6-437e-bf8e-c37562776bb6",
+          "createdAt": "2026-04-12T14:50:59.514000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "309d9972-7439-4834-ae86-e3f27ba2a047",
+          "createdAt": "2026-04-12T08:50:29.431000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "63c565bd-cbde-4eaf-bfca-faf9a6d4d5a2",
+          "createdAt": "2026-04-12T02:50:04.109000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "b56891c3-a883-4a7a-a27c-385e41b5c00c",
+          "createdAt": "2026-04-11T20:49:47.912000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "9163a1c7-5b2a-460a-9cee-7a8c5425c7ea",
+          "createdAt": "2026-04-11T14:49:39.391000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "6189846e-243d-4c98-8f93-d3b23ee236bb",
+          "createdAt": "2026-04-11T08:49:24.948000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "c2527512-4237-4ca7-ba48-c6f3b5dcf158",
+          "createdAt": "2026-04-11T02:49:16.074000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "2b828748-dc81-4cb5-81c6-f5c06955fb90",
+          "createdAt": "2026-04-10T20:49:15.359000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "41e005c1-2073-40dc-a4d9-1a5d39d11533",
+          "createdAt": "2026-04-10T14:49:14.749000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "89e13c8f-c965-4cb3-a76d-03d603f4d077",
+          "createdAt": "2026-04-10T08:49:09.751000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "627a9e12-aa22-4ef8-8539-4d6a386f8226",
+          "createdAt": "2026-04-10T02:48:55.354000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "5688bfdc-1e09-419e-bc2b-7fc2e0f428ee",
+          "createdAt": "2026-04-09T20:48:46.165000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "e8603177-a526-46ff-bb5d-0bcc054dbacc",
+          "createdAt": "2026-04-09T14:48:24.136000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "aa965014-a6aa-472b-8747-7fee43e9355e",
+          "createdAt": "2026-04-09T08:48:05.675000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "5c76ea33-c82d-49b6-8382-1dcbdf30b466",
+          "createdAt": "2026-04-09T02:48:02.576000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "06fdcdeb-5eed-45cc-a3ba-22e32b052504",
+          "createdAt": "2026-04-08T20:47:53.275000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "9607b1e7-2646-4628-9525-7f8e5fd32dde",
+          "createdAt": "2026-04-08T14:47:47.985000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "0d27dd4f-c7d0-4b0a-b9c9-ce20a61623ed",
+          "createdAt": "2026-04-08T08:47:40.417000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "90352225-7a97-4e15-8286-7742197f9a96",
+          "createdAt": "2026-04-08T02:47:14.224000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "fe4e21e8-1773-4bc1-9d1f-9e54217721c1",
+          "createdAt": "2026-04-07T20:47:06.427000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "4439f564-90b1-4c2a-8e40-6b4c981c20be",
+          "createdAt": "2026-04-07T14:46:43.712000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "0e018806-db44-42cd-89a7-f60164e038f1",
+          "createdAt": "2026-04-07T08:46:20.962000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "dd141215-b6bc-4cca-9b58-5028c0684e8a",
+          "createdAt": "2026-04-07T02:46:00.606000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "a952e87d-8762-4924-96ce-a86b5b6582b6",
+          "createdAt": "2026-04-06T20:45:43.251000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "026b8b17-7f37-4168-aa4a-40f20a590bf7",
+          "createdAt": "2026-04-06T14:45:33.380000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "70e4ba99-2349-4a58-80f9-95596c12c834",
+          "createdAt": "2026-04-06T08:45:28.142000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "498a627f-dfdf-485b-9180-3d2df93ff7fe",
+          "createdAt": "2026-04-06T02:45:03.190000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "6fb9e6d4-ed3f-4b50-a826-2c89772edc6e",
+          "createdAt": "2026-04-05T20:44:49.274000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "cc3b7a42-ac69-4f6c-8037-5dcb62348500",
+          "createdAt": "2026-04-05T14:44:22.777000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "5270553a-f63b-44eb-853f-8ccfeaf11bdb",
+          "createdAt": "2026-04-05T08:44:12.237000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "c7c073dd-2845-4874-83e7-7473aee27b68",
+          "createdAt": "2026-04-05T02:43:43.301000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "94031a6b-7758-437c-92a9-5c70e312e8ed",
+          "createdAt": "2026-04-04T20:43:34.618000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "117b8ecc-20e1-4dde-bb51-6b919a4ab0e3",
+          "createdAt": "2026-04-04T14:43:30.839000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "30f00896-30df-4808-8356-0eb04c8000a1",
+          "createdAt": "2026-04-04T08:43:30.754000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "f9513e17-793a-4870-a9d2-7bb2369371cc",
+          "createdAt": "2026-04-04T02:43:24.249000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "48aa9ca6-d504-492f-baa4-51d358d7678e",
+          "createdAt": "2026-04-03T20:43:07.750000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "a0d75626-eb48-4c9b-9cba-83044b9cd5cd",
+          "createdAt": "2026-04-03T14:42:45.209000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "3049f358-579f-4505-979b-ba1818490e96",
+          "createdAt": "2026-04-03T08:42:27.572000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "5a7d0609-30c7-4a71-a40b-2b8d10d24503",
+          "createdAt": "2026-04-03T02:42:06.409000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "1f66d9da-3f38-4b80-8a5b-6fd5fd06a044",
+          "createdAt": "2026-04-02T20:41:41.472000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "ad08c263-6ae5-487a-a057-b19bb2c4a96e",
+          "createdAt": "2026-04-02T14:41:13.333000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "d6bece77-01e4-42cc-8956-ea2382816cd0",
+          "createdAt": "2026-04-02T08:41:04.632000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "191f0887-7650-40b1-901b-5639c53b4175",
+          "createdAt": "2026-04-02T02:40:48.664000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "f097770e-eaa3-45b6-948e-9bcc34d7c2aa",
+          "createdAt": "2026-04-01T20:40:18.220000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "efb2a80b-d753-4c77-8117-6f7f2284c959",
+          "createdAt": "2026-04-01T14:40:02.256000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "a74da3f9-3052-4b96-ba0b-aa30cc8e80fd",
+          "createdAt": "2026-04-01T08:39:50.808000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "ee45b407-f500-4147-9481-47ed5037408c",
+          "createdAt": "2026-04-01T02:39:23.788000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "4f5f186b-e89b-44f7-8d87-2b2f13ad7ab7",
+          "createdAt": "2026-03-31T20:39:03.638000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "67b3e58d-719b-43d9-8eee-8935b9c15933",
+          "createdAt": "2026-03-31T14:38:57.587000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        },
+        {
+          "id": "21b26dfd-46e5-4029-a1c2-9d73c2ec0719",
+          "createdAt": "2026-03-31T08:38:44.761000+05:00",
+          "message": "(service flashwire-zingtech) has reached a steady state."
+        }
+      ],
+      "createdAt": "2024-01-27T10:30:16.825000+05:00",
+      "currentServiceRevisions": [
+        {
+          "arn": "arn:aws:ecs:ap-southeast-1:647828570435:service-revision/flashwire/flashwire-zingtech/2550053556894450000",
+          "requestedTaskCount": 2,
+          "runningTaskCount": 2,
+          "pendingTaskCount": 0
+        }
+      ],
+      "placementConstraints": [
+        {
+          "type": "memberOf",
+          "expression": "attribute:env == prod and attribute:productLine == flashwire"
+        }
+      ],
+      "placementStrategy": [
+        {
+          "type": "spread",
+          "field": "attribute:ecs.availability-zone"
+        },
+        {
+          "type": "spread",
+          "field": "instanceId"
+        }
+      ],
+      "schedulingStrategy": "REPLICA",
+      "deploymentController": {
+        "type": "ECS"
+      },
+      "createdBy": "arn:aws:iam::647828570435:user/kaiqiang.qiao",
+      "enableECSManagedTags": true,
+      "propagateTags": "NONE",
+      "enableExecuteCommand": false,
+      "availabilityZoneRebalancing": "DISABLED",
+      "resourceManagementType": "CUSTOMER"
+    },
+    {
+      "serviceArn": "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/cadvisor-docker-monitoring",
+      "serviceName": "cadvisor-docker-monitoring",
+      "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire",
+      "loadBalancers": [],
+      "serviceRegistries": [],
+      "status": "ACTIVE",
+      "desiredCount": 5,
+      "runningCount": 5,
+      "pendingCount": 0,
+      "launchType": "EXTERNAL",
+      "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/flashwire-cAdvisor-docker-monitoring:1",
+      "deploymentConfiguration": {
+        "deploymentCircuitBreaker": {
+          "enable": true,
+          "rollback": true
+        },
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 0,
+        "alarms": {
+          "alarmNames": [],
+          "rollback": false,
+          "enable": false
+        },
+        "bakeTimeInMinutes": 0
+      },
+      "deployments": [
+        {
+          "id": "ecs-svc/9760238390848583790",
+          "status": "PRIMARY",
+          "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/flashwire-cAdvisor-docker-monitoring:1",
+          "desiredCount": 5,
+          "pendingCount": 0,
+          "runningCount": 5,
+          "failedTasks": 0,
+          "createdAt": "2024-04-09T14:39:10.902000+05:00",
+          "updatedAt": "2025-11-09T22:05:41.661000+05:00",
+          "launchType": "EXTERNAL",
+          "rolloutState": "COMPLETED",
+          "rolloutStateReason": "ECS deployment ecs-svc/9760238390848583790 completed."
+        }
+      ],
+      "events": [
+        {
+          "id": "0d74b551-e831-47b8-a818-11ba593214c1",
+          "createdAt": "2026-04-25T02:25:43.042000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "20dd9a04-bbd7-42f7-8447-850d40f9e76a",
+          "createdAt": "2026-04-24T20:25:41.320000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "18c75a55-8a54-4f93-a023-342512834b4f",
+          "createdAt": "2026-04-24T14:25:38.294000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "96c29d1e-34d7-4f39-8b6b-b5466962dbc6",
+          "createdAt": "2026-04-24T08:25:38.033000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "5e49ec12-53d5-487f-8ed9-26686ce85913",
+          "createdAt": "2026-04-24T02:25:35.347000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "326f8b59-862a-4e25-b723-7e2fa454c56b",
+          "createdAt": "2026-04-23T20:25:32.527000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "59399a3f-5a70-4775-9ed5-a0a64f20c8a5",
+          "createdAt": "2026-04-23T14:25:32.438000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "d515d808-f572-4c05-b5d0-8bef0f1f7fc1",
+          "createdAt": "2026-04-23T08:25:28.476000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "36a27150-7c27-4d7a-9015-9dbe6f0ef13e",
+          "createdAt": "2026-04-23T02:25:26.940000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "237f8df6-4ccb-4991-b242-a30256bb470f",
+          "createdAt": "2026-04-22T20:25:23.992000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "5cdbf2cb-07dd-46b1-9200-e8ba2467fa5a",
+          "createdAt": "2026-04-22T14:25:20.705000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "913ec6a9-6a84-48ff-8b52-df503188102d",
+          "createdAt": "2026-04-22T08:25:18.623000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "6b4a4027-d97a-4ccf-9efc-88feddb1b300",
+          "createdAt": "2026-04-22T02:25:18.207000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "f5e637d5-fb99-4350-beae-2ca54880f766",
+          "createdAt": "2026-04-21T20:25:13.880000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "5a75e1b1-3634-4481-8385-5838e575e742",
+          "createdAt": "2026-04-21T14:25:13.411000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "4f667f35-f999-44c7-80e5-7d67b74dd2d3",
+          "createdAt": "2026-04-21T08:25:12.775000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "6b50caa0-ad19-44c7-82be-41ad113654cd",
+          "createdAt": "2026-04-21T02:25:09.370000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "498aa62a-36ae-40db-8449-a72d4e107ba5",
+          "createdAt": "2026-04-20T20:25:06.099000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "f4c9ab9d-8fd2-4d4c-99a5-b37828ce85e6",
+          "createdAt": "2026-04-20T14:25:03.837000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "1e942f9b-715f-4cf0-a5ae-3f2226938df3",
+          "createdAt": "2026-04-20T08:24:59.386000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "c03964c6-8d31-4c29-89c6-911b43f5d11a",
+          "createdAt": "2026-04-20T02:24:59.017000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "e7a76c11-2af2-4179-87e2-c2f4b38e61d9",
+          "createdAt": "2026-04-19T20:24:57.139000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "d5a816f8-490e-4f9b-bd7e-3d4e9d1c64b5",
+          "createdAt": "2026-04-19T14:24:54.510000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "28a51b37-17e5-4b7f-a0dd-ddaa7baa1adf",
+          "createdAt": "2026-04-19T08:24:50.425000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "b2be8661-14dc-402c-9f0f-70e9853f720b",
+          "createdAt": "2026-04-19T02:24:48.962000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "b32532de-f4b5-4720-b9cc-68b26bced358",
+          "createdAt": "2026-04-18T20:24:45.945000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "f15729f4-8679-427b-90b4-2a8d9355484c",
+          "createdAt": "2026-04-18T14:24:44.197000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "5a3ec4ce-e32f-4ea9-b7a8-bf1443568cd1",
+          "createdAt": "2026-04-18T08:24:43.812000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "470f6cfb-b9c4-4fee-9131-9b71d8642cc6",
+          "createdAt": "2026-04-18T02:24:43.062000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "1d663557-1faa-439c-994f-d670b5755f4b",
+          "createdAt": "2026-04-17T20:24:40.040000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "5511acf9-46aa-4a26-85f7-c41fec412c63",
+          "createdAt": "2026-04-17T14:24:38.106000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "4196896d-5652-4005-af05-ad9a5d2c831d",
+          "createdAt": "2026-04-17T08:24:37.087000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "e476eab3-b91c-468a-aedf-49af262e6278",
+          "createdAt": "2026-04-17T02:24:36.266000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "b83879e8-bb0e-47b4-b910-4190ce57d371",
+          "createdAt": "2026-04-16T20:24:32.696000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "fcfc2001-93d1-4ca7-9fb4-397c0de15a3f",
+          "createdAt": "2026-04-16T14:24:30.400000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "33e62012-6944-481a-a402-d0175b3009f8",
+          "createdAt": "2026-04-16T08:24:30.129000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "dfec3870-3e38-4189-b530-bb2ebfbd86ea",
+          "createdAt": "2026-04-16T02:24:28.552000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "3b29c4cc-5657-4065-b604-20258e3f89b8",
+          "createdAt": "2026-04-15T20:24:28.481000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "a77960c9-2d1b-4c4c-b17f-f37a3a8a2ebe",
+          "createdAt": "2026-04-15T14:24:26.366000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "f8fd9d6b-c693-4459-bf85-b162082ef0d9",
+          "createdAt": "2026-04-15T08:24:22.657000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "9e7a9960-9fd7-4f18-99ff-db17892b1298",
+          "createdAt": "2026-04-15T02:24:20.873000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "e48a0d8a-644b-489d-8b61-2d9fa842271a",
+          "createdAt": "2026-04-14T20:24:19.997000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "11ad87ed-65d3-420d-8137-4e43ed7dcfd3",
+          "createdAt": "2026-04-14T14:24:16.442000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "3a3d8300-2650-40f1-b210-a619fb56a474",
+          "createdAt": "2026-04-14T08:24:13.333000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "8296f39f-4d17-4959-a1fc-85ad20ec8110",
+          "createdAt": "2026-04-14T02:24:11.589000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "4075df84-98f1-41b2-b272-45654cf9f894",
+          "createdAt": "2026-04-13T20:24:10.775000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "b33b0b08-43a6-45c1-99cd-1ff0875530a5",
+          "createdAt": "2026-04-13T14:24:08.515000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "14dd9f73-0030-47fe-83bd-c0b240c79f7b",
+          "createdAt": "2026-04-13T08:24:05.465000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "5a3bd360-14c2-49c4-b22c-b906b784cd14",
+          "createdAt": "2026-04-13T02:24:03.682000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "1806d0fe-bce8-40e9-86d5-859550512019",
+          "createdAt": "2026-04-12T20:24:00.466000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "e71c512b-c781-49e3-bb9f-fb8e818f83f2",
+          "createdAt": "2026-04-12T14:23:58.067000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "abd54b17-7376-476c-9eb2-2d2548ccb51b",
+          "createdAt": "2026-04-12T08:23:57.321000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "32234aaa-a2f2-4551-89f5-0f42a3af8569",
+          "createdAt": "2026-04-12T02:23:54.134000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "b88f7039-d195-4127-97e8-373e407f49f3",
+          "createdAt": "2026-04-11T20:23:52.359000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "6c627663-67af-4787-87ff-826b5b8834ca",
+          "createdAt": "2026-04-11T14:23:50.003000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "5e91bb79-4607-43a8-a61e-c8ac8c04ab45",
+          "createdAt": "2026-04-11T08:23:49.329000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "126f9938-43b5-4045-bc70-914b8b9d6df5",
+          "createdAt": "2026-04-11T02:23:47.974000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "d13782d9-f0a7-411c-934c-dcbd2dcee7b8",
+          "createdAt": "2026-04-10T20:23:45.210000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "503f97d6-3726-4134-807d-ea91c8abe840",
+          "createdAt": "2026-04-10T14:23:44.344000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "7ece5f8c-6fa4-4ed7-89fe-c15d2f1a111e",
+          "createdAt": "2026-04-10T08:23:44.299000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "ff1e59f0-e566-4b02-a006-192ef4910d29",
+          "createdAt": "2026-04-10T02:23:41.976000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "e9f27298-22f4-48de-9941-6f5ae6c7ab21",
+          "createdAt": "2026-04-09T20:23:40.981000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "139a230a-1ec1-45f3-a638-ea65b0d5353b",
+          "createdAt": "2026-04-09T14:23:37.993000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "9a432482-9264-4494-a1e7-b074e77e4e44",
+          "createdAt": "2026-04-09T08:23:37.270000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "0b54631f-9fe4-4bcf-bc67-9b3710289e11",
+          "createdAt": "2026-04-09T02:23:35.421000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "5247ffee-53e5-42a6-8d2f-2fb5ce923943",
+          "createdAt": "2026-04-08T20:23:32.502000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "a59138a7-6659-43da-9c14-4da91b4212ed",
+          "createdAt": "2026-04-08T14:23:29.455000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "69e6f3a0-5fc0-46c1-a388-5de82bbcdc74",
+          "createdAt": "2026-04-08T08:23:26.401000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "458a5527-bcd9-4b5e-996b-02eccea0851a",
+          "createdAt": "2026-04-08T02:23:24.690000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "6607cb9f-bbfe-4aef-8fe4-301db22342be",
+          "createdAt": "2026-04-07T20:23:22.493000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "72e1ed37-4b83-4d05-8b0d-4efc9daa131e",
+          "createdAt": "2026-04-07T14:23:20.359000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "0b2b135b-911e-40bd-b148-a390de431e0d",
+          "createdAt": "2026-04-07T08:23:16.979000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "005fec13-e776-4a80-9c44-4a296b9bfd4a",
+          "createdAt": "2026-04-07T02:23:16.204000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "d8728aed-2bf8-43fa-8c9d-9f9857504ccd",
+          "createdAt": "2026-04-06T20:23:15.949000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "34173e0e-90d9-4bf1-a019-c02a82914273",
+          "createdAt": "2026-04-06T14:23:12.914000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "57325e2e-5948-487c-9927-58263cf5ee71",
+          "createdAt": "2026-04-06T08:23:09.431000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "b9beb7b5-d8a1-4f07-b9d1-dc12e364cd82",
+          "createdAt": "2026-04-06T02:23:09.411000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "f934e516-9c3a-4591-acd2-640c90d6b4fb",
+          "createdAt": "2026-04-05T20:23:08.810000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "ab3f7361-a090-48a9-88b6-d3e53c49f25e",
+          "createdAt": "2026-04-05T14:23:07.635000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "1ed5845a-b7cb-4876-ab90-c1c1f692f6b8",
+          "createdAt": "2026-04-05T08:23:06.486000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "e06d942d-2f79-4966-b77a-3787c6c48350",
+          "createdAt": "2026-04-05T02:23:03.301000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "09cc972e-532e-48f7-bb5f-c74ce1725443",
+          "createdAt": "2026-04-04T20:23:00.904000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "1394c057-427b-42a3-8fba-10206c81efdc",
+          "createdAt": "2026-04-04T14:23:00.364000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "90e599f9-ef9e-4b3f-81d9-9696706e46a9",
+          "createdAt": "2026-04-04T08:22:58.927000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "0ff3533b-6326-499c-be6b-719d716c551c",
+          "createdAt": "2026-04-04T02:22:58.002000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "48ac3f0b-6beb-4ec0-a7eb-32c0db016da4",
+          "createdAt": "2026-04-03T20:22:54.463000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "f1adf876-190d-4916-8ecd-fe5a88d40b8e",
+          "createdAt": "2026-04-03T14:22:52.696000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "1c9866d7-bc97-4345-8d53-e965df5c984c",
+          "createdAt": "2026-04-03T08:22:50.624000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "d8c69ea7-fa94-4eca-b673-23c543ef8396",
+          "createdAt": "2026-04-03T02:22:48.664000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "7ee6a2f3-3eee-4f9e-bcd2-9aebad683a31",
+          "createdAt": "2026-04-02T20:22:46.031000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "2c768d41-81ea-41bb-82f0-bad246282a44",
+          "createdAt": "2026-04-02T14:22:44.442000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "5ee55b69-8ac3-49d8-8e6e-f08c417d75c9",
+          "createdAt": "2026-04-02T08:22:44+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "9c4e349c-c72c-41c2-ab17-665aebe09458",
+          "createdAt": "2026-04-02T02:22:43.676000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "9239ddef-6446-48cf-87f5-6e7c1b948791",
+          "createdAt": "2026-04-01T20:22:41.508000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "13480818-8f47-41af-ae87-1d19489c5c5e",
+          "createdAt": "2026-04-01T14:22:38.903000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "2eac0da3-48e9-49f0-82a2-de1efdf0a09c",
+          "createdAt": "2026-04-01T08:22:36.484000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "ca73536d-ad09-4c92-9161-7acaa3d74567",
+          "createdAt": "2026-04-01T02:22:36.063000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "d5185bb0-5435-47e6-9781-4e33d59614aa",
+          "createdAt": "2026-03-31T20:22:34.395000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "1274f5ff-1fe3-43d9-b3ba-7019ee1726f5",
+          "createdAt": "2026-03-31T14:22:31.641000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        },
+        {
+          "id": "e2613d4f-74a9-4427-b9c8-1d1a878b8dd4",
+          "createdAt": "2026-03-31T08:22:28.925000+05:00",
+          "message": "(service cadvisor-docker-monitoring) has reached a steady state."
+        }
+      ],
+      "createdAt": "2024-04-09T14:39:10.902000+05:00",
+      "currentServiceRevisions": [
+        {
+          "arn": "arn:aws:ecs:ap-southeast-1:647828570435:service-revision/flashwire/cadvisor-docker-monitoring/9760238390848583790",
+          "requestedTaskCount": 5,
+          "runningTaskCount": 5,
+          "pendingTaskCount": 0
+        }
+      ],
+      "placementConstraints": [],
+      "placementStrategy": [],
+      "schedulingStrategy": "DAEMON",
+      "deploymentController": {
+        "type": "ECS"
+      },
+      "createdBy": "arn:aws:iam::647828570435:user/kaiqiang.qiao",
+      "enableECSManagedTags": true,
+      "propagateTags": "NONE",
+      "enableExecuteCommand": false,
+      "availabilityZoneRebalancing": "DISABLED",
+      "resourceManagementType": "CUSTOMER"
+    },
+    {
+      "serviceArn": "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/stellapay-admin-prod-frontend",
+      "serviceName": "stellapay-admin-prod-frontend",
+      "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire",
+      "loadBalancers": [],
+      "serviceRegistries": [],
+      "status": "ACTIVE",
+      "desiredCount": 2,
+      "runningCount": 2,
+      "pendingCount": 0,
+      "launchType": "EXTERNAL",
+      "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/stellapay-admin-prod-frontend:73",
+      "deploymentConfiguration": {
+        "deploymentCircuitBreaker": {
+          "enable": true,
+          "rollback": true
+        },
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 50,
+        "alarms": {
+          "alarmNames": [],
+          "rollback": false,
+          "enable": false
+        },
+        "strategy": "ROLLING",
+        "bakeTimeInMinutes": 0
+      },
+      "deployments": [
+        {
+          "id": "ecs-svc/4035238826678422916",
+          "status": "PRIMARY",
+          "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/stellapay-admin-prod-frontend:73",
+          "desiredCount": 2,
+          "pendingCount": 0,
+          "runningCount": 2,
+          "failedTasks": 0,
+          "createdAt": "2026-02-04T09:25:07.546000+05:00",
+          "updatedAt": "2026-02-04T09:30:09.315000+05:00",
+          "launchType": "EXTERNAL",
+          "rolloutState": "COMPLETED",
+          "rolloutStateReason": "ECS deployment ecs-svc/4035238826678422916 completed."
+        }
+      ],
+      "events": [
+        {
+          "id": "e9c8153f-38eb-4c55-878b-c4195b16d0e3",
+          "createdAt": "2026-04-25T04:53:03.116000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "89453463-9ae8-4411-9d81-6b154b4bab0e",
+          "createdAt": "2026-04-24T22:52:40.492000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fefd22b4-3d0a-4d5f-bc2c-0e1409b708cc",
+          "createdAt": "2026-04-24T16:52:29.858000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "11c94dbc-5c62-4329-bf45-c66b76ec2d5c",
+          "createdAt": "2026-04-24T10:52:15.820000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "99bb675d-5068-480e-8e34-420b188b1a91",
+          "createdAt": "2026-04-24T04:51:59.905000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "99e68548-b2b9-4e99-86cf-22b1510c65f8",
+          "createdAt": "2026-04-23T22:51:34.926000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f0a1cfbb-faa3-4856-9f88-df88ab6b019d",
+          "createdAt": "2026-04-23T16:51:21.032000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "776e0455-877c-4c08-9307-159959b98f84",
+          "createdAt": "2026-04-23T10:51:06.010000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9624afc0-4049-463d-bf33-92e37abf1503",
+          "createdAt": "2026-04-23T04:50:46.952000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fe1319fe-214e-4ca9-962f-a1ac1b4b8902",
+          "createdAt": "2026-04-22T22:50:34.204000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "887ac348-68c6-4fe2-9fca-264397ed7515",
+          "createdAt": "2026-04-22T16:50:15.753000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "cbaac232-510d-435f-b42a-6224bf27eade",
+          "createdAt": "2026-04-22T10:49:52.655000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "64eb61ba-d1b8-4a64-88ee-3329d1345a76",
+          "createdAt": "2026-04-22T04:49:45.815000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e02cbd6d-a721-4444-8a9e-1cfa2b8518bf",
+          "createdAt": "2026-04-21T22:49:23.892000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "2f1b84ee-bcbc-452b-bd6f-645c712f1834",
+          "createdAt": "2026-04-21T16:49:09.202000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5c444419-5114-4202-a768-e71bab9400e7",
+          "createdAt": "2026-04-21T10:49:07.693000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "60fb8f11-ecc8-4a51-a3be-7459f2b65c3d",
+          "createdAt": "2026-04-21T04:49:03.002000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "da4736e1-bcdc-4eb9-82b1-1e64f077a18e",
+          "createdAt": "2026-04-20T22:48:35.226000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "aed59c8f-6338-41a6-8087-e2c8822ec9a6",
+          "createdAt": "2026-04-20T16:48:34.003000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a08dd5ee-9feb-42a5-8def-fcb936e85004",
+          "createdAt": "2026-04-20T10:48:15.754000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "733320df-5d65-4871-8369-83798ee007cb",
+          "createdAt": "2026-04-20T04:48:03.270000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6aec1184-f8b7-4993-a74b-60e0b18a8952",
+          "createdAt": "2026-04-19T22:47:48.144000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "bb99b8ff-338b-4b37-9f07-06a12131fc38",
+          "createdAt": "2026-04-19T16:47:28.957000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e645ada9-10bd-4dde-a8a6-2d8e3db34b4c",
+          "createdAt": "2026-04-19T10:47:07.791000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e6992eb6-de51-4bc6-9158-377652bb5e9c",
+          "createdAt": "2026-04-19T04:46:42.038000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "41e3a2e5-6e69-4529-856a-ed0a24c51f2e",
+          "createdAt": "2026-04-18T22:46:18.230000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5bc9899a-bb89-470b-bac6-1fb2e42a164b",
+          "createdAt": "2026-04-18T16:45:54.240000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d37cb0c2-fca9-4e36-b6f7-2506a99e235d",
+          "createdAt": "2026-04-18T10:45:47.567000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "10f8eba9-fcca-4ce8-a567-be8f7d2509cf",
+          "createdAt": "2026-04-18T04:45:38.657000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b715e9cf-6c82-48f0-a563-555d7ff47e45",
+          "createdAt": "2026-04-17T22:45:09.662000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ce2d6c15-f43c-41e2-96e8-a5a6d3e770aa",
+          "createdAt": "2026-04-17T16:44:36.965000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "430575bf-26fc-4359-ba6a-4a977a591381",
+          "createdAt": "2026-04-17T10:44:21.816000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d3a3f391-f73f-4493-9567-ee83ff8bbfa4",
+          "createdAt": "2026-04-17T04:43:59.263000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6b1ded54-d958-4bd0-9d3e-0ab6c28e4a60",
+          "createdAt": "2026-04-16T22:43:36.379000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "464ccf85-7e95-426f-9607-dc29e6a58c53",
+          "createdAt": "2026-04-16T16:43:14.660000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7a2582e9-49a8-49f5-9d1a-d7673dc0dbc8",
+          "createdAt": "2026-04-16T10:42:57.013000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1817e9a9-b016-4b5e-86dd-dd4ff580a007",
+          "createdAt": "2026-04-16T04:42:35.143000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b2556508-55a6-4afb-bd5d-d0805657b396",
+          "createdAt": "2026-04-15T22:42:12.752000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6ddbb984-bfeb-460f-86ed-e87af2c20371",
+          "createdAt": "2026-04-15T16:41:59.881000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "208431b0-3cd6-432e-98f8-82f176dc5916",
+          "createdAt": "2026-04-15T10:41:55.627000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "558cb4e8-3d60-4414-893f-7bb242cb96d1",
+          "createdAt": "2026-04-15T04:41:49.980000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8415e924-89c9-4918-8a89-c157aa24d2a4",
+          "createdAt": "2026-04-14T22:41:21.266000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "31a0d3f0-0584-4b8b-affc-9698dc74a3d4",
+          "createdAt": "2026-04-14T16:41:13.092000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "2c115087-a2f7-4b00-8347-af50b291e4c3",
+          "createdAt": "2026-04-14T10:40:47.607000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c3797677-2a65-4eb4-ac12-122e4aa92161",
+          "createdAt": "2026-04-14T04:40:38.763000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4923e5c1-09e3-4746-9450-0e53ac88773c",
+          "createdAt": "2026-04-13T22:40:15.210000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "759ace82-feaa-4aa9-85f4-14929c6552d5",
+          "createdAt": "2026-04-13T16:40:05.961000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a83f4649-2d61-48b2-9cf5-fed850fd16ec",
+          "createdAt": "2026-04-13T10:39:37.063000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4b441f1e-62d0-4f73-abb2-bfc2309ebc45",
+          "createdAt": "2026-04-13T04:39:29.592000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d9273027-3283-43c1-a981-feb20af57842",
+          "createdAt": "2026-04-12T22:39:17.378000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4bd1432a-321e-4c44-8f47-421875fa0db6",
+          "createdAt": "2026-04-12T16:38:49.065000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ee53c216-8e02-43f6-b9ef-d5c9f13bcf9a",
+          "createdAt": "2026-04-12T10:38:28.468000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1775dbfe-bc94-4bf5-8b3e-c82460fdd229",
+          "createdAt": "2026-04-12T04:38:05.549000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5be6d28a-6282-41b8-bbb3-924bc2195e9c",
+          "createdAt": "2026-04-11T22:37:47.785000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8444d745-65a7-46e9-b102-b483d9996cd5",
+          "createdAt": "2026-04-11T16:37:44.733000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "87bd8434-9eea-4a85-8b86-a00b0f8bb185",
+          "createdAt": "2026-04-11T10:37:27.270000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5614cd12-bc15-45e5-b6f1-5326b60ccf90",
+          "createdAt": "2026-04-11T04:37:18.409000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c8e5550e-286c-42c5-95db-a04798eae37f",
+          "createdAt": "2026-04-10T22:36:51.052000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f1d38efe-1e99-4862-a37b-2a55f23d0605",
+          "createdAt": "2026-04-10T16:36:48.197000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d9751aac-da7a-4c49-94b0-fb986df13ab8",
+          "createdAt": "2026-04-10T10:36:40.911000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f75a5be2-7811-4804-b578-d05c2cdfa39f",
+          "createdAt": "2026-04-10T04:36:36.950000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "35ba32ac-766e-484b-bc68-a32c7f70a54b",
+          "createdAt": "2026-04-09T22:36:05.876000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a0a8cb12-58c3-41ba-a3ac-840d499c98d0",
+          "createdAt": "2026-04-09T16:35:53.243000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6ddf7ced-515f-4a13-bde3-d49466411c9e",
+          "createdAt": "2026-04-09T10:35:47.608000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "718ece8c-5b29-4476-94d5-917a9fbb31f5",
+          "createdAt": "2026-04-09T04:35:41.731000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f104e4e5-8454-4160-a9fe-feff6b493085",
+          "createdAt": "2026-04-08T22:35:14.867000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "44c6d34d-d885-446d-a67e-c2a0060d7438",
+          "createdAt": "2026-04-08T16:34:58.750000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "62dc4be7-adb5-42ee-a835-9512692b5f93",
+          "createdAt": "2026-04-08T10:34:46.725000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4e3c2d69-4481-4a53-a7d4-a03c8de5f177",
+          "createdAt": "2026-04-08T04:34:40.018000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "96282c1f-a49e-478d-a592-63ec5abaf27f",
+          "createdAt": "2026-04-07T22:34:38.039000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7d8edb68-5976-415e-8b71-598e61e45a2d",
+          "createdAt": "2026-04-07T16:34:13.193000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "37f48db0-c2ee-43a0-b951-d3d9c9e97b73",
+          "createdAt": "2026-04-07T10:33:50.190000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f4b947de-5c67-4b05-85f4-12440bea89ef",
+          "createdAt": "2026-04-07T04:33:24.764000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7ed3e82a-ce3b-4a5a-bf54-9fc4f31c3a7a",
+          "createdAt": "2026-04-06T22:33:02.659000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8a9b817a-a176-4f54-8470-3df5d1b2784f",
+          "createdAt": "2026-04-06T16:32:46.570000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "861761ee-e534-4d1a-92f5-f8929935d443",
+          "createdAt": "2026-04-06T10:32:41.065000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "31bc749c-84ef-4654-a643-e6cbae4073d0",
+          "createdAt": "2026-04-06T04:32:36.830000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "cd955b2c-c45f-4690-875b-f853a9b26097",
+          "createdAt": "2026-04-05T22:32:35.182000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "12396f25-bd78-48a8-93a8-c1099275a852",
+          "createdAt": "2026-04-05T16:32:18.457000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "507dc069-32ec-4e79-a12f-b4550e58ee06",
+          "createdAt": "2026-04-05T10:32:06.881000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "421991ba-834a-4cd2-a7cb-b1b3166c8afd",
+          "createdAt": "2026-04-05T04:31:53.696000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8acfca85-8006-43cf-bee5-1abf50d63916",
+          "createdAt": "2026-04-04T22:31:23.098000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "28c4f4f4-6661-4c9d-8baf-4c94cd67ff72",
+          "createdAt": "2026-04-04T16:31:11.981000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "059b5ebd-6906-4489-9252-45e4c5752c24",
+          "createdAt": "2026-04-04T10:30:46.281000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f19b4077-6df9-4719-8940-0d1e4e3fb9df",
+          "createdAt": "2026-04-04T04:30:40.539000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "49e22312-4c87-4d58-ac78-4548ad7caa04",
+          "createdAt": "2026-04-03T22:30:21.164000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6ecae23b-d83f-4903-9d27-cb269a83df6a",
+          "createdAt": "2026-04-03T16:30:15.187000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "515634b7-7f3b-451b-9ec5-b8f2d97d1632",
+          "createdAt": "2026-04-03T10:29:59.283000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7f649e87-b940-4655-933b-c4c05e8919ab",
+          "createdAt": "2026-04-03T04:29:52.719000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "aae2b58c-450c-4240-b83e-807dd0c83f41",
+          "createdAt": "2026-04-02T22:29:26.178000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5c002249-fd3e-41d0-84b7-29b884cda2fe",
+          "createdAt": "2026-04-02T16:29:21.190000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6f895075-825e-4cf5-b953-557e3b68cd93",
+          "createdAt": "2026-04-02T10:28:57.333000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ccdadf30-e715-4b92-93ed-92bec32ed1ef",
+          "createdAt": "2026-04-02T04:28:53.149000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3c1ff20b-7393-4bfc-8556-9dd5d5b11fd0",
+          "createdAt": "2026-04-01T22:28:39.735000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "cf4ba751-9822-449e-8366-00a169719fe0",
+          "createdAt": "2026-04-01T16:28:33.354000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8b8698a5-a7fe-42ab-8965-7fea52780d3f",
+          "createdAt": "2026-04-01T10:28:24.282000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "13db09f1-e2b7-4696-adc6-643a5fdfef98",
+          "createdAt": "2026-04-01T04:28:05.473000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "dd5cc9ac-e354-45f4-8e0f-57099ed5ea0a",
+          "createdAt": "2026-03-31T22:27:43.106000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "71776c30-b37e-421c-8073-dfb2bf6f090f",
+          "createdAt": "2026-03-31T16:27:41.640000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "43add963-f6ae-4f2c-a904-e201a805079d",
+          "createdAt": "2026-03-31T10:27:37.278000+05:00",
+          "message": "(service stellapay-admin-prod-frontend) has reached a steady state."
+        }
+      ],
+      "createdAt": "2024-04-01T13:14:28.216000+05:00",
+      "currentServiceRevisions": [
+        {
+          "arn": "arn:aws:ecs:ap-southeast-1:647828570435:service-revision/flashwire/stellapay-admin-prod-frontend/4035238826678422916",
+          "requestedTaskCount": 2,
+          "runningTaskCount": 2,
+          "pendingTaskCount": 0
+        }
+      ],
+      "placementConstraints": [
+        {
+          "type": "memberOf",
+          "expression": "attribute:env == prod and attribute:productLine == flashwire and attribute:service == debitcard"
+        }
+      ],
+      "placementStrategy": [
+        {
+          "type": "spread",
+          "field": "instanceId"
+        },
+        {
+          "type": "spread",
+          "field": "attribute:ecs.availability-zone"
+        }
+      ],
+      "healthCheckGracePeriodSeconds": 0,
+      "schedulingStrategy": "REPLICA",
+      "deploymentController": {
+        "type": "ECS"
+      },
+      "createdBy": "arn:aws:iam::647828570435:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_netops-period-using_cb01c795fceee091",
+      "enableECSManagedTags": true,
+      "propagateTags": "NONE",
+      "enableExecuteCommand": false,
+      "availabilityZoneRebalancing": "DISABLED",
+      "resourceManagementType": "CUSTOMER"
+    },
+    {
+      "serviceArn": "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire/stellapay-mini-app-prod-frontend",
+      "serviceName": "stellapay-mini-app-prod-frontend",
+      "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire",
+      "loadBalancers": [],
+      "serviceRegistries": [],
+      "status": "ACTIVE",
+      "desiredCount": 2,
+      "runningCount": 2,
+      "pendingCount": 0,
+      "launchType": "EXTERNAL",
+      "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/stellapay-mini-app-prod-frontend:17",
+      "deploymentConfiguration": {
+        "deploymentCircuitBreaker": {
+          "enable": true,
+          "rollback": true
+        },
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 50,
+        "alarms": {
+          "alarmNames": [],
+          "rollback": false,
+          "enable": false
+        },
+        "strategy": "ROLLING",
+        "bakeTimeInMinutes": 0
+      },
+      "deployments": [
+        {
+          "id": "ecs-svc/3438012305071168126",
+          "status": "PRIMARY",
+          "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/stellapay-mini-app-prod-frontend:17",
+          "desiredCount": 2,
+          "pendingCount": 0,
+          "runningCount": 2,
+          "failedTasks": 0,
+          "createdAt": "2025-09-29T08:07:19.652000+05:00",
+          "updatedAt": "2026-04-10T23:03:53.125000+05:00",
+          "launchType": "EXTERNAL",
+          "rolloutState": "COMPLETED",
+          "rolloutStateReason": "ECS deployment ecs-svc/3438012305071168126 completed."
+        }
+      ],
+      "events": [
+        {
+          "id": "89a0c933-78e8-4ef1-8bf5-7a30ed192d7b",
+          "createdAt": "2026-04-25T05:18:59.561000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "dd81fecd-43f7-4351-b33c-c763e8fd65e6",
+          "createdAt": "2026-04-24T23:18:59.252000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e28893f5-6e36-4900-a659-a5436f63dcd1",
+          "createdAt": "2026-04-24T17:18:39.375000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "accb8768-558c-4ab9-9c83-6f550e5d1ee0",
+          "createdAt": "2026-04-24T11:18:25.611000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "aa0af532-9f37-4790-8215-e7e1154ed69b",
+          "createdAt": "2026-04-24T05:18:09.213000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0d31cc37-b7c6-4d1a-95e6-18e11c7a69b7",
+          "createdAt": "2026-04-23T23:18:00.876000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e3d7c772-109d-4a2a-8456-ec6e6af4ce04",
+          "createdAt": "2026-04-23T17:17:42.825000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d589d01e-b9af-45cf-ae7d-9f5d3e810570",
+          "createdAt": "2026-04-23T11:17:35.354000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "af8cc530-19e1-435e-9c63-11cf062f23b8",
+          "createdAt": "2026-04-23T05:17:32.488000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3d47b3e9-d437-4076-942f-bada32917869",
+          "createdAt": "2026-04-22T23:17:31.273000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "70c13dde-df22-449d-82b1-1efb23d37a65",
+          "createdAt": "2026-04-22T17:17:12.249000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c8af0f18-ae1a-4324-873f-1b558b78b688",
+          "createdAt": "2026-04-22T11:17:07.972000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b3419f1b-f1ee-4ecc-bca8-bb85b4e8e51f",
+          "createdAt": "2026-04-22T05:16:38.081000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7ab6f19e-4d8e-4e3f-b361-8199a2154575",
+          "createdAt": "2026-04-21T23:16:23.643000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "14328e84-906c-4f12-a977-aa6f5525204a",
+          "createdAt": "2026-04-21T17:16:23.038000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b8256918-e77b-452f-ba91-21726e0d84a9",
+          "createdAt": "2026-04-21T11:16:08.306000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a360d090-1c93-4a26-8887-5a19c6993274",
+          "createdAt": "2026-04-21T05:15:42.907000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6ced2481-7b34-4579-ad40-dd9888769a36",
+          "createdAt": "2026-04-20T23:15:28.313000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "faa70062-e614-4eed-8b25-b51af655fe0b",
+          "createdAt": "2026-04-20T17:15:00.261000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5b13290f-7d59-46b8-b76e-fa7cce3f3297",
+          "createdAt": "2026-04-20T11:14:43.872000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "17e5548a-9710-43b7-b59b-e6919d7eba81",
+          "createdAt": "2026-04-20T05:14:19.526000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9d874c2d-6e18-4699-b5f1-cd2e4be32088",
+          "createdAt": "2026-04-19T23:14:02.337000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5d402e62-9a01-4ba8-bfdc-38d290e124e2",
+          "createdAt": "2026-04-19T17:13:48.866000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "cdf26332-5aa4-435a-ac5e-51039a20138e",
+          "createdAt": "2026-04-19T11:13:35.718000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9ffbea6d-8740-4b2d-a833-206d273ec9a8",
+          "createdAt": "2026-04-19T05:13:15.096000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c22d3d8f-102c-40fa-90f0-2ff36033c339",
+          "createdAt": "2026-04-18T23:13:04.226000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "74a2f31a-0d7b-4720-a02c-51d98cf7f5e3",
+          "createdAt": "2026-04-18T17:12:39.895000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b2711009-597c-4fcd-8082-5abe789b686b",
+          "createdAt": "2026-04-18T11:12:13.814000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0cbdf6c7-7dfa-4628-b850-777645af97c4",
+          "createdAt": "2026-04-18T05:12:12.339000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ef48f850-c2ac-4717-bd2d-2386556b977b",
+          "createdAt": "2026-04-17T23:12:04.895000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "bd3ec2db-4352-46a9-a7db-99fb603982c3",
+          "createdAt": "2026-04-17T17:11:56.654000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "cb8fb155-0b84-4f53-a354-38c1ed9cea2f",
+          "createdAt": "2026-04-17T11:11:27.827000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d629d05d-4965-4103-970e-948f3f59c185",
+          "createdAt": "2026-04-17T05:11:03.743000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f4e1465d-34bf-418a-9697-c8459f119edd",
+          "createdAt": "2026-04-16T23:10:56.085000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f86f29b0-c01c-4ac9-8627-ea9fe284cdc5",
+          "createdAt": "2026-04-16T17:10:31.297000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "291b1fe3-a9c6-4203-ad1f-af3df1ad7b5c",
+          "createdAt": "2026-04-16T11:10:16.455000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "2cd7b8d2-4e14-4a69-983d-a7d5b057f2c6",
+          "createdAt": "2026-04-16T05:10:09.636000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "24967c77-be21-4fe5-820c-115f20cded56",
+          "createdAt": "2026-04-15T23:09:56.470000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e5394964-2926-4694-a034-a080b4e73e60",
+          "createdAt": "2026-04-15T17:09:51.842000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fb676e35-0708-466a-af10-e7864b306928",
+          "createdAt": "2026-04-15T11:09:23.714000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "384e95f7-7653-4a99-96bd-3d92f3b04103",
+          "createdAt": "2026-04-15T05:08:59.352000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1fd4fb5f-447b-4162-a04d-39ea1db4d209",
+          "createdAt": "2026-04-14T23:08:44.292000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5f226715-6635-4f6e-88fc-9b14137f6101",
+          "createdAt": "2026-04-14T17:08:37.631000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0603bac3-c5c5-4bb9-9a29-1fa845c55b15",
+          "createdAt": "2026-04-14T11:08:27.193000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "864cf419-0847-4a28-bc9f-9f375c841a06",
+          "createdAt": "2026-04-14T05:08:04.770000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "264c2b4b-42c3-44d8-81c4-ef7fd1badf12",
+          "createdAt": "2026-04-13T23:07:47.054000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7943a80d-5255-4ed7-8a55-a1616e6290ee",
+          "createdAt": "2026-04-13T17:07:24.372000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "bde6ed61-5a52-4790-b8a0-e6b8d4814f9f",
+          "createdAt": "2026-04-13T11:07:09.163000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "02f89a0b-aa4c-430d-b52c-a229cb3cc1dd",
+          "createdAt": "2026-04-13T05:06:52.506000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f5b69cc7-1f5b-4633-a688-ba6ccdfa50fc",
+          "createdAt": "2026-04-12T23:06:26.340000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3a4aebfd-849a-4c52-84e9-f7080e30ae1b",
+          "createdAt": "2026-04-12T17:06:04.214000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8d033f44-3e33-4053-8503-5c7120ff5232",
+          "createdAt": "2026-04-12T11:05:48.187000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4522525f-72cf-4d57-80d4-89d6d4ebbbf1",
+          "createdAt": "2026-04-12T05:05:38.389000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3bedfcd6-3829-45f7-9c2b-ae33edb62917",
+          "createdAt": "2026-04-11T23:05:09.471000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "cb0b8439-981e-4b5c-91a8-f9380b45049c",
+          "createdAt": "2026-04-11T17:05:00.270000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f217be2b-a4a0-4b52-8959-1d679a2aed23",
+          "createdAt": "2026-04-11T11:04:40.281000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0b9100ca-c4a6-4063-ace8-6c8e63fda3f2",
+          "createdAt": "2026-04-11T05:04:09.461000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1ba745e5-975a-4a49-b553-7685490eb2c6",
+          "createdAt": "2026-04-10T23:03:53.132000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "2089e9a5-470e-4d84-a304-857241984f0b",
+          "createdAt": "2026-04-10T23:02:45.443000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has started 1 tasks: (task 11e4f280fa484d17837d1f5528cfe47e)."
+        },
+        {
+          "id": "af690448-42fa-470f-9317-4652a38158c9",
+          "createdAt": "2026-04-10T23:02:34.922000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has stopped 1 running tasks: (task ca8e30f65a9a4474910ce426155ec119)."
+        },
+        {
+          "id": "2865d4f5-ce26-4f68-81ff-79d7ee0a6054",
+          "createdAt": "2026-04-10T23:02:34.921000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) (task ca8e30f65a9a4474910ce426155ec119) failed container health checks."
+        },
+        {
+          "id": "19084ba5-4a14-4ac7-a734-b2fc7fa3a43f",
+          "createdAt": "2026-04-10T22:35:33.373000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "cf95457e-7286-4d7f-a53f-9d54d2f5ea9d",
+          "createdAt": "2026-04-10T22:34:44.283000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has started 1 tasks: (task ca8e30f65a9a4474910ce426155ec119)."
+        },
+        {
+          "id": "a186519a-bf1c-4b89-a7d3-f5bafdbb2c5f",
+          "createdAt": "2026-04-10T22:34:34.464000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has stopped 1 running tasks: (task 756853705fb247a78db69aeedc47b096)."
+        },
+        {
+          "id": "e1ca6893-7740-4f36-8bff-d4044759451f",
+          "createdAt": "2026-04-10T22:34:34.463000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) (task 756853705fb247a78db69aeedc47b096) failed container health checks."
+        },
+        {
+          "id": "7dd36dec-197f-4c2a-959a-4a5049b970c6",
+          "createdAt": "2026-04-10T22:08:20.800000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "3f93e26f-968c-468a-bdd0-b20b78b99217",
+          "createdAt": "2026-04-10T22:07:39.122000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has started 1 tasks: (task 756853705fb247a78db69aeedc47b096)."
+        },
+        {
+          "id": "910a8784-0b05-4a20-bb11-cd82b9d6937c",
+          "createdAt": "2026-04-10T22:07:29.468000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has stopped 1 running tasks: (task 60d8e8fa6200468fbbc7c6b10f071217)."
+        },
+        {
+          "id": "9f6ccda7-2990-49ac-abbc-f93cfbc64859",
+          "createdAt": "2026-04-10T22:07:29.467000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) (task 60d8e8fa6200468fbbc7c6b10f071217) failed container health checks."
+        },
+        {
+          "id": "ca6e0d06-d9ff-4136-b9c1-77fa70b1278c",
+          "createdAt": "2026-04-10T21:31:38.002000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "09c978b7-2953-43f4-8c1c-35b8786d2151",
+          "createdAt": "2026-04-10T21:30:28.131000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has started 1 tasks: (task f9bf1d4f13c1489ca328ae83b3c28598)."
+        },
+        {
+          "id": "2d509b23-42b2-43c2-aff9-4a5fa350662c",
+          "createdAt": "2026-04-10T21:30:18.633000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has stopped 1 running tasks: (task 9e42cd15bc884955976964015d8b3fb8)."
+        },
+        {
+          "id": "a0e77af5-715c-46cc-9f71-85f67aedbad1",
+          "createdAt": "2026-04-10T21:30:18.632000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) (task 9e42cd15bc884955976964015d8b3fb8) failed container health checks."
+        },
+        {
+          "id": "97bc269d-0a42-4983-a384-36df0350913e",
+          "createdAt": "2026-04-10T17:30:22.861000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "eeab6ebf-a42b-4481-9e38-5c54f397ce67",
+          "createdAt": "2026-04-10T11:29:54.518000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d844bd1b-839c-4a32-b658-a53a09a99d13",
+          "createdAt": "2026-04-10T05:29:37.034000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "25922509-4350-4ea8-9a53-6e7c4f259949",
+          "createdAt": "2026-04-09T23:29:31.312000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c91b5a0f-6774-4509-81c3-bbfbec0da534",
+          "createdAt": "2026-04-09T17:29:06.274000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "925fc190-53dd-4cf6-b838-7f39a743234d",
+          "createdAt": "2026-04-09T11:29:04.915000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "440d2a23-ad92-4052-92ac-c38f62467c4c",
+          "createdAt": "2026-04-09T05:28:43.510000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "189b76a4-8551-46f2-972d-f91d33b5b985",
+          "createdAt": "2026-04-08T23:28:25.781000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0c3520cd-964c-43cc-912a-f4c95d538cff",
+          "createdAt": "2026-04-08T17:28:15.039000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5d84674f-27f5-402b-be44-3d8e84e2112c",
+          "createdAt": "2026-04-08T11:28:10.082000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d0f6fa4a-1349-4cde-baee-5d9b4817b561",
+          "createdAt": "2026-04-08T05:27:46.208000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fc587b01-640e-40bd-9155-e68b58b11c7b",
+          "createdAt": "2026-04-07T23:27:17.644000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5c38a941-c501-4b58-9cc0-930e67229d81",
+          "createdAt": "2026-04-07T17:26:57.978000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "85774bb7-7267-44d5-9097-5fb386bc615b",
+          "createdAt": "2026-04-07T11:26:28.730000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fc3aab88-5ee6-48c2-a10c-d6ac22fdf247",
+          "createdAt": "2026-04-07T05:26:14.754000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "740d4255-684d-450b-b5ca-1b185c196200",
+          "createdAt": "2026-04-06T23:25:57.097000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "beb272b4-512f-4ba5-863d-433c63cf7fee",
+          "createdAt": "2026-04-06T17:25:56.952000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0db2acb4-710d-4c56-9231-35168a669c08",
+          "createdAt": "2026-04-06T11:25:41.619000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "34309c7e-013f-47ac-a691-1912a22a2207",
+          "createdAt": "2026-04-06T05:25:37.809000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "aae615be-7d92-49d8-b247-a673bf3f0fcf",
+          "createdAt": "2026-04-05T23:25:31.070000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "dd0752ee-8564-4059-8d86-8cb7c7268708",
+          "createdAt": "2026-04-05T17:25:16.816000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a9ab6e6c-1fa2-45b5-b302-62f30e631171",
+          "createdAt": "2026-04-05T11:24:55.396000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e825846f-e8d4-419d-a40e-181e0d70ce43",
+          "createdAt": "2026-04-05T05:24:39.001000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "2d5b4835-1528-40a6-a920-8334b64a22eb",
+          "createdAt": "2026-04-04T23:24:29.858000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4ae51c9d-aeb0-4360-bf81-e8dbc9a5042c",
+          "createdAt": "2026-04-04T17:23:59.743000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d4f16740-17ad-42a6-a296-6c075fa1e645",
+          "createdAt": "2026-04-04T11:23:53.122000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1973bf87-037e-4b1a-82a9-7267e90d62b8",
+          "createdAt": "2026-04-04T05:23:44.393000+05:00",
+          "message": "(service stellapay-mini-app-prod-frontend) has reached a steady state."
+        }
+      ],
+      "createdAt": "2024-11-06T08:08:04.530000+05:00",
+      "currentServiceRevisions": [
+        {
+          "arn": "arn:aws:ecs:ap-southeast-1:647828570435:service-revision/flashwire/stellapay-mini-app-prod-frontend/3438012305071168126",
+          "requestedTaskCount": 2,
+          "runningTaskCount": 2,
+          "pendingTaskCount": 0
+        }
+      ],
+      "placementConstraints": [],
+      "placementStrategy": [
+        {
+          "type": "spread",
+          "field": "attribute:ecs.availability-zone"
+        },
+        {
+          "type": "spread",
+          "field": "instanceId"
+        }
+      ],
+      "healthCheckGracePeriodSeconds": 0,
+      "schedulingStrategy": "REPLICA",
+      "deploymentController": {
+        "type": "ECS"
+      },
+      "createdBy": "arn:aws:iam::647828570435:user/kaiqiang.qiao",
+      "enableECSManagedTags": true,
+      "propagateTags": "NONE",
+      "enableExecuteCommand": false,
+      "availabilityZoneRebalancing": "DISABLED",
+      "resourceManagementType": "CUSTOMER"
+    },
+    {
+      "serviceArn": "arn:aws:ecs:ap-southeast-1:647828570435:service/flashwire-lending/lending-admin-prod-frontend",
+      "serviceName": "lending-admin-prod-frontend",
+      "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire-lending",
+      "loadBalancers": [],
+      "serviceRegistries": [],
+      "status": "ACTIVE",
+      "desiredCount": 1,
+      "runningCount": 1,
+      "pendingCount": 0,
+      "launchType": "EXTERNAL",
+      "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/lending-admin-prod-frontend:5",
+      "deploymentConfiguration": {
+        "deploymentCircuitBreaker": {
+          "enable": true,
+          "rollback": true
+        },
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 50,
+        "alarms": {
+          "alarmNames": [],
+          "rollback": false,
+          "enable": false
+        },
+        "bakeTimeInMinutes": 0
+      },
+      "deployments": [
+        {
+          "id": "ecs-svc/8352262250508243202",
+          "status": "PRIMARY",
+          "taskDefinition": "arn:aws:ecs:ap-southeast-1:647828570435:task-definition/lending-admin-prod-frontend:5",
+          "desiredCount": 1,
+          "pendingCount": 0,
+          "runningCount": 1,
+          "failedTasks": 0,
+          "createdAt": "2024-04-18T13:41:23.258000+05:00",
+          "updatedAt": "2026-04-15T03:02:34.760000+05:00",
+          "launchType": "EXTERNAL",
+          "rolloutState": "COMPLETED",
+          "rolloutStateReason": "ECS deployment ecs-svc/8352262250508243202 completed."
+        }
+      ],
+      "events": [
+        {
+          "id": "5a26100e-58e4-4e2d-8c52-8d01105a39ce",
+          "createdAt": "2026-04-25T03:12:54.534000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "948c9496-191c-4e0b-933c-b29f9d1e04f0",
+          "createdAt": "2026-04-24T21:12:30.576000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c72cfe3a-c54d-44fd-b544-330f315a7b9a",
+          "createdAt": "2026-04-24T15:12:29.887000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f7eab1fc-25a4-492d-b357-2da04e3fb4ec",
+          "createdAt": "2026-04-24T09:12:14.257000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a8acf9f2-e9e7-40f4-bb51-35ddb63e54ec",
+          "createdAt": "2026-04-24T03:12:02.173000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "bb142b14-805a-494d-a305-e075185d6ebf",
+          "createdAt": "2026-04-23T21:11:41.630000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "34470ea3-4b70-4e96-8030-e5cdbae402b8",
+          "createdAt": "2026-04-23T15:11:21.044000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0c992301-515a-4ca9-b9cb-036e94031a2e",
+          "createdAt": "2026-04-23T09:10:50.414000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "92d03fd9-4e5b-4657-80f9-70f6690dc4e4",
+          "createdAt": "2026-04-23T03:10:47.742000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d0b3d44c-5d48-46e3-b3bc-223e49d78d90",
+          "createdAt": "2026-04-22T21:10:21.113000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "14df1a87-d348-4715-a251-391637fceae9",
+          "createdAt": "2026-04-22T15:10:19.178000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f4faa652-c65d-4de5-b8ef-0774e37a5fe0",
+          "createdAt": "2026-04-22T09:09:58.775000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "84942137-5920-4da0-99c6-c06ec538ec01",
+          "createdAt": "2026-04-22T03:09:31.118000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f8d21557-68a0-4e20-a984-9bfa92b7e495",
+          "createdAt": "2026-04-21T21:09:07.604000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "893b20c1-e23b-468f-af4c-04cb80f6f5ae",
+          "createdAt": "2026-04-21T15:08:42.888000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "325c1bc2-6344-4140-a27a-b37c176f488c",
+          "createdAt": "2026-04-21T09:08:16.815000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4941668b-958c-450c-81d3-cc58dd53c84d",
+          "createdAt": "2026-04-21T03:08:15.232000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "dceadaae-8420-4d76-8d97-748d7a3986e5",
+          "createdAt": "2026-04-20T21:08:14.421000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "581f7936-df54-4031-a8e5-794549796bab",
+          "createdAt": "2026-04-20T15:07:54.968000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "dc0a5311-fa55-4f22-8d1a-3e20dbdfd37c",
+          "createdAt": "2026-04-20T09:07:46.186000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "69bdeb5c-0fae-4e5b-815d-a05dcd6f40f3",
+          "createdAt": "2026-04-20T03:07:33.515000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ec3c9290-7650-4f1b-a5d2-c338dbeed637",
+          "createdAt": "2026-04-19T21:07:24.518000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a2517eb4-1628-4e1c-8cc2-2b92873d3bc3",
+          "createdAt": "2026-04-19T15:07:23.486000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "81616c6f-a38e-49c2-a227-c0d4ff453b8c",
+          "createdAt": "2026-04-19T09:07:06.149000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "31775727-c5a3-4af5-a857-9b200c27d262",
+          "createdAt": "2026-04-19T03:06:52.459000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b5f84677-aaa3-46da-a469-3c9a43f4d504",
+          "createdAt": "2026-04-18T21:06:51.673000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0cdac28e-f0b1-40c8-9852-1d5eec3dcb23",
+          "createdAt": "2026-04-18T15:06:31.300000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4ecf2d9c-acb6-459b-ac94-fd87f97b821c",
+          "createdAt": "2026-04-18T09:06:08.286000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "53760ffb-7131-44c6-b947-89c7eb1233da",
+          "createdAt": "2026-04-18T03:05:39.221000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c319c9b7-ea9e-4854-b90d-f933c7ab825a",
+          "createdAt": "2026-04-17T21:05:10.838000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "644c7dba-5a21-4234-8f40-5a393b0efaaf",
+          "createdAt": "2026-04-17T15:04:47.245000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7111c36c-1ecc-4303-b3b8-6799bca9e81f",
+          "createdAt": "2026-04-17T09:04:37.170000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fe9ad167-ce55-467f-abcf-d10a8fbed0ec",
+          "createdAt": "2026-04-17T03:04:25.552000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7a33d814-0b95-4807-9cb3-f0cbd7487455",
+          "createdAt": "2026-04-16T21:04:13.196000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "721c497e-9d6e-452e-98d4-44c9ec830518",
+          "createdAt": "2026-04-16T15:04:11.031000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "1f868d57-73b3-4868-a992-7bf99906bb01",
+          "createdAt": "2026-04-16T09:04:05.265000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "66ac4a7d-b221-4083-b929-2fa6f9e2b631",
+          "createdAt": "2026-04-16T03:03:44.783000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "bf1e5887-05ea-418a-9862-377ca89baaa8",
+          "createdAt": "2026-04-15T21:03:23.548000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fb693f9d-16e4-4a69-8a95-f5658b24b54e",
+          "createdAt": "2026-04-15T15:03:03.203000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "96315dc6-63f4-438e-9f23-af564e75a3c1",
+          "createdAt": "2026-04-15T09:02:55.043000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f3a5effd-5ad1-4e2b-b1f1-61296729661c",
+          "createdAt": "2026-04-15T03:02:34.769000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "caabdc6e-76bc-4b3e-92e1-ab77820e334e",
+          "createdAt": "2026-04-15T03:01:55.726000+05:00",
+          "message": "(service lending-admin-prod-frontend) has started 1 tasks: (task 804b1e6a15ee4cddad39468221bec33c)."
+        },
+        {
+          "id": "f865eb97-10e2-41b4-83f9-4b863d84cdcb",
+          "createdAt": "2026-04-15T02:00:39.768000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "debd6b47-a140-4fef-bb6f-5cabe7e09ff4",
+          "createdAt": "2026-04-14T20:00:29.722000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6bb6648a-5e6a-4744-a3c8-a4d7322cac50",
+          "createdAt": "2026-04-14T14:00:05.874000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c7229045-0fbb-4658-b5d0-7b6fc92e8741",
+          "createdAt": "2026-04-14T07:59:52.525000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "ff23b4e2-945a-408f-96ae-f8a6dca027b1",
+          "createdAt": "2026-04-14T01:59:39.204000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "e42e3e2e-3858-4915-9d26-74dcaa8001b6",
+          "createdAt": "2026-04-13T19:59:22.434000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b9212016-7eca-4ddb-9844-0955b6db5c2a",
+          "createdAt": "2026-04-13T13:59:09.093000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7b6b7ba4-7aab-4f9e-aafa-dab06fc4eb81",
+          "createdAt": "2026-04-13T07:58:46.337000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d7a14e47-b86f-4186-8fb6-bea3970291fe",
+          "createdAt": "2026-04-13T01:58:22.711000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9d40cb5f-f5f6-4d9a-8a10-2be670949578",
+          "createdAt": "2026-04-12T19:58:02.246000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d914a7c2-b935-438f-aa0f-5401519a108c",
+          "createdAt": "2026-04-12T13:57:48.733000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "417fa21a-95d2-4093-8eff-482c8e1d30b3",
+          "createdAt": "2026-04-12T07:57:33.958000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8194f989-7eaf-4ad5-853a-bbac35abe214",
+          "createdAt": "2026-04-12T01:57:22.857000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f571f901-6723-4895-b6c9-25aba035c3cd",
+          "createdAt": "2026-04-11T19:56:59.970000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9c219cde-1577-4f1e-b532-74a74d121012",
+          "createdAt": "2026-04-11T13:56:52.012000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4675e562-01f9-4fcd-a7d7-ac211afe5795",
+          "createdAt": "2026-04-11T07:56:33.247000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "09086067-5b66-424b-b688-7b2165ed5385",
+          "createdAt": "2026-04-11T01:56:15.827000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8e049678-12d6-4fd5-9498-27ee2cb70ef7",
+          "createdAt": "2026-04-10T19:55:59.350000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4a980728-bbec-4605-870a-77d09835c0f1",
+          "createdAt": "2026-04-10T13:55:29.400000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6f6ed087-dbd2-4bcd-941f-6bbfeeb46f88",
+          "createdAt": "2026-04-10T07:55:05.422000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5e62b9ab-5647-4658-9465-3dd772511070",
+          "createdAt": "2026-04-10T01:54:33.194000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b25cd0c1-21ad-4175-923d-d56841a121d8",
+          "createdAt": "2026-04-09T19:54:21.341000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "93c2defa-fae9-4e3a-bd09-6bcfa9e02ac2",
+          "createdAt": "2026-04-09T13:54:18.430000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "bcddee7d-2cf3-4ad9-8945-de315e0bc3b8",
+          "createdAt": "2026-04-09T07:53:56.781000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "8a174450-09f6-4fcf-8984-9f1b3a2c72c2",
+          "createdAt": "2026-04-09T01:53:31.676000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5308a235-b855-4b4e-b38c-4f2969177d00",
+          "createdAt": "2026-04-08T19:53:20.751000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c8773fcb-1d88-4566-ae43-081dfdd84749",
+          "createdAt": "2026-04-08T13:53:19.400000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "b1e22e88-d0db-4d10-82eb-797c3b619dc5",
+          "createdAt": "2026-04-08T07:53:02.826000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6256248a-da11-4023-8cfb-8e45256754fe",
+          "createdAt": "2026-04-08T01:52:57.279000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "00e2dd43-5eb0-4bc7-a4b4-75e89e694afc",
+          "createdAt": "2026-04-07T19:52:40.750000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "414b7aa6-220c-4cbc-81c2-5c45c90941b5",
+          "createdAt": "2026-04-07T13:52:27.903000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "9c520d84-0904-41bb-a45d-048381caae74",
+          "createdAt": "2026-04-07T07:52:11.578000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f37071c3-5c50-4d95-a50b-60b507e3892e",
+          "createdAt": "2026-04-07T01:52:07.777000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "50bc1846-05f1-4ae1-aee1-772927e4bcec",
+          "createdAt": "2026-04-06T19:51:46.918000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "0cb40611-d2e9-4671-9a72-026bb334afcb",
+          "createdAt": "2026-04-06T13:51:29.116000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a9436bfe-303c-444e-b552-684d74f2cedb",
+          "createdAt": "2026-04-06T07:51:08.114000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7c502e1c-8899-4bd8-9040-359fd5d79866",
+          "createdAt": "2026-04-06T01:50:41.989000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c1bf3f3b-6a57-458c-b0a3-b8820f88b4c8",
+          "createdAt": "2026-04-05T19:50:27.877000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a7d14978-0f5e-4b28-ac06-463d2742bb46",
+          "createdAt": "2026-04-05T13:50:23.807000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "2ba96ac8-a660-4388-b07a-cf910d864855",
+          "createdAt": "2026-04-05T07:50:10.228000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "22db0a78-9553-4676-b107-5a15539a9fcd",
+          "createdAt": "2026-04-05T01:50:02.306000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "c6723cae-7be7-4988-90ae-360756fe594b",
+          "createdAt": "2026-04-04T19:49:56.552000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6a03023f-7de4-47e0-870c-64fbd0f3c3b2",
+          "createdAt": "2026-04-04T13:49:46.818000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "5ae24d44-9df9-4bf3-a63e-14e36bce8bc7",
+          "createdAt": "2026-04-04T07:49:15.688000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "58f04e98-6687-4b52-9d78-cc5a8170a6f2",
+          "createdAt": "2026-04-04T01:49:10.616000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a3f6f843-a21a-4235-84f3-c35148389dc6",
+          "createdAt": "2026-04-03T19:49:04.012000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "614ed3c9-8803-4914-a504-3f0b47c2583f",
+          "createdAt": "2026-04-03T13:48:40.192000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "7e84b58f-937c-4174-a96f-748d1f99665f",
+          "createdAt": "2026-04-03T07:48:14.381000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "4f9b3969-a8e5-44cd-b55a-d43bc2fc7f96",
+          "createdAt": "2026-04-03T01:48:04.253000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6821bba3-25f6-41ea-a8de-36b011a82dba",
+          "createdAt": "2026-04-02T19:47:59.706000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "a29b3ebe-29b6-4e08-a31d-4a859c861c59",
+          "createdAt": "2026-04-02T13:47:47.476000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "302c97dd-b2eb-4cbe-9904-cb6b73457997",
+          "createdAt": "2026-04-02T07:47:19.424000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f2078211-c68b-4fa9-ac98-5d84ead28c1a",
+          "createdAt": "2026-04-02T01:47:08.912000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "6baa5cc2-1a6e-41ed-81ee-fe08e9670e90",
+          "createdAt": "2026-04-01T19:46:52.130000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "768cdca6-8869-469c-b0b8-0383d89b42a4",
+          "createdAt": "2026-04-01T13:46:47.108000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "fb45c230-2622-47af-a3c4-76c9377d862c",
+          "createdAt": "2026-04-01T07:46:34.411000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "f0cc4ada-d2cb-4b4b-9d6a-9a044179bbf8",
+          "createdAt": "2026-04-01T01:46:12.017000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        },
+        {
+          "id": "d0ad8ad1-874f-499e-af32-a7e8b77c6317",
+          "createdAt": "2026-03-31T19:45:52.553000+05:00",
+          "message": "(service lending-admin-prod-frontend) has reached a steady state."
+        }
+      ],
+      "createdAt": "2024-04-18T12:45:07.798000+05:00",
+      "currentServiceRevisions": [
+        {
+          "arn": "arn:aws:ecs:ap-southeast-1:647828570435:service-revision/flashwire-lending/lending-admin-prod-frontend/8352262250508243202",
+          "requestedTaskCount": 1,
+          "runningTaskCount": 1,
+          "pendingTaskCount": 0
+        }
+      ],
+      "placementConstraints": [
+        {
+          "type": "memberOf",
+          "expression": "attribute:env == prod and attribute:productLine == flashwire and attribute:service == lending"
+        }
+      ],
+      "placementStrategy": [
+        {
+          "type": "spread",
+          "field": "instanceId"
+        },
+        {
+          "type": "spread",
+          "field": "attribute:ecs.availability-zone"
+        }
+      ],
+      "schedulingStrategy": "REPLICA",
+      "deploymentController": {
+        "type": "ECS"
+      },
+      "createdBy": "arn:aws:iam::647828570435:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_netops-period-using_cb01c795fceee091",
+      "enableECSManagedTags": true,
+      "propagateTags": "NONE",
+      "enableExecuteCommand": false,
+      "availabilityZoneRebalancing": "DISABLED",
+      "resourceManagementType": "CUSTOMER"
+    }
+  ]
+}

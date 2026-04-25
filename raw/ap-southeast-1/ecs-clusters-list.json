@@ -1,0 +1,6 @@
+{
+    "clusterArns": [
+        "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire",
+        "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire-lending"
+    ]
+}

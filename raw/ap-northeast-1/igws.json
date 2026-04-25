@@ -1,0 +1,39 @@
+{
+    "InternetGateways": [
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-06105f1cfd173e343"
+                }
+            ],
+            "InternetGatewayId": "igw-00f5c8b293285dcdc",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "terraform-test-igw"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "terraform-test"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-a3be4fc6"
+                }
+            ],
+            "InternetGatewayId": "igw-cee90cab",
+            "OwnerId": "647828570435",
+            "Tags": []
+        }
+    ]
+}

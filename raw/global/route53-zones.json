@@ -1,0 +1,82 @@
+{
+    "HostedZones": [
+        {
+            "Id": "/hostedzone/Z02396443VB7D35J0WY7W",
+            "Name": "flowmind.life.",
+            "CallerReference": "amplify-request-1765903072886",
+            "Config": {
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 25
+        },
+        {
+            "Id": "/hostedzone/Z08001121NHNYHTSM0FNG",
+            "Name": "mybrains.app.",
+            "CallerReference": "amplify-request-1767329772739",
+            "Config": {
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 9
+        },
+        {
+            "Id": "/hostedzone/Z102429720UJ8DDNDZMVR",
+            "Name": "hot.bot.",
+            "CallerReference": "4dbb8154-c805-47f8-a462-82f06aab85e2",
+            "Config": {
+                "Comment": "",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 3
+        },
+        {
+            "Id": "/hostedzone/Z087870522P6BX1WI50UG",
+            "Name": "rpzzing.net.",
+            "CallerReference": "RISWorkflow-RD:42df150a-bd2c-4ce4-b3dc-6d3d8857be55",
+            "Config": {
+                "Comment": "HostedZone created by Route53 Registrar",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 18
+        },
+        {
+            "Id": "/hostedzone/Z02931811S0JFIPT6A2DF",
+            "Name": "legendpay.com.",
+            "CallerReference": "13e423c3-173b-4d2c-ae22-7cd4e46bd144",
+            "Config": {
+                "Comment": "Legend Pay",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 3
+        },
+        {
+            "Id": "/hostedzone/Z04322095VXD6CX9B4QO",
+            "Name": "legendtrading.com.",
+            "CallerReference": "E50870BA-19E5-ED84-8A40-47B50DFA8828",
+            "Config": {
+                "Comment": "",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 11
+        },
+        {
+            "Id": "/hostedzone/Z0322792UT4ES5B4WPJ6",
+            "Name": "legendtrading.co.za.",
+            "CallerReference": "RISWorkflow-RD:137f854c-316e-4916-84e5-1b459aa3ff15",
+            "Config": {
+                "Comment": "HostedZone created by Route53 Registrar",
+                "PrivateZone": false
+            },
+            "ResourceRecordSetCount": 2
+        },
+        {
+            "Id": "/hostedzone/Z0209801JXRF1JMD7DP",
+            "Name": "us-east-1.aoss.amazonaws.com.",
+            "CallerReference": "Creating it part of VpcEndpoint with UUID faaa4a09-6909-4f3e-b453-c2ff88b5f2f4",
+            "Config": {
+                "Comment": "Creating it part of VpcEndpoint with UUID faaa4a09-6909-4f3e-b453-c2ff88b5f2f4",
+                "PrivateZone": true
+            },
+            "ResourceRecordSetCount": 3
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "SecurityGroups": [
+        {
+            "GroupId": "sg-6f322300",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-e720338e",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-3:647828570435:security-group/sg-6f322300",
+            "OwnerId": "647828570435",
+            "GroupName": "default",
+            "Description": "default VPC security group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "647828570435",
+                            "GroupId": "sg-6f322300"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0a7d5054cd8c3c30a",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                }
+            ],
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-3:647828570435:security-group/sg-0a7d5054cd8c3c30a",
+            "OwnerId": "647828570435",
+            "GroupName": "RDS-replica-lg-ie-production",
+            "Description": "for replica-lg-ie-production",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "IE lg prod subnet",
+                            "CidrIp": "10.1.0.0/20"
+                        },
+                        {
+                            "Description": "FR lg prod subnet",
+                            "CidrIp": "10.2.0.0/20"
+                        },
+                        {
+                            "Description": "VA lg prod subnet",
+                            "CidrIp": "10.0.0.0/22"
+                        },
+                        {
+                            "Description": "VA lg prod subnet",
+                            "CidrIp": "10.0.4.0/23"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-097e86e6dce996830",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-02775b0dac0fb2ea5",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-3:647828570435:security-group/sg-097e86e6dce996830",
+            "OwnerId": "647828570435",
+            "GroupName": "default",
+            "Description": "default VPC security group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "647828570435",
+                            "GroupId": "sg-097e86e6dce996830"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        }
+    ]
+}

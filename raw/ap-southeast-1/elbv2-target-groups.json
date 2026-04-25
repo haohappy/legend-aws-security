@@ -1,0 +1,235 @@
+{
+  "TargetGroups": [
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/replica-lg-rds-production/ed67ba0266fb4b7c",
+      "TargetGroupName": "replica-lg-rds-production",
+      "Protocol": "TCP",
+      "Port": 3306,
+      "VpcId": "vpc-0e8a205860906c944",
+      "HealthCheckProtocol": "TCP",
+      "HealthCheckPort": "traffic-port",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 30,
+      "HealthCheckTimeoutSeconds": 10,
+      "HealthyThresholdCount": 5,
+      "UnhealthyThresholdCount": 2,
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/replica-lg-rds-production/44f50e0247487f1c"
+      ],
+      "TargetType": "ip",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "replica-lg-rds-production"
+    },
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/flashwire-stag-read-db-haproxy/47bc64aa0a38a722",
+      "TargetGroupName": "flashwire-stag-read-db-haproxy",
+      "Protocol": "TCP",
+      "Port": 3306,
+      "VpcId": "vpc-0e8a205860906c944",
+      "HealthCheckProtocol": "HTTP",
+      "HealthCheckPort": "8405",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 5,
+      "HealthCheckTimeoutSeconds": 3,
+      "HealthyThresholdCount": 5,
+      "UnhealthyThresholdCount": 2,
+      "HealthCheckPath": "/metrics",
+      "Matcher": {
+        "HttpCode": "200-399"
+      },
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/replica-flashwire-staging-mysql/76968cf09a035f93"
+      ],
+      "TargetType": "instance",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "replica-flashwire-staging-mysql"
+    },
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/staging-lending-apiweb-mysql/c5d2bba0ed4a7ace",
+      "TargetGroupName": "staging-lending-apiweb-mysql",
+      "Protocol": "TCP",
+      "Port": 3306,
+      "VpcId": "vpc-0e8a205860906c944",
+      "HealthCheckProtocol": "TCP",
+      "HealthCheckPort": "3306",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 30,
+      "HealthCheckTimeoutSeconds": 10,
+      "HealthyThresholdCount": 5,
+      "UnhealthyThresholdCount": 2,
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/staging-lending-apiweb-mysql/89371b0fffc0a80d"
+      ],
+      "TargetType": "instance",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "staging-lending-apiweb-mysql"
+    },
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/camappalb-https/daa3c55fb1f49c9f",
+      "TargetGroupName": "camappalb-https",
+      "Protocol": "TCP",
+      "Port": 443,
+      "VpcId": "vpc-0b7fe214033d48811",
+      "HealthCheckProtocol": "HTTP",
+      "HealthCheckPort": "traffic-port",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 30,
+      "HealthCheckTimeoutSeconds": 6,
+      "HealthyThresholdCount": 3,
+      "UnhealthyThresholdCount": 3,
+      "HealthCheckPath": "/",
+      "Matcher": {
+        "HttpCode": "200-399"
+      },
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/ncamapp/8cec439033650339"
+      ],
+      "TargetType": "alb",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "ncamapp"
+    },
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/lendingalb-http/e7477a4ac56e3a65",
+      "TargetGroupName": "lendingalb-http",
+      "Protocol": "TCP",
+      "Port": 80,
+      "VpcId": "vpc-0e8a205860906c944",
+      "HealthCheckProtocol": "HTTP",
+      "HealthCheckPort": "traffic-port",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 30,
+      "HealthCheckTimeoutSeconds": 6,
+      "HealthyThresholdCount": 3,
+      "UnhealthyThresholdCount": 3,
+      "HealthCheckPath": "/",
+      "Matcher": {
+        "HttpCode": "200-399"
+      },
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/nlending/a7be2bf55ab39228"
+      ],
+      "TargetType": "alb",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "nlending"
+    },
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/lendingalb-https/58244cc1d2eff580",
+      "TargetGroupName": "lendingalb-https",
+      "Protocol": "TCP",
+      "Port": 443,
+      "VpcId": "vpc-0e8a205860906c944",
+      "HealthCheckProtocol": "HTTPS",
+      "HealthCheckPort": "traffic-port",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 30,
+      "HealthCheckTimeoutSeconds": 10,
+      "HealthyThresholdCount": 3,
+      "UnhealthyThresholdCount": 3,
+      "HealthCheckPath": "/",
+      "Matcher": {
+        "HttpCode": "200-399"
+      },
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/nlending/a7be2bf55ab39228"
+      ],
+      "TargetType": "alb",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "nlending"
+    },
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/lending-apiweb-mysql/336650aea885eadd",
+      "TargetGroupName": "lending-apiweb-mysql",
+      "Protocol": "TCP",
+      "Port": 3306,
+      "VpcId": "vpc-0e8a205860906c944",
+      "HealthCheckProtocol": "TCP",
+      "HealthCheckPort": "traffic-port",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 30,
+      "HealthCheckTimeoutSeconds": 10,
+      "HealthyThresholdCount": 5,
+      "UnhealthyThresholdCount": 2,
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/lending-apiweb-mysql/b3eb079a863c1e52"
+      ],
+      "TargetType": "ip",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "lending-apiweb-mysql"
+    },
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/lending/db6db70ef1e3b3cf",
+      "TargetGroupName": "lending",
+      "Protocol": "HTTPS",
+      "Port": 443,
+      "VpcId": "vpc-0e8a205860906c944",
+      "HealthCheckProtocol": "HTTPS",
+      "HealthCheckPort": "traffic-port",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 30,
+      "HealthCheckTimeoutSeconds": 5,
+      "HealthyThresholdCount": 5,
+      "UnhealthyThresholdCount": 2,
+      "HealthCheckPath": "/",
+      "Matcher": {
+        "HttpCode": "200"
+      },
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/app/lending/555d4effe4560802"
+      ],
+      "TargetType": "instance",
+      "ProtocolVersion": "HTTP1",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "lending"
+    },
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/1token-cam/696e9f395c4eff32",
+      "TargetGroupName": "1token-cam",
+      "Protocol": "HTTPS",
+      "Port": 443,
+      "VpcId": "vpc-0b7fe214033d48811",
+      "HealthCheckProtocol": "HTTPS",
+      "HealthCheckPort": "traffic-port",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 30,
+      "HealthCheckTimeoutSeconds": 5,
+      "HealthyThresholdCount": 5,
+      "UnhealthyThresholdCount": 2,
+      "HealthCheckPath": "/",
+      "Matcher": {
+        "HttpCode": "200"
+      },
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/app/camapp/5c60b144a38dad4a"
+      ],
+      "TargetType": "instance",
+      "ProtocolVersion": "HTTP1",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "camapp"
+    },
+    {
+      "TargetGroupArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:targetgroup/lending-staging01/19441f5b0d6cb145",
+      "TargetGroupName": "lending-staging01",
+      "Protocol": "HTTPS",
+      "Port": 443,
+      "VpcId": "vpc-0e8a205860906c944",
+      "HealthCheckProtocol": "HTTPS",
+      "HealthCheckPort": "traffic-port",
+      "HealthCheckEnabled": true,
+      "HealthCheckIntervalSeconds": 30,
+      "HealthCheckTimeoutSeconds": 5,
+      "HealthyThresholdCount": 5,
+      "UnhealthyThresholdCount": 2,
+      "HealthCheckPath": "/",
+      "Matcher": {
+        "HttpCode": "200"
+      },
+      "LoadBalancerArns": [
+        "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/app/lending-staging/ec61a5584f1f6283"
+      ],
+      "TargetType": "instance",
+      "ProtocolVersion": "HTTP1",
+      "IpAddressType": "ipv4",
+      "_LoadBalancerName": "lending-staging"
+    }
+  ]
+}

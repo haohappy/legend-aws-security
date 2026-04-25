@@ -1,0 +1,480 @@
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "AmazonSSM_Claude_Code_Hao",
+            "UserId": "AIDAZNVMXQFBYZFQJMVLD",
+            "Arn": "arn:aws:iam::647828570435:user/AmazonSSM_Claude_Code_Hao",
+            "CreateDate": "2026-02-22T00:15:46+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "bankdev-zingpays",
+            "UserId": "AIDAZNVMXQFBQCUBPNF3M",
+            "Arn": "arn:aws:iam::647828570435:user/bankdev-zingpays",
+            "CreateDate": "2021-09-16T16:56:14+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "cuteid_ses_prod",
+            "UserId": "AIDAZNVMXQFBU4TOC5JPQ",
+            "Arn": "arn:aws:iam::647828570435:user/cuteid_ses_prod",
+            "CreateDate": "2024-07-08T02:34:01+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ecr-backend-team",
+            "UserId": "AIDAZNVMXQFBYSWUQRL6O",
+            "Arn": "arn:aws:iam::647828570435:user/ecr-backend-team",
+            "CreateDate": "2024-08-21T06:34:34+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ecr-backend-team-read",
+            "UserId": "AIDAZNVMXQFB4Y43RRUOP",
+            "Arn": "arn:aws:iam::647828570435:user/ecr-backend-team-read",
+            "CreateDate": "2024-08-21T06:35:40+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ecr-frontend-team",
+            "UserId": "AIDAZNVMXQFBQCIO6NTJJ",
+            "Arn": "arn:aws:iam::647828570435:user/ecr-frontend-team",
+            "CreateDate": "2023-06-13T06:01:06+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ecr-frontend-team-read",
+            "UserId": "AIDAZNVMXQFB76WKANPK2",
+            "Arn": "arn:aws:iam::647828570435:user/ecr-frontend-team-read",
+            "CreateDate": "2023-06-15T12:39:42+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ecr-legend-backend-team",
+            "UserId": "AIDAZNVMXQFBXB635NPEV",
+            "Arn": "arn:aws:iam::647828570435:user/ecr-legend-backend-team",
+            "CreateDate": "2023-11-21T08:28:04+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ecr-legend-backend-team-read",
+            "UserId": "AIDAZNVMXQFBVEOKVUKDR",
+            "Arn": "arn:aws:iam::647828570435:user/ecr-legend-backend-team-read",
+            "CreateDate": "2023-11-21T08:32:42+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ecr-legend-frontend-team",
+            "UserId": "AIDAZNVMXQFBRBV3JGUAK",
+            "Arn": "arn:aws:iam::647828570435:user/ecr-legend-frontend-team",
+            "CreateDate": "2023-07-11T16:03:01+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ecr-legend-frontend-team-read",
+            "UserId": "AIDAZNVMXQFBTYAWOJ746",
+            "Arn": "arn:aws:iam::647828570435:user/ecr-legend-frontend-team-read",
+            "CreateDate": "2023-07-11T16:05:08+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "erc-lg-ops-data",
+            "UserId": "AIDAZNVMXQFB6HNNWLB53",
+            "Arn": "arn:aws:iam::647828570435:user/erc-lg-ops-data",
+            "CreateDate": "2026-01-08T06:13:12+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "flashwire-dev-jenkins-eks-user",
+            "UserId": "AIDAZNVMXQFB5QV4HUKZU",
+            "Arn": "arn:aws:iam::647828570435:user/flashwire-dev-jenkins-eks-user",
+            "CreateDate": "2025-03-25T04:02:13+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "flashwire-logs-backup",
+            "UserId": "AIDAZNVMXQFB63T2S66J6",
+            "Arn": "arn:aws:iam::647828570435:user/flashwire-logs-backup",
+            "CreateDate": "2023-10-17T08:48:46+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "flashwire-prod",
+            "UserId": "AIDAZNVMXQFB3O2KGFU6A",
+            "Arn": "arn:aws:iam::647828570435:user/flashwire-prod",
+            "CreateDate": "2022-01-10T22:04:48+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "flashwire-publics3-devtest",
+            "UserId": "AIDAZNVMXQFB26BXXZMEY",
+            "Arn": "arn:aws:iam::647828570435:user/flashwire-publics3-devtest",
+            "CreateDate": "2022-10-26T09:15:20+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "flashwire-stag",
+            "UserId": "AIDAZNVMXQFBWEEVAYB6T",
+            "Arn": "arn:aws:iam::647828570435:user/flashwire-stag",
+            "CreateDate": "2022-02-05T21:20:11+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "hkdev-flashwire",
+            "UserId": "AIDAZNVMXQFB5MB57FOCJ",
+            "Arn": "arn:aws:iam::647828570435:user/hkdev-flashwire",
+            "CreateDate": "2024-10-30T07:45:51+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "hkdev-legendtrading",
+            "UserId": "AIDAZNVMXQFBTJYFT4WJD",
+            "Arn": "arn:aws:iam::647828570435:user/hkdev-legendtrading",
+            "CreateDate": "2021-08-28T17:16:58+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "inner_ses_testing",
+            "UserId": "AIDAZNVMXQFBY3L5XGVD4",
+            "Arn": "arn:aws:iam::647828570435:user/inner_ses_testing",
+            "CreateDate": "2023-02-24T04:46:53+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "jenkins-eks-user",
+            "UserId": "AIDAZNVMXQFBZB2YNPYK2",
+            "Arn": "arn:aws:iam::647828570435:user/jenkins-eks-user",
+            "CreateDate": "2024-04-12T07:27:12+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "kaiqiang.qiao",
+            "UserId": "AIDAZNVMXQFB37K33CRZ4",
+            "Arn": "arn:aws:iam::647828570435:user/kaiqiang.qiao",
+            "CreateDate": "2022-09-16T16:43:14+00:00",
+            "PasswordLastUsed": "2026-04-25T00:15:20+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend-dev-jenkins-eks-user",
+            "UserId": "AIDAZNVMXQFB5FDHWV25A",
+            "Arn": "arn:aws:iam::647828570435:user/legend-dev-jenkins-eks-user",
+            "CreateDate": "2025-02-12T09:06:19+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend-kms-user-for-dev-safeheron",
+            "UserId": "AIDAZNVMXQFB7YRV4Z5K2",
+            "Arn": "arn:aws:iam::647828570435:user/legend-kms-user-for-dev-safeheron",
+            "CreateDate": "2024-11-12T07:01:33+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend-kms-user-for-safeheron",
+            "UserId": "AIDAZNVMXQFBVF5U62ADH",
+            "Arn": "arn:aws:iam::647828570435:user/legend-kms-user-for-safeheron",
+            "CreateDate": "2024-11-01T10:47:26+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend-s3-for-legendspecial2024dev-uploading-sensitive",
+            "UserId": "AIDAZNVMXQFBYDDOGXEUS",
+            "Arn": "arn:aws:iam::647828570435:user/legend-s3-for-legendspecial2024dev-uploading-sensitive",
+            "CreateDate": "2024-12-20T10:54:51+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend-s3-for-legendspecial2024prod-uploading-sensitive",
+            "UserId": "AIDAZNVMXQFB5LLRK52CZ",
+            "Arn": "arn:aws:iam::647828570435:user/legend-s3-for-legendspecial2024prod-uploading-sensitive",
+            "CreateDate": "2024-12-25T11:10:18+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend-s3-for-legendspecial2024sandbox-uploading-sensitive",
+            "UserId": "AIDAZNVMXQFB3VO6OVZQ5",
+            "Arn": "arn:aws:iam::647828570435:user/legend-s3-for-legendspecial2024sandbox-uploading-sensitive",
+            "CreateDate": "2024-12-25T10:28:13+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend-security-hao",
+            "UserId": "AIDAZNVMXQFB2R6CCANK6",
+            "Arn": "arn:aws:iam::647828570435:user/legend-security-hao",
+            "CreateDate": "2026-04-24T23:57:14+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legendtrading-s3-prod",
+            "UserId": "AIDAZNVMXQFB2V2RNOY7B",
+            "Arn": "arn:aws:iam::647828570435:user/legendtrading-s3-prod",
+            "CreateDate": "2023-04-03T07:26:22+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_ses_development",
+            "UserId": "AIDAZNVMXQFBWDPU72XVZ",
+            "Arn": "arn:aws:iam::647828570435:user/legend_ses_development",
+            "CreateDate": "2022-06-13T17:06:09+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_ses_development_controller",
+            "UserId": "AIDAZNVMXQFBXU4AMUKAC",
+            "Arn": "arn:aws:iam::647828570435:user/legend_ses_development_controller",
+            "CreateDate": "2022-07-13T04:54:57+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_ses_otcdev",
+            "UserId": "AIDAZNVMXQFB4SOR464ZC",
+            "Arn": "arn:aws:iam::647828570435:user/legend_ses_otcdev",
+            "CreateDate": "2022-06-13T17:06:09+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_ses_production_queue",
+            "UserId": "AIDAZNVMXQFB6DJQBPG74",
+            "Arn": "arn:aws:iam::647828570435:user/legend_ses_production_queue",
+            "CreateDate": "2022-06-13T17:06:09+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_ses_production_www",
+            "UserId": "AIDAZNVMXQFB7RZZ5FLS5",
+            "Arn": "arn:aws:iam::647828570435:user/legend_ses_production_www",
+            "CreateDate": "2022-06-13T17:06:09+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_ses_qa",
+            "UserId": "AIDAZNVMXQFBX3H2RSJ7H",
+            "Arn": "arn:aws:iam::647828570435:user/legend_ses_qa",
+            "CreateDate": "2022-06-13T17:06:10+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_ses_sandbox",
+            "UserId": "AIDAZNVMXQFBY77AX2HZU",
+            "Arn": "arn:aws:iam::647828570435:user/legend_ses_sandbox",
+            "CreateDate": "2022-06-13T17:06:10+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_ses_weblate_prod",
+            "UserId": "AIDAZNVMXQFB6NRR2P5VM",
+            "Arn": "arn:aws:iam::647828570435:user/legend_ses_weblate_prod",
+            "CreateDate": "2023-10-15T10:37:12+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_sns_dev",
+            "UserId": "AIDAZNVMXQFBXKQYVI2ZV",
+            "Arn": "arn:aws:iam::647828570435:user/legend_sns_dev",
+            "CreateDate": "2022-06-26T00:51:47+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_sns_production_www",
+            "UserId": "AIDAZNVMXQFBW2BRUBZU7",
+            "Arn": "arn:aws:iam::647828570435:user/legend_sns_production_www",
+            "CreateDate": "2022-06-17T17:58:47+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "legend_sqs_development",
+            "UserId": "AIDAZNVMXQFB3MDIGYCZ7",
+            "Arn": "arn:aws:iam::647828570435:user/legend_sqs_development",
+            "CreateDate": "2024-05-08T02:07:08+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "lendingprod-s3",
+            "UserId": "AIDAZNVMXQFBT76EMIUUO",
+            "Arn": "arn:aws:iam::647828570435:user/lendingprod-s3",
+            "CreateDate": "2022-11-16T16:14:52+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "lending_ses_prod",
+            "UserId": "AIDAZNVMXQFB4CGH6X374",
+            "Arn": "arn:aws:iam::647828570435:user/lending_ses_prod",
+            "CreateDate": "2023-01-19T14:34:54+00:00",
+            "PasswordLastUsed": "2023-01-20T07:45:13+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "monitor",
+            "UserId": "AIDAZNVMXQFB3VSBSQ2GI",
+            "Arn": "arn:aws:iam::647828570435:user/monitor",
+            "CreateDate": "2022-10-12T11:11:52+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "netops-do-op-things-neccessary-for-services",
+            "UserId": "AIDAZNVMXQFBUC454CNBW",
+            "Arn": "arn:aws:iam::647828570435:user/netops-do-op-things-neccessary-for-services",
+            "CreateDate": "2023-09-19T07:42:59+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "netops_tao",
+            "UserId": "AIDAZNVMXQFB4SSORTWY7",
+            "Arn": "arn:aws:iam::647828570435:user/netops_tao",
+            "CreateDate": "2021-04-14T20:28:02+00:00",
+            "PasswordLastUsed": "2023-10-04T19:40:18+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "put-to-firehose",
+            "UserId": "AIDAZNVMXQFBRAS4YUZCF",
+            "Arn": "arn:aws:iam::647828570435:user/put-to-firehose",
+            "CreateDate": "2023-05-29T11:18:05+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "s3-for-lg-staging-test-deletion",
+            "UserId": "AIDAZNVMXQFBU2BDBZ3WT",
+            "Arn": "arn:aws:iam::647828570435:user/s3-for-lg-staging-test-deletion",
+            "CreateDate": "2025-11-15T03:33:45+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "s3dev",
+            "UserId": "AIDAZNVMXQFBVGUDW5HSK",
+            "Arn": "arn:aws:iam::647828570435:user/s3dev",
+            "CreateDate": "2020-04-30T23:27:17+00:00",
+            "PasswordLastUsed": "2020-05-01T01:24:00+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "s3production",
+            "UserId": "AIDAZNVMXQFB64EZXXFMO",
+            "Arn": "arn:aws:iam::647828570435:user/s3production",
+            "CreateDate": "2020-04-30T23:32:10+00:00",
+            "PasswordLastUsed": "2020-05-01T00:07:36+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "s3sandbox",
+            "UserId": "AIDAZNVMXQFB5AUIGFFIF",
+            "Arn": "arn:aws:iam::647828570435:user/s3sandbox",
+            "CreateDate": "2020-04-30T23:30:09+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses-flowmind-dev",
+            "UserId": "AIDAZNVMXQFBTA4HD4KTL",
+            "Arn": "arn:aws:iam::647828570435:user/ses-flowmind-dev",
+            "CreateDate": "2025-12-25T12:27:35+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses-flowmind-production",
+            "UserId": "AIDAZNVMXQFBVOGSQ3OCQ",
+            "Arn": "arn:aws:iam::647828570435:user/ses-flowmind-production",
+            "CreateDate": "2025-12-25T12:19:23+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses-smtp-user.20260126-flowmind",
+            "UserId": "AIDAZNVMXQFBVZ6LGIP6H",
+            "Arn": "arn:aws:iam::647828570435:user/ses-smtp-user.20260126-flowmind",
+            "CreateDate": "2026-01-27T00:21:21+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses_legend",
+            "UserId": "AIDAZNVMXQFBYEHUXXEM6",
+            "Arn": "arn:aws:iam::647828570435:user/ses_legend",
+            "CreateDate": "2020-07-18T19:20:11+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses_legend_dev",
+            "UserId": "AIDAZNVMXQFB3DIDMYALN",
+            "Arn": "arn:aws:iam::647828570435:user/ses_legend_dev",
+            "CreateDate": "2020-09-22T20:00:26+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses_legend_qa",
+            "UserId": "AIDAZNVMXQFBR2M4IXUUK",
+            "Arn": "arn:aws:iam::647828570435:user/ses_legend_qa",
+            "CreateDate": "2022-05-16T17:00:08+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses_legend_sandbox",
+            "UserId": "AIDAZNVMXQFBZJO3Y7LNG",
+            "Arn": "arn:aws:iam::647828570435:user/ses_legend_sandbox",
+            "CreateDate": "2022-03-06T21:15:50+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses_zing",
+            "UserId": "AIDAZNVMXQFB6GHPDGPOJ",
+            "Arn": "arn:aws:iam::647828570435:user/ses_zing",
+            "CreateDate": "2021-07-23T01:14:35+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "ses_zing_dev",
+            "UserId": "AIDAZNVMXQFB26CZWSUQR",
+            "Arn": "arn:aws:iam::647828570435:user/ses_zing_dev",
+            "CreateDate": "2021-07-23T01:16:33+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "stellapay_s3_pkgupload_dev",
+            "UserId": "AIDAZNVMXQFBQSLXCEWR4",
+            "Arn": "arn:aws:iam::647828570435:user/stellapay_s3_pkgupload_dev",
+            "CreateDate": "2023-05-05T10:09:51+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "stellapay_s3_pkgupload_prod",
+            "UserId": "AIDAZNVMXQFBUP7DELVZL",
+            "Arn": "arn:aws:iam::647828570435:user/stellapay_s3_pkgupload_prod",
+            "CreateDate": "2023-05-05T09:32:45+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "stellapay_ses_prod",
+            "UserId": "AIDAZNVMXQFBQWDS6UWQH",
+            "Arn": "arn:aws:iam::647828570435:user/stellapay_ses_prod",
+            "CreateDate": "2023-04-21T09:32:35+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "test-opensearch-serverless",
+            "UserId": "AIDAZNVMXQFBQ5FKOFLBM",
+            "Arn": "arn:aws:iam::647828570435:user/test-opensearch-serverless",
+            "CreateDate": "2023-05-15T08:34:51+00:00",
+            "PasswordLastUsed": "2023-05-16T05:16:30+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "yang22",
+            "UserId": "AIDAZNVMXQFBZGLCVNITB",
+            "Arn": "arn:aws:iam::647828570435:user/yang22",
+            "CreateDate": "2022-03-02T07:38:45+00:00",
+            "PasswordLastUsed": "2022-03-04T02:08:13+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "zing_s3_dev",
+            "UserId": "AIDAZNVMXQFBSD2AL2KWK",
+            "Arn": "arn:aws:iam::647828570435:user/zing_s3_dev",
+            "CreateDate": "2021-06-03T19:42:48+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "zing_s3_prod",
+            "UserId": "AIDAZNVMXQFBS4CS5XV5M",
+            "Arn": "arn:aws:iam::647828570435:user/zing_s3_prod",
+            "CreateDate": "2021-06-03T19:42:48+00:00"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "RouteTables": [
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-025cb10da06614366",
+                    "RouteTableId": "rtb-059df69db948d2930",
+                    "SubnetId": "subnet-0c959a2c818b5c67b",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-059df69db948d2930",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0923184ddbc3e4ef9"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-0a2a5b4024fbd14e2",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-6da54004",
+                    "GatewayId": "vpce-036576fbebf20cd98",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-rtb-private1-eu-west-1b"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-08cb65059670f2b30",
+                    "RouteTableId": "rtb-06ce9807b7f4c096f",
+                    "SubnetId": "subnet-068ba48dfae2fc500",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0d1ee2a633e2ec348",
+                    "RouteTableId": "rtb-06ce9807b7f4c096f",
+                    "SubnetId": "subnet-08ff5f561f390164f",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0c189c2fb5a39b4a8",
+                    "RouteTableId": "rtb-06ce9807b7f4c096f",
+                    "SubnetId": "subnet-012c8f2504cf74d90",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0953fa8f0289a4eba",
+                    "RouteTableId": "rtb-06ce9807b7f4c096f",
+                    "SubnetId": "subnet-059a6373dce9f6ad6",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-06ce9807b7f4c096f",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0923184ddbc3e4ef9"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-00aec0a2f52a5b3af",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-rtb-public"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0a5063fffa4a4876f",
+                    "RouteTableId": "rtb-037ada1f7a1383de6",
+                    "SubnetId": "subnet-0bff17873cfcc082e",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0beb06c92142cb5e7",
+                    "RouteTableId": "rtb-037ada1f7a1383de6",
+                    "SubnetId": "subnet-0c5a49502bffd106a",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-037ada1f7a1383de6",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.10.8.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0c179d3e3f4b5ac9a"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0923184ddbc3e4ef9"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-0adf50e6d0ab1b7ed",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-6da54004",
+                    "GatewayId": "vpce-036576fbebf20cd98",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-rtb-private2-eu-west-1a"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-50994c35",
+                    "RouteTableId": "rtb-f3498496",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-f3498496",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "172.31.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-8c13fce9",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-7317ed16",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-0da639b6f5e0fa3b1",
+                    "RouteTableId": "rtb-00f82468b37cf4840",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-00f82468b37cf4840",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-04e6639ac9608abdd",
+                    "RouteTableId": "rtb-08c1e5719934c6b7e",
+                    "SubnetId": "subnet-08e922c84f9946555",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-08c1e5719934c6b7e",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0923184ddbc3e4ef9"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-048f79485efff9692",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-6da54004",
+                    "GatewayId": "vpce-036576fbebf20cd98",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-rtb-private1-eu-west-1a"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "OwnerId": "647828570435"
+        }
+    ]
+}

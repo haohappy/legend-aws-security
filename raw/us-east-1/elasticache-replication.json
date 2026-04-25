@@ -1,0 +1,140 @@
+{
+    "ReplicationGroups": [
+        {
+            "ReplicationGroupId": "flowmind",
+            "Description": "flowmind app cluster on 2026-01-10T06:14:16.041Z Hao",
+            "GlobalReplicationGroupInfo": {},
+            "Status": "available",
+            "PendingModifiedValues": {},
+            "MemberClusters": [
+                "flowmind-0001-001"
+            ],
+            "NodeGroups": [
+                {
+                    "NodeGroupId": "0001",
+                    "Status": "available",
+                    "Slots": "0-16383",
+                    "NodeGroupMembers": [
+                        {
+                            "CacheClusterId": "flowmind-0001-001",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "us-east-1d"
+                        }
+                    ]
+                }
+            ],
+            "AutomaticFailover": "enabled",
+            "MultiAZ": "disabled",
+            "ConfigurationEndpoint": {
+                "Address": "clustercfg.flowmind.tohc7e.use1.cache.amazonaws.com",
+                "Port": 6379
+            },
+            "SnapshotRetentionLimit": 0,
+            "SnapshotWindow": "09:00-10:00",
+            "ClusterEnabled": true,
+            "CacheNodeType": "cache.t4g.micro",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": true,
+            "AtRestEncryptionEnabled": true,
+            "ARN": "arn:aws:elasticache:us-east-1:647828570435:replicationgroup:flowmind",
+            "LogDeliveryConfigurations": [],
+            "ReplicationGroupCreateTime": "2026-01-10T06:15:00.358000+00:00",
+            "DataTiering": "disabled",
+            "AutoMinorVersionUpgrade": true,
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4",
+            "TransitEncryptionMode": "required",
+            "ClusterMode": "enabled",
+            "Engine": "valkey"
+        },
+        {
+            "ReplicationGroupId": "legend",
+            "Description": "data cache",
+            "GlobalReplicationGroupInfo": {},
+            "Status": "available",
+            "PendingModifiedValues": {},
+            "MemberClusters": [
+                "legend-0001-001",
+                "legend-0001-002",
+                "legend-0002-001",
+                "legend-0002-002",
+                "legend-0003-002",
+                "legend-0003-003"
+            ],
+            "NodeGroups": [
+                {
+                    "NodeGroupId": "0001",
+                    "Status": "available",
+                    "Slots": "0-5461",
+                    "NodeGroupMembers": [
+                        {
+                            "CacheClusterId": "legend-0001-001",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "us-east-1c"
+                        },
+                        {
+                            "CacheClusterId": "legend-0001-002",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "us-east-1d"
+                        }
+                    ]
+                },
+                {
+                    "NodeGroupId": "0002",
+                    "Status": "available",
+                    "Slots": "5462-10922",
+                    "NodeGroupMembers": [
+                        {
+                            "CacheClusterId": "legend-0002-001",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "us-east-1c"
+                        },
+                        {
+                            "CacheClusterId": "legend-0002-002",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "us-east-1d"
+                        }
+                    ]
+                },
+                {
+                    "NodeGroupId": "0003",
+                    "Status": "available",
+                    "Slots": "10923-16383",
+                    "NodeGroupMembers": [
+                        {
+                            "CacheClusterId": "legend-0003-002",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "us-east-1d"
+                        },
+                        {
+                            "CacheClusterId": "legend-0003-003",
+                            "CacheNodeId": "0001",
+                            "PreferredAvailabilityZone": "us-east-1c"
+                        }
+                    ]
+                }
+            ],
+            "AutomaticFailover": "enabled",
+            "MultiAZ": "enabled",
+            "ConfigurationEndpoint": {
+                "Address": "legend.tohc7e.clustercfg.use1.cache.amazonaws.com",
+                "Port": 6379
+            },
+            "SnapshotRetentionLimit": 1,
+            "SnapshotWindow": "05:00-06:00",
+            "ClusterEnabled": true,
+            "CacheNodeType": "cache.r6g.large",
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:us-east-1:647828570435:replicationgroup:legend",
+            "LogDeliveryConfigurations": [],
+            "DataTiering": "disabled",
+            "AutoMinorVersionUpgrade": true,
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4",
+            "ClusterMode": "enabled",
+            "Engine": "redis"
+        }
+    ]
+}

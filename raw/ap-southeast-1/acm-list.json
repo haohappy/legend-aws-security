@@ -1,0 +1,350 @@
+{
+    "CertificateSummaryList": [
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/3985ff1b-e0af-4a72-8ce2-091de89cc742",
+            "DomainName": "vpn-client.zingpays.com",
+            "SubjectAlternativeNameSummaries": [
+                "vpn-client.zingpays.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "ISSUED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": true,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2022-08-11T22:06:02+05:00",
+            "NotAfter": "2050-08-24T22:06:02+05:00",
+            "CreatedAt": "2022-08-11T22:09:38.197000+05:00",
+            "ImportedAt": "2022-08-11T22:09:38.208000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/5affdec3-8ae4-43c0-88cd-c55a238b2b3d",
+            "DomainName": "vpn-server.zingpays.com",
+            "SubjectAlternativeNameSummaries": [
+                "vpn-server.zingpays.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "ISSUED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": true,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2022-08-11T22:05:43+05:00",
+            "NotAfter": "2050-08-24T22:05:43+05:00",
+            "CreatedAt": "2022-08-11T22:11:06.842000+05:00",
+            "ImportedAt": "2022-08-11T22:11:06.854000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/2f3a9967-8ea1-42bf-b965-d7a9f0fc1e30",
+            "DomainName": "*.zingpays.com",
+            "SubjectAlternativeNameSummaries": [
+                "*.zingpays.com",
+                "zingpays.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "EXPIRED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": false,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2021-12-17T22:09:47+05:00",
+            "NotAfter": "2023-01-18T22:09:47+05:00",
+            "CreatedAt": "2022-11-17T09:54:30.175000+05:00",
+            "ImportedAt": "2022-11-17T09:54:30.186000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/1cd0b11f-ea4e-41c6-8d9f-4cca62d8331c",
+            "DomainName": "*.flashwire.com",
+            "SubjectAlternativeNameSummaries": [
+                "*.flashwire.com",
+                "flashwire.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "EXPIRED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": false,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2021-12-20T23:18:27+05:00",
+            "NotAfter": "2023-01-21T23:18:27+05:00",
+            "CreatedAt": "2022-11-17T14:44:29.626000+05:00",
+            "ImportedAt": "2022-11-17T14:44:29.652000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/771130df-a3b6-45f1-950a-4f0a2a87f217",
+            "DomainName": "*.zingpays.com",
+            "SubjectAlternativeNameSummaries": [
+                "*.zingpays.com",
+                "zingpays.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "EXPIRED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": true,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2022-12-17T19:48:02+05:00",
+            "NotAfter": "2024-01-18T19:48:02+05:00",
+            "CreatedAt": "2023-01-13T13:02:33.297000+05:00",
+            "ImportedAt": "2023-01-13T13:02:33.306000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/f38ab283-c4ac-4c00-8938-9c1f20324eb1",
+            "DomainName": "*.flashwire.com",
+            "SubjectAlternativeNameSummaries": [
+                "*.flashwire.com",
+                "flashwire.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "EXPIRED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": false,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2022-12-22T12:20:28+05:00",
+            "NotAfter": "2023-12-20T23:18:27+05:00",
+            "CreatedAt": "2023-01-16T14:22:11.960000+05:00",
+            "ImportedAt": "2023-01-16T14:22:11.971000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/897fee92-e01b-4e34-9625-408227d71899",
+            "DomainName": "*.anxin.finance",
+            "SubjectAlternativeNameSummaries": [
+                "*.anxin.finance",
+                "anxin.finance"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "EXPIRED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": false,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2023-01-17T23:16:08+05:00",
+            "NotAfter": "2024-02-18T23:16:08+05:00",
+            "CreatedAt": "2023-01-18T16:11:12.162000+05:00",
+            "ImportedAt": "2023-01-18T16:11:12.173000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/d31b9308-80d7-450e-8a93-03592e6c6911",
+            "DomainName": "*.zingpays.com",
+            "SubjectAlternativeNameSummaries": [
+                "*.zingpays.com",
+                "zingpays.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "EXPIRED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": false,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2023-12-17T23:39:41+05:00",
+            "NotAfter": "2025-01-17T23:39:41+05:00",
+            "CreatedAt": "2024-01-08T08:55:03.202000+05:00",
+            "ImportedAt": "2024-01-08T08:55:03.213000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/84644ab6-1fa4-4a1e-ab56-02779555f4b7",
+            "DomainName": "*.anxin.finance",
+            "SubjectAlternativeNameSummaries": [
+                "*.anxin.finance",
+                "anxin.finance"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "EXPIRED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": false,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2024-01-18T23:18:23+05:00",
+            "NotAfter": "2025-01-17T23:16:08+05:00",
+            "CreatedAt": "2024-02-13T08:02:15.637000+05:00",
+            "ImportedAt": "2024-02-13T08:02:15.650000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/17ee5e28-21cc-4072-918b-72afe73ca22b",
+            "DomainName": "*.anxin.finance",
+            "SubjectAlternativeNameSummaries": [
+                "*.anxin.finance",
+                "anxin.finance"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "EXPIRED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": false,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2024-11-18T23:23:01+05:00",
+            "NotAfter": "2025-12-20T23:23:01+05:00",
+            "CreatedAt": "2025-01-06T11:14:01.050000+05:00",
+            "ImportedAt": "2025-01-06T11:14:01.050000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/3ff41665-6212-488d-8667-06a0d0ce38b2",
+            "DomainName": "*.zingpays.com",
+            "SubjectAlternativeNameSummaries": [
+                "*.zingpays.com",
+                "zingpays.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "EXPIRED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": true,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2025-01-01T21:53:10+05:00",
+            "NotAfter": "2026-02-02T21:53:10+05:00",
+            "CreatedAt": "2025-01-06T11:18:43.605000+05:00",
+            "ImportedAt": "2025-01-06T11:18:43.605000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/66d5ad75-affb-43b7-8afb-c7b00d31aefc",
+            "DomainName": "*.anxin.finance",
+            "SubjectAlternativeNameSummaries": [
+                "*.anxin.finance",
+                "anxin.finance"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "ISSUED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": true,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2025-11-19T23:25:23+05:00",
+            "NotAfter": "2026-12-21T23:25:23+05:00",
+            "CreatedAt": "2025-12-09T13:43:41.723000+05:00",
+            "ImportedAt": "2025-12-09T13:43:41.723000+05:00"
+        },
+        {
+            "CertificateArn": "arn:aws:acm:ap-southeast-1:647828570435:certificate/0e097a2f-96ba-44f3-ab17-d13f7b46a8cb",
+            "DomainName": "*.zingpays.com",
+            "SubjectAlternativeNameSummaries": [
+                "*.zingpays.com",
+                "zingpays.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "ISSUED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": true,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2025-12-17T20:52:03+05:00",
+            "NotAfter": "2027-01-18T20:52:03+05:00",
+            "CreatedAt": "2026-01-19T14:33:40.695000+05:00",
+            "ImportedAt": "2026-01-19T14:33:40.695000+05:00"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "Vpcs": [
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0eaa714213afb0c66",
+                    "CidrBlock": "192.168.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "terraform-test"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "terraform-test"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-06105f1cfd173e343",
+            "State": "available",
+            "CidrBlock": "192.168.0.0/16",
+            "DhcpOptionsId": "dopt-c67d6da4"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-075b6a92a08706fba",
+                    "CidrBlock": "10.200.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "test"
+                }
+            ],
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-0ed8b0c85bd3d6ee2",
+            "State": "available",
+            "CidrBlock": "10.200.0.0/16",
+            "DhcpOptionsId": "dopt-c67d6da4"
+        },
+        {
+            "OwnerId": "647828570435",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-e0ec1989",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true,
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "VpcId": "vpc-a3be4fc6",
+            "State": "available",
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-c67d6da4"
+        }
+    ]
+}

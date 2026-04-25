@@ -1,0 +1,8 @@
+{
+    "DomainNames": [
+        {
+            "DomainName": "flashwire-logs",
+            "EngineType": "OpenSearch"
+        }
+    ]
+}

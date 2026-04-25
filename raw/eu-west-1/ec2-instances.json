@@ -1,0 +1,1626 @@
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-09626b188bb9a4ffb",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-10-29T09:08:55+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-058f422af7a06dcf9"
+                            }
+                        }
+                    ],
+                    "ClientToken": "8ffbae8f-24fc-4308-824a-7d7b44097b39",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::647828570435:instance-profile/legendtrading-sandbox-env-role",
+                        "Id": "AIPAZNVMXQFB7BUFGO56J"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-10-29T09:08:54+00:00",
+                                "AttachmentId": "eni-attach-0fed7e995467eb649",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-043f0cd266e9c5846",
+                                    "GroupName": "legendtrading-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-01acab37fb66ebdc4",
+                                    "GroupName": "IE-dev-internal-access"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:2d:7b:f3:9e:4f",
+                            "NetworkInterfaceId": "eni-0550728553fb45de9",
+                            "OwnerId": "647828570435",
+                            "PrivateDnsName": "ip-10-1-16-168.eu-west-1.compute.internal",
+                            "PrivateIpAddress": "10.1.16.168",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-1-16-168.eu-west-1.compute.internal",
+                                    "PrivateIpAddress": "10.1.16.168"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0bff17873cfcc082e",
+                            "VpcId": "vpc-03cc70f7b5668f3c7",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-043f0cd266e9c5846",
+                            "GroupName": "legendtrading-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-01acab37fb66ebdc4",
+                            "GroupName": "IE-dev-internal-access"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "company",
+                            "Value": "legendtrading"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "sandbox"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "legend-sandbox"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "IE-legend-backend-sandbox01"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-10-29T09:08:54+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0aade31ebadf09994",
+                    "ImageId": "ami-06fc7aecbd7f02584",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-1-16-168.eu-west-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "ireland",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2025-10-29T09:08:54+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "euw1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "eu-west-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0bff17873cfcc082e",
+                    "VpcId": "vpc-03cc70f7b5668f3c7",
+                    "PrivateIpAddress": "10.1.16.168"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0c51205bad3f7bb29",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-10-29T03:37:26+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0807e2f47d09b5aef"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2025-10-29T03:37:26+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-01ad748de466bbea7"
+                            }
+                        }
+                    ],
+                    "ClientToken": "451c498f-ee24-46d4-9e29-17ece4034eec",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::647828570435:instance-profile/legendtrading-developement-env-role",
+                        "Id": "AIPAZNVMXQFBXOQ3Q6DYZ"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-10-29T03:37:26+00:00",
+                                "AttachmentId": "eni-attach-06a3bb985a95eee62",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-043f0cd266e9c5846",
+                                    "GroupName": "legendtrading-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-01acab37fb66ebdc4",
+                                    "GroupName": "IE-dev-internal-access"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:e6:f3:83:8a:27",
+                            "NetworkInterfaceId": "eni-066949432d27cd969",
+                            "OwnerId": "647828570435",
+                            "PrivateDnsName": "ip-10-1-16-138.eu-west-1.compute.internal",
+                            "PrivateIpAddress": "10.1.16.138",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-1-16-138.eu-west-1.compute.internal",
+                                    "PrivateIpAddress": "10.1.16.138"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0bff17873cfcc082e",
+                            "VpcId": "vpc-03cc70f7b5668f3c7",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-043f0cd266e9c5846",
+                            "GroupName": "legendtrading-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-01acab37fb66ebdc4",
+                            "GroupName": "IE-dev-internal-access"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "IE-legend-backend-dev01"
+                        },
+                        {
+                            "Key": "company",
+                            "Value": "legendtrading"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "legend-rd-dev"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "dev"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-10-29T03:37:26+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-07958444546d592e8",
+                    "ImageId": "ami-0dca4426ef9506c9e",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-1-16-138.eu-west-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "ireland",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2025-10-29T03:37:26+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "euw1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "eu-west-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0bff17873cfcc082e",
+                    "VpcId": "vpc-03cc70f7b5668f3c7",
+                    "PrivateIpAddress": "10.1.16.138"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-045127e9369f64166",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-11-29T15:33:07+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-09ee4c4437c3c37e4"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2025-11-29T15:33:07+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-04d300c08f0dacbbf"
+                            }
+                        }
+                    ],
+                    "ClientToken": "65cd4c3e-eaa5-474e-9fd5-befba4a8aab5",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::647828570435:instance-profile/legendtrading-production-env-role",
+                        "Id": "AIPAZNVMXQFBVMJNERLYB"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-11-29T15:33:06+00:00",
+                                "AttachmentId": "eni-attach-0fb1e1c6783e3f1c0",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-043f0cd266e9c5846",
+                                    "GroupName": "legendtrading-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-07943a109d7d74fe1",
+                                    "GroupName": "IE-prod-internal-access-allowed"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:69:48:af:63:75",
+                            "NetworkInterfaceId": "eni-0af7cf1bbc3c6012f",
+                            "OwnerId": "647828570435",
+                            "PrivateDnsName": "ip-10-1-0-7.eu-west-1.compute.internal",
+                            "PrivateIpAddress": "10.1.0.7",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-1-0-7.eu-west-1.compute.internal",
+                                    "PrivateIpAddress": "10.1.0.7"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-08e922c84f9946555",
+                            "VpcId": "vpc-03cc70f7b5668f3c7",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-043f0cd266e9c5846",
+                            "GroupName": "legendtrading-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-07943a109d7d74fe1",
+                            "GroupName": "IE-prod-internal-access-allowed"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "service",
+                            "Value": "legend-web"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-05ebe98383eaf6e14"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "IE-legend-api-prod02"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "2"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "legendtrading"
+                        },
+                        {
+                            "Key": "company",
+                            "Value": "legendtrading"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-11-29T15:33:06+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0ebcebc8abf3fcb72",
+                    "ImageId": "ami-0f802f84621551cd8",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-1-0-7.eu-west-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "ireland",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2026-01-20T04:03:36+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "euw1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "eu-west-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-08e922c84f9946555",
+                    "VpcId": "vpc-03cc70f7b5668f3c7",
+                    "PrivateIpAddress": "10.1.0.7"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-044c2a3768fbc149f",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2026-01-19T11:44:22+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0ed12d933297bf30a"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2026-01-19T11:44:22+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-0817b9e3e48e078f2"
+                            }
+                        }
+                    ],
+                    "ClientToken": "62068499-4eb0-489f-873d-0dce0e3fea9e",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::647828570435:instance-profile/legendtrading-production-env-role",
+                        "Id": "AIPAZNVMXQFBVMJNERLYB"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2026-01-19T11:44:21+00:00",
+                                "AttachmentId": "eni-attach-0bed9591b034967e0",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-043f0cd266e9c5846",
+                                    "GroupName": "legendtrading-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-07943a109d7d74fe1",
+                                    "GroupName": "IE-prod-internal-access-allowed"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:9f:40:4b:70:d5",
+                            "NetworkInterfaceId": "eni-02a3ec229ecd433ee",
+                            "OwnerId": "647828570435",
+                            "PrivateDnsName": "ip-10-1-4-6.eu-west-1.compute.internal",
+                            "PrivateIpAddress": "10.1.4.6",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-1-4-6.eu-west-1.compute.internal",
+                                    "PrivateIpAddress": "10.1.4.6"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0c959a2c818b5c67b",
+                            "VpcId": "vpc-03cc70f7b5668f3c7",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-043f0cd266e9c5846",
+                            "GroupName": "legendtrading-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-07943a109d7d74fe1",
+                            "GroupName": "IE-prod-internal-access-allowed"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "1"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "legendtrading"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "legend-web"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "IE-legend-api-prod01"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-048549469c2cbf2e6"
+                        },
+                        {
+                            "Key": "company",
+                            "Value": "legendtrading"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2026-01-19T11:44:21+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-074f8548f6b7fa4e7",
+                    "ImageId": "ami-027e4c658fc8a9929",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-1-4-6.eu-west-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "ireland",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2026-01-19T11:44:21+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "euw1-az2",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "eu-west-1b"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0c959a2c818b5c67b",
+                    "VpcId": "vpc-03cc70f7b5668f3c7",
+                    "PrivateIpAddress": "10.1.4.6"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-09f5114225485bcdc",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-11-11T03:53:09+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0372dae1bdc2074ef"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2025-11-11T03:53:09+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-04503960323d22bad"
+                            }
+                        }
+                    ],
+                    "ClientToken": "c8231234-3232-4a46-95e5-5ecf6a8a14f4",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::647828570435:instance-profile/legendtrading-production-env-role",
+                        "Id": "AIPAZNVMXQFBVMJNERLYB"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-11-11T03:53:09+00:00",
+                                "AttachmentId": "eni-attach-039d1e65fea222c99",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-043f0cd266e9c5846",
+                                    "GroupName": "legendtrading-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-07943a109d7d74fe1",
+                                    "GroupName": "IE-prod-internal-access-allowed"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:94:7f:e1:21:71",
+                            "NetworkInterfaceId": "eni-0d6bd2f959d945031",
+                            "OwnerId": "647828570435",
+                            "PrivateDnsName": "ip-10-1-0-5.eu-west-1.compute.internal",
+                            "PrivateIpAddress": "10.1.0.5",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-1-0-5.eu-west-1.compute.internal",
+                                    "PrivateIpAddress": "10.1.0.5"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-08e922c84f9946555",
+                            "VpcId": "vpc-03cc70f7b5668f3c7",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-043f0cd266e9c5846",
+                            "GroupName": "legendtrading-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-07943a109d7d74fe1",
+                            "GroupName": "IE-prod-internal-access-allowed"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.InstanceInitiatedShutdown",
+                        "Message": "Client.InstanceInitiatedShutdown: Instance initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "IE-legend-web-staging01"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "2"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-05ebe98383eaf6e14"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-11-11T03:53:09+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-05bf643fdf32b543a",
+                    "ImageId": "ami-0c4cc03af927eade6",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "PrivateDnsName": "ip-10-1-0-5.eu-west-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "User initiated",
+                    "KeyName": "ireland",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2026-04-14T01:17:37+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "euw1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "eu-west-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-08e922c84f9946555",
+                    "VpcId": "vpc-03cc70f7b5668f3c7",
+                    "PrivateIpAddress": "10.1.0.5"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0807637ad963c6ee5",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-11-30T00:47:03+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-07a5c2375b826115d"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2025-11-30T00:47:03+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-03ce930f7f766b1b3"
+                            }
+                        }
+                    ],
+                    "ClientToken": "bff64999-72e5-4f00-9656-dd484a70a8de",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::647828570435:instance-profile/legendtrading-production-env-role",
+                        "Id": "AIPAZNVMXQFBVMJNERLYB"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2025-11-30T00:47:02+00:00",
+                                "AttachmentId": "eni-attach-031ff010a2dd8a62d",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-043f0cd266e9c5846",
+                                    "GroupName": "legendtrading-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-07943a109d7d74fe1",
+                                    "GroupName": "IE-prod-internal-access-allowed"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:da:0c:ab:32:9d",
+                            "NetworkInterfaceId": "eni-05305aa40903141be",
+                            "OwnerId": "647828570435",
+                            "PrivateDnsName": "ip-10-1-0-8.eu-west-1.compute.internal",
+                            "PrivateIpAddress": "10.1.0.8",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-1-0-8.eu-west-1.compute.internal",
+                                    "PrivateIpAddress": "10.1.0.8"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-08e922c84f9946555",
+                            "VpcId": "vpc-03cc70f7b5668f3c7",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-043f0cd266e9c5846",
+                            "GroupName": "legendtrading-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-07943a109d7d74fe1",
+                            "GroupName": "IE-prod-internal-access-allowed"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "company",
+                            "Value": "legendtrading"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "IE-legend-queue-prod01"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-05ebe98383eaf6e14"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "queue-server"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "2"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "legendtrading"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-11-30T00:47:02+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0004e2bee9f7d321d",
+                    "ImageId": "ami-0f802f84621551cd8",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-1-0-8.eu-west-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "ireland",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2025-11-30T00:47:02+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "euw1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "eu-west-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-08e922c84f9946555",
+                    "VpcId": "vpc-03cc70f7b5668f3c7",
+                    "PrivateIpAddress": "10.1.0.8"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-02a0b4f57c4a405f7",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2026-04-21T05:21:21+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-085bd0cddc4a93742"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2026-04-21T05:21:21+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-0e1a0b993174de01a"
+                            }
+                        }
+                    ],
+                    "ClientToken": "9bc91149-cdaf-44fb-8102-37bfae3fc1f5",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::647828570435:instance-profile/legendtrading-developement-env-role",
+                        "Id": "AIPAZNVMXQFBXOQ3Q6DYZ"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2026-04-21T05:21:20+00:00",
+                                "AttachmentId": "eni-attach-086a49aad3df38ef3",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-01acab37fb66ebdc4",
+                                    "GroupName": "IE-dev-internal-access"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:a8:9c:c2:04:b9",
+                            "NetworkInterfaceId": "eni-0dfb41ce62d4b6fa1",
+                            "OwnerId": "647828570435",
+                            "PrivateDnsName": "ip-10-1-16-6.eu-west-1.compute.internal",
+                            "PrivateIpAddress": "10.1.16.6",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-1-16-6.eu-west-1.compute.internal",
+                                    "PrivateIpAddress": "10.1.16.6"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0bff17873cfcc082e",
+                            "VpcId": "vpc-03cc70f7b5668f3c7",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-01acab37fb66ebdc4",
+                            "GroupName": "IE-dev-internal-access"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "EU-IE-legend-backend-dev2023"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2026-04-21T05:21:20+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "uefi",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-016eea348af203215",
+                    "ImageId": "ami-06cd24557f2da2b45",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-1-16-6.eu-west-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "ireland",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2026-04-21T05:21:20+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "euw1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "eu-west-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0bff17873cfcc082e",
+                    "VpcId": "vpc-03cc70f7b5668f3c7",
+                    "PrivateIpAddress": "10.1.16.6"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0fcb9189bf3809c8f",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2026-04-24T03:46:13+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0b267da9be8a04588"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2026-04-24T03:46:12.441000+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-00de195e617ede10c"
+                            }
+                        }
+                    ],
+                    "ClientToken": "f1348e35-2ff2-4b36-8227-1b5b5e3df2bf",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::647828570435:instance-profile/legendtrading-production-env-role",
+                        "Id": "AIPAZNVMXQFBVMJNERLYB"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2026-04-24T03:46:12+00:00",
+                                "AttachmentId": "eni-attach-001258a1cafaee6a1",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-043f0cd266e9c5846",
+                                    "GroupName": "legendtrading-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-07943a109d7d74fe1",
+                                    "GroupName": "IE-prod-internal-access-allowed"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:d9:b4:38:9a:b5",
+                            "NetworkInterfaceId": "eni-0aecde75f8d2b99b0",
+                            "OwnerId": "647828570435",
+                            "PrivateDnsName": "ip-10-1-0-9.eu-west-1.compute.internal",
+                            "PrivateIpAddress": "10.1.0.9",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-1-0-9.eu-west-1.compute.internal",
+                                    "PrivateIpAddress": "10.1.0.9"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-08e922c84f9946555",
+                            "VpcId": "vpc-03cc70f7b5668f3c7",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-043f0cd266e9c5846",
+                            "GroupName": "legendtrading-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-07943a109d7d74fe1",
+                            "GroupName": "IE-prod-internal-access-allowed"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "EU-IE-legend-infrapay-prod-web01"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "2"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-05ebe98383eaf6e14"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2026-04-24T03:46:12+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "uefi",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0e27d11250320a7d5",
+                    "ImageId": "ami-02e2fa547ec47b62f",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-1-0-9.eu-west-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "ireland",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2026-04-24T03:46:12+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "euw1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "eu-west-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-08e922c84f9946555",
+                    "VpcId": "vpc-03cc70f7b5668f3c7",
+                    "PrivateIpAddress": "10.1.0.9"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-03f21695f467e9a81",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2026-04-24T08:38:01+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0c35226c950e2c0db"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2026-04-24T08:38:01+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-05382c1ad30e608f1"
+                            }
+                        }
+                    ],
+                    "ClientToken": "31bc5c21-b2bf-4d3b-a8d3-e6bdbe5cd977",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::647828570435:instance-profile/legendtrading-production-env-role",
+                        "Id": "AIPAZNVMXQFBVMJNERLYB"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2026-04-24T08:38:00+00:00",
+                                "AttachmentId": "eni-attach-013dfb007daed9217",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-043f0cd266e9c5846",
+                                    "GroupName": "legendtrading-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-07943a109d7d74fe1",
+                                    "GroupName": "IE-prod-internal-access-allowed"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:94:3e:b9:3d:65",
+                            "NetworkInterfaceId": "eni-05bfdb57bc32a3e75",
+                            "OwnerId": "647828570435",
+                            "PrivateDnsName": "ip-10-1-0-10.eu-west-1.compute.internal",
+                            "PrivateIpAddress": "10.1.0.10",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-1-0-10.eu-west-1.compute.internal",
+                                    "PrivateIpAddress": "10.1.0.10"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-08e922c84f9946555",
+                            "VpcId": "vpc-03cc70f7b5668f3c7",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-043f0cd266e9c5846",
+                            "GroupName": "legendtrading-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-07943a109d7d74fe1",
+                            "GroupName": "IE-prod-internal-access-allowed"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "EU-IE-legend-infrapay-prod-queue01"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "2"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-05ebe98383eaf6e14"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2026-04-24T08:38:00+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "uefi",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-027baecc689bbbf9b",
+                    "ImageId": "ami-02e2fa547ec47b62f",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-1-0-10.eu-west-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "ireland",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2026-04-24T08:38:00+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "euw1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "eu-west-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-08e922c84f9946555",
+                    "VpcId": "vpc-03cc70f7b5668f3c7",
+                    "PrivateIpAddress": "10.1.0.10"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "Keys": [
+        {
+            "KeyId": "7d599f7d-a3a8-4656-9be2-84ed2e81924f",
+            "KeyArn": "arn:aws:kms:eu-west-3:647828570435:key/7d599f7d-a3a8-4656-9be2-84ed2e81924f"
+        }
+    ]
+}

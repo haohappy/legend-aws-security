@@ -1,0 +1,132 @@
+{
+    "VpcEndpoints": [
+        {
+            "VpcEndpointId": "vpce-0ae688122dbe87321",
+            "VpcEndpointType": "Gateway",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "ServiceName": "com.amazonaws.us-east-1.s3",
+            "State": "available",
+            "PolicyDocument": "{\"Version\":\"2008-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"*\",\"Resource\":\"*\"}]}",
+            "RouteTableIds": [
+                "rtb-0afe5009be29d88eb",
+                "rtb-0646b3fca786b268d",
+                "rtb-0734dfcb25c9f20e4",
+                "rtb-075466524b9d70557",
+                "rtb-0b65ffddda21b0131",
+                "rtb-0d9cda77e5ff9b44c",
+                "rtb-06a2717f549cac5fd",
+                "rtb-083b16e0a98bbd609"
+            ],
+            "SubnetIds": [],
+            "Groups": [],
+            "IpAddressType": "ipv4",
+            "DnsOptions": {
+                "DnsRecordIpType": "service-defined"
+            },
+            "PrivateDnsEnabled": false,
+            "RequesterManaged": false,
+            "NetworkInterfaceIds": [],
+            "DnsEntries": [],
+            "CreationTimestamp": "2020-04-22T22:32:56+00:00",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legend-vpce-s3"
+                }
+            ],
+            "OwnerId": "647828570435",
+            "ServiceRegion": "us-east-1"
+        },
+        {
+            "VpcEndpointId": "vpce-06dbab0d6c7caf37d",
+            "VpcEndpointType": "Gateway",
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "ServiceName": "com.amazonaws.us-east-1.s3",
+            "State": "available",
+            "PolicyDocument": "{\"Version\":\"2008-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"*\",\"Resource\":\"*\"}]}",
+            "RouteTableIds": [
+                "rtb-0adf5352c376cc960",
+                "rtb-08a1f9eca681c1973"
+            ],
+            "SubnetIds": [],
+            "Groups": [],
+            "IpAddressType": "ipv4",
+            "DnsOptions": {
+                "DnsRecordIpType": "service-defined"
+            },
+            "PrivateDnsEnabled": false,
+            "RequesterManaged": false,
+            "NetworkInterfaceIds": [],
+            "DnsEntries": [],
+            "CreationTimestamp": "2022-07-26T00:30:59+00:00",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-vpce-s3"
+                }
+            ],
+            "OwnerId": "647828570435",
+            "ServiceRegion": "us-east-1"
+        },
+        {
+            "VpcEndpointId": "vpce-08c409ea332641bb3",
+            "VpcEndpointType": "Interface",
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "ServiceName": "com.amazonaws.vpce.us-east-1.vpce-svc-0c3ebf9a1a3ad247b",
+            "State": "available",
+            "PolicyDocument": "{\n  \"Statement\": [\n    {\n      \"Action\": \"*\",\n      \"Effect\": \"Allow\",\n      \"Principal\": \"*\",\n      \"Resource\": \"*\"\n    }\n  ]\n}",
+            "RouteTableIds": [],
+            "SubnetIds": [
+                "subnet-0e2fec9f218215453",
+                "subnet-0f6f1945625e5ba1c"
+            ],
+            "Groups": [
+                {
+                    "GroupId": "sg-039f8fcdb41a49a9a",
+                    "GroupName": "vpn.zingpays.com"
+                },
+                {
+                    "GroupId": "sg-0b486c7e51abc0a61",
+                    "GroupName": "lg-vpc-web-servers"
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "DnsOptions": {
+                "DnsRecordIpType": "ipv4"
+            },
+            "PrivateDnsEnabled": true,
+            "RequesterManaged": false,
+            "NetworkInterfaceIds": [
+                "eni-0468123dbf3741b60",
+                "eni-0e557ce1b0ef3f84c"
+            ],
+            "DnsEntries": [
+                {
+                    "DnsName": "vpce-08c409ea332641bb3-izoh9567.vpce-svc-0c3ebf9a1a3ad247b.us-east-1.vpce.amazonaws.com",
+                    "HostedZoneId": "Z7HUB22UULQXV"
+                },
+                {
+                    "DnsName": "vpce-08c409ea332641bb3-izoh9567-us-east-1d.vpce-svc-0c3ebf9a1a3ad247b.us-east-1.vpce.amazonaws.com",
+                    "HostedZoneId": "Z7HUB22UULQXV"
+                },
+                {
+                    "DnsName": "vpce-08c409ea332641bb3-izoh9567-us-east-1c.vpce-svc-0c3ebf9a1a3ad247b.us-east-1.vpce.amazonaws.com",
+                    "HostedZoneId": "Z7HUB22UULQXV"
+                },
+                {
+                    "DnsName": "privatelink.c01.sgw.iad.prod.aoss.searchservices.aws.dev",
+                    "HostedZoneId": "Z06848352NF4307VOONX0"
+                }
+            ],
+            "CreationTimestamp": "2023-05-16T04:25:57.377000+00:00",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-opensearch"
+                }
+            ],
+            "OwnerId": "647828570435",
+            "ServiceRegion": "us-east-1"
+        }
+    ]
+}

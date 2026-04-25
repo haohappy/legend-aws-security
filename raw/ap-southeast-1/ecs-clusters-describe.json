@@ -1,0 +1,252 @@
+{
+    "clusters": [
+        {
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire",
+            "clusterName": "flashwire",
+            "status": "ACTIVE",
+            "registeredContainerInstancesCount": 5,
+            "runningTasksCount": 16,
+            "pendingTasksCount": 0,
+            "activeServicesCount": 6,
+            "statistics": [
+                {
+                    "name": "runningEC2TasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "runningFargateTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "pendingEC2TasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "pendingFargateTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "runningExternalTasksCount",
+                    "value": "16"
+                },
+                {
+                    "name": "pendingExternalTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "runningManagedInstancesTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "pendingManagedInstancesTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "activeEC2ServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "activeFargateServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "drainingEC2ServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "drainingFargateServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "activeExternalServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "drainingExternalServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "activeManagedInstancesServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "drainingManagedInstancesServiceCount",
+                    "value": "0"
+                }
+            ],
+            "tags": [],
+            "settings": [],
+            "capacityProviders": [
+                "FARGATE",
+                "FARGATE_SPOT",
+                "Infra-ECS-Cluster-flashwire-93d06274-EC2CapacityProvider-MPMrJY9M6pa8"
+            ],
+            "defaultCapacityProviderStrategy": [
+                {
+                    "capacityProvider": "Infra-ECS-Cluster-flashwire-93d06274-EC2CapacityProvider-MPMrJY9M6pa8",
+                    "weight": 1,
+                    "base": 0
+                }
+            ],
+            "attachments": [
+                {
+                    "id": "48b05668-9ca6-4ca5-8a5f-6946e7f5029f",
+                    "type": "sc",
+                    "status": "ATTACHED",
+                    "details": []
+                },
+                {
+                    "id": "5d785bfb-7b2b-4cd2-873b-066a4b643074",
+                    "type": "as_policy",
+                    "status": "CREATED",
+                    "details": [
+                        {
+                            "name": "capacityProviderName",
+                            "value": "Infra-ECS-Cluster-flashwire-93d06274-EC2CapacityProvider-MPMrJY9M6pa8"
+                        },
+                        {
+                            "name": "scalingPolicyName",
+                            "value": "ECSManagedAutoScalingPolicy-c8bf955c-843a-4634-aee7-37cf06a1d6e0"
+                        }
+                    ]
+                }
+            ],
+            "attachmentsStatus": "UPDATE_COMPLETE",
+            "serviceConnectDefaults": {
+                "namespace": "arn:aws:servicediscovery:ap-southeast-1:647828570435:namespace/ns-3onmhos3hxqtf6ky"
+            }
+        },
+        {
+            "clusterArn": "arn:aws:ecs:ap-southeast-1:647828570435:cluster/flashwire-lending",
+            "clusterName": "flashwire-lending",
+            "status": "ACTIVE",
+            "registeredContainerInstancesCount": 1,
+            "runningTasksCount": 1,
+            "pendingTasksCount": 0,
+            "activeServicesCount": 1,
+            "statistics": [
+                {
+                    "name": "runningEC2TasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "runningFargateTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "pendingEC2TasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "pendingFargateTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "runningExternalTasksCount",
+                    "value": "1"
+                },
+                {
+                    "name": "pendingExternalTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "runningManagedInstancesTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "pendingManagedInstancesTasksCount",
+                    "value": "0"
+                },
+                {
+                    "name": "activeEC2ServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "activeFargateServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "drainingEC2ServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "drainingFargateServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "activeExternalServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "drainingExternalServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "activeManagedInstancesServiceCount",
+                    "value": "0"
+                },
+                {
+                    "name": "drainingManagedInstancesServiceCount",
+                    "value": "0"
+                }
+            ],
+            "tags": [],
+            "settings": [],
+            "capacityProviders": [
+                "FARGATE",
+                "FARGATE_SPOT",
+                "Infra-ECS-Cluster-flashwire-lending-215ea4f0-EC2CapacityProvider-qv0OYtlGr7Au"
+            ],
+            "defaultCapacityProviderStrategy": [
+                {
+                    "capacityProvider": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-EC2CapacityProvider-qv0OYtlGr7Au",
+                    "weight": 1,
+                    "base": 0
+                }
+            ],
+            "attachments": [
+                {
+                    "id": "42b24a8d-7e18-4fe7-996a-6988a202e49c",
+                    "type": "managed_draining",
+                    "status": "CREATED",
+                    "details": [
+                        {
+                            "name": "capacityProviderName",
+                            "value": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-EC2CapacityProvider-qv0OYtlGr7Au"
+                        },
+                        {
+                            "name": "autoScalingLifecycleHookName",
+                            "value": "ecs-managed-draining-termination-hook"
+                        }
+                    ]
+                },
+                {
+                    "id": "4edcd7b2-542a-4b57-a733-5a2974669cbb",
+                    "type": "sc",
+                    "status": "ATTACHED",
+                    "details": []
+                },
+                {
+                    "id": "9b589e70-c387-42c0-b184-9c505b05702b",
+                    "type": "as_policy",
+                    "status": "CREATED",
+                    "details": [
+                        {
+                            "name": "capacityProviderName",
+                            "value": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-EC2CapacityProvider-qv0OYtlGr7Au"
+                        },
+                        {
+                            "name": "scalingPolicyName",
+                            "value": "ECSManagedAutoScalingPolicy-eedc8070-eab3-470f-b75b-89a203904900"
+                        }
+                    ]
+                }
+            ],
+            "attachmentsStatus": "UPDATE_COMPLETE",
+            "serviceConnectDefaults": {
+                "namespace": "arn:aws:servicediscovery:ap-southeast-1:647828570435:namespace/ns-7u2us4ldo2z57ruq"
+            }
+        }
+    ],
+    "failures": []
+}

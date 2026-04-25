@@ -1,0 +1,182 @@
+{
+  "TargetHealthDescriptions": [
+    {
+      "Target": {
+        "Id": "10.30.5.193",
+        "Port": 3306,
+        "AvailabilityZone": "ap-southeast-1c"
+      },
+      "HealthCheckPort": "3306",
+      "TargetHealth": {
+        "State": "healthy"
+      },
+      "AdministrativeOverride": {
+        "State": "zonal_shift_delegated_to_dns",
+        "Reason": "AdministrativeOverride.ZonalShiftDelegatedToDns",
+        "Description": "This target's zonal shift state is not available through DescribeTargetHealth but can be viewed directly through the Amazon ARC API or console"
+      },
+      "_TargetGroupName": "replica-lg-rds-production",
+      "_LoadBalancerName": "replica-lg-rds-production"
+    },
+    {
+      "Target": {
+        "Id": "i-0564531d8052dd18e",
+        "Port": 3307
+      },
+      "HealthCheckPort": "8405",
+      "TargetHealth": {
+        "State": "healthy"
+      },
+      "AdministrativeOverride": {
+        "State": "zonal_shift_delegated_to_dns",
+        "Reason": "AdministrativeOverride.ZonalShiftDelegatedToDns",
+        "Description": "This target's zonal shift state is not available through DescribeTargetHealth but can be viewed directly through the Amazon ARC API or console"
+      },
+      "_TargetGroupName": "flashwire-stag-read-db-haproxy",
+      "_LoadBalancerName": "replica-flashwire-staging-mysql"
+    },
+    {
+      "Target": {
+        "Id": "i-0564531d8052dd18e",
+        "Port": 3306
+      },
+      "HealthCheckPort": "3306",
+      "TargetHealth": {
+        "State": "unhealthy",
+        "Reason": "Target.FailedHealthChecks",
+        "Description": "Health checks failed"
+      },
+      "AdministrativeOverride": {
+        "State": "zonal_shift_delegated_to_dns",
+        "Reason": "AdministrativeOverride.ZonalShiftDelegatedToDns",
+        "Description": "This target's zonal shift state is not available through DescribeTargetHealth but can be viewed directly through the Amazon ARC API or console"
+      },
+      "_TargetGroupName": "staging-lending-apiweb-mysql",
+      "_LoadBalancerName": "staging-lending-apiweb-mysql"
+    },
+    {
+      "Target": {
+        "Id": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/app/camapp/5c60b144a38dad4a",
+        "Port": 443,
+        "AvailabilityZone": "all"
+      },
+      "TargetHealth": {
+        "State": "unhealthy",
+        "Reason": "Target.FailedHealthChecks",
+        "Description": "Health checks failed"
+      },
+      "AdministrativeOverride": {
+        "State": "zonal_shift_delegated_to_dns",
+        "Reason": "AdministrativeOverride.ZonalShiftDelegatedToDns",
+        "Description": "This target's zonal shift state is not available through DescribeTargetHealth but can be viewed directly through the Amazon ARC API or console"
+      },
+      "_TargetGroupName": "camappalb-https",
+      "_LoadBalancerName": "ncamapp"
+    },
+    {
+      "Target": {
+        "Id": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/app/lending/555d4effe4560802",
+        "Port": 80,
+        "AvailabilityZone": "all"
+      },
+      "TargetHealth": {
+        "State": "healthy"
+      },
+      "AdministrativeOverride": {
+        "State": "zonal_shift_delegated_to_dns",
+        "Reason": "AdministrativeOverride.ZonalShiftDelegatedToDns",
+        "Description": "This target's zonal shift state is not available through DescribeTargetHealth but can be viewed directly through the Amazon ARC API or console"
+      },
+      "_TargetGroupName": "lendingalb-http",
+      "_LoadBalancerName": "nlending"
+    },
+    {
+      "Target": {
+        "Id": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/app/lending/555d4effe4560802",
+        "Port": 443,
+        "AvailabilityZone": "all"
+      },
+      "TargetHealth": {
+        "State": "healthy"
+      },
+      "AdministrativeOverride": {
+        "State": "zonal_shift_delegated_to_dns",
+        "Reason": "AdministrativeOverride.ZonalShiftDelegatedToDns",
+        "Description": "This target's zonal shift state is not available through DescribeTargetHealth but can be viewed directly through the Amazon ARC API or console"
+      },
+      "_TargetGroupName": "lendingalb-https",
+      "_LoadBalancerName": "nlending"
+    },
+    {
+      "Target": {
+        "Id": "10.30.3.39",
+        "Port": 3306,
+        "AvailabilityZone": "ap-southeast-1a"
+      },
+      "HealthCheckPort": "3306",
+      "TargetHealth": {
+        "State": "healthy"
+      },
+      "AdministrativeOverride": {
+        "State": "zonal_shift_delegated_to_dns",
+        "Reason": "AdministrativeOverride.ZonalShiftDelegatedToDns",
+        "Description": "This target's zonal shift state is not available through DescribeTargetHealth but can be viewed directly through the Amazon ARC API or console"
+      },
+      "_TargetGroupName": "lending-apiweb-mysql",
+      "_LoadBalancerName": "lending-apiweb-mysql"
+    },
+    {
+      "Target": {
+        "Id": "i-02b3bf9355c411de2",
+        "Port": 443
+      },
+      "HealthCheckPort": "443",
+      "TargetHealth": {
+        "State": "healthy"
+      },
+      "AdministrativeOverride": {
+        "State": "no_override",
+        "Reason": "AdministrativeOverride.NoOverride",
+        "Description": "No override is currently active on target"
+      },
+      "_TargetGroupName": "lending",
+      "_LoadBalancerName": "lending"
+    },
+    {
+      "Target": {
+        "Id": "i-02e890142c19cbac6",
+        "Port": 443
+      },
+      "HealthCheckPort": "443",
+      "TargetHealth": {
+        "State": "unused",
+        "Reason": "Target.InvalidState",
+        "Description": "Target is in the stopped state"
+      },
+      "AdministrativeOverride": {
+        "State": "no_override",
+        "Reason": "AdministrativeOverride.NoOverride",
+        "Description": "No override is currently active on target"
+      },
+      "_TargetGroupName": "1token-cam",
+      "_LoadBalancerName": "camapp"
+    },
+    {
+      "Target": {
+        "Id": "i-0564531d8052dd18e",
+        "Port": 443
+      },
+      "HealthCheckPort": "443",
+      "TargetHealth": {
+        "State": "healthy"
+      },
+      "AdministrativeOverride": {
+        "State": "no_override",
+        "Reason": "AdministrativeOverride.NoOverride",
+        "Description": "No override is currently active on target"
+      },
+      "_TargetGroupName": "lending-staging01",
+      "_LoadBalancerName": "lending-staging"
+    }
+  ]
+}

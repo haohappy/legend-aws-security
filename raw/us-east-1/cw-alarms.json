@@ -1,0 +1,931 @@
+{
+    "MetricAlarms": [
+        {
+            "AlarmName": "AWS SES Email Bounce Rate is too High",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:AWS SES Email Bounce Rate is too High",
+            "AlarmDescription": "AWS SES Email Bounce Rate exceeds 1%, which is too high for a mail server. Please check what happened and fix this to lower this Rate",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-20T12:08:13.160000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.001652089407191448 (20/12/23 07:04:00)] was not greater than or equal to the threshold (0.01) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-12-20T07:09:33.531+0000\",\"startDate\":\"2023-12-20T07:04:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.001652089407191448],\"threshold\":0.01,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-12-20T07:04:00.000+0000\",\"sampleCount\":1.0,\"value\":0.001652089407191448}]}",
+            "StateUpdatedTimestamp": "2023-12-20T12:09:33.532000+05:00",
+            "MetricName": "Reputation.BounceRate",
+            "Namespace": "AWS/SES",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.01,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2023-12-20T12:09:33.532000+05:00"
+        },
+        {
+            "AlarmName": "AWS SES Email ComplaintRate is too High",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:AWS SES Email ComplaintRate is too High",
+            "AlarmDescription": "AWS SES Email ComplaintRate exceeds 0.05%, which is too high.Please check if some problems happened.And it shouldn't exceed 0.1%",
+            "AlarmConfigurationUpdatedTimestamp": "2024-12-31T06:27:56.222000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "ALARM",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [5.78368999421631E-4 (24/04/26 14:45:00)] was greater than or equal to the threshold (5.0E-4) (minimum 1 datapoint for OK -> ALARM transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-24T14:50:40.053+0000\",\"startDate\":\"2026-04-24T14:45:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[5.78368999421631E-4],\"threshold\":5.0E-4,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-04-24T14:45:00.000+0000\",\"sampleCount\":1.0,\"value\":5.78368999421631E-4}]}",
+            "StateUpdatedTimestamp": "2026-04-24T19:50:40.055000+05:00",
+            "MetricName": "Reputation.ComplaintRate",
+            "Namespace": "AWS/SES",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0005,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "ignore",
+            "StateTransitionedTimestamp": "2026-04-24T19:50:40.055000+05:00"
+        },
+        {
+            "AlarmName": "AWS SES Emails sending count is too High in one day",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:AWS SES Emails sending count is too High in one day",
+            "AlarmDescription": "AWS SES Email sending count exceeds 5000 in one day, which means there might be some problems with your programs or someone might steal your aws ses credentials to send emails maliciously.\nPlease check if it's abnormal.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-20T11:47:58.798000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [559.0 (19/10/25 08:34:00)] was not greater than or equal to the threshold (5000.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-10-20T08:34:18.954+0000\",\"startDate\":\"2025-10-19T08:34:00.000+0000\",\"statistic\":\"Sum\",\"period\":86400,\"recentDatapoints\":[559.0],\"threshold\":5000.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-10-19T08:34:00.000+0000\",\"sampleCount\":557.0,\"value\":559.0}]}",
+            "StateUpdatedTimestamp": "2025-10-20T13:34:18.957000+05:00",
+            "MetricName": "Send",
+            "Namespace": "AWS/SES",
+            "Statistic": "Sum",
+            "Dimensions": [],
+            "Period": 86400,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 5000.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "breaching",
+            "StateTransitionedTimestamp": "2025-10-20T13:34:18.957000+05:00"
+        },
+        {
+            "AlarmName": "AWS SES Emails sending count is too Low",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:AWS SES Emails sending count is too Low",
+            "AlarmDescription": "AWS SES Email sending count less than or equal 5 within 1 hour,which means some problems may occur with your program. Please check if it's abnormal.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-20T11:39:44.639000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [6.0 (22/04/26 00:32:00)] was not less than or equal to the threshold (5.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-22T01:32:34.870+0000\",\"startDate\":\"2026-04-22T00:32:00.000+0000\",\"statistic\":\"Sum\",\"period\":3600,\"recentDatapoints\":[6.0],\"threshold\":5.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-04-22T00:32:00.000+0000\",\"sampleCount\":6.0,\"value\":6.0}]}",
+            "StateUpdatedTimestamp": "2026-04-22T06:32:34.872000+05:00",
+            "MetricName": "Send",
+            "Namespace": "AWS/SES",
+            "Statistic": "Sum",
+            "Dimensions": [],
+            "Period": 3600,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 5.0,
+            "ComparisonOperator": "LessThanOrEqualToThreshold",
+            "TreatMissingData": "breaching",
+            "StateTransitionedTimestamp": "2026-04-22T06:32:34.872000+05:00"
+        },
+        {
+            "AlarmName": "AWS SES Emails sending count is too high",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:AWS SES Emails sending count is too high",
+            "AlarmDescription": "AWS SES Email sending count exceeds 1000 within 1 hour,Please check if it's abnormal.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-20T11:40:31.005000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [961.0 (10/07/25 23:11:00)] was not greater than or equal to the threshold (1000.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-07-11T00:11:09.188+0000\",\"startDate\":\"2025-07-10T23:11:00.000+0000\",\"statistic\":\"Sum\",\"period\":3600,\"recentDatapoints\":[961.0],\"threshold\":1000.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-07-10T23:11:00.000+0000\",\"sampleCount\":961.0,\"value\":961.0}]}",
+            "StateUpdatedTimestamp": "2025-07-11T05:11:09.189000+05:00",
+            "MetricName": "Send",
+            "Namespace": "AWS/SES",
+            "Statistic": "Sum",
+            "Dimensions": [],
+            "Period": 3600,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1000.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "breaching",
+            "StateTransitionedTimestamp": "2025-07-11T05:11:09.189000+05:00"
+        },
+        {
+            "AlarmName": "AWS_SES_Complaint",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:AWS_SES_Complaint",
+            "AlarmConfigurationUpdatedTimestamp": "2020-09-23T01:23:03.295000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legend_SES_Alarm"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [5.742176284811944E-4 (25/04/26 02:26:00)] was not greater than the threshold (0.001) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-25T02:31:09.958+0000\",\"startDate\":\"2026-04-25T02:26:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[5.742176284811944E-4],\"threshold\":0.001,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-04-25T02:26:00.000+0000\",\"sampleCount\":1.0,\"value\":5.742176284811944E-4}]}",
+            "StateUpdatedTimestamp": "2026-04-25T07:31:09.959000+05:00",
+            "MetricName": "Reputation.ComplaintRate",
+            "Namespace": "AWS/SES",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.001,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-04-25T07:31:09.959000+05:00"
+        },
+        {
+            "AlarmName": "Legend_SES",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:Legend_SES",
+            "AlarmConfigurationUpdatedTimestamp": "2020-09-23T01:21:14.373000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legend_SES_Alarm"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.002326663564448581 (25/04/26 02:26:00)] was not greater than the threshold (0.05) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-25T02:31:28.498+0000\",\"startDate\":\"2026-04-25T02:26:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.002326663564448581],\"threshold\":0.05,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-04-25T02:26:00.000+0000\",\"sampleCount\":1.0,\"value\":0.002326663564448581}]}",
+            "StateUpdatedTimestamp": "2026-04-25T07:31:28.499000+05:00",
+            "MetricName": "Reputation.BounceRate",
+            "Namespace": "AWS/SES",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.05,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-04-25T07:31:28.499000+05:00"
+        },
+        {
+            "AlarmName": "SMS Send Failure Count Greater Than 50 Within 1 Hour",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:SMS Send Failure Count Greater Than 50 Within 1 Hour",
+            "AlarmDescription": "SMS sending failure count exceeds 50 in an hour.Please check",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-20T13:01:07.837000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [18.0 (18/01/24 23:11:00)] was not greater than the threshold (50.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2024-01-19T00:11:04.212+0000\",\"startDate\":\"2024-01-18T23:11:00.000+0000\",\"statistic\":\"SampleCount\",\"period\":3600,\"recentDatapoints\":[18.0],\"threshold\":50.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2024-01-18T23:11:00.000+0000\",\"sampleCount\":18.0,\"value\":18.0}]}",
+            "StateUpdatedTimestamp": "2024-01-19T05:11:04.219000+05:00",
+            "MetricName": "SNS-SMS-SEND-FAILURE",
+            "Namespace": "LOGS/SNSSMS",
+            "Statistic": "SampleCount",
+            "Dimensions": [
+                {
+                    "Name": "sendStatus",
+                    "Value": "FAILURE"
+                }
+            ],
+            "Period": 3600,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 50.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2024-01-19T05:11:04.219000+05:00"
+        },
+        {
+            "AlarmName": "SMS Send Success Count Greater Than 50 Within 1 Hour",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:SMS Send Success Count Greater Than 50 Within 1 Hour",
+            "AlarmDescription": "SMS sending success count exceeds 50 in an hour ,which is too high.Please check",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-20T13:02:53.207000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [49.0 (17/12/24 05:47:00)] was not greater than the threshold (50.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2024-12-17T06:47:10.820+0000\",\"startDate\":\"2024-12-17T05:47:00.000+0000\",\"statistic\":\"SampleCount\",\"period\":3600,\"recentDatapoints\":[49.0],\"threshold\":50.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2024-12-17T05:47:00.000+0000\",\"sampleCount\":49.0,\"value\":49.0}]}",
+            "StateUpdatedTimestamp": "2024-12-17T11:47:10.822000+05:00",
+            "MetricName": "SNS-SMS-SEND-SUCCESS",
+            "Namespace": "LOGS/SNSSMS",
+            "Statistic": "SampleCount",
+            "Dimensions": [
+                {
+                    "Name": "sendStatus",
+                    "Value": "SUCCESS"
+                }
+            ],
+            "Period": 3600,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 50.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2024-12-17T11:47:10.822000+05:00"
+        },
+        {
+            "AlarmName": "SMS Sent Failure Count is High",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:SMS Sent Failure Count is High",
+            "AlarmDescription": "sms sent failure count is greater than 50",
+            "AlarmConfigurationUpdatedTimestamp": "2023-11-10T06:50:59.069000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:prometheus-monitoring"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:prometheus-monitoring"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 1 period and 1 missing datapoint was treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-10-20T09:45:46.821+0000\",\"statistic\":\"SampleCount\",\"period\":10800,\"recentDatapoints\":[],\"threshold\":50.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-10-20T06:45:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2025-10-20T14:45:46.823000+05:00",
+            "MetricName": "SNS-SMS-SEND-FAILURE",
+            "Namespace": "LOGS/SNSSMS",
+            "Statistic": "SampleCount",
+            "Dimensions": [
+                {
+                    "Name": "sendStatus",
+                    "Value": "FAILURE"
+                }
+            ],
+            "Period": 10800,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 50.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2025-10-20T14:45:46.823000+05:00"
+        },
+        {
+            "AlarmName": "SMS Sent Success Count equals 0 within one day",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:SMS Sent Success Count equals 0 within one day",
+            "AlarmDescription": "SMS sending count equals 0 in one day,Please check if there are any problems.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-20T12:35:29.204000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-backend-monitor-alerting"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [1.0 (19/10/25 09:06:00)] was not less than or equal to the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-10-20T09:06:18.625+0000\",\"startDate\":\"2025-10-19T09:06:00.000+0000\",\"statistic\":\"SampleCount\",\"period\":86400,\"recentDatapoints\":[1.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-10-19T09:06:00.000+0000\",\"sampleCount\":1.0,\"value\":1.0}]}",
+            "StateUpdatedTimestamp": "2025-10-20T14:06:18.627000+05:00",
+            "MetricName": "SNS-SMS-SEND-SUCCESS",
+            "Namespace": "LOGS/SNSSMS",
+            "Statistic": "SampleCount",
+            "Dimensions": [
+                {
+                    "Name": "sendStatus",
+                    "Value": "SUCCESS"
+                }
+            ],
+            "Period": 86400,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0,
+            "ComparisonOperator": "LessThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2025-10-20T14:06:18.627000+05:00"
+        },
+        {
+            "AlarmName": "SMS Sent Success Count is high",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:SMS Sent Success Count is high",
+            "AlarmDescription": "sms sent success count is greater than 50 within 3 hours",
+            "AlarmConfigurationUpdatedTimestamp": "2023-11-09T14:03:29.557000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:prometheus-monitoring"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:prometheus-monitoring"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [49.0 (01/12/25 08:40:00)] was not greater than or equal to the threshold (50.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-12-01T11:40:50.844+0000\",\"startDate\":\"2025-12-01T08:40:00.000+0000\",\"statistic\":\"SampleCount\",\"period\":10800,\"recentDatapoints\":[49.0],\"threshold\":50.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-12-01T08:40:00.000+0000\",\"sampleCount\":49.0,\"value\":49.0}]}",
+            "StateUpdatedTimestamp": "2025-12-01T16:40:50.846000+05:00",
+            "MetricName": "SNS-SMS-SEND-SUCCESS",
+            "Namespace": "LOGS/SNSSMS",
+            "Statistic": "SampleCount",
+            "Dimensions": [
+                {
+                    "Name": "sendStatus",
+                    "Value": "SUCCESS"
+                }
+            ],
+            "Period": 10800,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 50.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2025-12-01T16:40:50.846000+05:00"
+        },
+        {
+            "AlarmName": "SMS Success Rate Is Less Than 50%",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:SMS Success Rate Is Less Than 50%",
+            "AlarmDescription": "SMS Sending Success RATE  is TOO LOW Within 1 Hour（1 小时短信成功率小于50%）",
+            "AlarmConfigurationUpdatedTimestamp": "2025-01-13T06:59:44.217000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:prometheus-monitoring"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:prometheus-monitoring"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.6666666666666666 (24/04/26 12:08:00)] was not less than or equal to the threshold (0.5) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-24T13:08:56.079+0000\",\"startDate\":\"2026-04-24T12:08:00.000+0000\",\"period\":3600,\"recentDatapoints\":[0.6666666666666666],\"threshold\":0.5,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-04-24T12:08:00.000+0000\",\"value\":0.6666666666666666}]}",
+            "StateUpdatedTimestamp": "2026-04-24T18:08:56.082000+05:00",
+            "Dimensions": [],
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.5,
+            "ComparisonOperator": "LessThanOrEqualToThreshold",
+            "TreatMissingData": "ignore",
+            "Metrics": [
+                {
+                    "Id": "q1",
+                    "Expression": "SELECT AVG(SMSSuccessRate) FROM SCHEMA(\"AWS/SNS\", Country,SMSType)",
+                    "Label": "smsSuccessRate",
+                    "ReturnData": true,
+                    "Period": 3600
+                }
+            ],
+            "StateTransitionedTimestamp": "2026-04-24T18:08:56.082000+05:00"
+        },
+        {
+            "AlarmName": "TargetTracking-Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL-AlarmHigh-f414ab3d-2967-46df-9934-d066feb5e443",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:TargetTracking-Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL-AlarmHigh-f414ab3d-2967-46df-9934-d066feb5e443",
+            "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:96122b28-2e16-401c-817b-1a1c12671847:autoScalingGroupName/Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL:policyNa",
+            "AlarmConfigurationUpdatedTimestamp": "2023-07-18T10:00:53.390000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:96122b28-2e16-401c-817b-1a1c12671847:autoScalingGroupName/Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL:policyName/ECSManagedAutoScalingPolicy-7cebbcca-3e15-4f25-b57b-ad5dde7a931e"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 datapoint [100.0 (31/01/26 05:50:00)] was not greater than the threshold (100.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-01-31T05:51:56.285+0000\",\"startDate\":\"2026-01-31T05:50:00.000+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[100.0],\"threshold\":100.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-01-31T05:50:00.000+0000\",\"sampleCount\":1.0,\"value\":100.0}]}",
+            "StateUpdatedTimestamp": "2026-01-31T10:51:56.287000+05:00",
+            "MetricName": "CapacityProviderReservation",
+            "Namespace": "AWS/ECS/ManagedScaling",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "CapacityProviderName",
+                    "Value": "Infra-ECS-Cluster-legendtrading-3d4eb685-EC2CapacityProvider-OigWA6bDPhXs"
+                },
+                {
+                    "Name": "ClusterName",
+                    "Value": "legendtrading"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "Threshold": 100.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "StateTransitionedTimestamp": "2026-01-31T10:51:56.287000+05:00"
+        },
+        {
+            "AlarmName": "TargetTracking-Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL-AlarmLow-807b9631-fb13-45c4-ae49-a4ce010d77d3",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:TargetTracking-Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL-AlarmLow-807b9631-fb13-45c4-ae49-a4ce010d77d3",
+            "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:96122b28-2e16-401c-817b-1a1c12671847:autoScalingGroupName/Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL:policyNa",
+            "AlarmConfigurationUpdatedTimestamp": "2023-07-18T10:00:53.469000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:96122b28-2e16-401c-817b-1a1c12671847:autoScalingGroupName/Infra-ECS-Cluster-legendtrading-3d4eb685-ECSAutoScalingGroup-1DY5WX3GYIJUL:policyName/ECSManagedAutoScalingPolicy-7cebbcca-3e15-4f25-b57b-ad5dde7a931e"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 datapoint [100.0 (20/10/25 08:36:00)] was not less than the threshold (100.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-10-20T08:37:51.827+0000\",\"startDate\":\"2025-10-20T08:36:00.000+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[100.0],\"threshold\":100.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-10-20T08:36:00.000+0000\",\"sampleCount\":1.0,\"value\":100.0}]}",
+            "StateUpdatedTimestamp": "2025-10-20T13:37:51.830000+05:00",
+            "MetricName": "CapacityProviderReservation",
+            "Namespace": "AWS/ECS/ManagedScaling",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "CapacityProviderName",
+                    "Value": "Infra-ECS-Cluster-legendtrading-3d4eb685-EC2CapacityProvider-OigWA6bDPhXs"
+                },
+                {
+                    "Name": "ClusterName",
+                    "Value": "legendtrading"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 15,
+            "Threshold": 100.0,
+            "ComparisonOperator": "LessThanThreshold",
+            "StateTransitionedTimestamp": "2025-10-20T13:37:51.830000+05:00"
+        },
+        {
+            "AlarmName": "TargetTracking-Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK-AlarmHigh-09698b99-5059-41b9-80fa-b86dcdb0d9d9",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:TargetTracking-Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK-AlarmHigh-09698b99-5059-41b9-80fa-b86dcdb0d9d9",
+            "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:91d45368-de4e-4e91-821e-d8cee3550c80:autoScalingGroupName/Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK:policyName/ECS",
+            "AlarmConfigurationUpdatedTimestamp": "2023-07-17T14:33:01.581000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:91d45368-de4e-4e91-821e-d8cee3550c80:autoScalingGroupName/Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK:policyName/ECSManagedAutoScalingPolicy-0393524f-9676-4456-b058-c84e1b3b15ba"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 datapoint [100.0 (20/10/25 14:09:00)] was not greater than the threshold (100.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-10-20T14:10:32.847+0000\",\"startDate\":\"2025-10-20T14:09:00.000+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[100.0],\"threshold\":100.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-10-20T14:09:00.000+0000\",\"sampleCount\":1.0,\"value\":100.0}]}",
+            "StateUpdatedTimestamp": "2025-10-20T19:10:32.848000+05:00",
+            "MetricName": "CapacityProviderReservation",
+            "Namespace": "AWS/ECS/ManagedScaling",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "CapacityProviderName",
+                    "Value": "Infra-ECS-Cluster-test-lg-81d1434c-EC2CapacityProvider-oVE7Y4avnU0h"
+                },
+                {
+                    "Name": "ClusterName",
+                    "Value": "test-lg"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "Threshold": 100.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "StateTransitionedTimestamp": "2025-10-20T19:10:32.848000+05:00"
+        },
+        {
+            "AlarmName": "TargetTracking-Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK-AlarmLow-eb5fac8c-ee3d-4a23-b754-b4ed4bfd7248",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:TargetTracking-Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK-AlarmLow-eb5fac8c-ee3d-4a23-b754-b4ed4bfd7248",
+            "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:91d45368-de4e-4e91-821e-d8cee3550c80:autoScalingGroupName/Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK:policyName/ECS",
+            "AlarmConfigurationUpdatedTimestamp": "2023-07-17T14:33:01.657000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:91d45368-de4e-4e91-821e-d8cee3550c80:autoScalingGroupName/Infra-ECS-Cluster-test-lg-81d1434c-ECSAutoScalingGroup-140PVV0CQFEHK:policyName/ECSManagedAutoScalingPolicy-0393524f-9676-4456-b058-c84e1b3b15ba"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 datapoint [100.0 (20/10/25 08:32:00)] was not less than the threshold (100.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-10-20T08:33:09.680+0000\",\"startDate\":\"2025-10-20T08:32:00.000+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[100.0],\"threshold\":100.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-10-20T08:32:00.000+0000\",\"sampleCount\":1.0,\"value\":100.0}]}",
+            "StateUpdatedTimestamp": "2025-10-20T13:33:09.682000+05:00",
+            "MetricName": "CapacityProviderReservation",
+            "Namespace": "AWS/ECS/ManagedScaling",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "CapacityProviderName",
+                    "Value": "Infra-ECS-Cluster-test-lg-81d1434c-EC2CapacityProvider-oVE7Y4avnU0h"
+                },
+                {
+                    "Name": "ClusterName",
+                    "Value": "test-lg"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 15,
+            "Threshold": 100.0,
+            "ComparisonOperator": "LessThanThreshold",
+            "StateTransitionedTimestamp": "2025-10-20T13:33:09.682000+05:00"
+        },
+        {
+            "AlarmName": "TargetTracking-service/legendtrading/legend-asset-frontend-AlarmHigh-76b570f1-e2af-477a-b2e1-0ea55db0f4b4",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:TargetTracking-service/legendtrading/legend-asset-frontend-AlarmHigh-76b570f1-e2af-477a-b2e1-0ea55db0f4b4",
+            "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:26ab3bf6-2c37-43c4-9006-4432f917efce:resource/ecs/service/legendtrading/legend-asset-frontend:policyName/CPU_BASED_AUTO_SCALING:createdBy/8e87cffd-dc97-4b56-99c4-7f20128bddc8.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-11-27T14:23:01.664000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:26ab3bf6-2c37-43c4-9006-4432f917efce:resource/ecs/service/legendtrading/legend-asset-frontend:policyName/CPU_BASED_AUTO_SCALING:createdBy/8e87cffd-dc97-4b56-99c4-7f20128bddc8"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 3 datapoints [1.3703835321357474 (03/12/25 17:54:00), 2.7135300602143007 (03/12/25 17:53:00), 1.4149640164105222 (03/12/25 17:52:00)] were not greater than the threshold (80.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-12-03T17:57:16.002+0000\",\"startDate\":\"2025-12-03T17:52:00.000+0000\",\"unit\":\"Percent\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[1.4149640164105222,2.7135300602143007,1.3703835321357474],\"threshold\":80.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-12-03T17:54:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3703835321357474}]}",
+            "StateUpdatedTimestamp": "2025-12-03T22:57:16.003000+05:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/ECS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "ClusterName",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Name": "ServiceName",
+                    "Value": "legend-asset-frontend"
+                }
+            ],
+            "Period": 60,
+            "Unit": "Percent",
+            "EvaluationPeriods": 3,
+            "Threshold": 80.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "StateTransitionedTimestamp": "2025-12-03T22:57:16.003000+05:00"
+        },
+        {
+            "AlarmName": "TargetTracking-service/legendtrading/legend-asset-frontend-AlarmHigh-9badff50-c080-4f4e-b750-3af3a90ec620",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:TargetTracking-service/legendtrading/legend-asset-frontend-AlarmHigh-9badff50-c080-4f4e-b750-3af3a90ec620",
+            "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:26ab3bf6-2c37-43c4-9006-4432f917efce:resource/ecs/service/legendtrading/legend-asset-frontend:policyName/MEM_BASED_AUTO_SCALING:createdBy/5c79205b-97dd-457a-98e3-30811cc6d2eb.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-11-27T14:23:02.229000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:26ab3bf6-2c37-43c4-9006-4432f917efce:resource/ecs/service/legendtrading/legend-asset-frontend:policyName/MEM_BASED_AUTO_SCALING:createdBy/5c79205b-97dd-457a-98e3-30811cc6d2eb"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 3 datapoints [12.20703125 (03/12/25 17:54:00), 12.20703125 (03/12/25 17:53:00), 12.215169270833332 (03/12/25 17:52:00)] were not greater than the threshold (70.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-12-03T17:57:14.009+0000\",\"startDate\":\"2025-12-03T17:52:00.000+0000\",\"unit\":\"Percent\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[12.215169270833332,12.20703125,12.20703125],\"threshold\":70.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-12-03T17:54:00.000+0000\",\"sampleCount\":2.0,\"value\":12.20703125}]}",
+            "StateUpdatedTimestamp": "2025-12-03T22:57:14.011000+05:00",
+            "MetricName": "MemoryUtilization",
+            "Namespace": "AWS/ECS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "ClusterName",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Name": "ServiceName",
+                    "Value": "legend-asset-frontend"
+                }
+            ],
+            "Period": 60,
+            "Unit": "Percent",
+            "EvaluationPeriods": 3,
+            "Threshold": 70.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "StateTransitionedTimestamp": "2025-12-03T22:57:14.011000+05:00"
+        },
+        {
+            "AlarmName": "TargetTracking-service/legendtrading/legend-asset-frontend-AlarmLow-3f92b4c8-7c75-475d-8fb3-c9870cd3f0fb",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:TargetTracking-service/legendtrading/legend-asset-frontend-AlarmLow-3f92b4c8-7c75-475d-8fb3-c9870cd3f0fb",
+            "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:26ab3bf6-2c37-43c4-9006-4432f917efce:resource/ecs/service/legendtrading/legend-asset-frontend:policyName/MEM_BASED_AUTO_SCALING:createdBy/5c79205b-97dd-457a-98e3-30811cc6d2eb.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-11-27T14:23:02.311000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:26ab3bf6-2c37-43c4-9006-4432f917efce:resource/ecs/service/legendtrading/legend-asset-frontend:policyName/MEM_BASED_AUTO_SCALING:createdBy/5c79205b-97dd-457a-98e3-30811cc6d2eb"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "ALARM",
+            "StateReason": "Threshold Crossed: 15 datapoints were less than the threshold (63.0). The most recent datapoints which crossed the threshold: [11.71875 (20/10/25 09:21:00), 11.71875 (20/10/25 09:20:00), 11.71875 (20/10/25 09:19:00), 11.71875 (20/10/25 09:18:00), 11.71875 (20/10/25 09:17:00)].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-10-20T09:24:11.886+0000\",\"startDate\":\"2025-10-20T09:07:00.000+0000\",\"unit\":\"Percent\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[11.81640625,11.783854166666668,11.767578125,11.735026041666668,11.71875,11.71875,11.71875,11.71875,11.71875,11.71875,11.71875,11.71875,11.71875,11.71875,11.71875],\"threshold\":63.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-10-20T09:21:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:20:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:19:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:18:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:17:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:16:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:15:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:14:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:13:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:12:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:11:00.000+0000\",\"sampleCount\":2.0,\"value\":11.71875},{\"timestamp\":\"2025-10-20T09:10:00.000+0000\",\"sampleCount\":2.0,\"value\":11.735026041666668},{\"timestamp\":\"2025-10-20T09:09:00.000+0000\",\"sampleCount\":2.0,\"value\":11.767578125},{\"timestamp\":\"2025-10-20T09:08:00.000+0000\",\"sampleCount\":2.0,\"value\":11.783854166666668},{\"timestamp\":\"2025-10-20T09:07:00.000+0000\",\"sampleCount\":2.0,\"value\":11.81640625}]}",
+            "StateUpdatedTimestamp": "2025-10-20T14:24:11.889000+05:00",
+            "MetricName": "MemoryUtilization",
+            "Namespace": "AWS/ECS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "ClusterName",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Name": "ServiceName",
+                    "Value": "legend-asset-frontend"
+                }
+            ],
+            "Period": 60,
+            "Unit": "Percent",
+            "EvaluationPeriods": 15,
+            "Threshold": 63.0,
+            "ComparisonOperator": "LessThanThreshold",
+            "StateTransitionedTimestamp": "2025-10-20T14:24:11.889000+05:00"
+        },
+        {
+            "AlarmName": "TargetTracking-service/legendtrading/legend-asset-frontend-AlarmLow-6f0ae0d6-643d-4cf7-8c5b-470a71151653",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:TargetTracking-service/legendtrading/legend-asset-frontend-AlarmLow-6f0ae0d6-643d-4cf7-8c5b-470a71151653",
+            "AlarmDescription": "DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:26ab3bf6-2c37-43c4-9006-4432f917efce:resource/ecs/service/legendtrading/legend-asset-frontend:policyName/CPU_BASED_AUTO_SCALING:createdBy/8e87cffd-dc97-4b56-99c4-7f20128bddc8.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-11-27T14:23:01.766000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-1:647828570435:scalingPolicy:26ab3bf6-2c37-43c4-9006-4432f917efce:resource/ecs/service/legendtrading/legend-asset-frontend:policyName/CPU_BASED_AUTO_SCALING:createdBy/8e87cffd-dc97-4b56-99c4-7f20128bddc8"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "ALARM",
+            "StateReason": "Threshold Crossed: 15 datapoints were less than the threshold (72.0). The most recent datapoints which crossed the threshold: [1.3000372569076717 (20/10/25 09:23:00), 1.3138306358984362 (20/10/25 09:22:00), 1.278809353010729 (20/10/25 09:21:00), 1.3089527282475806 (20/10/25 09:20:00), 1.3116077268108104 (20/10/25 09:19:00)].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-10-20T09:26:28.032+0000\",\"startDate\":\"2025-10-20T09:09:00.000+0000\",\"unit\":\"Percent\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[1.3867755645187572,1.3027142926196877,1.3306474284424135,1.3158098669179403,1.293754520243965,1.3338449283813438,1.3174475358488658,1.3470036871731281,2.4370850029323874,1.3261242782076201,1.3116077268108104,1.3089527282475806,1.278809353010729,1.3138306358984362,1.3000372569076717],\"threshold\":72.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-10-20T09:23:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3000372569076717},{\"timestamp\":\"2025-10-20T09:22:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3138306358984362},{\"timestamp\":\"2025-10-20T09:21:00.000+0000\",\"sampleCount\":2.0,\"value\":1.278809353010729},{\"timestamp\":\"2025-10-20T09:20:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3089527282475806},{\"timestamp\":\"2025-10-20T09:19:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3116077268108104},{\"timestamp\":\"2025-10-20T09:18:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3261242782076201},{\"timestamp\":\"2025-10-20T09:17:00.000+0000\",\"sampleCount\":2.0,\"value\":2.4370850029323874},{\"timestamp\":\"2025-10-20T09:16:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3470036871731281},{\"timestamp\":\"2025-10-20T09:15:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3174475358488658},{\"timestamp\":\"2025-10-20T09:14:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3338449283813438},{\"timestamp\":\"2025-10-20T09:13:00.000+0000\",\"sampleCount\":2.0,\"value\":1.293754520243965},{\"timestamp\":\"2025-10-20T09:12:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3158098669179403},{\"timestamp\":\"2025-10-20T09:11:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3306474284424135},{\"timestamp\":\"2025-10-20T09:10:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3027142926196877},{\"timestamp\":\"2025-10-20T09:09:00.000+0000\",\"sampleCount\":2.0,\"value\":1.3867755645187572}]}",
+            "StateUpdatedTimestamp": "2025-10-20T14:26:28.034000+05:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/ECS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "ClusterName",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Name": "ServiceName",
+                    "Value": "legend-asset-frontend"
+                }
+            ],
+            "Period": 60,
+            "Unit": "Percent",
+            "EvaluationPeriods": 15,
+            "Threshold": 72.0,
+            "ComparisonOperator": "LessThanThreshold",
+            "StateTransitionedTimestamp": "2025-10-20T14:26:28.034000+05:00"
+        },
+        {
+            "AlarmName": "awsbilling-AWS-Service-Charges-total",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:awsbilling-AWS-Service-Charges-total",
+            "AlarmDescription": "Created from CloudWatch console",
+            "AlarmConfigurationUpdatedTimestamp": "2020-03-09T00:27:43.248000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:AWS_CHARGE_TOO_HIGH"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "ALARM",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [764.73 (31/03/26 18:14:00)] was greater than the threshold (100.0) (minimum 1 datapoint for OK -> ALARM transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-01T18:14:05.495+0000\",\"startDate\":\"2026-03-31T18:14:00.000+0000\",\"statistic\":\"Maximum\",\"period\":86400,\"recentDatapoints\":[764.73],\"threshold\":100.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-03-31T18:14:00.000+0000\",\"sampleCount\":4.0,\"value\":764.73}]}",
+            "StateUpdatedTimestamp": "2026-04-01T23:14:05.497000+05:00",
+            "MetricName": "EstimatedCharges",
+            "Namespace": "AWS/Billing",
+            "Statistic": "Maximum",
+            "Dimensions": [
+                {
+                    "Name": "Currency",
+                    "Value": "USD"
+                }
+            ],
+            "Period": 86400,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 100.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "breaching",
+            "StateTransitionedTimestamp": "2026-04-01T23:14:05.497000+05:00"
+        },
+        {
+            "AlarmName": "awsec2-i-0054fcf86cfe7567e-GreaterThanOrEqualToThreshold-CPUUtilization",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:awsec2-i-0054fcf86cfe7567e-GreaterThanOrEqualToThreshold-CPUUtilization",
+            "AlarmDescription": "Created from EC2 Console",
+            "AlarmConfigurationUpdatedTimestamp": "2023-09-18T12:56:50.561000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:RedCherry"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-11-21T03:56:13.581+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":80.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-11-21T03:51:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2023-11-21T08:56:13.583000+05:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0b301047e3598f4ae"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 80.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "StateTransitionedTimestamp": "2023-11-21T08:56:13.583000+05:00"
+        },
+        {
+            "AlarmName": "awsec2-i-03843e198f9ca218b-GreaterThanOrEqualToThreshold-CPUUtilization",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:awsec2-i-03843e198f9ca218b-GreaterThanOrEqualToThreshold-CPUUtilization",
+            "AlarmDescription": "Created from EC2 Console",
+            "AlarmConfigurationUpdatedTimestamp": "2023-09-18T12:53:00.995000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:RedCherry"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-11-30T15:46:54.953+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":50.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-11-30T15:41:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2023-11-30T20:46:54.956000+05:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-05edfad65118f2a2d"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 50.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "StateTransitionedTimestamp": "2023-11-30T20:46:54.956000+05:00"
+        },
+        {
+            "AlarmName": "awsec2-i-05769c1661e1bbe31-GreaterThanOrEqualToThreshold-StatusCheckFailed",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:awsec2-i-05769c1661e1bbe31-GreaterThanOrEqualToThreshold-StatusCheckFailed",
+            "AlarmDescription": "Created from EC2 Console",
+            "AlarmConfigurationUpdatedTimestamp": "2020-10-05T10:45:05.529000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-03-22T05:22:29.136+0000\",\"statistic\":\"Average\",\"period\":900,\"recentDatapoints\":[],\"threshold\":0.99,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-03-22T05:07:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2023-03-22T10:22:29.139000+05:00",
+            "MetricName": "StatusCheckFailed",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-05769c1661e1bbe31"
+                }
+            ],
+            "Period": 900,
+            "EvaluationPeriods": 1,
+            "Threshold": 0.99,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "StateTransitionedTimestamp": "2023-03-22T10:22:29.139000+05:00"
+        },
+        {
+            "AlarmName": "awsec2-i-0b7373fcfe13118b1-GreaterThanOrEqualToThreshold-CPUUtilization",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:awsec2-i-0b7373fcfe13118b1-GreaterThanOrEqualToThreshold-CPUUtilization",
+            "AlarmDescription": "Alarm on instance i-0b7373fcfe13118b1: Triggered when CPUUtilization >= 80 for 1 consecutive 5-minute periods.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-19T07:54:37.306000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:RedCherry"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 datapoint [58.60377703016772 (24/03/26 02:27:00)] was not greater than or equal to the threshold (80.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-03-24T02:32:27.297+0000\",\"startDate\":\"2026-03-24T02:27:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[58.60377703016772],\"threshold\":80.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-03-24T02:27:00.000+0000\",\"sampleCount\":2.0,\"value\":58.60377703016772}]}",
+            "StateUpdatedTimestamp": "2026-03-24T07:32:27.299000+05:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0b7373fcfe13118b1"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "Threshold": 80.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "StateTransitionedTimestamp": "2026-03-24T07:32:27.299000+05:00"
+        },
+        {
+            "AlarmName": "awsec2-i-0f498f75b4e008a53-GreaterThanOrEqualToThreshold-CPUUtilization",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:awsec2-i-0f498f75b4e008a53-GreaterThanOrEqualToThreshold-CPUUtilization",
+            "AlarmDescription": "Alarm on instance i-0f498f75b4e008a53: Triggered when CPUUtilization >= 80 for 1 consecutive 5-minute periods.",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-19T07:52:44.325000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:RedCherry"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 datapoint [75.75837962345761 (28/12/25 09:03:00)] was not greater than or equal to the threshold (80.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-12-28T09:08:52.023+0000\",\"startDate\":\"2025-12-28T09:03:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[75.75837962345761],\"threshold\":80.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-12-28T09:03:00.000+0000\",\"sampleCount\":3.0,\"value\":75.75837962345761}]}",
+            "StateUpdatedTimestamp": "2025-12-28T14:08:52.026000+05:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0f498f75b4e008a53"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "Threshold": 80.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "StateTransitionedTimestamp": "2025-12-28T14:08:52.026000+05:00"
+        },
+        {
+            "AlarmName": "legend-asset traffic is too high",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:legend-asset traffic is too high",
+            "AlarmConfigurationUpdatedTimestamp": "2023-11-28T07:42:36.994000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:Legendtrading-frontend-monitor-alerting"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 datapoint [850.0 (24/04/26 15:35:00)] was not greater than the threshold (1.048576E7).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-24T15:40:57.801+0000\",\"startDate\":\"2026-04-24T15:35:00.000+0000\",\"statistic\":\"Sum\",\"period\":60,\"recentDatapoints\":[850.0],\"threshold\":1.048576E7,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-04-24T15:35:00.000+0000\",\"sampleCount\":3.0,\"value\":850.0}]}",
+            "StateUpdatedTimestamp": "2026-04-24T20:40:57.803000+05:00",
+            "MetricName": "BytesDownloaded",
+            "Namespace": "AWS/CloudFront",
+            "Statistic": "Sum",
+            "Dimensions": [
+                {
+                    "Name": "DistributionId",
+                    "Value": "E25MSH2G7KUK0O"
+                },
+                {
+                    "Name": "Region",
+                    "Value": "Global"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "Threshold": 10485760.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "StateTransitionedTimestamp": "2026-04-24T20:40:57.803000+05:00"
+        },
+        {
+            "AlarmName": "lg-rds-production-SlowQueries-alarm",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:647828570435:alarm:lg-rds-production-SlowQueries-alarm",
+            "AlarmDescription": "aws rds lg-rds-production 数据库慢查询日志提醒",
+            "AlarmConfigurationUpdatedTimestamp": "2023-10-11T13:53:53.351000+05:00",
+            "ActionsEnabled": true,
+            "OKActions": [
+                "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email"
+            ],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:647828570435:lg-rds-production-SlowQueries-Email"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 1 period and 1 missing datapoint was treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-24T18:14:55.279+0000\",\"statistic\":\"Sum\",\"period\":60,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-04-24T18:13:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2026-04-24T23:14:55.281000+05:00",
+            "MetricName": "IncomingLogEvents",
+            "Namespace": "AWS/Logs",
+            "Statistic": "Sum",
+            "Dimensions": [
+                {
+                    "Name": "LogGroupName",
+                    "Value": "/aws/rds/instance/lg-rds-production/slowquery"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2026-04-24T23:14:55.281000+05:00"
+        }
+    ],
+    "CompositeAlarms": []
+}

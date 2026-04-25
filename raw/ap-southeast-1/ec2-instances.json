@@ -1,0 +1,1871 @@
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-083e7807e316a06ce",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2022-01-16T01:39:15+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0ca101f42b6deb1f0"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2022-01-16T01:39:15+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-05af346910dc1b2dc"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2022-01-16T01:39:15+00:00",
+                                "AttachmentId": "eni-attach-06d1390e7efbdc52e",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0c5876898e0f4b087",
+                                    "GroupName": "internal-system-interal-connection"
+                                },
+                                {
+                                    "GroupId": "sg-07e5856813800f8e3",
+                                    "GroupName": "is-1token-cam"
+                                },
+                                {
+                                    "GroupId": "sg-0b7462ce7c73c120b",
+                                    "GroupName": "cam-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-0e0058d5e721be5aa",
+                                    "GroupName": "internal-system-private-defualt-sg"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:17:88:a6:ee:54",
+                            "NetworkInterfaceId": "eni-0b4c6dd762b58ebd7",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.20.1.81",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.20.1.81"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0a4af85572ab9dae8",
+                            "VpcId": "vpc-0b7fe214033d48811",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0c5876898e0f4b087",
+                            "GroupName": "internal-system-interal-connection"
+                        },
+                        {
+                            "GroupId": "sg-07e5856813800f8e3",
+                            "GroupName": "is-1token-cam"
+                        },
+                        {
+                            "GroupId": "sg-0b7462ce7c73c120b",
+                            "GroupName": "cam-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-0e0058d5e721be5aa",
+                            "GroupName": "internal-system-private-defualt-sg"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "service",
+                            "Value": "1token-app"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "cam"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "company",
+                            "Value": "1token"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "is-1token-app"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 4,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "enabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2022-01-16T01:39:15+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "resource-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-02e890142c19cbac6",
+                    "ImageId": "ami-07315f74f3fa6a5a3",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "PrivateDnsName": "i-02e890142c19cbac6.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "User initiated (2023-11-01 07:39:53 GMT)",
+                    "KeyName": "internal-system",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "c5.2xlarge",
+                    "LaunchTime": "2023-08-30T07:31:22+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0a4af85572ab9dae8",
+                    "VpcId": "vpc-0b7fe214033d48811",
+                    "PrivateIpAddress": "10.20.1.81"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0d98f9b9d22fa7ace",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2022-01-16T01:36:55+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0a0d02de877e65dd8"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2022-01-16T01:36:54+00:00",
+                                "AttachmentId": "eni-attach-074611a20b0dba255",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0c5876898e0f4b087",
+                                    "GroupName": "internal-system-interal-connection"
+                                },
+                                {
+                                    "GroupId": "sg-0b7462ce7c73c120b",
+                                    "GroupName": "cam-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-0e0058d5e721be5aa",
+                                    "GroupName": "internal-system-private-defualt-sg"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:dc:7e:e7:f9:72",
+                            "NetworkInterfaceId": "eni-0539316d895c9ad5e",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.20.1.20",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.20.1.20"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0a4af85572ab9dae8",
+                            "VpcId": "vpc-0b7fe214033d48811",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0c5876898e0f4b087",
+                            "GroupName": "internal-system-interal-connection"
+                        },
+                        {
+                            "GroupId": "sg-0b7462ce7c73c120b",
+                            "GroupName": "cam-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-0e0058d5e721be5aa",
+                            "GroupName": "internal-system-private-defualt-sg"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "is-1token-auth"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "1token-auth"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "cam"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "name",
+                            "Value": "is-1token-auth"
+                        },
+                        {
+                            "Key": "company",
+                            "Value": "1token"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2022-01-16T01:36:54+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "resource-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-04ae8df5de105e5d6",
+                    "ImageId": "ami-07315f74f3fa6a5a3",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "PrivateDnsName": "i-04ae8df5de105e5d6.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "User initiated (2023-11-01 07:44:34 GMT)",
+                    "KeyName": "internal-system",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "c5.large",
+                    "LaunchTime": "2022-01-16T01:36:54+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-0a4af85572ab9dae8",
+                    "VpcId": "vpc-0b7fe214033d48811",
+                    "PrivateIpAddress": "10.20.1.20"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-08b26b329d98f8a6a",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2022-11-17T01:58:38+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-00fa93b6f918f7d5e"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2022-11-17T01:58:38+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-07212e49b9b2e1e3e"
+                            }
+                        }
+                    ],
+                    "ClientToken": "terraform-20221117015833882800000001",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2022-11-17T01:58:34+00:00",
+                                "AttachmentId": "eni-attach-0d071e817b59973e8",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-067daf3efa7a75f28",
+                                    "GroupName": "lending-allow-inner-http-https"
+                                },
+                                {
+                                    "GroupId": "sg-087f6297f8edd5aac",
+                                    "GroupName": "lending-nfs-sharing"
+                                },
+                                {
+                                    "GroupId": "sg-07887e82bee32ec06",
+                                    "GroupName": "lending-ssh"
+                                },
+                                {
+                                    "GroupId": "sg-05f1dc3aae56f97b7",
+                                    "GroupName": "lending-monitoring"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:6a:70:e3:04:bc",
+                            "NetworkInterfaceId": "eni-0b037b7d36b72849a",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.30.3.83",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.30.3.83"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-07477ea7b12869fb6",
+                            "VpcId": "vpc-0e8a205860906c944",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-067daf3efa7a75f28",
+                            "GroupName": "lending-allow-inner-http-https"
+                        },
+                        {
+                            "GroupId": "sg-087f6297f8edd5aac",
+                            "GroupName": "lending-nfs-sharing"
+                        },
+                        {
+                            "GroupId": "sg-07887e82bee32ec06",
+                            "GroupName": "lending-ssh"
+                        },
+                        {
+                            "GroupId": "sg-05f1dc3aae56f97b7",
+                            "GroupName": "lending-monitoring"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "lending"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "lending-web"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "lending-web01"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "terraform"
+                        },
+                        {
+                            "Key": "company",
+                            "Value": "flashwire"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2022-11-17T01:58:34+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-02b3bf9355c411de2",
+                    "ImageId": "ami-067e47b772f0aa73b",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-30-3-83.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "lending",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2024-10-24T08:59:52+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "SubnetId": "subnet-07477ea7b12869fb6",
+                    "VpcId": "vpc-0e8a205860906c944",
+                    "PrivateIpAddress": "10.30.3.83"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0fa2aebdc13cb90af",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2022-11-22T14:22:50+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-035e1886ae379598e"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2022-11-22T14:22:50+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-0afb1bbbcc64736cf"
+                            }
+                        }
+                    ],
+                    "ClientToken": "terraform-20221122142248611200000001",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2022-11-22T14:22:49+00:00",
+                                "AttachmentId": "eni-attach-00fd6b3ab0b68c25f",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-067daf3efa7a75f28",
+                                    "GroupName": "lending-allow-inner-http-https"
+                                },
+                                {
+                                    "GroupId": "sg-01d49fc2e45633747",
+                                    "GroupName": "lending-staging-db"
+                                },
+                                {
+                                    "GroupId": "sg-07887e82bee32ec06",
+                                    "GroupName": "lending-ssh"
+                                },
+                                {
+                                    "GroupId": "sg-05f1dc3aae56f97b7",
+                                    "GroupName": "lending-monitoring"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:22:96:07:c3:d8",
+                            "NetworkInterfaceId": "eni-067c17ca428f65806",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.30.6.30",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.30.6.30"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-01b7eee4d0d027070",
+                            "VpcId": "vpc-0e8a205860906c944",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-067daf3efa7a75f28",
+                            "GroupName": "lending-allow-inner-http-https"
+                        },
+                        {
+                            "GroupId": "sg-01d49fc2e45633747",
+                            "GroupName": "lending-staging-db"
+                        },
+                        {
+                            "GroupId": "sg-07887e82bee32ec06",
+                            "GroupName": "lending-ssh"
+                        },
+                        {
+                            "GroupId": "sg-05f1dc3aae56f97b7",
+                            "GroupName": "lending-monitoring"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "lending-staging01"
+                        },
+                        {
+                            "Key": "CreatedBy",
+                            "Value": "terraform"
+                        },
+                        {
+                            "Key": "company",
+                            "Value": "flashwire"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "staging"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "lending"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "lending-web"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2022-11-22T14:22:49+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0564531d8052dd18e",
+                    "ImageId": "ami-04a2559a4bd26901a",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-30-6-30.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "",
+                    "KeyName": "lending",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.small",
+                    "LaunchTime": "2024-11-05T08:56:17+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-01b7eee4d0d027070",
+                    "VpcId": "vpc-0e8a205860906c944",
+                    "PrivateIpAddress": "10.30.6.30"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-03bd24cccf483e372",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2022-11-24T16:38:58+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0a9ef0d679f0c0545"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdf",
+                            "Ebs": {
+                                "AttachTime": "2022-11-25T08:16:31+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-08d0354133bbd1378"
+                            }
+                        }
+                    ],
+                    "ClientToken": "27ac1e60-8ab9-4740-9b49-9f73e2bbc658",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2022-11-24T16:38:57+00:00",
+                                "AttachmentId": "eni-attach-0b5373cf7c51b33a2",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0cfe3f77075b91249",
+                                    "GroupName": "cobompc-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-0d1922d4c6a151e9e",
+                                    "GroupName": "cobo-ssh"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:2c:39:73:52:84",
+                            "NetworkInterfaceId": "eni-0c17742a66cc1c16a",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.21.2.162",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.21.2.162"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-092f3e919aa76b5ca",
+                            "VpcId": "vpc-021391a2d0eadb6b1",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0cfe3f77075b91249",
+                            "GroupName": "cobompc-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-0d1922d4c6a151e9e",
+                            "GroupName": "cobo-ssh"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.InstanceInitiatedShutdown",
+                        "Message": "Client.InstanceInitiatedShutdown: Instance initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "cobo-mpc-testing01"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "cobo"
+                        },
+                        {
+                            "Key": "company",
+                            "Value": "flashwire"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "testing"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "cobo-mpc"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2022-11-24T16:38:57+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0ff4c4951b33a1e7d",
+                    "ImageId": "ami-07651f0c4c315a529",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "PrivateDnsName": "ip-10-21-2-162.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "User initiated",
+                    "KeyName": "cobo-mpc",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "c6i.xlarge",
+                    "LaunchTime": "2022-11-29T03:21:28+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-092f3e919aa76b5ca",
+                    "VpcId": "vpc-021391a2d0eadb6b1",
+                    "PrivateIpAddress": "10.21.2.162"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0924fdea5234c49be",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2023-06-30T03:27:30+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-017030b1d407236c8"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2023-06-30T03:27:30+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-0a3ff920145c52a67"
+                            }
+                        }
+                    ],
+                    "ClientToken": "48f69838-64cc-4ec2-95ee-930dd5bcbd78",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2023-06-30T03:27:29+00:00",
+                                "AttachmentId": "eni-attach-0f77592356f2c16a8",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0cfe3f77075b91249",
+                                    "GroupName": "cobompc-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-0d1922d4c6a151e9e",
+                                    "GroupName": "cobo-ssh"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:0a:56:c1:dd:fc",
+                            "NetworkInterfaceId": "eni-0dc5a4f071a7056b4",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.21.3.71",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.21.3.71"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-040ab994269f9455c",
+                            "VpcId": "vpc-021391a2d0eadb6b1",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0cfe3f77075b91249",
+                            "GroupName": "cobompc-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-0d1922d4c6a151e9e",
+                            "GroupName": "cobo-ssh"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "company",
+                            "Value": "flashwire"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "cobo-mpc02"
+                        },
+                        {
+                            "Key": "usedfor",
+                            "Value": "stellapay"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "cobo"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "cobo-mpc"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2023-06-30T03:27:29+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0112bf77457679caf",
+                    "ImageId": "ami-0df7a207adb9748c7",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "PrivateDnsName": "ip-10-21-3-71.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "User initiated (2024-09-10 08:59:35 GMT)",
+                    "KeyName": "cobo-mpc",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "c6i.xlarge",
+                    "LaunchTime": "2023-06-30T03:27:29+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az2",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1b"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-040ab994269f9455c",
+                    "VpcId": "vpc-021391a2d0eadb6b1",
+                    "PrivateIpAddress": "10.21.3.71"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0f778dcda6d558708",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2023-09-05T03:31:36+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-071b85efcb0b3e5d4"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdb",
+                            "Ebs": {
+                                "AttachTime": "2023-09-05T03:31:36+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-03010fb2b46c78540"
+                            }
+                        }
+                    ],
+                    "ClientToken": "54f084e0-5d53-4548-b550-17ae70505caa",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2023-09-05T03:31:35+00:00",
+                                "AttachmentId": "eni-attach-0686ec24f0e9aac0d",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-067daf3efa7a75f28",
+                                    "GroupName": "lending-allow-inner-http-https"
+                                },
+                                {
+                                    "GroupId": "sg-087f6297f8edd5aac",
+                                    "GroupName": "lending-nfs-sharing"
+                                },
+                                {
+                                    "GroupId": "sg-07887e82bee32ec06",
+                                    "GroupName": "lending-ssh"
+                                },
+                                {
+                                    "GroupId": "sg-05f1dc3aae56f97b7",
+                                    "GroupName": "lending-monitoring"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:88:eb:10:37:20",
+                            "NetworkInterfaceId": "eni-0f7f236bdc1c34d26",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.30.4.5",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.30.4.5"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-091ed2b2901c7f43a",
+                            "VpcId": "vpc-0e8a205860906c944",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-067daf3efa7a75f28",
+                            "GroupName": "lending-allow-inner-http-https"
+                        },
+                        {
+                            "GroupId": "sg-087f6297f8edd5aac",
+                            "GroupName": "lending-nfs-sharing"
+                        },
+                        {
+                            "GroupId": "sg-07887e82bee32ec06",
+                            "GroupName": "lending-ssh"
+                        },
+                        {
+                            "GroupId": "sg-05f1dc3aae56f97b7",
+                            "GroupName": "lending-monitoring"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.InstanceInitiatedShutdown",
+                        "Message": "Client.InstanceInitiatedShutdown: Instance initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "lending-web02"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "lending"
+                        },
+                        {
+                            "Key": "company",
+                            "Value": "flashwire"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "lending-web"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2023-09-05T03:31:35+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0994bacb066dc0b86",
+                    "ImageId": "ami-0e6e46539c19c88f8",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "PrivateDnsName": "ip-10-30-4-5.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "User initiated",
+                    "KeyName": "lending",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3.medium",
+                    "LaunchTime": "2023-09-05T03:31:35+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az2",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1b"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-091ed2b2901c7f43a",
+                    "VpcId": "vpc-0e8a205860906c944",
+                    "PrivateIpAddress": "10.30.4.5"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0b245c97ef99e3ebd",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2023-03-28T11:37:06+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-066ca603395def10c"
+                            }
+                        }
+                    ],
+                    "ClientToken": "3696671b-91f4-439b-bb4e-c7a284ffd20c",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2023-03-28T11:37:05+00:00",
+                                "AttachmentId": "eni-attach-069b9ab2b8231c6a5",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-06f316c5ba19065e4",
+                                    "GroupName": "payment-dev-needs"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:a6:bb:11:99:c6",
+                            "NetworkInterfaceId": "eni-0af6e5dee32d91af5",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.22.1.54",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.22.1.54"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0cf69588a54422a46",
+                            "VpcId": "vpc-0a772f108977d9208",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-06f316c5ba19065e4",
+                            "GroupName": "payment-dev-needs"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "payment-dev01"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "dev"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "BootMode": "uefi-preferred",
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2023-03-28T11:37:05+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "resource-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "uefi",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0ad45bb773f9c484f",
+                    "ImageId": "ami-0bf97847fcd5c9f57",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "PrivateDnsName": "i-0ad45bb773f9c484f.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "User initiated (2024-10-23 07:44:39 GMT)",
+                    "KeyName": "crossborder-payment",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t3a.small",
+                    "LaunchTime": "2023-03-28T11:37:05+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0cf69588a54422a46",
+                    "VpcId": "vpc-0a772f108977d9208",
+                    "PrivateIpAddress": "10.22.1.54"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0945a91c718c64929",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2023-03-29T08:53:08+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0e45d3d87c890cfc3"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/sdf",
+                            "Ebs": {
+                                "AttachTime": "2023-03-29T08:53:08+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-0873298ffb7da9b27"
+                            }
+                        }
+                    ],
+                    "ClientToken": "95cd5c67-08ba-403a-b996-9da27a4f3829",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2023-03-29T08:53:07+00:00",
+                                "AttachmentId": "eni-attach-0f52c6450fd3c4e5f",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0cfe3f77075b91249",
+                                    "GroupName": "cobompc-monitoring"
+                                },
+                                {
+                                    "GroupId": "sg-0d1922d4c6a151e9e",
+                                    "GroupName": "cobo-ssh"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:76:51:ab:15:1c",
+                            "NetworkInterfaceId": "eni-048b56063a1dd0f16",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.21.5.27",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.21.5.27"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0d7624be6efc59a76",
+                            "VpcId": "vpc-021391a2d0eadb6b1",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0cfe3f77075b91249",
+                            "GroupName": "cobompc-monitoring"
+                        },
+                        {
+                            "GroupId": "sg-0d1922d4c6a151e9e",
+                            "GroupName": "cobo-ssh"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "company",
+                            "Value": "flashwire"
+                        },
+                        {
+                            "Key": "usedfor",
+                            "Value": "lending"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "productLine",
+                            "Value": "cobo"
+                        },
+                        {
+                            "Key": "service",
+                            "Value": "cobo-mpc"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "cobo-mpc01"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2023-03-29T08:53:07+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0463ea05ea09b0526",
+                    "ImageId": "ami-03f09d4df817441a4",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "PrivateDnsName": "ip-10-21-5-27.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "User initiated (2024-09-10 08:56:44 GMT)",
+                    "KeyName": "cobo-mpc",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "c6i.xlarge",
+                    "LaunchTime": "2023-03-29T08:53:07+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0d7624be6efc59a76",
+                    "VpcId": "vpc-021391a2d0eadb6b1",
+                    "PrivateIpAddress": "10.21.5.27"
+                }
+            ]
+        },
+        {
+            "ReservationId": "r-0236130c10590a457",
+            "OwnerId": "647828570435",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2023-08-03T14:38:25+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0682eb9649a2fcbe7"
+                            }
+                        },
+                        {
+                            "DeviceName": "xvdb",
+                            "Ebs": {
+                                "AttachTime": "2023-08-03T14:38:25+00:00",
+                                "DeleteOnTermination": false,
+                                "Status": "attached",
+                                "VolumeId": "vol-05d7a2ff81c2e988d"
+                            }
+                        }
+                    ],
+                    "ClientToken": "9243b94e-a853-4a35-8f52-f28a6997844b",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "647828570435",
+                                "PublicDnsName": "",
+                                "PublicIp": "52.221.97.212"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2023-08-03T14:38:25+00:00",
+                                "AttachmentId": "eni-attach-01a3f501e6a7b1dd1",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-06f316c5ba19065e4",
+                                    "GroupName": "payment-dev-needs"
+                                },
+                                {
+                                    "GroupId": "sg-05a86b6cb6b3f031d",
+                                    "GroupName": "windows-remote-desktop"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:2c:65:da:6a:6e",
+                            "NetworkInterfaceId": "eni-032b95feb5d31cf62",
+                            "OwnerId": "647828570435",
+                            "PrivateIpAddress": "10.22.1.44",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "647828570435",
+                                        "PublicDnsName": "",
+                                        "PublicIp": "52.221.97.212"
+                                    },
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.22.1.44"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0cf69588a54422a46",
+                            "VpcId": "vpc-0a772f108977d9208",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-06f316c5ba19065e4",
+                            "GroupName": "payment-dev-needs"
+                        },
+                        {
+                            "GroupId": "sg-05a86b6cb6b3f031d",
+                            "GroupName": "windows-remote-desktop"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.InstanceInitiatedShutdown",
+                        "Message": "Client.InstanceInitiatedShutdown: Instance initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "env",
+                            "Value": "dev"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "payment-dev-windows"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 2,
+                        "ThreadsPerCore": 2
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Windows",
+                    "UsageOperation": "RunInstances:0002",
+                    "UsageOperationUpdateTime": "2023-08-03T14:38:25+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "resource-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default",
+                        "RebootMigration": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0c00aa0b5892e7672",
+                    "ImageId": "ami-03ae37b34d7fea1cd",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "PrivateDnsName": "i-0c00aa0b5892e7672.ap-southeast-1.compute.internal",
+                    "PublicDnsName": "",
+                    "StateTransitionReason": "User initiated",
+                    "KeyName": "crossborder-payment",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "c5.xlarge",
+                    "LaunchTime": "2023-11-06T07:01:51+00:00",
+                    "Placement": {
+                        "AvailabilityZoneId": "apse1-az1",
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "ap-southeast-1a"
+                    },
+                    "Platform": "windows",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0cf69588a54422a46",
+                    "VpcId": "vpc-0a772f108977d9208",
+                    "PrivateIpAddress": "10.22.1.44",
+                    "PublicIpAddress": "52.221.97.212"
+                }
+            ]
+        }
+    ]
+}

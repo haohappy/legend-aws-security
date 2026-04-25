@@ -1,0 +1,40 @@
+{
+    "VpcEndpoints": [
+        {
+            "VpcEndpointId": "vpce-036576fbebf20cd98",
+            "VpcEndpointType": "Gateway",
+            "VpcId": "vpc-03cc70f7b5668f3c7",
+            "ServiceName": "com.amazonaws.eu-west-1.s3",
+            "State": "available",
+            "PolicyDocument": "{\"Version\":\"2008-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":\"*\",\"Action\":\"*\",\"Resource\":\"*\"}]}",
+            "RouteTableIds": [
+                "rtb-059df69db948d2930",
+                "rtb-037ada1f7a1383de6",
+                "rtb-08c1e5719934c6b7e"
+            ],
+            "SubnetIds": [],
+            "Groups": [],
+            "IpAddressType": "ipv4",
+            "DnsOptions": {
+                "DnsRecordIpType": "service-defined"
+            },
+            "PrivateDnsEnabled": false,
+            "RequesterManaged": false,
+            "NetworkInterfaceIds": [],
+            "DnsEntries": [],
+            "CreationTimestamp": "2025-10-22T09:36:25+00:00",
+            "Tags": [
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legendtrading-IE-vpce-s3"
+                }
+            ],
+            "OwnerId": "647828570435",
+            "ServiceRegion": "eu-west-1"
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+  "FileSystems": [
+    {
+      "OwnerId": "647828570435",
+      "CreationToken": "console-ebd8205b-b2ac-4b1d-a88d-0721cc458cb2",
+      "FileSystemId": "fs-036350d5eaf581bcd",
+      "FileSystemArn": "arn:aws:elasticfilesystem:us-east-1:647828570435:file-system/fs-036350d5eaf581bcd",
+      "CreationTime": "2025-02-13T12:14:05+05:00",
+      "LifeCycleState": "available",
+      "Name": "legend-dev",
+      "NumberOfMountTargets": 2,
+      "SizeInBytes": {
+        "Value": 267636736,
+        "Timestamp": "2026-04-25T07:27:13+05:00",
+        "ValueInIA": 131072,
+        "ValueInStandard": 20779008,
+        "ValueInArchive": 246726656
+      },
+      "PerformanceMode": "generalPurpose",
+      "Encrypted": true,
+      "KmsKeyId": "arn:aws:kms:us-east-1:647828570435:key/67f534e2-653e-4d79-af9a-5ff5cb1187fa",
+      "ThroughputMode": "elastic",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "legend-dev"
+        },
+        {
+          "Key": "aws:elasticfilesystem:default-backup",
+          "Value": "enabled"
+        },
+        {
+          "Key": "company",
+          "Value": "legendtrading"
+        },
+        {
+          "Key": "env",
+          "Value": "dev"
+        }
+      ],
+      "FileSystemProtection": {
+        "ReplicationOverwriteProtection": "ENABLED"
+      },
+      "MountTargets": [
+        {
+          "OwnerId": "647828570435",
+          "MountTargetId": "fsmt-040859059294d6815",
+          "FileSystemId": "fs-036350d5eaf581bcd",
+          "SubnetId": "subnet-090f07ff4591880ad",
+          "LifeCycleState": "available",
+          "IpAddress": "10.0.14.185",
+          "NetworkInterfaceId": "eni-03d5d95d5b5272c90",
+          "AvailabilityZoneId": "use1-az4",
+          "AvailabilityZoneName": "us-east-1d",
+          "VpcId": "vpc-0cc2aa7ac68fbaf61"
+        },
+        {
+          "OwnerId": "647828570435",
+          "MountTargetId": "fsmt-06301d3953c31502c",
+          "FileSystemId": "fs-036350d5eaf581bcd",
+          "SubnetId": "subnet-0440fa07cf72f80f8",
+          "LifeCycleState": "available",
+          "IpAddress": "10.0.9.140",
+          "NetworkInterfaceId": "eni-08ceadf4ca9a3052a",
+          "AvailabilityZoneId": "use1-az2",
+          "AvailabilityZoneName": "us-east-1c",
+          "VpcId": "vpc-0cc2aa7ac68fbaf61"
+        }
+      ]
+    },
+    {
+      "OwnerId": "647828570435",
+      "CreationToken": "console-f117649c-367e-415f-928b-89d57eac671a",
+      "FileSystemId": "fs-090e6c2b39401bc6d",
+      "FileSystemArn": "arn:aws:elasticfilesystem:us-east-1:647828570435:file-system/fs-090e6c2b39401bc6d",
+      "CreationTime": "2023-12-23T12:41:08+05:00",
+      "LifeCycleState": "available",
+      "Name": "flashwireasset",
+      "NumberOfMountTargets": 2,
+      "SizeInBytes": {
+        "Value": 17391616,
+        "Timestamp": "2026-04-25T07:24:33+05:00",
+        "ValueInIA": 8290304,
+        "ValueInStandard": 327680,
+        "ValueInArchive": 8773632
+      },
+      "PerformanceMode": "generalPurpose",
+      "Encrypted": true,
+      "KmsKeyId": "arn:aws:kms:us-east-1:647828570435:key/67f534e2-653e-4d79-af9a-5ff5cb1187fa",
+      "ThroughputMode": "elastic",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "flashwireasset"
+        },
+        {
+          "Key": "aws:elasticfilesystem:default-backup",
+          "Value": "enabled"
+        },
+        {
+          "Key": "company",
+          "Value": "flashwire"
+        }
+      ],
+      "FileSystemProtection": {
+        "ReplicationOverwriteProtection": "ENABLED"
+      },
+      "MountTargets": [
+        {
+          "OwnerId": "647828570435",
+          "MountTargetId": "fsmt-0eaacdf7d4669f0bc",
+          "FileSystemId": "fs-090e6c2b39401bc6d",
+          "SubnetId": "subnet-04a9d37c3be00caaf",
+          "LifeCycleState": "available",
+          "IpAddress": "10.10.7.3",
+          "NetworkInterfaceId": "eni-07eb17ce769d06d43",
+          "AvailabilityZoneId": "use1-az5",
+          "AvailabilityZoneName": "us-east-1f",
+          "VpcId": "vpc-0ef64137b97e9eb00"
+        },
+        {
+          "OwnerId": "647828570435",
+          "MountTargetId": "fsmt-0f8bd0403b6b55d12",
+          "FileSystemId": "fs-090e6c2b39401bc6d",
+          "SubnetId": "subnet-0f54feb187d63c194",
+          "LifeCycleState": "available",
+          "IpAddress": "10.10.2.12",
+          "NetworkInterfaceId": "eni-0ec0921c4daaa3b02",
+          "AvailabilityZoneId": "use1-az2",
+          "AvailabilityZoneName": "us-east-1c",
+          "VpcId": "vpc-0ef64137b97e9eb00"
+        }
+      ]
+    },
+    {
+      "OwnerId": "647828570435",
+      "CreationToken": "quickCreated-b8d98885-6b31-46d3-ad2f-1021821ce020",
+      "FileSystemId": "fs-0350efe869791ae6f",
+      "FileSystemArn": "arn:aws:elasticfilesystem:us-east-1:647828570435:file-system/fs-0350efe869791ae6f",
+      "CreationTime": "2023-11-14T11:32:51+05:00",
+      "LifeCycleState": "available",
+      "Name": "legendasset",
+      "NumberOfMountTargets": 2,
+      "SizeInBytes": {
+        "Value": 935936,
+        "Timestamp": "2026-04-25T07:33:57+05:00",
+        "ValueInIA": 581632,
+        "ValueInStandard": 354304,
+        "ValueInArchive": 0
+      },
+      "PerformanceMode": "generalPurpose",
+      "Encrypted": true,
+      "KmsKeyId": "arn:aws:kms:us-east-1:647828570435:key/67f534e2-653e-4d79-af9a-5ff5cb1187fa",
+      "ThroughputMode": "elastic",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "legendasset"
+        },
+        {
+          "Key": "aws:elasticfilesystem:default-backup",
+          "Value": "enabled"
+        }
+      ],
+      "FileSystemProtection": {
+        "ReplicationOverwriteProtection": "ENABLED"
+      },
+      "MountTargets": [
+        {
+          "OwnerId": "647828570435",
+          "MountTargetId": "fsmt-08ab7dc873c3c6558",
+          "FileSystemId": "fs-0350efe869791ae6f",
+          "SubnetId": "subnet-0e2fec9f218215453",
+          "LifeCycleState": "available",
+          "IpAddress": "10.0.4.100",
+          "NetworkInterfaceId": "eni-02d2cddb3fdbc225c",
+          "AvailabilityZoneId": "use1-az4",
+          "AvailabilityZoneName": "us-east-1d",
+          "VpcId": "vpc-0cc2aa7ac68fbaf61"
+        },
+        {
+          "OwnerId": "647828570435",
+          "MountTargetId": "fsmt-0e3538d8ed6cf7ace",
+          "FileSystemId": "fs-0350efe869791ae6f",
+          "SubnetId": "subnet-0f6f1945625e5ba1c",
+          "LifeCycleState": "available",
+          "IpAddress": "10.0.5.100",
+          "NetworkInterfaceId": "eni-080dfda9b19edf0c5",
+          "AvailabilityZoneId": "use1-az2",
+          "AvailabilityZoneName": "us-east-1c",
+          "VpcId": "vpc-0cc2aa7ac68fbaf61"
+        }
+      ]
+    }
+  ]
+}

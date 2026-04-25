@@ -1,0 +1,445 @@
+{
+    "logGroups": [
+        {
+            "logGroupName": "/aws/OpenSearchService/domains/movies/application-logs",
+            "creationTime": 1737522765480,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/OpenSearchService/domains/movies/application-logs:*",
+            "storedBytes": 544988,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/OpenSearchService/domains/movies/application-logs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/OpenSearchService/domains/movies/index-logs",
+            "creationTime": 1737523159855,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/OpenSearchService/domains/movies/index-logs:*",
+            "storedBytes": 239,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/OpenSearchService/domains/movies/index-logs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/OpenSearchService/domains/movies/search-logs",
+            "creationTime": 1737522961574,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/OpenSearchService/domains/movies/search-logs:*",
+            "storedBytes": 238,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/OpenSearchService/domains/movies/search-logs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/amplify/d21882yk0vf1wh",
+            "creationTime": 1767858628897,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d21882yk0vf1wh:*",
+            "storedBytes": 13250437,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d21882yk0vf1wh",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/amplify/d26sk4z1zuhf64",
+            "creationTime": 1765904269045,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d26sk4z1zuhf64:*",
+            "storedBytes": 85960414,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d26sk4z1zuhf64",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/amplify/d2g3m9l7hldjt7",
+            "creationTime": 1767327893199,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d2g3m9l7hldjt7:*",
+            "storedBytes": 59017,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d2g3m9l7hldjt7",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/amplify/d2lkrxmc85n5bj",
+            "creationTime": 1771500522123,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d2lkrxmc85n5bj:*",
+            "storedBytes": 28723,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d2lkrxmc85n5bj",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/amplify/d3t0blswq9ams7",
+            "creationTime": 1773294426696,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d3t0blswq9ams7:*",
+            "storedBytes": 3219692,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/amplify/d3t0blswq9ams7",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/ecs/containerinsights/flashwire/performance",
+            "creationTime": 1687679496373,
+            "retentionInDays": 1,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/ecs/containerinsights/flashwire/performance:*",
+            "storedBytes": 9270204,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/ecs/containerinsights/flashwire/performance",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/ecs/containerinsights/legendtrading/performance",
+            "creationTime": 1689671141382,
+            "retentionInDays": 1,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/ecs/containerinsights/legendtrading/performance:*",
+            "storedBytes": 25261625,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/ecs/containerinsights/legendtrading/performance",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/ecs/containerinsights/test-cluster/performance",
+            "creationTime": 1687855939895,
+            "retentionInDays": 1,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/ecs/containerinsights/test-cluster/performance:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/ecs/containerinsights/test-cluster/performance",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/eks/zingpays/cluster",
+            "creationTime": 1666753868420,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/eks/zingpays/cluster:*",
+            "storedBytes": 123812168731,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/eks/zingpays/cluster",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/imagebuilder/test-buildimg",
+            "creationTime": 1706600637278,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/imagebuilder/test-buildimg:*",
+            "storedBytes": 1000322,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/imagebuilder/test-buildimg",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/SESLog",
+            "creationTime": 1621897992360,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/SESLog:*",
+            "storedBytes": 646,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/SESLog",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legend-asset-frontend",
+            "creationTime": 1702391303770,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legend-asset-frontend:*",
+            "storedBytes": 3302,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legend-asset-frontend",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legend-sandboxlogs",
+            "creationTime": 1765785993680,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legend-sandboxlogs:*",
+            "storedBytes": 1044,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legend-sandboxlogs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legend-web-kyc",
+            "creationTime": 1685611618399,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legend-web-kyc:*",
+            "storedBytes": 1710821,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legend-web-kyc",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legend-web-laravel",
+            "creationTime": 1685975426536,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legend-web-laravel:*",
+            "storedBytes": 1042422,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legend-web-laravel",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legendapi-apiaccess",
+            "creationTime": 1701144575054,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendapi-apiaccess:*",
+            "storedBytes": 4288,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendapi-apiaccess",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legendapi-commonbusinesslogs",
+            "creationTime": 1702479370956,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendapi-commonbusinesslogs:*",
+            "storedBytes": 736510,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendapi-commonbusinesslogs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legendapi-nginxlogs",
+            "creationTime": 1714298438639,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendapi-nginxlogs:*",
+            "storedBytes": 20081,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendapi-nginxlogs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legendtrading-services",
+            "creationTime": 1684752318089,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendtrading-services:*",
+            "storedBytes": 5706,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendtrading-services",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legendweb-checkout",
+            "creationTime": 1685976441322,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendweb-checkout:*",
+            "storedBytes": 924457,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendweb-checkout",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legendweb-esplog",
+            "creationTime": 1698117377320,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendweb-esplog:*",
+            "storedBytes": 2364,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendweb-esplog",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/kinesisfirehose/legendweb-walletlog",
+            "creationTime": 1686024214138,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendweb-walletlog:*",
+            "storedBytes": 850109,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/kinesisfirehose/legendweb-walletlog",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/rds/instance/lg-rds-production/slowquery",
+            "creationTime": 1665379225121,
+            "metricFilterCount": 1,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/rds/instance/lg-rds-production/slowquery:*",
+            "storedBytes": 180795002,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/rds/instance/lg-rds-production/slowquery",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/rds/instance/mariadb-zingpays/error",
+            "creationTime": 1658795999916,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/rds/instance/mariadb-zingpays/error:*",
+            "storedBytes": 13469147,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/rds/instance/mariadb-zingpays/error",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/rds/instance/test-mariadb-connection/error",
+            "creationTime": 1726719795594,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/rds/instance/test-mariadb-connection/error:*",
+            "storedBytes": 2837,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/rds/instance/test-mariadb-connection/error",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/vendedlogs/OpenSearchIngestion/lg-logs-pipeline/audit-logs",
+            "creationTime": 1684421156941,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/vendedlogs/OpenSearchIngestion/lg-logs-pipeline/audit-logs:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/vendedlogs/OpenSearchIngestion/lg-logs-pipeline/audit-logs",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/vendedlogs/RUMService_cuteid.ai6cf10166",
+            "creationTime": 1730103746880,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/vendedlogs/RUMService_cuteid.ai6cf10166:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/vendedlogs/RUMService_cuteid.ai6cf10166",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/vendedlogs/RUMService_legend-web-wwwa158da46",
+            "creationTime": 1723195278643,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/vendedlogs/RUMService_legend-web-wwwa158da46:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/vendedlogs/RUMService_legend-web-wwwa158da46",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/aws/vendedlogs/RUMService_zdev1.com2da924b2",
+            "creationTime": 1731484505989,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/vendedlogs/RUMService_zdev1.com2da924b2:*",
+            "storedBytes": 0,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/aws/vendedlogs/RUMService_zdev1.com2da924b2",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/ecs/flashwire-asset-backend",
+            "creationTime": 1703239435680,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/flashwire-asset-backend:*",
+            "storedBytes": 39656,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/flashwire-asset-backend",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/ecs/flashwire-asset-frontend",
+            "creationTime": 1703238152354,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/flashwire-asset-frontend:*",
+            "storedBytes": 128326,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/flashwire-asset-frontend",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/ecs/legend-asset",
+            "creationTime": 1700564837640,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/legend-asset:*",
+            "storedBytes": 6226,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/legend-asset",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/ecs/legend-asset-frontend",
+            "creationTime": 1700664022372,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/legend-asset-frontend:*",
+            "storedBytes": 114421,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/legend-asset-frontend",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/ecs/legend-asset-manager",
+            "creationTime": 1700667023642,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/legend-asset-manager:*",
+            "storedBytes": 17461,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/legend-asset-manager",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/ecs/legend-demo",
+            "creationTime": 1701324398274,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/legend-demo:*",
+            "storedBytes": 4877157454,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/legend-demo",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "/ecs/lg-ops-api-task",
+            "creationTime": 1767853563814,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/lg-ops-api-task:*",
+            "storedBytes": 83660094,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:/ecs/lg-ops-api-task",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "RDSOSMetrics",
+            "creationTime": 1587777818838,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:RDSOSMetrics:*",
+            "storedBytes": 245779205,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:RDSOSMetrics",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "VPN",
+            "creationTime": 1620686306650,
+            "retentionInDays": 30,
+            "metricFilterCount": 0,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:VPN:*",
+            "storedBytes": 1017821,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:VPN",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "sns/us-east-1/647828570435/DirectPublishToPhoneNumber",
+            "creationTime": 1627108210726,
+            "retentionInDays": 30,
+            "metricFilterCount": 2,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:sns/us-east-1/647828570435/DirectPublishToPhoneNumber:*",
+            "storedBytes": 251006,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:sns/us-east-1/647828570435/DirectPublishToPhoneNumber",
+            "deletionProtectionEnabled": false
+        },
+        {
+            "logGroupName": "sns/us-east-1/647828570435/DirectPublishToPhoneNumber/Failure",
+            "creationTime": 1627008049380,
+            "retentionInDays": 30,
+            "metricFilterCount": 1,
+            "arn": "arn:aws:logs:us-east-1:647828570435:log-group:sns/us-east-1/647828570435/DirectPublishToPhoneNumber/Failure:*",
+            "storedBytes": 74158,
+            "logGroupClass": "STANDARD",
+            "logGroupArn": "arn:aws:logs:us-east-1:647828570435:log-group:sns/us-east-1/647828570435/DirectPublishToPhoneNumber/Failure",
+            "deletionProtectionEnabled": false
+        }
+    ]
+}

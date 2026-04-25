@@ -1,0 +1,31 @@
+{
+    "CertificateSummaryList": [
+        {
+            "CertificateArn": "arn:aws:acm:eu-west-1:647828570435:certificate/295f88cf-0c7a-49f9-88fe-b2fd7ee3c221",
+            "DomainName": "*.legendtrading.com",
+            "SubjectAlternativeNameSummaries": [
+                "*.legendtrading.com",
+                "legendtrading.com"
+            ],
+            "HasAdditionalSubjectAlternativeNames": false,
+            "Status": "ISSUED",
+            "Type": "IMPORTED",
+            "KeyAlgorithm": "RSA-2048",
+            "KeyUsages": [
+                "DIGITAL_SIGNATURE",
+                "KEY_ENCIPHERMENT"
+            ],
+            "ExtendedKeyUsages": [
+                "TLS_WEB_SERVER_AUTHENTICATION",
+                "TLS_WEB_CLIENT_AUTHENTICATION"
+            ],
+            "ExportOption": "DISABLED",
+            "InUse": true,
+            "RenewalEligibility": "INELIGIBLE",
+            "NotBefore": "2025-08-26T21:08:35+05:00",
+            "NotAfter": "2026-09-27T21:08:35+05:00",
+            "CreatedAt": "2025-11-24T16:23:53.636000+05:00",
+            "ImportedAt": "2025-11-24T16:23:53.636000+05:00"
+        }
+    ]
+}

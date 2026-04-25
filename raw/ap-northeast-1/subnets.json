@@ -1,0 +1,194 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZoneId": "apne1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:ap-northeast-1:647828570435:subnet/subnet-bd485dfb",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-bd485dfb",
+            "State": "available",
+            "VpcId": "vpc-a3be4fc6",
+            "CidrBlock": "172.31.16.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "ap-northeast-1c",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "apne1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "test-vpn"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-northeast-1:647828570435:subnet/subnet-0b5c6a92b844065bb",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0b5c6a92b844065bb",
+            "State": "available",
+            "VpcId": "vpc-0ed8b0c85bd3d6ee2",
+            "CidrBlock": "10.200.0.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "ap-northeast-1d",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apne1-az1",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "ap-northeast-1c"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "terraform-test"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-northeast-1:647828570435:subnet/subnet-04c1cf5c086f340cf",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-04c1cf5c086f340cf",
+            "State": "available",
+            "VpcId": "vpc-06105f1cfd173e343",
+            "CidrBlock": "192.168.1.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "ap-northeast-1c",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false
+        },
+        {
+            "AvailabilityZoneId": "apne1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:ap-northeast-1:647828570435:subnet/subnet-ae5aacd9",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-ae5aacd9",
+            "State": "available",
+            "VpcId": "vpc-a3be4fc6",
+            "CidrBlock": "172.31.0.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "ap-northeast-1a",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "apne1-az2",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:ap-northeast-1:647828570435:subnet/subnet-10ceb538",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-10ceb538",
+            "State": "available",
+            "VpcId": "vpc-a3be4fc6",
+            "CidrBlock": "172.31.32.0/20",
+            "AvailableIpAddressCount": 4091,
+            "AvailabilityZone": "ap-northeast-1d",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true
+        },
+        {
+            "AvailabilityZoneId": "apne1-az4",
+            "MapCustomerOwnedIpOnLaunch": false,
+            "OwnerId": "647828570435",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "terraform-test"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "ap-northeast-1a"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:ap-northeast-1:647828570435:subnet/subnet-0f24fe929aaf456c2",
+            "EnableDns64": false,
+            "Ipv6Native": false,
+            "PrivateDnsNameOptionsOnLaunch": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "BlockPublicAccessStates": {
+                "InternetGatewayBlockMode": "off"
+            },
+            "SubnetId": "subnet-0f24fe929aaf456c2",
+            "State": "available",
+            "VpcId": "vpc-06105f1cfd173e343",
+            "CidrBlock": "192.168.0.0/24",
+            "AvailableIpAddressCount": 251,
+            "AvailabilityZone": "ap-northeast-1a",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": true
+        }
+    ]
+}

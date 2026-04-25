@@ -1,0 +1,166 @@
+{
+    "AutoScalingGroups": [
+        {
+            "AutoScalingGroupName": "Infra-ECS-Cluster-flashwire-93d06274-ECSAutoScalingGroup-49TT4ZXTSZPH",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:ap-southeast-1:647828570435:autoScalingGroup:b9a54ffb-434a-4d53-9d89-8c825fe4d72f:autoScalingGroupName/Infra-ECS-Cluster-flashwire-93d06274-ECSAutoScalingGroup-49TT4ZXTSZPH",
+            "LaunchTemplate": {
+                "LaunchTemplateId": "lt-0806b25d1bf98762a",
+                "LaunchTemplateName": "ECSLaunchTemplate_oV40OH1eOU0F",
+                "Version": "1"
+            },
+            "MinSize": 0,
+            "MaxSize": 5,
+            "DesiredCapacity": 0,
+            "DefaultCooldown": 300,
+            "AvailabilityZones": [
+                "ap-southeast-1a",
+                "ap-southeast-1c",
+                "ap-southeast-1b"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 0,
+            "Instances": [],
+            "CreatedTime": "2023-07-23T03:08:28.590000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-07477ea7b12869fb6,subnet-091ed2b2901c7f43a,subnet-036664d631157d815",
+            "EnabledMetrics": [],
+            "Tags": [
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-93d06274-ECSAutoScalingGroup-49TT4ZXTSZPH",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "AmazonECSManaged",
+                    "Value": "",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-93d06274-ECSAutoScalingGroup-49TT4ZXTSZPH",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "ECS Instance - flashwire",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-93d06274-ECSAutoScalingGroup-49TT4ZXTSZPH",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ECSAutoScalingGroup",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-93d06274-ECSAutoScalingGroup-49TT4ZXTSZPH",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:ap-southeast-1:647828570435:stack/Infra-ECS-Cluster-flashwire-93d06274/12a7e640-2906-11ee-a90b-0add5c3e6362",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-93d06274-ECSAutoScalingGroup-49TT4ZXTSZPH",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "Infra-ECS-Cluster-flashwire-93d06274",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::647828570435:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "TrafficSources": [],
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        },
+        {
+            "AutoScalingGroupName": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-ECSAutoScalingGroup-M9i7XkCz23Db",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:ap-southeast-1:647828570435:autoScalingGroup:be045af3-4ba2-4c96-8c3b-5a9d5b79cd6b:autoScalingGroupName/Infra-ECS-Cluster-flashwire-lending-215ea4f0-ECSAutoScalingGroup-M9i7XkCz23Db",
+            "LaunchTemplate": {
+                "LaunchTemplateId": "lt-01d6765e4facf9756",
+                "LaunchTemplateName": "ECSLaunchTemplate_yT7KpGNx9ZEI",
+                "Version": "1"
+            },
+            "MinSize": 0,
+            "MaxSize": 5,
+            "DesiredCapacity": 0,
+            "DefaultCooldown": 300,
+            "AvailabilityZones": [
+                "ap-southeast-1a",
+                "ap-southeast-1c",
+                "ap-southeast-1b"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 0,
+            "Instances": [],
+            "CreatedTime": "2024-04-18T07:18:32.429000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-07477ea7b12869fb6,subnet-091ed2b2901c7f43a,subnet-036664d631157d815",
+            "EnabledMetrics": [],
+            "Tags": [
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-ECSAutoScalingGroup-M9i7XkCz23Db",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "AmazonECSManaged",
+                    "Value": "",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-ECSAutoScalingGroup-M9i7XkCz23Db",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "ECS Instance - flashwire-lending",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-ECSAutoScalingGroup-M9i7XkCz23Db",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "ECSAutoScalingGroup",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-ECSAutoScalingGroup-M9i7XkCz23Db",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:ap-southeast-1:647828570435:stack/Infra-ECS-Cluster-flashwire-lending-215ea4f0/d4590220-fd53-11ee-9b11-06aa5567b0f7",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "Infra-ECS-Cluster-flashwire-lending-215ea4f0-ECSAutoScalingGroup-M9i7XkCz23Db",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "Infra-ECS-Cluster-flashwire-lending-215ea4f0",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::647828570435:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "TrafficSources": [],
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        }
+    ]
+}

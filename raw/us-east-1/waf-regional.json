@@ -1,0 +1,12 @@
+{
+    "NextMarker": "legend-web-alb",
+    "WebACLs": [
+        {
+            "Name": "legend-web-alb",
+            "Id": "c149ebd3-cded-465b-8799-dc3b453ecbf6",
+            "Description": "",
+            "LockToken": "d502b171-d7f6-4cd3-88de-741e582f2690",
+            "ARN": "arn:aws:wafv2:us-east-1:647828570435:regional/webacl/legend-web-alb/c149ebd3-cded-465b-8799-dc3b453ecbf6"
+        }
+    ]
+}

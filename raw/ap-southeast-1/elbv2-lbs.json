@@ -1,0 +1,290 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/replica-lg-rds-production/44f50e0247487f1c",
+            "DNSName": "replica-lg-rds-production-44f50e0247487f1c.elb.ap-southeast-1.amazonaws.com",
+            "CanonicalHostedZoneId": "ZKVM4W9LS7TM",
+            "CreatedTime": "2023-05-25T05:04:54.396000+00:00",
+            "LoadBalancerName": "replica-lg-rds-production",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0e8a205860906c944",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1c",
+                    "SubnetId": "subnet-0884068afc106966d",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "ap-southeast-1b",
+                    "SubnetId": "subnet-0024bf80fdc9d2915",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/testdb-haproxy/66286a10d3c53a9c",
+            "DNSName": "testdb-haproxy-66286a10d3c53a9c.elb.ap-southeast-1.amazonaws.com",
+            "CanonicalHostedZoneId": "ZKVM4W9LS7TM",
+            "CreatedTime": "2024-10-10T04:37:34.538000+00:00",
+            "LoadBalancerName": "testdb-haproxy",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0e8a205860906c944",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1b",
+                    "SubnetId": "subnet-0c7c75a4cb933c3fa",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "ap-southeast-1a",
+                    "SubnetId": "subnet-0903144020de49654",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/replica-flashwire-staging-mysql/76968cf09a035f93",
+            "DNSName": "replica-flashwire-staging-mysql-76968cf09a035f93.elb.ap-southeast-1.amazonaws.com",
+            "CanonicalHostedZoneId": "ZKVM4W9LS7TM",
+            "CreatedTime": "2023-05-09T10:26:51.398000+00:00",
+            "LoadBalancerName": "replica-flashwire-staging-mysql",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0e8a205860906c944",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1a",
+                    "SubnetId": "subnet-0903144020de49654",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "ap-southeast-1b",
+                    "SubnetId": "subnet-0c7c75a4cb933c3fa",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/staging-lending-apiweb-mysql/89371b0fffc0a80d",
+            "DNSName": "staging-lending-apiweb-mysql-89371b0fffc0a80d.elb.ap-southeast-1.amazonaws.com",
+            "CanonicalHostedZoneId": "ZKVM4W9LS7TM",
+            "CreatedTime": "2023-09-04T06:20:55.776000+00:00",
+            "LoadBalancerName": "staging-lending-apiweb-mysql",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0e8a205860906c944",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1a",
+                    "SubnetId": "subnet-0713a50458e3e45b5",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-01d49fc2e45633747"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/ncamapp/8cec439033650339",
+            "DNSName": "ncamapp-8cec439033650339.elb.ap-southeast-1.amazonaws.com",
+            "CanonicalHostedZoneId": "ZKVM4W9LS7TM",
+            "CreatedTime": "2023-02-08T07:34:10.662000+00:00",
+            "LoadBalancerName": "ncamapp",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0b7fe214033d48811",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1a",
+                    "SubnetId": "subnet-040b60a620049e3c2",
+                    "LoadBalancerAddresses": [
+                        {
+                            "IpAddress": "122.248.210.31",
+                            "AllocationId": "eipalloc-07a5ce2023f6b8d4b"
+                        }
+                    ]
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/nlending/a7be2bf55ab39228",
+            "DNSName": "nlending-a7be2bf55ab39228.elb.ap-southeast-1.amazonaws.com",
+            "CanonicalHostedZoneId": "ZKVM4W9LS7TM",
+            "CreatedTime": "2023-01-28T15:14:27.932000+00:00",
+            "LoadBalancerName": "nlending",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0e8a205860906c944",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1a",
+                    "SubnetId": "subnet-0713a50458e3e45b5",
+                    "LoadBalancerAddresses": [
+                        {
+                            "IpAddress": "3.1.56.246",
+                            "AllocationId": "eipalloc-01a5a578b50f022e9"
+                        }
+                    ]
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/net/lending-apiweb-mysql/b3eb079a863c1e52",
+            "DNSName": "lending-apiweb-mysql-b3eb079a863c1e52.elb.ap-southeast-1.amazonaws.com",
+            "CanonicalHostedZoneId": "ZKVM4W9LS7TM",
+            "CreatedTime": "2023-09-04T05:35:35.078000+00:00",
+            "LoadBalancerName": "lending-apiweb-mysql",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0e8a205860906c944",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1b",
+                    "SubnetId": "subnet-0024bf80fdc9d2915",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "ap-southeast-1a",
+                    "SubnetId": "subnet-0713a50458e3e45b5",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0b137222325e31dff"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/app/lending/555d4effe4560802",
+            "DNSName": "lending-502510978.ap-southeast-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z1LMS91P8CMLE5",
+            "CreatedTime": "2022-11-17T04:54:30.850000+00:00",
+            "LoadBalancerName": "lending",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0e8a205860906c944",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1b",
+                    "SubnetId": "subnet-0024bf80fdc9d2915",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "ap-southeast-1a",
+                    "SubnetId": "subnet-0713a50458e3e45b5",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "ap-southeast-1c",
+                    "SubnetId": "subnet-0884068afc106966d",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-07e52c200c7dd67e5",
+                "sg-0733aca612213ea70"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/app/camapp/5c60b144a38dad4a",
+            "DNSName": "camapp-1876837928.ap-southeast-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z1LMS91P8CMLE5",
+            "CreatedTime": "2022-11-18T03:56:23+00:00",
+            "LoadBalancerName": "camapp",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0b7fe214033d48811",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1a",
+                    "SubnetId": "subnet-040b60a620049e3c2",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "ap-southeast-1b",
+                    "SubnetId": "subnet-05c267973f4d91486",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-089a41cf3ce182bbc"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:ap-southeast-1:647828570435:loadbalancer/app/lending-staging/ec61a5584f1f6283",
+            "DNSName": "lending-staging-1456606221.ap-southeast-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z1LMS91P8CMLE5",
+            "CreatedTime": "2022-11-23T03:07:58.080000+00:00",
+            "LoadBalancerName": "lending-staging",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0e8a205860906c944",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "ap-southeast-1a",
+                    "SubnetId": "subnet-0903144020de49654",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "ap-southeast-1b",
+                    "SubnetId": "subnet-0c7c75a4cb933c3fa",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0733aca612213ea70"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        }
+    ]
+}

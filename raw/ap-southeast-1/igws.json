@@ -1,0 +1,95 @@
+{
+    "InternetGateways": [
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-0a772f108977d9208"
+                }
+            ],
+            "InternetGatewayId": "igw-02237d37bb430cde4",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "crossborder-payment"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "crossborder-payment"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-84f318e1"
+                }
+            ],
+            "InternetGatewayId": "igw-02e80d67",
+            "OwnerId": "647828570435",
+            "Tags": []
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-0b7fe214033d48811"
+                }
+            ],
+            "InternetGatewayId": "igw-032f61f557c0be53b",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "internal-system-public-ig"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-0e8a205860906c944"
+                }
+            ],
+            "InternetGatewayId": "igw-09161a19440d25e4e",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "lending"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "lending"
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "State": "available",
+                    "VpcId": "vpc-021391a2d0eadb6b1"
+                }
+            ],
+            "InternetGatewayId": "igw-0e835f2d28420e542",
+            "OwnerId": "647828570435",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "mpc"
+                },
+                {
+                    "Key": "bussinessLine",
+                    "Value": "mpc"
+                }
+            ]
+        }
+    ]
+}

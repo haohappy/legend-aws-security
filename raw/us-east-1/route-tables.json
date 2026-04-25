@@ -1,0 +1,1589 @@
+{
+    "RouteTables": [
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0679732594f618336",
+                    "RouteTableId": "rtb-0adf5352c376cc960",
+                    "SubnetId": "subnet-010842d9dbd1a930b",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0adf5352c376cc960",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.108/32",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.3.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.6.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-031cf6ceac2bd9fc7"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-02bdb7ad742afc203",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-06dbab0d6c7caf37d",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-rtb-private2-us-east-1b"
+                }
+            ],
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-02dcc2c9f37d1e4e8",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.96.0.0/24",
+                    "InstanceId": "i-02955dfd31bd66864",
+                    "InstanceOwnerId": "647828570435",
+                    "NetworkInterfaceId": "eni-0c866bcfbdc321c8e",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "172.32.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-007e2a174023e5fcb"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0581e9cb7332cbc15",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "openvpn-routingtable"
+                }
+            ],
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-01f260075946fec09",
+                    "RouteTableId": "rtb-0734dfcb25c9f20e4",
+                    "SubnetId": "subnet-090f07ff4591880ad",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0c8cea6226582c381",
+                    "RouteTableId": "rtb-0734dfcb25c9f20e4",
+                    "SubnetId": "subnet-0026d53ad0cfb74a8",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0734dfcb25c9f20e4",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.10.8.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "172.32.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-0cc43395cb1a2bc1a",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-0ae688122dbe87321",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-private-rt03-ap-southeast-1d"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-036bc1dc969efd228",
+                    "RouteTableId": "rtb-01b40666711d6bc6e",
+                    "SubnetId": "subnet-0103bd5ff3ac5363a",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-01b40666711d6bc6e",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0bf46f91fe5006586"
+                },
+                {
+                    "DestinationCidrBlock": "172.33.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0918f6ca0912aae70",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "::/0",
+                    "GatewayId": "igw-0918f6ca0912aae70",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-pub-2-rt"
+                }
+            ],
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-0ca0a2c24ad7c0f56",
+                    "RouteTableId": "rtb-0d9cda77e5ff9b44c",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0a58191c8d9577397",
+                    "RouteTableId": "rtb-0d9cda77e5ff9b44c",
+                    "SubnetId": "subnet-047c84d1e0ae8749e",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0f7bc397ba793d876",
+                    "RouteTableId": "rtb-0d9cda77e5ff9b44c",
+                    "SubnetId": "subnet-0d849214f45658405",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0317f78e071f14a74",
+                    "RouteTableId": "rtb-0d9cda77e5ff9b44c",
+                    "SubnetId": "subnet-02be88024da5eb7fe",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0d9cda77e5ff9b44c",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-016497f91cefb3a5f"
+                },
+                {
+                    "DestinationCidrBlock": "172.32.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "172.33.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.2.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-007e2a174023e5fcb"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.20.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-04640090e63bd966e"
+                },
+                {
+                    "DestinationCidrBlock": "10.21.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-02d32af0f61c4bacc"
+                },
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0d2e09e5aed6bacab"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0581e9cb7332cbc15",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "::/0",
+                    "GatewayId": "igw-0581e9cb7332cbc15",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-0ae688122dbe87321",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "main-routetable-vpn.zingpays.com"
+                },
+                {
+                    "Key": "env ",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-06a2717f549cac5fd",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "172.32.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0581e9cb7332cbc15",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-0ae688122dbe87321",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-07b5b565a54ed93d6",
+                    "RouteTableId": "rtb-0a64280d58863e4b1",
+                    "SubnetId": "subnet-02d24668f68e7d4e1",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-0e12eb83a74ef48cc",
+                    "RouteTableId": "rtb-0a64280d58863e4b1",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0a64280d58863e4b1",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.6.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-031cf6ceac2bd9fc7"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-02bdb7ad742afc203",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-rtb-private3-us-east-1d"
+                }
+            ],
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-7833b003",
+                    "RouteTableId": "rtb-32c46a4a",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-32c46a4a",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "172.30.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0cf35b6a",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "2600:1f18:52b9:3600::/56",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [],
+            "VpcId": "vpc-8bd220f2",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-066c697a7576c1c3e",
+                    "RouteTableId": "rtb-0afe5009be29d88eb",
+                    "SubnetId": "subnet-0e4b5e325c566aae3",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0bb5c759ef083cb27",
+                    "RouteTableId": "rtb-0afe5009be29d88eb",
+                    "SubnetId": "subnet-07275d3d618813190",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0083e52ef0bdcfe9f",
+                    "RouteTableId": "rtb-0afe5009be29d88eb",
+                    "SubnetId": "subnet-0ffe6e7f9153abdfa",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0afe5009be29d88eb",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.10.8.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-016497f91cefb3a5f"
+                },
+                {
+                    "DestinationCidrBlock": "172.32.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0581e9cb7332cbc15",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-0ae688122dbe87321",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-public-rt01-ap-southeast-1c-1d"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "public"
+                }
+            ],
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-09d4909f41ddf2026",
+                    "RouteTableId": "rtb-0e0fcc7a13cf181b6",
+                    "SubnetId": "subnet-0aee37de2a1a0880e",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-081e52e18077f1c8a",
+                    "RouteTableId": "rtb-0e0fcc7a13cf181b6",
+                    "SubnetId": "subnet-06bfd61bf9a9e36ca",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0e0fcc7a13cf181b6",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.1.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.6.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.16.0/22",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0c179d3e3f4b5ac9a"
+                },
+                {
+                    "DestinationCidrBlock": "172.33.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.30.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-017454d0f0419f842"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-02509907a6fa47e11",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-private-rt01-staging"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "flashwire"
+                }
+            ],
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0c0b49e584e8a0e5e",
+                    "RouteTableId": "rtb-0646b3fca786b268d",
+                    "SubnetId": "subnet-0f6f1945625e5ba1c",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0058e33ef4088c9b6",
+                    "RouteTableId": "rtb-0646b3fca786b268d",
+                    "SubnetId": "subnet-0f6cc6d2b9e266cac",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0646b3fca786b268d",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.1.0.0/20",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "172.32.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-093c53111bf44a2a1",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-0ae688122dbe87321",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-private-rt01-ap-southeast-1c"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0e132cd8ebc8a15b3",
+                    "RouteTableId": "rtb-075466524b9d70557",
+                    "SubnetId": "subnet-0440fa07cf72f80f8",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-075466524b9d70557",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.10.8.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "172.32.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-093c53111bf44a2a1",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-0ae688122dbe87321",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "env",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-private-rt02-ap-southeast-1c"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-064377b5e49785555",
+                    "RouteTableId": "rtb-0b65ffddda21b0131",
+                    "SubnetId": "subnet-0b0c4b27ab4fe52ba",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0b65ffddda21b0131",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.1.16.168/32",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.16.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.18.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-016497f91cefb3a5f"
+                },
+                {
+                    "DestinationCidrBlock": "10.1.0.0/20",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "172.32.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.20.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-04640090e63bd966e"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-0cc43395cb1a2bc1a",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-0ae688122dbe87321",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "env",
+                    "Value": "staging"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "legend-private-rt01-ap-southeast-1d"
+                }
+            ],
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-05eff6f44378dcc85",
+                    "RouteTableId": "rtb-0682c6c25074c5378",
+                    "SubnetId": "subnet-0ed88c9d97f658164",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0682c6c25074c5378",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0bf46f91fe5006586"
+                },
+                {
+                    "DestinationCidrBlock": "172.33.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0918f6ca0912aae70",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "::/0",
+                    "GatewayId": "igw-0918f6ca0912aae70",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-staging-1-rt"
+                }
+            ],
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0628084f0aeb0128e",
+                    "RouteTableId": "rtb-0c91041fad8695346",
+                    "SubnetId": "subnet-0f54feb187d63c194",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-042ac8e1c3d44814c",
+                    "RouteTableId": "rtb-0c91041fad8695346",
+                    "SubnetId": "subnet-06de1d8afbc8f292c",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0c91041fad8695346",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.2.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.3.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0bf46f91fe5006586"
+                },
+                {
+                    "DestinationCidrBlock": "172.33.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-02509907a6fa47e11",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-private-1-with-internet-rt"
+                }
+            ],
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-0f9cf554fbc8e225d",
+                    "RouteTableId": "rtb-0c66d34c6736cf01b",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-00ab4758f583d86a9",
+                    "RouteTableId": "rtb-0c66d34c6736cf01b",
+                    "SubnetId": "subnet-08bd14c693b911cae",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0c66d34c6736cf01b",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.2.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.3.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0bf46f91fe5006586"
+                },
+                {
+                    "DestinationCidrBlock": "172.33.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0918f6ca0912aae70",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationIpv6CidrBlock": "::/0",
+                    "GatewayId": "igw-0918f6ca0912aae70",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-pub-1-rt"
+                }
+            ],
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0a61063847a370b1d",
+                    "RouteTableId": "rtb-08a1f9eca681c1973",
+                    "SubnetId": "subnet-0769bd09ee00fd810",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-08a1f9eca681c1973",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.108/32",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.3.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.6.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-031cf6ceac2bd9fc7"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-05ab2fd45a74f27b5",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-06dbab0d6c7caf37d",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-rtb-private1-us-east-1a"
+                }
+            ],
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0fe58ead874e5960b",
+                    "RouteTableId": "rtb-09b323507b5ce3653",
+                    "SubnetId": "subnet-092a6107f6c8a14e7",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-00a5f360b1e41a2d5",
+                    "RouteTableId": "rtb-09b323507b5ce3653",
+                    "SubnetId": "subnet-0172d6b569cca4950",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0b727a45184aa76a8",
+                    "RouteTableId": "rtb-09b323507b5ce3653",
+                    "SubnetId": "subnet-04cd292477181e54f",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-09b323507b5ce3653",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-087a670aa6b392ab0"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-031cf6ceac2bd9fc7"
+                },
+                {
+                    "DestinationCidrBlock": "10.100.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0afdda2bb8f9f2fd0",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "zingpays-rtb-public"
+                }
+            ],
+            "VpcId": "vpc-0a8e8be43ee21c493",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-04561afb912dea98b",
+                    "RouteTableId": "rtb-083b16e0a98bbd609",
+                    "SubnetId": "subnet-09ac0f3f2258b300a",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0e6177bd2c427bb74",
+                    "RouteTableId": "rtb-083b16e0a98bbd609",
+                    "SubnetId": "subnet-0e2fec9f218215453",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-083b16e0a98bbd609",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.1.0.0/20",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0ee35c9fc732a50a7"
+                },
+                {
+                    "DestinationCidrBlock": "172.32.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-0c16b4a728582827a",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                },
+                {
+                    "DestinationPrefixListId": "pl-63a5400a",
+                    "GatewayId": "vpce-0ae688122dbe87321",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "legend-private-rt02-ap-southeast-1d"
+                },
+                {
+                    "Key": "subnetProperty",
+                    "Value": "private"
+                },
+                {
+                    "Key": "env",
+                    "Value": "prod"
+                },
+                {
+                    "Key": "productLine",
+                    "Value": "legendtrading"
+                },
+                {
+                    "Key": "company",
+                    "Value": "legendtrading"
+                }
+            ],
+            "VpcId": "vpc-0cc2aa7ac68fbaf61",
+            "OwnerId": "647828570435"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0ee08e7b50f4d99c4",
+                    "RouteTableId": "rtb-03c2e76b2f1772664",
+                    "SubnetId": "subnet-09d53a19a9496f825",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-042370eac687031cc",
+                    "RouteTableId": "rtb-03c2e76b2f1772664",
+                    "SubnetId": "subnet-04a9d37c3be00caaf",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-03c2e76b2f1772664",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.0.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.2.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.3.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.0.100.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0a23311174b48cd92"
+                },
+                {
+                    "DestinationCidrBlock": "10.101.0.0/24",
+                    "Origin": "CreateRoute",
+                    "State": "active",
+                    "VpcPeeringConnectionId": "pcx-0bf46f91fe5006586"
+                },
+                {
+                    "DestinationCidrBlock": "172.33.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "NatGatewayId": "nat-0ffe5b2f73eb7a7d3",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "flashwire-private-2-with-internet-rt"
+                }
+            ],
+            "VpcId": "vpc-0ef64137b97e9eb00",
+            "OwnerId": "647828570435"
+        }
+    ]
+}

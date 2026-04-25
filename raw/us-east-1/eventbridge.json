@@ -1,0 +1,19 @@
+{
+  "EventBuses": [
+    {
+      "Name": "default",
+      "Arn": "arn:aws:events:us-east-1:647828570435:event-bus/default"
+    }
+  ],
+  "Rules": [
+    {
+      "Name": "AutoScalingManagedRule",
+      "Arn": "arn:aws:events:us-east-1:647828570435:rule/AutoScalingManagedRule",
+      "EventPattern": "{\"source\":[\"aws.ec2\"],\"detail-type\":[\"EC2 Instance Rebalance Recommendation\",\"EC2 Spot Instance Interruption Warning\"]}",
+      "State": "ENABLED",
+      "Description": "This rule is used to route Instance notifications to EC2 Auto Scaling",
+      "ManagedBy": "autoscaling.amazonaws.com",
+      "EventBusName": "default"
+    }
+  ]
+}

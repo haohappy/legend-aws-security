@@ -1,0 +1,61 @@
+{
+  "Keys": [
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "0af061d2-c366-4af5-816c-77e13cb4d49d",
+      "Arn": "arn:aws:kms:eu-west-1:647828570435:key/0af061d2-c366-4af5-816c-77e13cb4d49d",
+      "CreationDate": "2025-11-11T07:39:52.810000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my EBS volumes when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "99ba47ad5e70885f39dad98407060b2c73c05f0555586dfcfede3ad23750a313"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "3afdc32f-e8ec-4849-b49d-3f94aa46b5b6",
+      "Arn": "arn:aws:kms:eu-west-1:647828570435:key/3afdc32f-e8ec-4849-b49d-3f94aa46b5b6",
+      "CreationDate": "2025-11-24T16:23:53.279000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my ACM private keys when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "448ffe720a88a6b6e909d0192f3c00a0ce059a7d05f26797762d33643682898d"
+    },
+    {
+      "AWSAccountId": "647828570435",
+      "KeyId": "9716ad84-e5af-4a4e-bc41-a11f950ba773",
+      "Arn": "arn:aws:kms:eu-west-1:647828570435:key/9716ad84-e5af-4a4e-bc41-a11f950ba773",
+      "CreationDate": "2025-10-22T11:40:01.137000+05:00",
+      "Enabled": true,
+      "Description": "Default key that protects my RDS database volumes when no other key is defined",
+      "KeyUsage": "ENCRYPT_DECRYPT",
+      "KeyState": "Enabled",
+      "Origin": "AWS_KMS",
+      "KeyManager": "AWS",
+      "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT",
+      "KeySpec": "SYMMETRIC_DEFAULT",
+      "EncryptionAlgorithms": [
+        "SYMMETRIC_DEFAULT"
+      ],
+      "MultiRegion": false,
+      "CurrentKeyMaterialId": "ad7f9ae88eb7f3c406363429f458defacb1310dccd7786aa3ad5727b2479841a"
+    }
+  ]
+}
